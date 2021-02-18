@@ -1,7 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+import 'typeface-titillium-web';
+import 'typeface-roboto-mono';
+import 'typeface-lora';
+import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import favicon from '../images/favicon.ico';
+import { Header } from './Header.js';
 
 export const Layout = ({ children }) => (
   <>
@@ -14,9 +19,9 @@ export const Layout = ({ children }) => (
     >
       <html lang="it" />
       <link rel="icon" href={favicon} />
-      <noscript>Questo sito funziona meglio con JavaScript abilitato</noscript>
+      <noscript>Il tuo browser non supporta JavaScript</noscript>
     </Helmet>
-    <header>HEADER</header>
+    <Header />
     {children}
     <footer>FOOTER</footer>
   </>
