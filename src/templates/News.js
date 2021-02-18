@@ -75,6 +75,7 @@ News.propTypes = {
         title: PropTypes.string.isRequired,
         author: PropTypes.string.isRequired,
         subtitle: PropTypes.string.isRequired,
+        show_in_home: PropTypes.bool.isRequired,
       }),
       html: PropTypes.string.isRequired,
     }),
@@ -83,14 +84,14 @@ News.propTypes = {
 
 export const pageQuery = graphql`
   query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    markdownRemark(fields: { slug: { eq: $path } }) {
       html
       frontmatter {
         date(formatString: "MMM DD, yyyy")
-        path
         title
         author
         subtitle
+        show_in_home
       }
     }
   }
