@@ -1,0 +1,10 @@
+*.swp
+.DS_Store
+.env
+.idea
+.cache
+.bundle
+node_modules
+vendor
+public
+yarn-error.log
