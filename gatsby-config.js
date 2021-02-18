@@ -1,8 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Cloud Italia',
-    description: 'Il Cloud della Pubblica Amministrazione',
-  },
   plugins: [
     {
       resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
