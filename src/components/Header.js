@@ -84,24 +84,24 @@ const NavHeader = () => {
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
-                <Link to="/strategia" className="nav-link" activeClassName="active">
+                <Link to="/strategia/" className="nav-link" activeClassName="active">
                   <span className="font-weight-semibold">Strategia nazionale</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/adozione" className="nav-link" activeClassName="active">
+                <Link to="/adozione/" className="nav-link" activeClassName="active">
                   <span className="font-weight-semibold">Programma di adozione</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/servizi" className="nav-link" activeClassName="active">
+                <Link to="/servizi/" className="nav-link" activeClassName="active">
                   <span className="font-weight-semibold">Qualificazione dei servizi</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/notizie" className="nav-link" activeClassName="active">
+                <Link to="/notizie/" className="nav-link" activeClassName="active">
                   <span className="font-weight-semibold">Notizie e media</span>
                 </Link>
               </NavItem>
