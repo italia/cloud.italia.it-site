@@ -87,7 +87,7 @@ const MainFooter = () => {
               />
             </a>
           </div>
-          <div className={classes.logoSeparator} />
+          <div aria-hidden="true" className={classes.logoSeparator} />
           <div className="py-3 py-sm-2">
             <a
               href="https://www.agid.gov.it/"
