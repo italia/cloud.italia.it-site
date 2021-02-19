@@ -11,7 +11,6 @@ import {
   Icon,
   Nav,
   NavItem,
-  HeaderBrand,
 } from 'design-react-kit';
 import logo from '../images/cloud-logo.svg';
 

@@ -7,6 +7,7 @@ import 'typeface-lora';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import favicon from '../images/favicon.ico';
 import { Header } from './Header.js';
+import { Footer } from './Footer.js';
 
 export const Layout = ({ children }) => (
   <>
@@ -23,7 +24,7 @@ export const Layout = ({ children }) => (
     </Helmet>
     <Header />
     {children}
-    <footer>FOOTER</footer>
+    <Footer />
   </>
 );
 
