@@ -1,5 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://cloud.italia.it`,
+  },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
