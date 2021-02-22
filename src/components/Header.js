@@ -73,35 +73,37 @@ const CenterHeader = () => (
 );
 
 const NavHeader = () => {
-  const [isOpen, toggleDropdown] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
+  const toogleMenu = () => setIsOpen(!isOpen);
   return (
     <HeaderReactKit type="navbar" theme="light">
       <HeaderContent expand="lg" megamenu>
-        <HeaderToggler onClick={() => toggleDropdown(!isOpen)} aria-expanded="false" aria-label="Toggle navigation">
+        <HeaderToggler onClick={() => setIsOpen(!isOpen)} aria-expanded="false" aria-label="Toggle navigation">
           <Icon icon="it-burger" />
         </HeaderToggler>
-        <Collapse isOpen={isOpen} navbar header onOverlayClick={() => toggleDropdown(!isOpen)}>
+        <Collapse isOpen={isOpen} navbar header onOverlayClick={toogleMenu}>
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
-                <Link to="/strategia/" className="nav-link" activeClassName="active">
+                <Link to="/strategia/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Strategia nazionale</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/adozione/" className="nav-link" activeClassName="active">
+                <Link to="/adozione/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Programma di adozione</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/servizi/" className="nav-link" activeClassName="active">
+                <Link to="/servizi/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Qualificazione dei servizi</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/notizie/" className="nav-link" activeClassName="active">
+                <Link to="/notizie/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Notizie e media</span>
                 </Link>
               </NavItem>
