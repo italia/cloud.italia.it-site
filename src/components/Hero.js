@@ -22,7 +22,7 @@ const useStyles = createUseStyles({
     color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
   },
   title: {
-    composes: 'h3',
+    composes: 'h1',
     color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
   },
   subtitle: {
