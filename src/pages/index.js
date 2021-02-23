@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
+import { Icon } from 'design-react-kit';
 import { Hero } from '../components/Hero.js';
 
 const buttonClasses = 'btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0';
@@ -14,6 +15,10 @@ const useStyles = createUseStyles({
   btnOutline: {
     composes: buttonClasses,
     boxShadow: 'inset 0 0 0 2px white',
+  },
+  btnAGID: {
+    composes: `${buttonClasses} btn-icon px-3`,
+    extend: 'btnPrimary',
   },
   separator: {
     composes: 'd-none d-lg-block mr-4',
@@ -41,8 +46,9 @@ const Index = ({ data }) => {
               Scopri di più
             </Link>
             <div aria-hidden="true" className={classes.separator} />
-            <a href="#" className={classes.btnPrimary}>
-              Marketplace agid
+            <a href="https://www.agid.gov.it/" className={classes.btnAGID}>
+              <span className="mr-2">Marketplace agid</span>
+              <Icon color="primary" icon="it-external-link" />
             </a>
           </>
         )}
