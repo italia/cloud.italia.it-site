@@ -2,6 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
+import classNames from 'classnames';
 
 const useStyles = createUseStyles({
   heroContainer: {
@@ -10,11 +11,15 @@ const useStyles = createUseStyles({
     backgroundColor: (data) => (data.theme === 'white' ? 'var(--white)' : 'var(--primary)'),
   },
   heroRow: {
-    composes: 'row align-items-center',
+    composes: 'row',
     flexDirection: (data) => (data.imageSide === 'left' ? 'row-reverse' : 'row'),
   },
   category: {
-    composes: 'it-category',
+    composes: 'my-4',
+    fontSize: '1rem',
+    textTransform: 'uppercase',
+    fontWeight: '600',
+    letterSpacing: '.9px',
     // eslint-disable-next-line sonarjs/no-duplicate-string
     color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
   },
@@ -23,16 +28,29 @@ const useStyles = createUseStyles({
   },
   subtitle: {
     composes: 'd-none d-lg-block',
+    fontSize: '1.2rem',
     color: (data) => (data.theme === 'white' ? ['var(--black)', '!important'] : ['var(--white)', '!important']),
   },
+  text: {
+    composes: (data) =>
+      data.imageSide === 'right'
+        ? 'it-hero-text-wrapper p-0 mt-4 mt-lg-0 text-center text-lg-left col-lg-10'
+        : 'it-hero-text-wrapper p-0 mt-4 mt-lg-0 text-center text-lg-left col-lg-10 ml-auto',
+  },
   graphicContainer: {
-    composes: 'd-flex col-lg-6 justify-content-center mt-4 mt-lg-0',
+    composes: 'd-flex col-lg-4 justify-content-center mt-4 mt-lg-0',
   },
   graphic: {
     composes: 'rounded-circle',
     width: '378px',
     height: '378px',
     objectFit: 'cover',
+  },
+  '@media (max-width: 1200px)': {
+    graphic: {
+      width: '315px',
+      height: '315px',
+    },
   },
   '@media (max-width: 992px)': {
     graphicContainer: {
@@ -47,17 +65,37 @@ const useStyles = createUseStyles({
 
 export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageSide = 'right', theme = 'white' }) => {
   const classes = useStyles({ imageSide, theme });
+  const textWrapper = classNames(
+    'it-hero-text-wrapper',
+    'p-0',
+    'mt-4',
+    'mt-lg-0',
+    'text-center',
+    'text-lg-left',
+    'col-lg-10',
+    { 'ml-auto': imageSide === 'left' }
+  );
+  const actionsWrapper = classNames(
+    'my-4',
+    'mt-lg-5',
+    'text-center',
+    'd-flex',
+    'flex-wrap',
+    'justify-content-center',
+    'justify-content-lg-start',
+    { 'col-lg-10': imageSide === 'left', 'ml-auto': imageSide === 'left', 'pl-0': imageSide === 'left' }
+  );
   return (
     <div className={classes.heroContainer}>
       <div className="container">
         <div className={classes.heroRow}>
-          <div className="col-12 col-lg-6">
-            <div className="it-hero-text-wrapper p-0 mt-4 mt-lg-0">
-              {categoryTitle && <span className={classes.category}>{categoryTitle}</span>}
+          <div className="col-12 col-lg-8">
+            <div className={textWrapper}>
+              {categoryTitle && <div className={classes.category}>{categoryTitle}</div>}
               <h1 className={classes.title}>{title}</h1>
-              <p className={classes.subtitle}>{subtitle}</p>
-              <div className="it-btn-container text-center text-lg-left mb-lg-0 mb-4">{actions()}</div>
+              <div className={classes.subtitle}>{subtitle}</div>
             </div>
+            <div className={actionsWrapper}>{actions()}</div>
           </div>
           <div className={classes.graphicContainer}>
             <Img className={classes.graphic} fluid={fluidImg} alt="Una bella grafica" />

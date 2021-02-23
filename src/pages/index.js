@@ -4,15 +4,20 @@ import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/Hero.js';
 
+const buttonClasses = 'btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0';
 const useStyles = createUseStyles({
   btnPrimary: {
-    composes: 'btn text-uppercase btn-primary ml-3',
+    composes: buttonClasses,
     backgroundColor: 'var(--white)',
     color: 'var(--primary)',
   },
   btnOutline: {
-    composes: 'btn text-uppercase btn-primary mr-3',
+    composes: buttonClasses,
     boxShadow: 'inset 0 0 0 2px white',
+  },
+  separator: {
+    composes: 'd-none d-lg-block mr-4',
+    borderLeft: '1px solid #E6E9F2',
   },
 });
 
@@ -20,6 +25,28 @@ const Index = ({ data }) => {
   const classes = useStyles();
   return (
     <main>
+      <Hero
+        categoryTitle="Qualificazione dei servizi"
+        subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
+        title="Scopri come qualificare i servizi"
+        fluidImg={data.img_1.childImageSharp.fluid}
+        imageSide="right"
+        theme="primary"
+        actions={() => (
+          <>
+            <Link to="/servizi/" className={classes.btnOutline}>
+              Risorse Utili
+            </Link>
+            <Link to="/servizi/" className={classes.btnPrimary}>
+              Scopri di più
+            </Link>
+            <div aria-hidden="true" className={classes.separator} />
+            <a href="#" className={classes.btnPrimary}>
+              Marketplace agid
+            </a>
+          </>
+        )}
+      />
       <Hero
         categoryTitle="Strategia Nazionale"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
@@ -45,10 +72,10 @@ const Index = ({ data }) => {
         imageSide="left"
         actions={() => (
           <>
-            <Link to="/adozione/" className="btn text-uppercase btn-outline-primary mr-3">
+            <Link to="/adozione/" className="btn text-uppercase btn-outline-primary mx-4 ml-lg-0 my-2 my-md-0">
               Risorse Utili
             </Link>
-            <Link to="/adozione/" className="btn text-uppercase btn-primary mx-3">
+            <Link to="/adozione/" className="btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0">
               Scopri di più
             </Link>
           </>
