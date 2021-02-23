@@ -12,7 +12,15 @@ import {
   Nav,
   NavItem,
 } from 'design-react-kit';
+import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
+
+const useStyle = createUseStyles({
+  h6: {
+    composes: 'h6',
+    fontSize: ['inherit', '!important'],
+  },
+});
 
 const SlimHeader = () => (
   <HeaderReactKit type="slim">
@@ -35,42 +43,45 @@ const SlimHeader = () => (
   </HeaderReactKit>
 );
 
-const CenterHeader = () => (
-  <HeaderReactKit type="center" theme="light">
-    <HeaderContent>
-      <div className="it-brand-wrapper">
-        <Link to="/">
-          <div className="it-brand-text">
-            <div className="d-flex align-items-center">
-              <img className="icon" src={logo} alt="Cloud PA logo" />
-              <div>
-                <h2>Cloud Italia</h2>
-                <h3>Il Cloud della Pubblica Amministrazione italiana</h3>
+const CenterHeader = () => {
+  const classes = useStyle();
+  return (
+    <HeaderReactKit type="center" theme="light">
+      <HeaderContent>
+        <div className="it-brand-wrapper">
+          <Link to="/">
+            <div className="it-brand-text">
+              <div className="d-flex align-items-center">
+                <img className="icon" src={logo} alt="Cloud PA logo" />
+                <div>
+                  <h1 className="h3">Cloud Italia</h1>
+                  <h2 className={classes.h6}>Il Cloud della Pubblica Amministrazione italiana</h2>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
-      </div>
-      <HeaderRightZone>
-        <HeaderSocialsZone label="Leggi di più su">
-          <ul>
-            <li>
-              <a
-                href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
-                className="d-block mr-3"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Medium"
-              >
-                <Icon icon="it-medium" />
-              </a>
-            </li>
-          </ul>
-        </HeaderSocialsZone>
-      </HeaderRightZone>
-    </HeaderContent>
-  </HeaderReactKit>
-);
+          </Link>
+        </div>
+        <HeaderRightZone>
+          <HeaderSocialsZone label="Leggi di più su">
+            <ul>
+              <li>
+                <a
+                  href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
+                  className="d-block mr-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Medium"
+                >
+                  <Icon icon="it-medium" />
+                </a>
+              </li>
+            </ul>
+          </HeaderSocialsZone>
+        </HeaderRightZone>
+      </HeaderContent>
+    </HeaderReactKit>
+  );
+};
 
 const NavHeader = () => {
   const [isOpen, setIsOpen] = useState(false);

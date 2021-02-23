@@ -15,15 +15,14 @@ const useStyles = createUseStyles({
     flexDirection: (data) => (data.imageSide === 'left' ? 'row-reverse' : 'row'),
   },
   category: {
-    composes: 'my-4',
-    fontSize: '1rem',
-    textTransform: 'uppercase',
+    composes: 'text-uppercase h6',
     fontWeight: '600',
     letterSpacing: '.9px',
     // eslint-disable-next-line sonarjs/no-duplicate-string
     color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
   },
   title: {
+    composes: 'h3',
     color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
   },
   subtitle: {
@@ -91,8 +90,8 @@ export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageS
         <div className={classes.heroRow}>
           <div className="col-12 col-lg-8">
             <div className={textWrapper}>
-              {categoryTitle && <div className={classes.category}>{categoryTitle}</div>}
-              <h1 className={classes.title}>{title}</h1>
+              {categoryTitle && <h2 className={classes.category}>{categoryTitle}</h2>}
+              <h3 className={classes.title}>{title}</h3>
               <div className={classes.subtitle}>{subtitle}</div>
             </div>
             <div className={actionsWrapper}>{actions()}</div>

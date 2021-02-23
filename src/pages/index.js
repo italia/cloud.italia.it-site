@@ -31,6 +31,41 @@ const Index = ({ data }) => {
   return (
     <main>
       <Hero
+        categoryTitle="Strategia Nazionale"
+        subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
+        title="Il cloud per innovare il Sistema Italia"
+        fluidImg={data.img_1.childImageSharp.fluid}
+        imageSide="right"
+        theme="primary"
+        actions={() => (
+          <>
+            <Link to="/strategia/" className={classes.btnOutline}>
+              Risorse Utili
+            </Link>
+            <Link to="/strategia/" className={classes.btnPrimary}>
+              Scopri di più
+            </Link>
+          </>
+        )}
+      />
+      <Hero
+        categoryTitle="Programma di adozione"
+        subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
+        title="Scopri come aderire al modello cloud per la PA"
+        fluidImg={data.img_2.childImageSharp.fluid}
+        imageSide="left"
+        actions={() => (
+          <>
+            <Link to="/adozione/" className="btn text-uppercase btn-outline-primary mx-4 ml-lg-0 my-2 my-md-0">
+              Risorse Utili
+            </Link>
+            <Link to="/adozione/" className="btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0">
+              Scopri di più
+            </Link>
+          </>
+        )}
+      />
+      <Hero
         categoryTitle="Qualificazione dei servizi"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Scopri come qualificare i servizi"
@@ -50,40 +85,6 @@ const Index = ({ data }) => {
               <span className="mr-2">Marketplace agid</span>
               <Icon color="primary" icon="it-external-link" />
             </a>
-          </>
-        )}
-      />
-      <Hero
-        categoryTitle="Strategia Nazionale"
-        subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
-        title="Il cloud per innovare il Sistema Italia"
-        fluidImg={data.img_1.childImageSharp.fluid}
-        imageSide="right"
-        theme="primary"
-        actions={() => (
-          <>
-            <Link to="/strategia/" className={classes.btnOutline}>
-              Risorse Utili
-            </Link>
-            <Link to="/strategia/" className={classes.btnPrimary}>
-              Scopri di più
-            </Link>
-          </>
-        )}
-      />
-      <Hero
-        subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
-        title="Scopri come aderire al modello cloud per la PA"
-        fluidImg={data.img_2.childImageSharp.fluid}
-        imageSide="left"
-        actions={() => (
-          <>
-            <Link to="/adozione/" className="btn text-uppercase btn-outline-primary mx-4 ml-lg-0 my-2 my-md-0">
-              Risorse Utili
-            </Link>
-            <Link to="/adozione/" className="btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0">
-              Scopri di più
-            </Link>
           </>
         )}
       />
