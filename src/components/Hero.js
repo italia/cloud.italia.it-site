@@ -26,7 +26,7 @@ const useStyles = createUseStyles({
     color: (data) => (data.theme === 'white' ? ['var(--black)', '!important'] : ['var(--white)', '!important']),
   },
   graphicContainer: {
-    composes: 'd-flex col-lg-6 justify-content-center',
+    composes: 'd-flex col-lg-6 justify-content-center mt-4 mt-lg-0',
   },
   graphic: {
     composes: 'rounded-circle',
@@ -34,9 +34,13 @@ const useStyles = createUseStyles({
     height: '378px',
     objectFit: 'cover',
   },
-  '@media (max-width: 960px)': {
+  '@media (max-width: 992px)': {
     graphicContainer: {
       order: -1,
+    },
+    graphic: {
+      width: '250px',
+      height: '250px',
     },
   },
 });
@@ -48,11 +52,11 @@ export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageS
       <div className="container">
         <div className={classes.heroRow}>
           <div className="col-12 col-lg-6">
-            <div className="it-hero-text-wrapper p-0">
+            <div className="it-hero-text-wrapper p-0 mt-4 mt-lg-0">
               {categoryTitle && <span className={classes.category}>{categoryTitle}</span>}
               <h1 className={classes.title}>{title}</h1>
               <p className={classes.subtitle}>{subtitle}</p>
-              <div className="it-btn-container">{actions()}</div>
+              <div className="it-btn-container text-center text-lg-left mb-lg-0 mb-4">{actions()}</div>
             </div>
           </div>
           <div className={classes.graphicContainer}>
