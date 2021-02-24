@@ -98,7 +98,7 @@ export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageS
             <div className={actionsWrapper}>{actions()}</div>
           </div>
           <div className={classes.graphicContainer}>
-            <Img className={classes.graphic} fluid={fluidImg} alt="Una bella grafica" />
+            <Img fadeIn={false} className={classes.graphic} fluid={fluidImg} alt="Una bella grafica" />
           </div>
         </div>
       </div>
