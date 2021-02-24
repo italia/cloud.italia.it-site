@@ -11,7 +11,6 @@ import {
   Icon,
   Nav,
   NavItem,
-  NavbarToggler,
   HeaderBrand,
   HeaderLinkZone,
   LinkList,

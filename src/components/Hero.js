@@ -3,6 +3,7 @@ import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import classNames from 'classnames';
+import { fluidImgProptype } from '../utils/proptypes.js';
 
 const useStyles = createUseStyles({
   heroContainer: {
@@ -110,7 +111,7 @@ Hero.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   actions: PropTypes.func.isRequired,
-  fluidImg: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.arrayOf(PropTypes.shape({}))]).isRequired,
+  fluidImg: fluidImgProptype,
   imageSide: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.oneOf(['white', 'primary']),
 };

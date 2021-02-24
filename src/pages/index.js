@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
 import { Icon } from 'design-react-kit';
 import { Hero } from '../components/Hero.js';
+import { HeroImage } from '../components/HeroImage.js';
+import { imageSharpProptype } from '../utils/proptypes.js';
 
 const buttonClasses = 'btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0';
 const useStyles = createUseStyles({
@@ -65,6 +67,13 @@ const Index = ({ data }) => {
           </>
         )}
       />
+      <HeroImage fluidImg={data.img_4.childImageSharp.fluid} alt="Una bella immagine" caption="Una bella didascalia" />
+      <HeroImage
+        big={false}
+        fluidImg={data.img_3.childImageSharp.fluid}
+        alt="Una bella immagine"
+        caption="Una bella didascalia"
+      />
       <Hero
         categoryTitle="Qualificazione dei servizi"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
@@ -96,16 +105,10 @@ export default Index;
 
 Index.propTypes = {
   data: PropTypes.shape({
-    img_1: PropTypes.shape({
-      childImageSharp: PropTypes.shape({
-        fluid: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.arrayOf(PropTypes.shape({}))]),
-      }),
-    }),
-    img_2: PropTypes.shape({
-      childImageSharp: PropTypes.shape({
-        fluid: PropTypes.oneOfType([PropTypes.shape({}), PropTypes.arrayOf(PropTypes.shape({}))]),
-      }),
-    }),
+    img_1: imageSharpProptype.isRequired,
+    img_2: imageSharpProptype.isRequired,
+    img_3: imageSharpProptype.isRequired,
+    img_4: imageSharpProptype.isRequired,
   }).isRequired,
 };
 
@@ -113,7 +116,6 @@ export const query = graphql`
   query {
     img_1: file(relativePath: { eq: "unsplash.jpg" }) {
       childImageSharp {
-        # Specify the image processing specifications right in the query.
         fluid {
           ...GatsbyImageSharpFluid
         }
@@ -121,7 +123,20 @@ export const query = graphql`
     }
     img_2: file(relativePath: { eq: "unsplash_2.jpg" }) {
       childImageSharp {
-        # Specify the image processing specifications right in the query.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
+      childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
         }
