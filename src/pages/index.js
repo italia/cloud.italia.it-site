@@ -116,33 +116,33 @@ export const query = graphql`
   query {
     img_1: file(relativePath: { eq: "unsplash.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 100) {
+        fluid {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
-          ...GatsbyImageSharpFluid_noBase64
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_2: file(relativePath: { eq: "unsplash_2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 100) {
+        fluid {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
-          ...GatsbyImageSharpFluid_noBase64
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 100) {
+        fluid {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
-          ...GatsbyImageSharpFluid_noBase64
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 100) {
+        fluid {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
-          ...GatsbyImageSharpFluid_noBase64
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
