@@ -116,7 +116,7 @@ export const query = graphql`
   query {
     img_1: file(relativePath: { eq: "unsplash.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 960) {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
           ...GatsbyImageSharpFluid_withWebp
         }
@@ -124,7 +124,7 @@ export const query = graphql`
     }
     img_2: file(relativePath: { eq: "unsplash_2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 960) {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
           ...GatsbyImageSharpFluid_withWebp
         }
@@ -132,7 +132,7 @@ export const query = graphql`
     }
     img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 960) {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
           ...GatsbyImageSharpFluid_withWebp
         }
@@ -140,7 +140,7 @@ export const query = graphql`
     }
     img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 960) {
           # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
           ...GatsbyImageSharpFluid_withWebp
         }
