@@ -195,11 +195,13 @@ const NavHeader = () => {
 };
 
 export const Header = () => (
-  <Headers>
-    <SlimHeader />
-    <div className="it-nav-wrapper">
-      <CenterHeader />
-      <NavHeader />
-    </div>
-  </Headers>
+  <header>
+    <Headers>
+      <SlimHeader />
+      <div className="it-nav-wrapper">
+        <CenterHeader />
+        <NavHeader />
+      </div>
+    </Headers>
+  </header>
 );
