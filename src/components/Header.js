@@ -11,6 +11,7 @@ import {
   Icon,
   Nav,
   NavItem,
+  NavbarToggler,
   HeaderBrand,
   HeaderLinkZone,
   LinkList,
@@ -24,10 +25,18 @@ const useStyle = createUseStyles({
     composes: 'h6',
     fontSize: ['inherit', '!important'],
   },
+  /* Used for problems with nested <a> in the HeaderToggler component */
+  navToggler: {
+    composes: 'd-lg-none',
+    color: 'var(--primary)',
+    fontSize: '.778em',
+    fontWeight: '600',
+    padding: '.5rem 0',
+  },
 });
 
 const BrandSlimHeader = () => (
-  <span>
+  <span className="text-primary">
     <a
       href="https://innovazione.gov.it/dipartimento/la-struttura/"
       rel="noreferrer"
@@ -45,16 +54,17 @@ const BrandSlimHeader = () => (
 
 const SlimHeader = () => {
   const [isOpen, toggleDropdown] = useState(false);
+  const classes = useStyle();
   return (
     <HeaderReactKit type="slim" theme="light">
       <HeaderContent className="font-weight-semibold">
-        <HeaderBrand>
+        <HeaderBrand tag="div">
           <BrandSlimHeader />
         </HeaderBrand>
         <HeaderLinkZone>
-          <HeaderToggler onClick={() => toggleDropdown(!isOpen)}>
+          <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="button">
             <BrandSlimHeader />
-            <Icon icon="it-expand" size="lg" />
+            <Icon icon="it-expand" size="sm" color="primary" />
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
             <LinkList tag="div">
@@ -99,7 +109,7 @@ const CenterHeader = () => {
   return (
     <HeaderReactKit type="center" theme="light">
       <HeaderContent>
-        <HeaderBrand className="it-brand-wrapper">
+        <div className="it-brand-wrapper">
           <Link to="/">
             <div className="it-brand-text">
               <div className="d-flex align-items-center">
@@ -111,7 +121,7 @@ const CenterHeader = () => {
               </div>
             </div>
           </Link>
-        </HeaderBrand>
+        </div>
         <HeaderRightZone>
           <HeaderSocialsZone label="Leggi di più su">
             <ul>
