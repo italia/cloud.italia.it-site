@@ -116,29 +116,29 @@ export const query = graphql`
   query {
     img_1: file(relativePath: { eq: "unsplash.jpg" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_2: file(relativePath: { eq: "unsplash_2.jpg" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
