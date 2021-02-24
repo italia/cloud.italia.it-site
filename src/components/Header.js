@@ -11,6 +11,10 @@ import {
   Icon,
   Nav,
   NavItem,
+  HeaderBrand,
+  HeaderLinkZone,
+  LinkList,
+  LinkListItem,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
@@ -22,33 +26,80 @@ const useStyle = createUseStyles({
   },
 });
 
-const SlimHeader = () => (
-  <HeaderReactKit type="slim">
-    <HeaderContent className="font-weight-semibold">
-      <div>
-        <a
-          href="https://innovazione.gov.it/dipartimento/la-struttura/"
-          rel="noreferrer"
-          aria-label="Dipartimento per la Trasformazione Digitale"
-          className="navbar-brand mr-0"
-        >
-          Dipartimento per la Trasformazione Digitale
-        </a>
-        <span className="text-white"> + </span>
-        <a href="https://www.agid.gov.it/" rel="noreferrer" aria-label="AgID" className="navbar-brand">
-          AgID
-        </a>
-      </div>
-    </HeaderContent>
-  </HeaderReactKit>
+const BrandSlimHeader = () => (
+  <span>
+    <a
+      href="https://innovazione.gov.it/dipartimento/la-struttura/"
+      rel="noreferrer"
+      aria-label="Dipartimento per la Trasformazione Digitale"
+      className="mr-1"
+    >
+      Dipartimento per la Trasformazione Digitale
+    </a>
+    <span className="mr-1"> + </span>
+    <a href="https://www.agid.gov.it/" rel="noreferrer" aria-label="AgID" className="mr-1">
+      AgID
+    </a>
+  </span>
 );
+
+const SlimHeader = () => {
+  const [isOpen, toggleDropdown] = useState(false);
+  return (
+    <HeaderReactKit type="slim" theme="light">
+      <HeaderContent className="font-weight-semibold">
+        <HeaderBrand>
+          <BrandSlimHeader />
+        </HeaderBrand>
+        <HeaderLinkZone>
+          <HeaderToggler onClick={() => toggleDropdown(!isOpen)}>
+            <BrandSlimHeader />
+            <Icon icon="it-expand" size="lg" />
+          </HeaderToggler>
+          <Collapse isOpen={isOpen} header>
+            <LinkList tag="div">
+              <LinkListItem
+                tag="a"
+                href="https://pianotriennale-ict.italia.it/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Piano Triennale: (Link esterno) Vai a Piano Triennale"
+              >
+                Piano Triennale
+              </LinkListItem>
+              <LinkListItem divider />
+              <LinkListItem
+                tag="a"
+                href="https://developers.italia.it/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Developers Italia: (Link esterno) Vai a Developers Italia"
+              >
+                Developers
+              </LinkListItem>
+              <LinkListItem
+                tag="a"
+                href="https://designers.italia.it/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Designers Italia: (Link esterno) Vai a Designers Italia"
+              >
+                Designers
+              </LinkListItem>
+            </LinkList>
+          </Collapse>
+        </HeaderLinkZone>
+      </HeaderContent>
+    </HeaderReactKit>
+  );
+};
 
 const CenterHeader = () => {
   const classes = useStyle();
   return (
     <HeaderReactKit type="center" theme="light">
       <HeaderContent>
-        <div className="it-brand-wrapper">
+        <HeaderBrand className="it-brand-wrapper">
           <Link to="/">
             <div className="it-brand-text">
               <div className="d-flex align-items-center">
@@ -60,7 +111,7 @@ const CenterHeader = () => {
               </div>
             </div>
           </Link>
-        </div>
+        </HeaderBrand>
         <HeaderRightZone>
           <HeaderSocialsZone label="Leggi di più su">
             <ul>
