@@ -130,14 +130,14 @@ export const query = graphql`
     }
     img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
       childImageSharp {
-        fluid() {
+        fluid {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
     img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
       childImageSharp {
-        fluid() {
+        fluid {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
