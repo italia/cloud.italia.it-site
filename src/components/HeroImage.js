@@ -33,7 +33,7 @@ export const HeroImage = ({ fluidImg, alt, caption, big = true }) => {
       <figure className={classes.figure}>
         <div className={hero}>
           <div className={classes.imgResponsiveWrapper}>
-            <Img fadeIn={false} fluid={fluidImg} alt={alt} style={{ position: 'initial' }} />
+            <Img fluid={fluidImg} alt={alt} style={{ position: 'initial' }} />
           </div>
         </div>
         {caption && (
