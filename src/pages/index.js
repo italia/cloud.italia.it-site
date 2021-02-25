@@ -147,7 +147,7 @@ const Index = ({ data }) => {
       <div className="pb-5 lightgrey-bg-a2">
         <div className="container">
           <h2 className="h6 text-uppercase text-center text-lg-left pt-5">Come contribuire</h2>
-          <h3 className="text-center text-lg-left py-3 col-lg-5">
+          <h3 className="text-center text-lg-left px-0 py-3 col-lg-5">
             Partecipa al cambiamento, contribuisci a Cloud italia!
           </h3>
           <div className="row d-none d-lg-flex">
