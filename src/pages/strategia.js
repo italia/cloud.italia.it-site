@@ -1,94 +1,54 @@
 import React from 'react';
-import SwiperCore, { Pagination, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
+import { createUseStyles } from 'react-jss';
+import { MobileSwiper } from '../components/MobileSwiper.js';
 
-SwiperCore.use([Pagination, A11y]);
+const useStyles = createUseStyles({
+  container: {
+    composes: 'section',
+    backgroundColor: '#0bd9d2',
+  },
+  hugeNumbers: {
+    composes: 'font-weight-semibold text-center text-lg-left',
+    fontSize: '76px',
+  },
+});
 
-const Strategia = () => (
-  <main className="container">
-    <div>Strategia Nazionale</div>
-    <Swiper
-      a11y={{
-        enabled: true,
-        prevSlideMessage: 'Slide precedente',
-        nextSlideMessage: 'Slide successiva',
-        firstSlideMessage: 'Questa è la prima slide',
-        lastSlideMessage: "Questa è l'ultima slide",
-        paginationBulletMessage: 'Vai alla slide {{index}}',
-      }}
-      className="d-lg-none"
-      slidesPerView={1}
-      pagination={{ clickable: true, bulletClass: 'swiper-pagination-bullet p-2 mx-3' }}
-    >
-      <SwiperSlide className="my-5">
-        <div className="card rounded ">
-          <div className="card-body d-flex flex-column">
-            <p className="card-text text-secondary">
-              <span>16 gennaio 2021</span>
-            </p>
-            <h3 className="h4 text-primary mid-caption--xlarge font-weight-bold">
-              <a
-                href="/notizie/comunicati-stampa/smarter-italy-al-via-borghi-del-futuro"
-                className="text-decoration-none"
-              >
-                Smarter Italy: al via “Borghi del futuro”
-              </a>
-            </h3>
-            <p className="pt-2 mid-caption--large">
-              Il programma entra nel vivo con l’adesione di 12 borghi dove sperimentare soluzioni tecnologiche
-              emergenti
-            </p>
+const Strategia = () => {
+  const classes = useStyles();
+  const slides = [
+    <>
+      <div className={classes.hugeNumbers}>16</div>
+      <div className="h6 text-center text-lg-left">milioni di identità SPID rilasciate</div>
+    </>,
+    <>
+      <div className={classes.hugeNumbers}>101</div>
+      <div className="h6 text-center text-lg-left">milioni di transazioni su pagoPA nel 2020</div>
+    </>,
+    <>
+      <div className={classes.hugeNumbers}>91%</div>
+      <div className="h6 text-center text-lg-left">dei Comuni su ANPR</div>
+    </>,
+  ];
+  return (
+    <main>
+      <div>Strategia Nazionale</div>
+      <div className={classes.container}>
+        <h2 className="h6 text-uppercase text-center text-lg-left py-3 py-lg-0">I numeri dell'innovazione</h2>
+        <div className="d-none d-lg-block row">
+          <div className="col-lg-9">
+            <div className="my-4 row">
+              {slides.map((slide, k) => (
+                <div className="col-lg-4" key={k}>
+                  {slide}
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="mt-auto d-flex flex-wrap-reverse flex-row-reverse align-items-end"></div>
         </div>
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        <div className="card rounded ">
-          <div className="card-body d-flex flex-column">
-            <p className="card-text text-secondary">
-              <span>16 gennaio 2021</span>
-            </p>
-            <h3 className="h4 text-primary mid-caption--xlarge font-weight-bold">
-              <a
-                href="/notizie/comunicati-stampa/smarter-italy-al-via-borghi-del-futuro"
-                className="text-decoration-none"
-              >
-                Smarter Italy: al via “Borghi del futuro”
-              </a>
-            </h3>
-            <p className="pt-2 mid-caption--large">
-              Il programma entra nel vivo con l’adesione di 12 borghi dove sperimentare soluzioni tecnologiche
-              emergenti
-            </p>
-          </div>
-          <div className="mt-auto d-flex flex-wrap-reverse flex-row-reverse align-items-end"></div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="my-5">
-        <div className="card rounded ">
-          <div className="card-body d-flex flex-column">
-            <p className="card-text text-secondary">
-              <span>16 gennaio 2021</span>
-            </p>
-            <h3 className="h4 text-primary mid-caption--xlarge font-weight-bold">
-              <a
-                href="/notizie/comunicati-stampa/smarter-italy-al-via-borghi-del-futuro"
-                className="text-decoration-none"
-              >
-                Smarter Italy: al via “Borghi del futuro”
-              </a>
-            </h3>
-            <p className="pt-2 mid-caption--large">
-              Il programma entra nel vivo con l’adesione di 12 borghi dove sperimentare soluzioni tecnologiche
-              emergenti
-            </p>
-          </div>
-          <div className="mt-auto d-flex flex-wrap-reverse flex-row-reverse align-items-end"></div>
-        </div>
-      </SwiperSlide>
-    </Swiper>
-  </main>
-);
+        <MobileSwiper slides={slides} withShadow={false} backgroundColor="#33485C" />
+      </div>
+    </main>
+  );
+};
 
 export default Strategia;

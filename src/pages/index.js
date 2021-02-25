@@ -31,42 +31,48 @@ const useStyles = createUseStyles({
 });
 
 const slides = [
-  <Card key="github" teaser noWrapper className="no-after rounded shadow-lg">
-    <CardBody className="pb-5">
-      <div className="mb-3 d-flex align-items-center">
-        <Icon color="primary" icon="it-github" size="lg" />
-        <span className="primary-color px-3 h3 mb-0">GitHub</span>
-      </div>
-      <CardText>
-        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-        sicurezza ed altro. Unisciti alla discussione!
-      </CardText>
-    </CardBody>
-  </Card>,
-  <Card key="slack" teaser noWrapper className="no-after rounded shadow-lg">
-    <CardBody className="pb-5">
-      <div className="mb-3 d-flex align-items-center">
-        <Icon color="primary" icon="it-star-full" size="lg" />
-        <span className="primary-color px-3 h3 mb-0">slack</span>
-      </div>
-      <CardText>
-        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-        sicurezza ed altro. Unisciti alla discussione!
-      </CardText>
-    </CardBody>
-  </Card>,
-  <Card key="forum" teaser noWrapper className="no-after rounded shadow-lg">
-    <CardBody className="pb-5">
-      <div className="mb-3 d-flex align-items-center">
-        <Icon color="primary" icon="it-designers-italia" size="lg" />
-        <span className="primary-color px-3 h3 mb-0">Forum</span>
-      </div>
-      <CardText>
-        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-        sicurezza ed altro. Unisciti alla discussione!
-      </CardText>
-    </CardBody>
-  </Card>,
+  <>
+    <Card teaser noWrapper className="no-after rounded shadow-lg">
+      <CardBody className="pb-5">
+        <div className="mb-3 d-flex align-items-center">
+          <Icon color="primary" icon="it-github" size="lg" />
+          <span className="primary-color px-3 h3 mb-0">GitHub</span>
+        </div>
+        <CardText>
+          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+          sicurezza ed altro. Unisciti alla discussione!
+        </CardText>
+      </CardBody>
+    </Card>
+  </>,
+  <>
+    <Card teaser noWrapper className="no-after rounded shadow-lg">
+      <CardBody className="pb-5">
+        <div className="mb-3 d-flex align-items-center">
+          <Icon color="primary" icon="it-star-full" size="lg" />
+          <span className="primary-color px-3 h3 mb-0">slack</span>
+        </div>
+        <CardText>
+          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+          sicurezza ed altro. Unisciti alla discussione!
+        </CardText>
+      </CardBody>
+    </Card>
+  </>,
+  <>
+    <Card teaser noWrapper className="no-after rounded shadow-lg">
+      <CardBody className="pb-5">
+        <div className="mb-3 d-flex align-items-center">
+          <Icon color="primary" icon="it-designers-italia" size="lg" />
+          <span className="primary-color px-3 h3 mb-0">Forum</span>
+        </div>
+        <CardText>
+          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+          sicurezza ed altro. Unisciti alla discussione!
+        </CardText>
+      </CardBody>
+    </Card>
+  </>,
 ];
 
 const Index = ({ data }) => {
@@ -146,7 +152,7 @@ const Index = ({ data }) => {
           </h3>
           <div className="row d-none d-lg-flex">
             <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
-              {slides}
+              {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
             </div>
           </div>
           <MobileSwiper slides={slides} />
