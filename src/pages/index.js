@@ -144,8 +144,22 @@ const Index = ({ data }) => {
           </>
         )}
       />
+
+      <div className="section px-4 px-lg-5">
+        <h2 className="h6 primary-color text-uppercase text-center text-lg-left">Notizie e Media</h2>
+        <h3 className="h1 primary-color text-center text-lg-left px-0 py-3 col-lg-5">
+          Approfondimenti e contenuti utili
+        </h3>
+        <div className="row d-none d-lg-flex">
+          <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+            {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
+          </div>
+        </div>
+        <MobileSwiper slides={slides} />
+      </div>
+
       <div className="pb-5 lightgrey-bg-a2">
-        <div className="container">
+        <div className="container px-4">
           <h2 className="h6 text-uppercase text-center text-lg-left pt-5">Come contribuire</h2>
           <h3 className="text-center text-lg-left px-0 py-3 col-lg-5">
             Partecipa al cambiamento, contribuisci a Cloud italia!
