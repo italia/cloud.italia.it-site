@@ -8,7 +8,7 @@ import SwiperCore, { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 
-import { Hero } from '../components/Hero.js';
+import { HeroGraphic } from '../components/HeroGraphic.js';
 import { HeroImage } from '../components/HeroImage.js';
 import { imageSharpProptype } from '../utils/proptypes.js';
 
@@ -39,7 +39,7 @@ const Index = ({ data }) => {
   const classes = useStyles();
   return (
     <main>
-      <Hero
+      <HeroGraphic
         categoryTitle="Strategia Nazionale"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Il cloud per innovare il Sistema Italia"
@@ -57,7 +57,7 @@ const Index = ({ data }) => {
           </>
         )}
       />
-      <Hero
+      <HeroGraphic
         categoryTitle="Programma di adozione"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Scopri come aderire al modello cloud per la PA"
@@ -81,7 +81,7 @@ const Index = ({ data }) => {
         alt="Una bella immagine"
         caption="Una bella didascalia"
       />
-      <Hero
+      <HeroGraphic
         categoryTitle="Qualificazione dei servizi"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Scopri come qualificare i servizi"

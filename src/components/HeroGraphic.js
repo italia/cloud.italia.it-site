@@ -63,7 +63,15 @@ const useStyles = createUseStyles({
   },
 });
 
-export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageSide = 'right', theme = 'white' }) => {
+export const HeroGraphic = ({
+  categoryTitle,
+  title,
+  subtitle,
+  actions,
+  fluidImg,
+  imageSide = 'right',
+  theme = 'white',
+}) => {
   const classes = useStyles({ imageSide, theme });
   const textWrapper = classNames(
     'it-hero-text-wrapper',
@@ -106,7 +114,7 @@ export const Hero = ({ categoryTitle, title, subtitle, actions, fluidImg, imageS
   );
 };
 
-Hero.propTypes = {
+HeroGraphic.propTypes = {
   categoryTitle: PropTypes.string,
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
