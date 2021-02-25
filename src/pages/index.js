@@ -110,8 +110,8 @@ const Index = ({ data }) => {
           <h3 className="text-center text-lg-left py-3 col-lg-5">
             Partecipa al cambiamento, contribuisci a Cloud italia!
           </h3>
-          <div className="row">
-            <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3 d-none d-lg-flex">
+          <div className="row d-none d-lg-flex">
+            <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
               <Card teaser noWrapper className="no-after rounded shadow-lg">
                 <CardBody className="pb-5">
                   <div className="mb-3 d-flex align-items-center">
@@ -149,7 +149,9 @@ const Index = ({ data }) => {
                 </CardBody>
               </Card>
             </div>
-            <div className="col-12 d-lg-none">
+          </div>
+          <div className="row d-lg-none">
+            <div className="col-12">
               <Swiper
                 a11y={{
                   enabled: true,
