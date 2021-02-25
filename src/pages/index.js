@@ -4,15 +4,10 @@ import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
 import { Card, CardBody, CardText, Icon } from 'design-react-kit';
 
-import SwiperCore, { Pagination, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
-
 import { HeroGraphic } from '../components/HeroGraphic.js';
 import { HeroImage } from '../components/HeroImage.js';
+import { MobileSwiper } from '../components/MobileSwiper.js';
 import { imageSharpProptype } from '../utils/proptypes.js';
-
-SwiperCore.use([Pagination, A11y]);
 
 const buttonClasses = 'btn text-uppercase btn-primary mx-4 ml-lg-0 my-2 my-md-0';
 const useStyles = createUseStyles({
@@ -34,6 +29,45 @@ const useStyles = createUseStyles({
     borderLeft: '1px solid #E6E9F2',
   },
 });
+
+const slides = [
+  <Card key="github" teaser noWrapper className="no-after rounded shadow-lg">
+    <CardBody className="pb-5">
+      <div className="mb-3 d-flex align-items-center">
+        <Icon color="primary" icon="it-github" size="lg" />
+        <span className="primary-color px-3 h3 mb-0">GitHub</span>
+      </div>
+      <CardText>
+        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+        sicurezza ed altro. Unisciti alla discussione!
+      </CardText>
+    </CardBody>
+  </Card>,
+  <Card key="slack" teaser noWrapper className="no-after rounded shadow-lg">
+    <CardBody className="pb-5">
+      <div className="mb-3 d-flex align-items-center">
+        <Icon color="primary" icon="it-star-full" size="lg" />
+        <span className="primary-color px-3 h3 mb-0">slack</span>
+      </div>
+      <CardText>
+        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+        sicurezza ed altro. Unisciti alla discussione!
+      </CardText>
+    </CardBody>
+  </Card>,
+  <Card key="forum" teaser noWrapper className="no-after rounded shadow-lg">
+    <CardBody className="pb-5">
+      <div className="mb-3 d-flex align-items-center">
+        <Icon color="primary" icon="it-designers-italia" size="lg" />
+        <span className="primary-color px-3 h3 mb-0">Forum</span>
+      </div>
+      <CardText>
+        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
+        sicurezza ed altro. Unisciti alla discussione!
+      </CardText>
+    </CardBody>
+  </Card>,
+];
 
 const Index = ({ data }) => {
   const classes = useStyles();
@@ -112,104 +146,10 @@ const Index = ({ data }) => {
           </h3>
           <div className="row d-none d-lg-flex">
             <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
-              <Card teaser noWrapper className="no-after rounded shadow-lg">
-                <CardBody className="pb-5">
-                  <div className="mb-3 d-flex align-items-center">
-                    <Icon color="primary" icon="it-github" size="lg" />
-                    <span className="primary-color px-3 h3 mb-0">GitHub</span>
-                  </div>
-                  <CardText>
-                    In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                    software, sicurezza ed altro. Unisciti alla discussione!
-                  </CardText>
-                </CardBody>
-              </Card>
-              <Card teaser noWrapper className="no-after rounded shadow-lg">
-                <CardBody className="pb-5">
-                  <div className="mb-3 d-flex align-items-center">
-                    <Icon color="primary" icon="it-star-full" size="lg" />
-                    <span className="primary-color px-3 h3 mb-0">slack</span>
-                  </div>
-                  <CardText>
-                    In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                    software, sicurezza ed altro. Unisciti alla discussione!
-                  </CardText>
-                </CardBody>
-              </Card>
-              <Card teaser noWrapper className="no-after rounded shadow-lg">
-                <CardBody className="pb-5">
-                  <div className="mb-3 d-flex align-items-center">
-                    <Icon color="primary" icon="it-designers-italia" size="lg" />
-                    <span className="primary-color px-3 h3 mb-0">Forum</span>
-                  </div>
-                  <CardText>
-                    In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                    software, sicurezza ed altro. Unisciti alla discussione!
-                  </CardText>
-                </CardBody>
-              </Card>
+              {slides}
             </div>
           </div>
-          <div className="row d-lg-none">
-            <div className="col-12">
-              <Swiper
-                a11y={{
-                  enabled: true,
-                  prevSlideMessage: 'Slide precedente',
-                  nextSlideMessage: 'Slide successiva',
-                  firstSlideMessage: 'Questa è la prima slide',
-                  lastSlideMessage: "Questa è l'ultima slide",
-                  paginationBulletMessage: 'Vai alla slide {{index}}',
-                }}
-                className="shadow-lg"
-                slidesPerView={1}
-                pagination={{ clickable: true, bulletClass: 'swiper-pagination-bullet p-2 mx-3' }}
-              >
-                <SwiperSlide>
-                  <Card teaser noWrapper className="rounded">
-                    <CardBody className="pb-5">
-                      <div className="mb-3 d-flex align-items-center">
-                        <Icon color="primary" icon="it-github" size="lg" />
-                        <span className="primary-color px-3 h3 mb-0">GitHub</span>
-                      </div>
-                      <CardText>
-                        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                        software, sicurezza ed altro. Unisciti alla discussione!
-                      </CardText>
-                    </CardBody>
-                  </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card teaser noWrapper className="rounded">
-                    <CardBody className="pb-5">
-                      <div className="mb-3 d-flex align-items-center">
-                        <Icon color="primary" icon="it-star-full" size="lg" />
-                        <span className="primary-color px-3 h3 mb-0">slack</span>
-                      </div>
-                      <CardText>
-                        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                        software, sicurezza ed altro. Unisciti alla discussione!
-                      </CardText>
-                    </CardBody>
-                  </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card teaser noWrapper className="rounded">
-                    <CardBody className="pb-5">
-                      <div className="mb-3 d-flex align-items-center">
-                        <Icon color="primary" icon="it-designers-italia" size="lg" />
-                        <span className="primary-color px-3 h3 mb-0">Forum</span>
-                      </div>
-                      <CardText>
-                        In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API,
-                        software, sicurezza ed altro. Unisciti alla discussione!
-                      </CardText>
-                    </CardBody>
-                  </Card>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
+          <MobileSwiper slides={slides} />
         </div>
       </div>
     </main>
