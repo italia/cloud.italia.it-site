@@ -1,37 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Timeline as TimelineReactKit, TimelinePin, Card, CardBody, CardTitle, CardText, Icon } from 'design-react-kit';
+import { Timeline as TimelineReactKit, TimelinePin, Card, CardBody, CardTitle, CardText } from 'design-react-kit';
 import { DateTime } from 'luxon';
 import { createUseStyles } from 'react-jss';
+import { ExpandButton } from './ExpandButton.js';
 
 const useStyle = createUseStyles({
-  icon: {
-    transform: (collapsed) => (collapsed ? 'rotate(0deg)' : 'rotate(180deg)'),
-    transition: 'transform 1.5s',
-  },
-  expand: {
-    composes: 'd-flex flex-column align-items-center pt-4',
-    // The timeline is not centered
-    paddingRight: '3px',
-  },
   resetBackground: {
     backgroundColor: 'inherit',
   },
   timeline: {
     composes: 'my-4',
     overflow: 'hidden',
-    maxHeight: (collapsed) => (collapsed ? '400px' : '5000px'),
-    transition: (collapsed) => (collapsed ? 'max-height 2s' : 'max-height 4s'),
+    maxHeight: ({ collapsed, maxHeight }) => (collapsed ? '380px' : maxHeight),
+    transition: 'max-height 1.5s',
   },
 });
 
-// TODO: risolvere problema datetime a tempo di build
-
 export const Timeline = ({ collapsible = true }) => {
-  const [collapsed, setCollapsed] = useState(collapsible);
-  const classes = useStyle(collapsed);
-  const toggleCollapse = () => setCollapsed(!collapsed);
   const {
     allTimelineJson: { nodes: timelineData },
   } = useStaticQuery(graphql`
@@ -46,16 +33,35 @@ export const Timeline = ({ collapsible = true }) => {
       }
     }
   `);
+  const timelineContainer = useRef();
+
+  useEffect(() => {
+    let timeoutId;
+    const resizeListener = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => setMaxHeight(timelineContainer.current.scrollHeight), 150);
+    };
+    window.addEventListener('resize', resizeListener);
+    // ...and call it for the first time
+    resizeListener();
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    };
+  }, []);
+
+  const [collapsed, setCollapsed] = useState(collapsible);
+  const [maxHeight, setMaxHeight] = useState(5000);
+  const classes = useStyle({ collapsed, maxHeight });
+  const toggleCollapse = () => setCollapsed(!collapsed);
+  const dateTimeNow = DateTime.now().setZone('Europe/Rome');
   return (
     <>
       <TimelineReactKit className={classes.timeline}>
-        <div className="row">
+        <div className="row" ref={timelineContainer}>
           {timelineData.map((entry) => {
-            // eslint-disable-next-line sonarjs/no-duplicate-string
             const date = DateTime.fromISO(entry.date, { zone: 'Europe/Rome' });
-            const past = DateTime.now().setZone('Europe/Rome').startOf('month') > date.startOf('month');
-            const now =
-              DateTime.now().setZone('Europe/Rome').startOf('month').toMillis() === date.startOf('month').toMillis();
+            const past = dateTimeNow.startOf('month') > date.startOf('month');
+            const now = dateTimeNow.startOf('month').toMillis() === date.startOf('month').toMillis();
             return (
               <div className="col-12" key={entry.id}>
                 <TimelinePin
@@ -78,10 +84,7 @@ export const Timeline = ({ collapsible = true }) => {
           })}
         </div>
       </TimelineReactKit>
-      <div role="button" className={classes.expand} onClick={toggleCollapse}>
-        <div className="primary-color h6">{collapsed ? 'Scopri di più' : 'Chiudi'}</div>
-        <Icon color="primary" className={classes.icon} icon="it-arrow-down-circle" />
-      </div>
+      <ExpandButton handleCollapse={toggleCollapse} collapsed={collapsed} />
     </>
   );
 };

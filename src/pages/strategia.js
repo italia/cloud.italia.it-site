@@ -33,7 +33,7 @@ const Strategia = () => {
     <main>
       <div>Strategia Nazionale</div>
       <div className={classes.container}>
-        <h2 className="h6 text-uppercase text-center text-lg-left py-3 py-lg-0">I numeri dell'innovazione</h2>
+        <h2 className="h6 text-uppercase text-center text-lg-left py-3 py-lg-0">I numeri dell&apos;innovazione</h2>
         <div className="d-none d-lg-block row">
           <div className="col-lg-9">
             <div className="my-4 row">
