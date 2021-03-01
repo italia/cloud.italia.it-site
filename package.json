@@ -39,9 +39,9 @@
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.20",
     "gatsby-remark-images": "^3.11.0",
     "gatsby-source-filesystem": "^2.11.0",
-    "gatsby-transformer-json": "^2.11.0",
     "gatsby-transformer-remark": "^2.16.0",
     "gatsby-transformer-sharp": "^2.12.0",
+    "gatsby-transformer-yaml": "^2.11.0",
     "gh-pages": "^3.1.0"
   }
 }

@@ -20,10 +20,10 @@ const useStyle = createUseStyles({
 
 export const Timeline = ({ collapsible = true }) => {
   const {
-    allTimelineJson: { nodes: timelineData },
+    allTimelineYaml: { nodes: timelineData },
   } = useStaticQuery(graphql`
     query {
-      allTimelineJson {
+      allTimelineYaml {
         nodes {
           body
           date
@@ -75,7 +75,7 @@ export const Timeline = ({ collapsible = true }) => {
                   <Card className={classes.resetBackground}>
                     <CardBody>
                       <CardTitle className="text-uppercase">{entry.title}</CardTitle>
-                      <CardText>{entry.body}</CardText>
+                      <p className="card-text" dangerouslySetInnerHTML={{ __html: entry.body }} />
                     </CardBody>
                   </Card>
                 </TimelinePin>
