@@ -17,10 +17,13 @@ const useStyles = createUseStyles({
       boxShadow: 'none',
     },
   },
+  main: {
+    backgroundColor: '#e6e9f21f', // TODO: qual è il colore corretto?
+  },
 });
 
 export const Layout = ({ children }) => {
-  useStyles();
+  const classes = useStyles();
   return (
     <>
       <Helmet
@@ -35,7 +38,7 @@ export const Layout = ({ children }) => {
         <noscript>Il tuo browser non supporta JavaScript</noscript>
       </Helmet>
       <Header />
-      {children}
+      <main className={classes.main}>{children}</main>
       <Footer />
     </>
   );

@@ -30,7 +30,7 @@ const Strategia = () => {
     </>,
   ];
   return (
-    <main>
+    <>
       <div>Strategia Nazionale</div>
       <div className={classes.container}>
         <h2 className="h6 text-uppercase text-center text-lg-left py-3 py-lg-0">I numeri dell&apos;innovazione</h2>
@@ -47,7 +47,7 @@ const Strategia = () => {
         </div>
         <MobileSwiper slides={slides} withShadow={false} backgroundColor="#33485C" />
       </div>
-    </main>
+    </>
   );
 };
 

@@ -78,7 +78,7 @@ const slides = [
 const Index = ({ data }) => {
   const classes = useStyles();
   return (
-    <main>
+    <>
       <HeroGraphic
         categoryTitle="Strategia Nazionale"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
@@ -172,7 +172,7 @@ const Index = ({ data }) => {
           <MobileSwiper slides={slides} />
         </div>
       </div>
-    </main>
+    </>
   );
 };
 

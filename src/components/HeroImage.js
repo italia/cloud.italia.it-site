@@ -12,7 +12,7 @@ const useStyle = createUseStyles({
   },
   imgResponsiveWrapper: {
     position: 'absolute',
-    width: ({ big }) => (big ? '100%' : '70vw'),
+    width: '100%',
     height: '100%',
   },
   figure: {
@@ -27,12 +27,16 @@ const useStyle = createUseStyles({
 
 export const HeroImage = ({ fluidImg, alt, caption, big = true }) => {
   const classes = useStyle({ caption, big });
-  const hero = classNames(`${classes.hero}`, 'it-hero-wrapper', { 'it-hero-small-size': !big });
+  const heroClass = classNames(`${classes.hero}`, 'it-hero-wrapper', { 'it-hero-small-size': !big });
+  const imgResponsiveWrapperClass = classNames(`${classes.imgResponsiveWrapper}`, {
+    'col-xs-12 col-sm-10 col-md-9 col-lg-8 m-auto': !big,
+    'col-12': big,
+  });
   return (
     <>
       <figure className={classes.figure}>
-        <div className={hero}>
-          <div className={classes.imgResponsiveWrapper}>
+        <div className={heroClass}>
+          <div className={imgResponsiveWrapperClass}>
             <Img fluid={fluidImg} alt={alt} style={{ position: 'initial' }} />
           </div>
         </div>

@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
   heroContainer: {
     composes: 'it-hero-wrapper',
     // eslint-disable-next-line sonarjs/no-duplicate-string
-    backgroundColor: (data) => (data.theme === 'white' ? 'var(--white)' : 'var(--primary)'),
+    backgroundColor: (data) => (data.theme === 'white' ? 'initial' : 'var(--primary)'),
   },
   heroRow: {
     composes: 'row',
@@ -103,7 +103,7 @@ export const HeroGraphic = ({
               <h3 className={classes.title}>{title}</h3>
               <div className={classes.subtitle}>{subtitle}</div>
             </div>
-            <div className={actionsWrapper}>{actions()}</div>
+            {actions && <div className={actionsWrapper}>{actions()}</div>}
           </div>
           <div className={classes.graphicContainer}>
             <Img className={classes.graphic} fluid={fluidImg} alt="Una bella grafica" />
@@ -118,7 +118,7 @@ HeroGraphic.propTypes = {
   categoryTitle: PropTypes.string,
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
-  actions: PropTypes.func.isRequired,
+  actions: PropTypes.func,
   fluidImg: fluidImgProptype,
   imageSide: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.oneOf(['white', 'primary']),

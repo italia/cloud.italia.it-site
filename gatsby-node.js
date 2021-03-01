@@ -40,6 +40,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'type',
       value: parent.sourceInstanceName,
     });
+
+    createNodeField({
+      node,
+      name: 'name',
+      value: parent.name,
+    });
   }
 };
 
