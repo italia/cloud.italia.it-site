@@ -35,7 +35,6 @@ export const Layout = ({ children }) => {
       >
         <html lang="it" />
         <link rel="icon" href={favicon} />
-        <noscript>Il tuo browser non supporta JavaScript</noscript>
       </Helmet>
       <Header />
       <main className={classes.main}>{children}</main>
