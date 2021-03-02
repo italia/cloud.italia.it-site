@@ -155,7 +155,7 @@ const Index = ({ data }) => {
             {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
           </div>
         </div>
-        <MobileSwiper slides={slides} className="bg-white" />
+        <MobileSwiper slides={slides} />
       </div>
 
       <div className="pb-5 lightgrey-bg-a2">
@@ -169,7 +169,7 @@ const Index = ({ data }) => {
               {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
             </div>
           </div>
-          <MobileSwiper slides={slides} className="bg-white" />
+          <MobileSwiper slides={slides} />
         </div>
       </div>
     </>

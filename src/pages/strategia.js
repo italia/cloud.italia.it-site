@@ -45,7 +45,7 @@ const Strategia = () => {
             </div>
           </div>
         </div>
-        <MobileSwiper slides={slides} className="pb-5" withShadow={false} activeBulletBgColor="#33485C" />
+        <MobileSwiper slides={slides} withShadow={false} activeBulletBgColor="#33485C" />
       </div>
     </>
   );
