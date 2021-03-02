@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  html-proofer:
+    image: 'html-proofer'
+    build:
+      context: .
+    volumes:
+      - ./public:/opt

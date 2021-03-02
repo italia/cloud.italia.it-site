@@ -10,6 +10,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "lint": "eslint src --ext .js",
+    "html-proofer": "docker-compose up --build",
     "serve": "gatsby serve"
   },
   "dependencies": {

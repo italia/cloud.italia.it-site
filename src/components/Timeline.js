@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Timeline as TimelineReactKit, TimelinePin, Card, CardBody, CardTitle, CardText } from 'design-react-kit';
+import { Timeline as TimelineReactKit, TimelinePin, Card, CardBody, CardTitle } from 'design-react-kit';
 import { DateTime } from 'luxon';
 import { createUseStyles } from 'react-jss';
 import { ExpandButton } from './ExpandButton.js';
