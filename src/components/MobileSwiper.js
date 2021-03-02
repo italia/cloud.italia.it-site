@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import SwiperCore, { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -25,7 +25,13 @@ const useStyles = createUseStyles({
 export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = '#0066CC' }) => {
   const classes = useStyles({ activeBulletBgColor });
   const swiperContainerClass = classNames({ 'shadow-lg': withShadow });
-  const paginationId = useRef(Math.floor(Math.random() * 100));
+  const [paginationId, setPaginationId] = useState(null);
+
+  // The pagination controller doesn't work with SSR, so we need to render it at runtime
+  useEffect(() => {
+    setPaginationId(`swiper-pagination-${Math.floor(Math.random() * 10000)}`);
+  }, []);
+
   return (
     <>
       <div className="row d-lg-none">
@@ -42,7 +48,7 @@ export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = 
             className={swiperContainerClass}
             slidesPerView={1}
             pagination={{
-              el: `[data-swiper-id=swiper-pagination-${paginationId.current}]`,
+              el: `[data-swiper-id=${paginationId}]`,
               clickable: true,
               bulletClass: 'swiper-pagination-bullet p-2 mx-3',
               bulletActiveClass: classes.activeBullet,
@@ -57,7 +63,7 @@ export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = 
         </div>
       </div>
       <div className="d-flex justify-content-center pt-3 d-lg-none">
-        <div data-swiper-id={`swiper-pagination-${paginationId.current}`} className="swiper-pagination"></div>
+        {paginationId && <div data-swiper-id={paginationId} className="swiper-pagination"></div>}
       </div>
     </>
   );
