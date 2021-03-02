@@ -9,9 +9,6 @@ import classNames from 'classnames';
 SwiperCore.use([Pagination, A11y]);
 
 const useStyles = createUseStyles({
-  swiperContainer: {
-    minHeight: '210px',
-  },
   swiperSlide: {
     '@global': {
       div: {
@@ -21,13 +18,13 @@ const useStyles = createUseStyles({
   },
   activeBullet: {
     composes: 'swiper-pagination-bullet-active',
-    backgroundColor: ({ backgroundColor }) => backgroundColor,
+    backgroundColor: ({ activeBulletBgColor }) => activeBulletBgColor,
   },
 });
 
-export const MobileSwiper = ({ slides, withShadow = true, backgroundColor = '#0066CC' }) => {
-  const classes = useStyles({ backgroundColor });
-  const swiperContainerClass = classNames(classes.swiperContainer, { 'shadow-lg': withShadow });
+export const MobileSwiper = ({ slides, className = '', withShadow = true, activeBulletBgColor = '#0066CC' }) => {
+  const classes = useStyles({ activeBulletBgColor, className });
+  const swiperContainerClass = classNames(`${className}`, { 'shadow-lg': withShadow });
   return (
     <div className="row d-lg-none">
       <div className="col-12">
@@ -61,6 +58,7 @@ export const MobileSwiper = ({ slides, withShadow = true, backgroundColor = '#00
 
 MobileSwiper.propTypes = {
   slides: PropTypes.arrayOf(PropTypes.node).isRequired,
+  className: PropTypes.string,
   withShadow: PropTypes.bool,
-  backgroundColor: PropTypes.string,
+  activeBulletBgColor: PropTypes.string,
 };
