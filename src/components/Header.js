@@ -14,6 +14,7 @@ import {
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
+import { HeaderNav } from './HeaderNav.js';
 
 const useStyle = createUseStyles({
   h6: {
@@ -148,11 +149,16 @@ const NavHeader = () => {
   const toogleMenu = () => setIsOpen(!isOpen);
   return (
     <HeaderReactKit type="navbar" theme="light">
-      <HeaderContent expand="lg" megamenu>
-        <HeaderToggler onClick={() => setIsOpen(!isOpen)} aria-expanded="false" aria-label="Toggle navigation">
+      <HeaderContent expand="lg" megamenu aria-label="Menu principale">
+        <HeaderToggler
+          onClick={() => setIsOpen(!isOpen)}
+          aria-expanded={isOpen}
+          aria-label="Mostra / Nascondi la navigazione"
+        >
           <Icon icon="it-burger" />
         </HeaderToggler>
-        <Collapse isOpen={isOpen} navbar header onOverlayClick={toogleMenu}>
+
+        <HeaderNav isOpen={isOpen} onCloseMenu={toogleMenu}>
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
@@ -187,7 +193,7 @@ const NavHeader = () => {
               </NavItem>
             </Nav>
           </div>
-        </Collapse>
+        </HeaderNav>
       </HeaderContent>
     </HeaderReactKit>
   );
