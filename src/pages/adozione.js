@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { getImage } from 'gatsby-plugin-image';
 import { createUseStyles } from 'react-jss';
 import { HeroGraphic } from '../components/HeroGraphic.js';
 import { HeroImage } from '../components/HeroImage.js';
@@ -39,16 +40,12 @@ const Adozione = () => {
       }
       graphic: file(relativePath: { eq: "unsplash.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
+          gatsbyImageData(placeholder: BLURRED)
         }
       }
       image: file(relativePath: { eq: "unsplash_4.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
+          gatsbyImageData(placeholder: BLURRED)
         }
       }
     }
@@ -58,12 +55,12 @@ const Adozione = () => {
       <HeroGraphic
         subtitle="Strumenti, risorse e metodologie per innovare i servizi digitali pubblici utilizzando le tecnologie e le infrastrutture cloud."
         title="Programma di abilitazione al cloud"
-        fluidImg={graphic.childImageSharp.fluid}
+        gatsbyImage={getImage(graphic)}
         imageSide="right"
         theme="white"
       />
       <div className="container pb-4">
-        <HeroImage alt={'Una bella immagine'} fluidImg={image.childImageSharp.fluid} big={false} />
+        <HeroImage alt={'Una bella immagine'} gatsbyImage={getImage(image)} big={false} />
       </div>
       <div className="container">
         <div className="row align-items-center">

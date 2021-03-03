@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import { getImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
 import { Card, CardBody, CardText, Icon } from 'design-react-kit';
@@ -83,7 +84,7 @@ const Index = ({ data }) => {
         categoryTitle="Strategia Nazionale"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Il cloud per innovare il Sistema Italia"
-        fluidImg={data.img_1.childImageSharp.fluid}
+        gatsbyImage={getImage(data.img_1)}
         imageSide="right"
         theme="primary"
         actions={() => (
@@ -101,7 +102,7 @@ const Index = ({ data }) => {
         categoryTitle="Programma di adozione"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Scopri come aderire al modello cloud per la PA"
-        fluidImg={data.img_2.childImageSharp.fluid}
+        gatsbyImage={getImage(data.img_2)}
         imageSide="left"
         actions={() => (
           <>
@@ -114,10 +115,10 @@ const Index = ({ data }) => {
           </>
         )}
       />
-      <HeroImage fluidImg={data.img_4.childImageSharp.fluid} alt="Una bella immagine" caption="Una bella didascalia" />
+      <HeroImage gatsbyImage={getImage(data.img_4)} alt="Una bella immagine" caption="Una bella didascalia" />
       <HeroImage
         big={false}
-        fluidImg={data.img_3.childImageSharp.fluid}
+        gatsbyImage={getImage(data.img_3)}
         alt="Una bella immagine"
         caption="Una bella didascalia"
       />
@@ -125,7 +126,7 @@ const Index = ({ data }) => {
         categoryTitle="Qualificazione dei servizi"
         subtitle="Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus."
         title="Scopri come qualificare i servizi"
-        fluidImg={data.img_1.childImageSharp.fluid}
+        gatsbyImage={getImage(data.img_1)}
         imageSide="right"
         theme="primary"
         actions={() => (
@@ -191,30 +192,22 @@ export const query = graphql`
   query {
     img_1: file(relativePath: { eq: "unsplash.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
+        gatsbyImageData(placeholder: BLURRED)
       }
     }
     img_2: file(relativePath: { eq: "unsplash_2.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
+        gatsbyImageData(placeholder: BLURRED)
       }
     }
     img_3: file(relativePath: { eq: "unsplash_3.jpg" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
+        gatsbyImageData(placeholder: BLURRED)
       }
     }
     img_4: file(relativePath: { eq: "unsplash_4.jpg" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
+        gatsbyImageData(placeholder: BLURRED)
       }
     }
   }

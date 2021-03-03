@@ -4,12 +4,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
-    {
-      resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
-      options: {
-        disable: true,
-      },
-    },
     `gatsby-plugin-jss`,
     `gatsby-plugin-react-helmet`,
     {
@@ -50,6 +44,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-yaml`,
