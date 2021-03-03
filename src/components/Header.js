@@ -5,16 +5,12 @@ import {
   Header as HeaderReactKit,
   Headers,
   HeaderContent,
-  HeaderRightZone,
-  HeaderSocialsZone,
   HeaderToggler,
   Icon,
   Nav,
   NavItem,
   HeaderBrand,
   HeaderLinkZone,
-  LinkList,
-  LinkListItem,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
@@ -31,6 +27,18 @@ const useStyle = createUseStyles({
     fontSize: '.778em',
     fontWeight: '600',
     padding: '.5rem 0',
+  },
+  /* Used due to inability to set classes to li tag with design react kit (LinkListItem) */
+  verticalGroupDelimiter: {
+    borderRight: '1px solid rgba(0,89,179,.2)',
+  },
+  horizontalGroupDelimiter: {
+    backgroundColor: 'rgba(0,89,179,.2)',
+  },
+  '@media (max-width: 992px)': {
+    verticalGroupDelimiter: {
+      borderRight: 'none',
+    },
   },
 });
 
@@ -66,36 +74,44 @@ const SlimHeader = () => {
             <Icon icon="it-expand" size="sm" color="primary" />
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
-            <LinkList tag="div">
-              <LinkListItem
-                tag="a"
-                href="https://pianotriennale-ict.italia.it/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Piano Triennale: (Link esterno) Vai a Piano Triennale"
-              >
-                Piano Triennale
-              </LinkListItem>
-              <LinkListItem divider />
-              <LinkListItem
-                tag="a"
-                href="https://developers.italia.it/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Developers Italia: (Link esterno) Vai a Developers Italia"
-              >
-                Developers
-              </LinkListItem>
-              <LinkListItem
-                tag="a"
-                href="https://designers.italia.it/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Designers Italia: (Link esterno) Vai a Designers Italia"
-              >
-                Designers
-              </LinkListItem>
-            </LinkList>
+            <div className="link-list-wrapper">
+              <ul className="link-list pl-0 pr-0">
+                <li className={classes.verticalGroupDelimiter}>
+                  <a
+                    className="list-item"
+                    href="https://pianotriennale-ict.italia.it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Piano Triennale: (Link esterno) Vai a Piano Triennale"
+                  >
+                    Piano Triennale
+                  </a>
+                </li>
+                <hr className={classes.horizontalGroupDelimiter} />
+                <li>
+                  <a
+                    className="list-item"
+                    href="https://developers.italia.it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Developers Italia: (Link esterno) Vai a Developers Italia"
+                  >
+                    Developers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="list-item"
+                    href="https://designers.italia.it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Designers Italia: (Link esterno) Vai a Designers Italia"
+                  >
+                    Designers
+                  </a>
+                </li>
+              </ul>
+            </div>
           </Collapse>
         </HeaderLinkZone>
       </HeaderContent>
@@ -121,23 +137,6 @@ const CenterHeader = () => {
             </div>
           </Link>
         </div>
-        <HeaderRightZone>
-          <HeaderSocialsZone label="Leggi di più su">
-            <ul>
-              <li>
-                <a
-                  href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
-                  className="d-block mr-3"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Medium"
-                >
-                  <Icon icon="it-medium" />
-                </a>
-              </li>
-            </ul>
-          </HeaderSocialsZone>
-        </HeaderRightZone>
       </HeaderContent>
     </HeaderReactKit>
   );
