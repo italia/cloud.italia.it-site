@@ -1,9 +1,9 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import classNames from 'classnames';
-import { fluidImgProptype } from '../utils/proptypes.js';
+import { gatsbyImageDataProptype } from '../utils/proptypes.js';
 
 const useStyles = createUseStyles({
   heroContainer: {
@@ -68,7 +68,7 @@ export const HeroGraphic = ({
   title,
   subtitle,
   actions,
-  fluidImg,
+  gatsbyImage,
   imageSide = 'right',
   theme = 'white',
 }) => {
@@ -106,7 +106,7 @@ export const HeroGraphic = ({
             {actions && <div className={actionsWrapper}>{actions()}</div>}
           </div>
           <div className={classes.graphicContainer}>
-            <Img className={classes.graphic} fluid={fluidImg} alt="Una bella grafica" />
+            <GatsbyImage className={classes.graphic} alt="Una bella grafica" image={gatsbyImage} />
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ HeroGraphic.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   actions: PropTypes.func,
-  fluidImg: fluidImgProptype,
+  gatsbyImage: gatsbyImageDataProptype,
   imageSide: PropTypes.oneOf(['left', 'right']),
   theme: PropTypes.oneOf(['white', 'primary']),
 };

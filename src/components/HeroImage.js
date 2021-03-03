@@ -1,9 +1,9 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { fluidImgProptype } from '../utils/proptypes.js';
+import { gatsbyImageDataProptype } from '../utils/proptypes.js';
 
 const useStyle = createUseStyles({
   hero: {
@@ -25,7 +25,7 @@ const useStyle = createUseStyles({
   },
 });
 
-export const HeroImage = ({ fluidImg, alt, caption, big = true }) => {
+export const HeroImage = ({ gatsbyImage, alt, caption, big = true }) => {
   const classes = useStyle({ caption, big });
   const heroClass = classNames(`${classes.hero}`, 'it-hero-wrapper', { 'it-hero-small-size': !big });
   const imgResponsiveWrapperClass = classNames(`${classes.imgResponsiveWrapper}`, {
@@ -37,7 +37,7 @@ export const HeroImage = ({ fluidImg, alt, caption, big = true }) => {
       <figure className={classes.figure}>
         <div className={heroClass}>
           <div className={imgResponsiveWrapperClass}>
-            <Img fluid={fluidImg} alt={alt} style={{ position: 'initial' }} />
+            <GatsbyImage image={gatsbyImage} alt={alt} style={{ position: 'initial' }} />
           </div>
         </div>
         {caption && (
@@ -52,7 +52,7 @@ export const HeroImage = ({ fluidImg, alt, caption, big = true }) => {
 };
 
 HeroImage.propTypes = {
-  fluidImg: fluidImgProptype,
+  gatsbyImage: gatsbyImageDataProptype,
   alt: PropTypes.string.isRequired,
   caption: PropTypes.string,
   big: PropTypes.bool,
