@@ -12,7 +12,7 @@ import {
   HeaderBrand,
   HeaderLinkZone,
   HeaderRightZone,
-  HeaderSocialsZone
+  HeaderSocialsZone,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
