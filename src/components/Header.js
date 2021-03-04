@@ -11,6 +11,8 @@ import {
   NavItem,
   HeaderBrand,
   HeaderLinkZone,
+  HeaderRightZone,
+  HeaderSocialsZone
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
@@ -138,6 +140,23 @@ const CenterHeader = () => {
             </div>
           </Link>
         </div>
+        <HeaderRightZone>
+          <HeaderSocialsZone label="Seguici su">
+            <ul>
+              <li>
+                <a
+                  href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
+                  className="d-block mr-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it"
+                >
+                  <Icon icon="it-medium" />
+                </a>
+              </li>
+            </ul>
+          </HeaderSocialsZone>
+        </HeaderRightZone>
       </HeaderContent>
     </HeaderReactKit>
   );
