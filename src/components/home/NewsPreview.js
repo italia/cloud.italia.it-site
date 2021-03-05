@@ -80,9 +80,7 @@ export const NewsPreview = () => {
           {slides}
         </div>
       </div>
-      <div className="mt-4">
-        <MobileSwiper slides={slides} />
-      </div>
+      <MobileSwiper slides={slides} />
     </Hero>
   );
 };

@@ -32,7 +32,7 @@ export const MobileSwiper = ({ slides }) => {
 
   return (
     <>
-      <div className="row d-lg-none">
+      <div className="row mt-4 d-lg-none">
         <div className="col-12">
           <Swiper
             a11y={{
