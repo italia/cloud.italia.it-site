@@ -213,31 +213,47 @@ const NavHeader = () => {
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
-                <Link to="/strategia/" className="nav-link" activeClassName="active" onClick={closeMenu}>
+                <Link to="/strategia-cloud-pa/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Strategia cloud</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/adozione/" className="nav-link" activeClassName="active" onClick={closeMenu}>
+                <Link
+                  to="/programma-abilitazione-cloud/"
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">Programma di abilitazione</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/servizi/" className="nav-link" activeClassName="active" onClick={closeMenu}>
+                <Link
+                  to="/qualificazione-servizi-cloud/"
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">Qualificazione dei servizi</span>
                 </Link>
               </NavItem>
 
               <NavItem>
-                <Link to="/notizie/" className="nav-link" activeClassName="active" onClick={closeMenu}>
+                <Link to="/catalogo-servizi-cloud/" className="nav-link" activeClassName="active" onClick={closeMenu}>
                   <span className="font-weight-semibold">Catalogo dei servizi</span>
                 </Link>
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
               <NavItem>
-                <a href="https://www.agid.gov.it/" className="nav-link">
+                <a
+                  href="https://cloud.italia.it/marketplace"
+                  rel="noreferrer"
+                  target="_blank"
+                  aria-label="Marketplace: (Link esterno) Vai a Marketplace"
+                  className="nav-link"
+                >
                   <span className="font-weight-semibold">Marketplace</span>
                   <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
                 </a>

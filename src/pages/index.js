@@ -53,7 +53,7 @@ const Index = ({ data }) => {
               <div className="text-center text-lg-left">
                 <h2 className={classes.category}>La strategia nazione cloud della PA</h2>
                 <h3 className="h1">
-                  <Link to="/strategia/" className="text-decoration-none">
+                  <Link to="/strategia-cloud-pa/" className="text-decoration-none">
                     Il modello per realizzare il sistema operativo del Paese
                   </Link>
                 </h3>
@@ -64,10 +64,10 @@ const Index = ({ data }) => {
                 </div>
               </div>
               <div className="my-4 mt-lg-5 text-center d-flex flex-wrap justify-content-center justify-content-lg-start">
-                <Link to="/strategia/" className={`${ctaBaseClasses} btn-primary`}>
+                <Link to="/strategia-cloud-pa/" className={`${ctaBaseClasses} btn-primary`}>
                   Scopri di più
                 </Link>
-                <Link to="/strategia/" className={`${ctaBaseClasses} btn-outline-primary`}>
+                <Link to="/programma-abilitazione-cloud/" className={`${ctaBaseClasses} btn-outline-primary`}>
                   Programma di abilitazione
                 </Link>
               </div>
@@ -78,7 +78,13 @@ const Index = ({ data }) => {
           </div>
           <div className="row mt-lg-2 mt-0">
             <div className="offset-lg-1 col-lg-11 text-center text-lg-left">
-              <a href="https://www.agid.gov.it/" className="btn-icon text-dark">
+              <a
+                href="https://cloud.italia.it/marketplace/opendata"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="Open data marketplace: (Link esterno) Vai a open data marketplace"
+                className="btn-icon text-dark"
+              >
                 <span>Open Data Cloud Marketplace</span>
                 <Icon className="ml-2" icon="it-external-link" size="sm" />
               </a>
@@ -116,7 +122,7 @@ const Index = ({ data }) => {
               <div className="text-center text-lg-left">
                 <h2 className={classes.category}>Il Programma di Abilitazione</h2>
                 <h3 className="h1">
-                  <Link to="/strategia/" className="text-decoration-none">
+                  <Link to="/programma-abilitazione-cloud/" className="text-decoration-none">
                     Come aderire al modello Cloud della PA
                   </Link>
                 </h3>
@@ -126,7 +132,7 @@ const Index = ({ data }) => {
                 </div>
               </div>
               <div className="my-4 mt-lg-5 text-center d-flex flex-wrap justify-content-center justify-content-lg-start">
-                <Link to="/strategia/" className={`${ctaBaseClasses} btn-primary`}>
+                <Link to="/programma-abilitazione-cloud/" className={`${ctaBaseClasses} btn-primary`}>
                   Scopri di più
                 </Link>
               </div>
@@ -145,7 +151,7 @@ const Index = ({ data }) => {
               <div className="col-xl-9 col-lg-11 text-center text-lg-left text-white">
                 <h2 className={classes.category}>La qualificazione dei servizi e il catalogo</h2>
                 <h3 className="h1">
-                  <Link to="/strategia/" className="text-decoration-none text-white">
+                  <Link to="/qualificazione-servizi-cloud/" className="text-decoration-none text-white">
                     Il percorso di qualificazione e il catalogo dei servizi cloud
                   </Link>
                 </h3>
@@ -156,15 +162,21 @@ const Index = ({ data }) => {
                 </div>
               </div>
               <div className="my-4 mt-lg-5 text-center d-flex flex-wrap justify-content-center justify-content-lg-start">
-                <Link to="/strategia/" className={`${classes.linkColorPrimary} ${ctaBaseClasses} btn-primary`}>
+                <Link
+                  to="/qualificazione-servizi-cloud/"
+                  className={`${classes.linkColorPrimary} ${ctaBaseClasses} btn-primary`}
+                >
                   Scopri di più
                 </Link>
-                <Link to="/strategia/" className={`${classes.shadowWhite} ${ctaBaseClasses} btn-primary`}>
+                <Link to="/catalogo-servizi-cloud/" className={`${classes.shadowWhite} ${ctaBaseClasses} btn-primary`}>
                   Catalogo dei servizi
                 </Link>
                 <div aria-hidden="true" className={classes.verticalDelimiter} />
                 <a
-                  href="https://www.agid.gov.it/"
+                  href="https://cloud.italia.it/marketplace"
+                  rel="noreferrer"
+                  target="_blank"
+                  aria-label="Marketplace: (Link esterno) Vai a Marketplace"
                   className={`${classes.linkColorPrimary} ${ctaBaseClasses} btn-primary btn-icon`}
                 >
                   <span className="mr-3">Marketplace agid</span>

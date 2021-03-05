@@ -23,7 +23,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const Adozione = () => {
+const CloudEnablement = () => {
   const classes = useStyles();
   const {
     allMarkdownRemark: {
@@ -71,4 +71,4 @@ const Adozione = () => {
   );
 };
 
-export default Adozione;
+export default CloudEnablement;

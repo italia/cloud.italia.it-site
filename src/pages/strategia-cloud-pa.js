@@ -13,7 +13,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const Strategia = () => {
+const Strategy = () => {
   const classes = useStyles();
   const slides = [
     <>
@@ -51,4 +51,4 @@ const Strategia = () => {
   );
 };
 
-export default Strategia;
+export default Strategy;

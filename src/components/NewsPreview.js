@@ -57,7 +57,7 @@ export const NewsPreview = () => {
           </span>
         </div>
         <h4 className="h6 text-primary font-weight-bold">
-          <a href={item.link} className="text-decoration-none">
+          <a href={item.link} className="text-decoration-none" rel="noreferrer" target="_blank">
             {item.title}
           </a>
         </h4>

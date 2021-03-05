@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import dtdLogo from '../images/dtd-logo.svg';
 import agidLogo from '../images/agid-logo.svg';
@@ -60,6 +61,11 @@ const SlimFooter = () => {
             >
               Dichiarazione di accessibilità
             </a>
+          </li>
+          <li className="list-inline-item mr-0 mr-md-5">
+            <Link to="/glossario/cloud" className="list-item mid-footer-link mx-4 mx-md-0">
+              Glossario
+            </Link>
           </li>
         </ul>
       </div>
