@@ -90,7 +90,9 @@ const SlimHeader = () => {
                     Piano Triennale
                   </a>
                 </li>
-                <hr className={classes.horizontalGroupDelimiter} />
+                <li aria-hidden={true}>
+                  <hr className={classes.horizontalGroupDelimiter} />
+                </li>
                 <li>
                   <a
                     className="list-item"
