@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Catalogue = () => <>Notizie</>;
+const CataloguePage = () => <>Notizie</>;
 
-export default Catalogue;
+export default CataloguePage;

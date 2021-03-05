@@ -2,124 +2,28 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import classNames from 'classnames';
 import { gatsbyImageDataProptype } from '../utils/proptypes.js';
 
 const useStyles = createUseStyles({
-  heroContainer: {
-    composes: 'it-hero-wrapper',
-    // eslint-disable-next-line sonarjs/no-duplicate-string
-    backgroundColor: (data) => (data.theme === 'white' ? 'initial' : 'var(--primary)'),
-  },
-  heroRow: {
-    composes: 'row',
-    flexDirection: (data) => (data.imageSide === 'left' ? 'row-reverse' : 'row'),
-  },
-  category: {
-    composes: 'text-uppercase h6',
-    fontWeight: '600',
-    letterSpacing: '.9px',
-    // eslint-disable-next-line sonarjs/no-duplicate-string
-    color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
-  },
-  title: {
-    composes: 'h1',
-    color: (data) => (data.theme === 'white' ? ['var(--primary)', '!important'] : ['var(--white)', '!important']),
-  },
-  subtitle: {
-    composes: 'd-none d-lg-block',
-    fontSize: '1.2rem',
-    color: (data) => (data.theme === 'white' ? ['var(--black)', '!important'] : ['var(--white)', '!important']),
-  },
-  text: {
-    composes: (data) =>
-      data.imageSide === 'right'
-        ? 'it-hero-text-wrapper p-0 mt-4 mt-lg-0 text-center text-lg-left col-lg-10'
-        : 'it-hero-text-wrapper p-0 mt-4 mt-lg-0 text-center text-lg-left col-lg-10 ml-auto',
-  },
-  graphicContainer: {
-    composes: 'd-flex col-lg-4 justify-content-center mt-4 mt-lg-0',
-  },
-  graphic: {
-    composes: 'rounded-circle',
-    width: '378px',
-    height: '378px',
-    objectFit: 'cover',
-  },
-  '@media (max-width: 1200px)': {
-    graphic: {
-      width: '315px',
-      height: '315px',
-    },
-  },
+  heroGraphic: {},
   '@media (max-width: 992px)': {
-    graphicContainer: {
+    heroGraphic: {
       order: -1,
-    },
-    graphic: {
-      width: '250px',
-      height: '250px',
     },
   },
 });
 
-export const HeroGraphic = ({
-  categoryTitle,
-  title,
-  subtitle,
-  actions,
-  gatsbyImage,
-  imageSide = 'right',
-  theme = 'white',
-}) => {
-  const classes = useStyles({ imageSide, theme });
-  const textWrapper = classNames(
-    'it-hero-text-wrapper',
-    'p-0',
-    'mt-4',
-    'mt-lg-0',
-    'text-center',
-    'text-lg-left',
-    'col-lg-10',
-    { 'ml-auto': imageSide === 'left' }
-  );
-  const actionsWrapper = classNames(
-    'my-4',
-    'mt-lg-5',
-    'text-center',
-    'd-flex',
-    'flex-wrap',
-    'justify-content-center',
-    'justify-content-lg-start',
-    { 'col-lg-10': imageSide === 'left', 'ml-auto': imageSide === 'left', 'pl-0': imageSide === 'left' }
-  );
+export const HeroGraphic = ({ alt, className = '', image }) => {
+  const classes = useStyles();
   return (
-    <div className={classes.heroContainer}>
-      <div className="container">
-        <div className={classes.heroRow}>
-          <div className="col-12 col-lg-8">
-            <div className={textWrapper}>
-              {categoryTitle && <h2 className={classes.category}>{categoryTitle}</h2>}
-              <h3 className={classes.title}>{title}</h3>
-              <div className={classes.subtitle}>{subtitle}</div>
-            </div>
-            {actions && <div className={actionsWrapper}>{actions()}</div>}
-          </div>
-          <div className={classes.graphicContainer}>
-            <GatsbyImage className={classes.graphic} alt="Una bella grafica" image={gatsbyImage} />
-          </div>
-        </div>
-      </div>
+    <div className={`${classes.heroGraphic} ${className}`}>
+      <GatsbyImage alt={alt} image={image} />
     </div>
   );
 };
 
 HeroGraphic.propTypes = {
-  categoryTitle: PropTypes.string,
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-  actions: PropTypes.func,
-  gatsbyImage: gatsbyImageDataProptype,
-  imageSide: PropTypes.oneOf(['left', 'right']),
-  theme: PropTypes.oneOf(['white', 'primary']),
+  alt: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  image: gatsbyImageDataProptype,
 };

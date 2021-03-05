@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
-import { MobileSwiper } from './MobileSwiper.js';
+import { MobileSwiper } from '../MobileSwiper.js';
+import { Hero } from '../Hero.js';
 
 const data = [
   {
@@ -52,7 +53,7 @@ export const HowToContribute = () => {
     </Card>
   ));
   return (
-    <div className="container py-xl-5">
+    <Hero bgColor="light">
       <div className="row">
         <div className="col-xl-4 col-lg-5 text-lg-left text-center">
           <h2 className="text-uppercase h6 font-weight-semibold">Come contribuire</h2>
@@ -65,6 +66,6 @@ export const HowToContribute = () => {
         </div>
       </div>
       <MobileSwiper slides={slides} />
-    </div>
+    </Hero>
   );
 };

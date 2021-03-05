@@ -23,7 +23,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const CloudEnablement = () => {
+const CloudEnablementPage = () => {
   const classes = useStyles();
   const {
     allMarkdownRemark: {
@@ -71,4 +71,4 @@ const CloudEnablement = () => {
   );
 };
 
-export default CloudEnablement;
+export default CloudEnablementPage;
