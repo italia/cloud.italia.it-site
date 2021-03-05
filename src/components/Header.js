@@ -81,7 +81,6 @@ const SlimHeader = () => {
               <ul className="link-list pl-0 pr-0">
                 <li className={classes.verticalGroupDelimiter}>
                   <a
-                    className="list-item"
                     href="https://pianotriennale-ict.italia.it/"
                     target="_blank"
                     rel="noreferrer"
@@ -95,7 +94,6 @@ const SlimHeader = () => {
                 </li>
                 <li>
                   <a
-                    className="list-item"
                     href="https://developers.italia.it/"
                     target="_blank"
                     rel="noreferrer"
@@ -104,15 +102,47 @@ const SlimHeader = () => {
                     Developers
                   </a>
                 </li>
-                <li>
+                <li className={classes.verticalGroupDelimiter}>
                   <a
-                    className="list-item"
                     href="https://designers.italia.it/"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Designers Italia: (Link esterno) Vai a Designers Italia"
                   >
                     Designers
+                  </a>
+                </li>
+                <li aria-hidden={true}>
+                  <hr className={classes.horizontalGroupDelimiter} />
+                </li>
+                <li>
+                  <a
+                    href="https://forum.italia.it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Forum Italia: (Link esterno) Vai a Forum Italia"
+                  >
+                    Forum
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.italia.it/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Docs Italia: (Link esterno) Vai a Docs Italia"
+                  >
+                    Docs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/italia/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="GitHub Italia: (Link esterno) Vai a GitHub Italia"
+                  >
+                    GitHub
                   </a>
                 </li>
               </ul>
