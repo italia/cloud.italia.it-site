@@ -52,7 +52,7 @@ export const HowToContribute = () => {
     </Card>
   ));
   return (
-    <div className="container">
+    <div className="container py-xl-5">
       <div className="row">
         <div className="col-xl-4 col-lg-5 text-lg-left text-center">
           <h2 className="text-uppercase h6 font-weight-semibold">Come contribuire</h2>

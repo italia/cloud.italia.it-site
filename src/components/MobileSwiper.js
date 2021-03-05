@@ -60,7 +60,7 @@ export const MobileSwiper = ({ slides }) => {
           </Swiper>
         </div>
       </div>
-      <div className="d-flex justify-content-center pt-3 d-lg-none">
+      <div className="pb-4 d-flex justify-content-center pt-3 d-lg-none">
         {paginationId && <div data-swiper-id={paginationId} className="swiper-pagination"></div>}
       </div>
     </>

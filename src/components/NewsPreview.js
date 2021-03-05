@@ -71,7 +71,7 @@ export const NewsPreview = () => {
   ));
 
   return (
-    <div className="container">
+    <div className="container py-xl-5">
       <div className="row align-items-center justify-content-center">
         <h2 className="col-12 text-center text-uppercase h6">Le notizie</h2>
         <h3 className="col-12 text-center h1">Articoli e approfondimenti</h3>

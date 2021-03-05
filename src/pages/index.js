@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     letterSpacing: '.9px',
   },
   sneakPeek: {
-    fontSize: '1.2rem',
+    fontSize: '1.3rem',
   },
   graphicContainer: {},
   '@media (max-width: 992px)': {
@@ -47,7 +47,7 @@ const Index = ({ data }) => {
   return (
     <>
       <div className="py-5">
-        <div className="container">
+        <div className="container py-xl-5">
           <div className="row align-items-center">
             <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
               <div className="text-center text-lg-left">
@@ -94,7 +94,7 @@ const Index = ({ data }) => {
       </div>
 
       <div className="py-5 lightgrey-bg-a2">
-        <div className="container">
+        <div className="container py-xl-5">
           <div className="row align-items-center">
             <div className={`${classes.graphicContainer} col-lg-5 d-flex align-items-center justify-content-center`}>
               <GatsbyImage alt="abilitazione cloud" image={getImage(data.vantaggi_cloud)} />
@@ -116,7 +116,7 @@ const Index = ({ data }) => {
       </div>
 
       <div className="py-5">
-        <div className="container">
+        <div className="container py-xl-5">
           <div className="row align-items-center">
             <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
               <div className="text-center text-lg-left">
@@ -127,8 +127,10 @@ const Index = ({ data }) => {
                   </Link>
                 </h3>
                 <div className={classes.sneakPeek}>
-                  Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet
-                  justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus.
+                  Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+                  (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e
+                  risorse utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il
+                  Cloud della PA.
                 </div>
               </div>
               <div className="my-4 mt-lg-5 text-center d-flex flex-wrap justify-content-center justify-content-lg-start">
@@ -145,7 +147,7 @@ const Index = ({ data }) => {
       </div>
 
       <div className="py-5 bg-primary">
-        <div className="container">
+        <div className="container py-xl-5">
           <div className="row">
             <div className="col-lg-8 mt-4 mt-lg-0">
               <div className="col-xl-9 col-lg-11 text-center text-lg-left text-white">
