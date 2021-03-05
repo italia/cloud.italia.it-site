@@ -4,7 +4,6 @@ import SwiperCore, { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import { createUseStyles } from 'react-jss';
-import classNames from 'classnames';
 
 SwiperCore.use([Pagination, A11y]);
 
@@ -18,13 +17,12 @@ const useStyles = createUseStyles({
   },
   activeBullet: {
     composes: 'swiper-pagination-bullet-active',
-    backgroundColor: ({ activeBulletBgColor }) => activeBulletBgColor,
+    backgroundColor: '#0066CC',
   },
 });
 
-export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = '#0066CC' }) => {
-  const classes = useStyles({ activeBulletBgColor });
-  const swiperContainerClass = classNames({ 'shadow-lg': withShadow });
+export const MobileSwiper = ({ slides }) => {
+  const classes = useStyles();
   const [paginationId, setPaginationId] = useState(null);
 
   // The pagination controller doesn't work with SSR, so we need to render it at runtime
@@ -45,7 +43,7 @@ export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = 
               lastSlideMessage: "Questa è l'ultima slide",
               paginationBulletMessage: 'Vai alla slide {{index}}',
             }}
-            className={swiperContainerClass}
+            className="bg-white shadow-lg"
             slidesPerView={1}
             pagination={{
               el: `[data-swiper-id=${paginationId}]`,
@@ -71,6 +69,4 @@ export const MobileSwiper = ({ slides, withShadow = true, activeBulletBgColor = 
 
 MobileSwiper.propTypes = {
   slides: PropTypes.arrayOf(PropTypes.node).isRequired,
-  withShadow: PropTypes.bool,
-  activeBulletBgColor: PropTypes.string,
 };
