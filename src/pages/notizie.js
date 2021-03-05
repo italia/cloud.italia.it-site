@@ -1,10 +1,5 @@
 import React from 'react';
-import { News } from '../components/News.js';
 
-const Notizie = () => (
-  <>
-    <News />
-  </>
-);
+const Notizie = () => <>Notizie</>;
 
 export default Notizie;
