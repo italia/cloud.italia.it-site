@@ -1,34 +1,58 @@
 import React, { useState } from 'react';
 import { Accordion as AccordionReactKit, AccordionBody, AccordionHeader } from 'design-react-kit';
+import classNames from 'classnames';
 
 export const Accordion = () => {
-  const [active, setActive] = useState(false);
+  const [activeAccordion, setActiveAccordion] = useState(0);
+
+  const handleClick = (accordionNumber) => {
+    if (accordionNumber === activeAccordion) {
+      setActiveAccordion(0);
+    } else {
+      setActiveAccordion(accordionNumber);
+    }
+  };
 
   return (
-    <AccordionReactKit>
-      <AccordionHeader active={active} onToggle={() => setActive(!active)} className="text-dark">
-        Accordion Group Item #1
+    <AccordionReactKit className="bg-white shadow-lg">
+      <AccordionHeader
+        active={activeAccordion === 1}
+        onToggle={() => handleClick(1)}
+        className={classNames({ 'text-dark': activeAccordion === 1 })}
+      >
+        Per i cittadini
       </AccordionHeader>
-      <AccordionBody active={active}>
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-        officia aute, non cupidatat skateboard dolor brunch.
+      <AccordionBody active={activeAccordion === 1}>
+        Servizi pubblici basati sul modello cloud garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto
+        della privacy. Sono servizi progettati in maniera nativa digitale e che hanno una minore incidenza sulla spesa
+        pubblica.
       </AccordionBody>
 
-      <AccordionHeader active={active} onToggle={() => setActive(!active)}>
-        Accordion Group Item #2
+      <AccordionHeader
+        active={activeAccordion === 2}
+        onToggle={() => handleClick(2)}
+        className={classNames({ 'text-dark': activeAccordion === 2 })}
+      >
+        Per le amministrazioni
       </AccordionHeader>
-      <AccordionBody active={active}>
-        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-        nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+      <AccordionBody active={activeAccordion === 2}>
+        Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
+        maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
+        infrastrutture.
       </AccordionBody>
 
-      <AccordionHeader active={active} onToggle={() => setActive(!active)}>
-        Accordion Group Item #3
+      <AccordionHeader
+        active={activeAccordion === 3}
+        onToggle={() => handleClick(3)}
+        className={classNames({ 'text-dark': activeAccordion === 3 })}
+      >
+        Per le PMI dell’ICT che operano nel settore pubblico
       </AccordionHeader>
-      <AccordionBody active={active}>
-        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-        single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-        anderson cred nesciunt sapiente ea proident.
+      <AccordionBody active={activeAccordion === 3}>
+        Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
+        amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
+        di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
+        maturo per le soluzioni cloud.
       </AccordionBody>
     </AccordionReactKit>
   );

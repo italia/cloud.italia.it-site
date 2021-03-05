@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
@@ -141,7 +141,7 @@ const Index = ({ data }) => {
               <div className="col-xl-9 text-center text-lg-left">
                 <h2 className={classes.category}>I vantaggi</h2>
                 <h3 className="h3">Un modello che porta beneficio all’intero sistema Paese</h3>
-                <div>
+                <div className="mt-3 mb-5">
                   La trasformazione dei servizi pubblici attraverso l&apos;adozione del cloud è essenziale per garantire
                   al Paese la possibilità di crescere, competere, generare nuove opportunità di lavoro qualificato,
                   creare e distribuire nuova ricchezza in maniera uniforme su tutto il territorio nazionale
