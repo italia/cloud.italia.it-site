@@ -37,16 +37,6 @@ const data = [
 ];
 
 const useStyle = createUseStyles({
-  font: {
-    fontSize: '16px',
-  },
-  body: {
-    extend: 'font',
-    composes: 'pt-2',
-  },
-  source: {
-    extend: 'font',
-  },
   category: {},
   '@media (min-width: 992px)': {
     category: {
@@ -59,28 +49,27 @@ export const NewsPreview = () => {
   const classes = useStyle();
   const slides = data.map((item, i) => (
     <Card key={i} teaser noWrapper className="no-after rounded shadow-lg">
-      <CardBody className="d-flex flex-column h-100">
-        <div>
-          <div className="pb-3 card-text">
-            <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{item.type}</span>
-            <span className={`px-2 text-secondary ${classes.category}`}>
-              <span>{item.date}</span>
-            </span>
-          </div>
-          <h4 className="h6 text-primary font-weight-bold">
-            <a href={item.link} className="text-decoration-none">
-              {item.title}
-            </a>
-          </h4>
-          <p className={classes.body}>{item.body}</p>
+      <CardBody className="h-100 d-flex flex-column">
+        <div className="pb-3 d-flex align-items-center">
+          <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{item.type}</span>
+          <span className={`px-2 text-secondary ${classes.category}`}>
+            <span>{item.date}</span>
+          </span>
         </div>
-        <div className="pt-2 mt-auto font-weight-semibold d-flex align-items-center">
-          <span className={classes.source}>{item.source}</span>
+        <h4 className="h6 text-primary font-weight-bold">
+          <a href={item.link} className="text-decoration-none">
+            {item.title}
+          </a>
+        </h4>
+        <p className="card-text pt-2 pb-4 text-dark">{item.body}</p>
+        <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
+          <span>{item.source}</span>
           <Icon className="ml-2" icon="it-external-link" size="sm" />
-        </div>
+        </p>
       </CardBody>
     </Card>
   ));
+
   return (
     <div className="container">
       <div className="row align-items-center justify-content-center">
