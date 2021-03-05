@@ -57,29 +57,27 @@ const useStyle = createUseStyles({
 
 export const NewsPreview = () => {
   const classes = useStyle();
-  const slides = data.map((n, i) => (
+  const slides = data.map((item, i) => (
     <Card key={i} teaser noWrapper className="no-after rounded shadow-lg">
       <CardBody className="d-flex flex-column h-100">
         <div>
           <div className="pb-3 card-text">
-            <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{n.type}</span>
+            <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{item.type}</span>
             <span className={`px-2 text-secondary ${classes.category}`}>
-              <span>{n.date}</span>
+              <span>{item.date}</span>
             </span>
           </div>
           <h4 className="h6 text-primary font-weight-bold">
-            <a href={n.link} className="text-decoration-none">
-              {n.title}
+            <a href={item.link} className="text-decoration-none">
+              {item.title}
             </a>
           </h4>
-          <p className={classes.body}>{n.body}</p>
+          <p className={classes.body}>{item.body}</p>
         </div>
-        <p className="pt-2 mt-auto font-weight-semibold">
-          <div className="d-flex align-items-center">
-            <span className={classes.source}>{n.source}</span>
-            <Icon className="ml-2" icon="it-external-link" size="sm" />
-          </div>
-        </p>
+        <div className="pt-2 mt-auto font-weight-semibold d-flex align-items-center">
+          <span className={classes.source}>{item.source}</span>
+          <Icon className="ml-2" icon="it-external-link" size="sm" />
+        </div>
       </CardBody>
     </Card>
   ));
@@ -92,7 +90,9 @@ export const NewsPreview = () => {
           {slides}
         </div>
       </div>
-      <MobileSwiper slides={slides} />
+      <div className="mt-4">
+        <MobileSwiper slides={slides} />
+      </div>
     </div>
   );
 };

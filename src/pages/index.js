@@ -3,11 +3,12 @@ import { graphql, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
-import { Card, CardBody, CardText, Icon } from 'design-react-kit';
+import { Icon } from 'design-react-kit';
 
-import { MobileSwiper } from '../components/MobileSwiper.js';
 import { imageSharpProptype } from '../utils/proptypes.js';
 import { Accordion } from '../components/Accordion.js';
+import { NewsPreview } from '../components/NewsPreview.js';
+import { HowToContribute } from '../components/HowToContribute.js';
 
 const useStyles = createUseStyles({
   shadowWhite: {
@@ -39,51 +40,6 @@ const useStyles = createUseStyles({
     },
   },
 });
-
-const slides = [
-  <>
-    <Card teaser noWrapper className="no-after rounded shadow-lg">
-      <CardBody className="pb-5">
-        <div className="mb-3 d-flex align-items-center">
-          <Icon color="primary" icon="it-github" size="lg" />
-          <span className="primary-color px-3 h3 mb-0">GitHub</span>
-        </div>
-        <CardText>
-          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-          sicurezza ed altro. Unisciti alla discussione!
-        </CardText>
-      </CardBody>
-    </Card>
-  </>,
-  <>
-    <Card teaser noWrapper className="no-after rounded shadow-lg">
-      <CardBody className="pb-5">
-        <div className="mb-3 d-flex align-items-center">
-          <Icon color="primary" icon="it-star-full" size="lg" />
-          <span className="primary-color px-3 h3 mb-0">slack</span>
-        </div>
-        <CardText>
-          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-          sicurezza ed altro. Unisciti alla discussione!
-        </CardText>
-      </CardBody>
-    </Card>
-  </>,
-  <>
-    <Card teaser noWrapper className="no-after rounded shadow-lg">
-      <CardBody className="pb-5">
-        <div className="mb-3 d-flex align-items-center">
-          <Icon color="primary" icon="it-designers-italia" size="lg" />
-          <span className="primary-color px-3 h3 mb-0">Forum</span>
-        </div>
-        <CardText>
-          In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software,
-          sicurezza ed altro. Unisciti alla discussione!
-        </CardText>
-      </CardBody>
-    </Card>
-  </>,
-];
 
 const Index = ({ data }) => {
   const classes = useStyles();
@@ -223,32 +179,11 @@ const Index = ({ data }) => {
         </div>
       </div>
 
-      <div className="section px-4 px-lg-5">
-        <h2 className="h6 primary-color text-uppercase text-center text-lg-left">Notizie e Media</h2>
-        <h3 className="h1 primary-color text-center text-lg-left px-0 py-3 col-lg-5">
-          Approfondimenti e contenuti utili
-        </h3>
-        <div className="row d-none d-lg-flex">
-          <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
-            {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
-          </div>
-        </div>
-        <MobileSwiper slides={slides} />
+      <div className="py-5">
+        <NewsPreview />
       </div>
-
-      <div className="pb-5 lightgrey-bg-a2">
-        <div className="container px-4">
-          <h2 className="h6 text-uppercase text-center text-lg-left pt-5">Come contribuire</h2>
-          <h3 className="text-center text-lg-left px-0 py-3 col-lg-5">
-            Partecipa al cambiamento, contribuisci a Cloud italia!
-          </h3>
-          <div className="row d-none d-lg-flex">
-            <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
-              {slides.map((slide, k) => React.cloneElement(slide, { key: k }))}
-            </div>
-          </div>
-          <MobileSwiper slides={slides} />
-        </div>
+      <div className="py-5 lightgrey-bg-a2">
+        <HowToContribute />
       </div>
     </>
   );
