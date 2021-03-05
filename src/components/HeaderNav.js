@@ -25,7 +25,7 @@ export const HeaderNav = ({ isOpen, onCloseMenu, children }) => {
       setVisible(true);
       timeoutId = setTimeout(() => {
         setExpanded(true);
-      }, 10);
+      }, 100);
     } else {
       setExpanded(false);
       timeoutId = setTimeout(() => {
