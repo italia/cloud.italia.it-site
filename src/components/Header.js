@@ -166,7 +166,7 @@ const CenterHeader = () => {
                 <img className="icon" src={logo} alt="Cloud PA logo" />
                 <div>
                   <h1 className="h3">Cloud Italia</h1>
-                  <h2 className={classes.h6}>Il Cloud della Pubblica Amministrazione italiana</h2>
+                  <h2 className={classes.h6}>Il Cloud della Pubblica Amministrazione</h2>
                 </div>
               </div>
             </div>
@@ -214,12 +214,12 @@ const NavHeader = () => {
             <Nav navbar>
               <NavItem>
                 <Link to="/strategia/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Strategia nazionale</span>
+                  <span className="font-weight-semibold">Strategia cloud</span>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link to="/adozione/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Programma di adozione</span>
+                  <span className="font-weight-semibold">Programma di abilitazione</span>
                 </Link>
               </NavItem>
 
@@ -231,14 +231,14 @@ const NavHeader = () => {
 
               <NavItem>
                 <Link to="/notizie/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Notizie e media</span>
+                  <span className="font-weight-semibold">Catalogo dei servizi</span>
                 </Link>
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
               <NavItem>
                 <a href="https://www.agid.gov.it/" className="nav-link">
-                  <span className="font-weight-semibold">Catalogo dei servizi AgID</span>
+                  <span className="font-weight-semibold">Marketplace</span>
                   <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
                 </a>
               </NavItem>
