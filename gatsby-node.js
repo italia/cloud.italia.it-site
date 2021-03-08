@@ -49,7 +49,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
-exports.createPages = async ({ actions: { createPage }, graphql }) => {
+exports.createPages = async ({ actions: { createPage, createRedirect }, graphql }) => {
+  createRedirect({
+    fromPath: '/it/cloud-enablement/',
+    toPath: '/programma-abilitazione-cloud/',
+    statusCode: 301,
+  });
+
   const result = await graphql(`
     {
       allMarkdownRemark(filter: { fields: { type: { eq: "news" } } }) {

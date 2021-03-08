@@ -48,5 +48,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-yaml`,
+    `gatsby-plugin-meta-redirect`,
   ],
 };
