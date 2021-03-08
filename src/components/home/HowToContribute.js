@@ -10,7 +10,7 @@ const data = [
     link: 'https://forum.italia.it/',
     ariaLabel: 'Forum Italia: (Link esterno) Vai Forum Italia',
     body:
-      'In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software sicurezza ed altro. Unisciti alla discussione!',
+      'Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>',
   },
   {
     icon: 'it-star-full',
@@ -18,7 +18,7 @@ const data = [
     link: 'https://slack.developers.italia.it/',
     ariaLabel: 'Slack Developers Italia: (Link esterno) Vai Slack Developers Italia',
     body:
-      'In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software sicurezza ed altro. Unisciti alla discussione!',
+      'Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>',
   },
   {
     icon: 'it-github',
@@ -26,21 +26,13 @@ const data = [
     link: 'https://github.com/italia',
     ariaLabel: 'GitHub: (Link esterno) Vai GitHub',
     body:
-      'In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software sicurezza ed altro. Unisciti alla discussione!',
-  },
-  {
-    icon: 'it-github',
-    title: 'GitHub',
-    link: 'https://github.com/italia',
-    ariaLabel: 'GitHub: (Link esterno) Vai GitHub',
-    body:
-      'In <strong>forum.italia.it</strong> si discute dei servizi pubblici digitali: piattaforme, API, software sicurezza ed altro. Unisciti alla discussione!',
+      'Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA',
   },
 ];
 
 export const HowToContribute = () => {
   const slides = data.map((item, i) => (
-    <Card key={i} teaser noWrapper className="no-after rounded shadow-lg">
+    <Card key={i} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
       <a href={item.link} aria-label={item.ariaLabel} className="text-decoration-none">
         <CardBody className="pb-5">
           <div className="mb-3 d-flex align-items-center">
@@ -61,9 +53,13 @@ export const HowToContribute = () => {
         </div>
       </div>
       <div className="row">
-        <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-4">
-          {slides}
+        <div className="col-xl-5 col-lg-6 text-lg-left text-center">
+          Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua
+          organizzazione
         </div>
+      </div>
+      <div className="row">
+        <div className="mt-4 col-12 d-none d-lg-flex">{slides}</div>
       </div>
       <MobileSwiper slides={slides} />
     </Hero>

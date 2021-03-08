@@ -49,7 +49,7 @@ const useStyle = createUseStyles({
 export const NewsPreview = () => {
   const classes = useStyle();
   const slides = data.map((item, i) => (
-    <Card key={i} teaser noWrapper className="no-after rounded shadow-lg">
+    <Card key={i} teaser noWrapper className="rounded shadow-lg">
       <CardBody className="h-100 d-flex flex-column">
         <div className="pb-3 d-flex align-items-center">
           <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{item.type}</span>

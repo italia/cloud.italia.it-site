@@ -29,8 +29,8 @@ export const Strategy = () => {
             <HeroTitle title="Il modello per realizzare il sistema operativo del Paese" linkTo="/strategia-cloud-pa/" />
             <HeroBody>
               Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
-              Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
-              efficienti.
+              Amministrazione e abilitiamo l’adozione del modello <em>cloud computing</em> per servizi pubblici più
+              sicuri ed efficienti.
             </HeroBody>
           </div>
           <HeroCtaContainer>

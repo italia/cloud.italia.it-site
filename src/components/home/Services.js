@@ -45,9 +45,10 @@ export const Services = () => {
               className="text-white"
             />
             <HeroBody>
-              Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’Agenzia per l’Italia
-              Digitale (AgID). I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se in
-              possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
+              Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’
+              <strong>Agenzia per l’Italia Digitale (AgID)</strong>. I fornitori cloud devono sottoporre i servizi al
+              processo di qualificazione e, se in possesso dei requisiti, sono pubblicati e consultabili all’interno del{' '}
+              <em>marketplace</em>
             </HeroBody>
           </div>
           <HeroCtaContainer>
