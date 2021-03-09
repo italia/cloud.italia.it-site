@@ -11,7 +11,7 @@ export const Benefit = () => {
     query {
       vantaggi_cloud: file(relativePath: { eq: "vantaggi_cloud_1x.png" }) {
         childImageSharp {
-          gatsbyImageData(placeholder: BLURRED)
+          gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
         }
       }
     }
