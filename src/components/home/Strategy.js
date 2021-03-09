@@ -53,7 +53,7 @@ export const Strategy = () => {
             aria-label="Open data marketplace: (Link esterno) Vai a open data marketplace"
             className="btn-icon text-dark"
           >
-            <span>Open Data Cloud Marketplace</span>
+            <small>Open Data Cloud Marketplace</small>
             <Icon className="ml-2" icon="it-external-link" size="sm" />
           </a>
         </div>

@@ -38,7 +38,9 @@ const data = [
 ];
 
 const useStyle = createUseStyles({
-  category: {},
+  category: {
+    fontSize: '0.875rem',
+  },
   '@media (min-width: 992px)': {
     category: {
       fontSize: '0.78rem',
