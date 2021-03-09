@@ -72,7 +72,7 @@ const SlimHeader = () => {
           <BrandSlimHeader />
         </HeaderBrand>
         <HeaderLinkZone>
-          <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="button">
+          <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="div" role="button">
             <BrandSlimHeader />
             <Icon icon="it-expand" size="sm" color="primary" />
           </HeaderToggler>
