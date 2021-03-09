@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import 'typeface-titillium-web';
-import 'typeface-roboto-mono';
-import 'typeface-lora';
+import '@fontsource/titillium-web/latin.css';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import { createUseStyles } from 'react-jss';
 import favicon from '../images/favicon.ico';

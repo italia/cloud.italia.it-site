@@ -1,0 +1,52 @@
+---
+- categoryTitle: documenti
+  references:
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei servizi cloud SaaS
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Servizi cloud SaaS
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei Cloud Service Provider
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Cloud Service Provider
+- categoryTitle: seconda categoria
+  references:
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+- categoryTitle: terza categoria
+  references:
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
+    - action: Leggi su <strong>Docs Italia</strong>
+      description: La strategia cloud e e il modello cloud della PA
+      icon: it-external-link
+      link: 'https://www.google.it'
+      title: Il modello cloud della PA
