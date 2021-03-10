@@ -16,6 +16,10 @@ const useStyles = createUseStyles({
       borderColor: 'initial',
       boxShadow: 'none',
     },
+    // override text-primary color
+    '.text-primary': {
+      color: ['var(--primary)', '!important'],
+    },
   },
   main: {
     backgroundColor: '#e6e9f21f', // TODO: qual è il colore corretto?
