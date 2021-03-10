@@ -25,8 +25,7 @@ const useStyle = createUseStyles({
   },
   /* Used for problems with nested <a> in the HeaderToggler component */
   navToggler: {
-    composes: 'd-lg-none',
-    color: 'var(--primary)',
+    composes: 'd-lg-none text-primary',
     fontSize: '.778em',
     fontWeight: '600',
     padding: '.5rem 0',
