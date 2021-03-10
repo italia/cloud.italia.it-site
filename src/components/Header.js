@@ -25,9 +25,8 @@ const useStyle = createUseStyles({
   },
   /* Used for problems with nested <a> in the HeaderToggler component */
   navToggler: {
-    composes: 'd-lg-none text-primary',
+    composes: 'd-lg-none text-primary font-weight-semibold',
     fontSize: '.778em',
-    fontWeight: '600',
     padding: '.5rem 0',
   },
   /* Used due to inability to set classes to li tag with design react kit (LinkListItem) */

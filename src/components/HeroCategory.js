@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 
 const useStyles = createUseStyles({
   category: {
-    composes: 'text-uppercase h6',
-    fontWeight: '600',
+    composes: 'text-uppercase h6 font-weight-semibold',
     letterSpacing: '.9px',
   },
 });
