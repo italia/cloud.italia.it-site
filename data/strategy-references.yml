@@ -4,49 +4,58 @@
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
       icon: it-external-link
-      link: 'https://www.google.it'
+      link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
+      ariaLabel: 'Il modello cloud della PA: (Link esterno) Vai a il modello cloud della PA su Docs Italia'
       title: Il modello cloud della PA
     - action: Leggi su <strong>Read the Docs</strong>
       description: Circolare per la qualificazione dei servizi cloud SaaS
       icon: it-external-link
-      link: 'https://www.google.it'
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
       title: Servizi cloud SaaS
+      ariaLabel: 'Servizi cloud SaaS: (Link esterno) Vai a servizi cloud SaaS su Read the Docs'
     - action: Leggi su <strong>Read the Docs</strong>
       description: Circolare per la qualificazione dei Cloud Service Provider
       icon: it-external-link
-      link: 'https://www.google.it'
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
       title: Cloud Service Provider
-- categoryTitle: seconda categoria
+      ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
+- categoryTitle: Seconda Categoria
   references:
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
       icon: it-external-link
-      link: 'https://www.google.it'
+      link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
+      ariaLabel: 'Il modello cloud della PA: (Link esterno) Vai a il modello cloud della PA su Docs Italia'
       title: Il modello cloud della PA
-    - action: Leggi su <strong>Docs Italia</strong>
-      description: La strategia cloud e e il modello cloud della PA
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei servizi cloud SaaS
       icon: it-external-link
-      link: 'https://www.google.it'
-      title: Il modello cloud della PA
-    - action: Leggi su <strong>Docs Italia</strong>
-      description: La strategia cloud e e il modello cloud della PA
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
+      title: Servizi cloud SaaS
+      ariaLabel: 'Servizi cloud SaaS: (Link esterno) Vai a servizi cloud SaaS su Read the Docs'
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei Cloud Service Provider
       icon: it-external-link
-      link: 'https://www.google.it'
-      title: Il modello cloud della PA
-- categoryTitle: terza categoria
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
+      title: Cloud Service Provider
+      ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
+- categoryTitle: Terza categoria
   references:
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
       icon: it-external-link
-      link: 'https://www.google.it'
+      link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
+      ariaLabel: 'Il modello cloud della PA: (Link esterno) Vai a il modello cloud della PA su Docs Italia'
       title: Il modello cloud della PA
-    - action: Leggi su <strong>Docs Italia</strong>
-      description: La strategia cloud e e il modello cloud della PA
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei servizi cloud SaaS
       icon: it-external-link
-      link: 'https://www.google.it'
-      title: Il modello cloud della PA
-    - action: Leggi su <strong>Docs Italia</strong>
-      description: La strategia cloud e e il modello cloud della PA
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
+      title: Servizi cloud SaaS
+      ariaLabel: 'Servizi cloud SaaS: (Link esterno) Vai a servizi cloud SaaS su Read the Docs'
+    - action: Leggi su <strong>Read the Docs</strong>
+      description: Circolare per la qualificazione dei Cloud Service Provider
       icon: it-external-link
-      link: 'https://www.google.it'
-      title: Il modello cloud della PA
+      link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
+      title: Cloud Service Provider
+      ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
