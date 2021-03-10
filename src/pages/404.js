@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
 import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/Hero.js';
+import { SEO } from '../components/SEO.js';
 
 const useStyles = createUseStyles({
   statusCode: {
@@ -15,7 +15,7 @@ const NotFoundPage = () => {
   const classes = useStyles();
   return (
     <>
-      <Helmet title="Pagina non trovata" />
+      <SEO title="Pagina non trovata" />
       <Hero>
         <div className="text-center text-primary">
           <div className={classes.statusCode}>404</div>
