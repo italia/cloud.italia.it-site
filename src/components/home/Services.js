@@ -28,7 +28,7 @@ export const Services = () => {
     query {
       servizi_cloud: file(relativePath: { eq: "servizi_cloud_1x.png" }) {
         childImageSharp {
-          gatsbyImageData(placeholder: BLURRED)
+          gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
         }
       }
     }

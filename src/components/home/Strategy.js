@@ -14,7 +14,7 @@ export const Strategy = () => {
     query {
       strategia_cloud: file(relativePath: { eq: "strategia_cloud_2x.png" }) {
         childImageSharp {
-          gatsbyImageData(placeholder: BLURRED)
+          gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
         }
       }
     }
