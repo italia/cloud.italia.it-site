@@ -19,10 +19,6 @@ import logo from '../images/cloud-logo.svg';
 import { HeaderNav } from './HeaderNav.js';
 
 const useStyle = createUseStyles({
-  h6: {
-    composes: 'h6',
-    fontSize: ['inherit', '!important'],
-  },
   /* Used for problems with nested <a> in the HeaderToggler component */
   navToggler: {
     composes: 'd-lg-none text-primary font-weight-semibold',
@@ -44,17 +40,22 @@ const useStyle = createUseStyles({
 });
 
 const BrandSlimHeader = () => (
-  <span className="text-primary">
+  <span className="text-primary font-weight-semibold small">
     <a
       href="https://innovazione.gov.it/dipartimento/la-struttura/"
       rel="noreferrer"
-      aria-label="Dipartimento per la Trasformazione Digitale"
+      aria-label="Dipartimento per la Trasformazione Digitale: (Link esterno) Vai a Dipartimento per la Trasformazione Digitale"
       className="mr-1"
     >
       Dipartimento per la Trasformazione Digitale
     </a>
     <span className="mr-1"> + </span>
-    <a href="https://www.agid.gov.it/" rel="noreferrer" aria-label="AgID" className="mr-1">
+    <a
+      href="https://www.agid.gov.it/"
+      rel="noreferrer"
+      aria-label="Agenzia per l'Italia Digitale: (Link esterno) Vai a Agenzia per l'Italia Digitale"
+      className="mr-1"
+    >
       AgID
     </a>
   </span>
@@ -65,7 +66,7 @@ const SlimHeader = () => {
   const classes = useStyle();
   return (
     <HeaderReactKit type="slim" theme="light">
-      <HeaderContent className="font-weight-semibold">
+      <HeaderContent>
         <HeaderBrand tag="div">
           <BrandSlimHeader />
         </HeaderBrand>
@@ -152,45 +153,42 @@ const SlimHeader = () => {
   );
 };
 
-const CenterHeader = () => {
-  const classes = useStyle();
-  return (
-    <HeaderReactKit type="center" theme="light">
-      <HeaderContent>
-        <div className="it-brand-wrapper">
-          <Link to="/">
-            <div className="it-brand-text">
-              <div className="d-flex align-items-center">
-                <img className="icon" src={logo} alt="Cloud PA logo" />
-                <div>
-                  <h1 className="h3">Cloud Italia</h1>
-                  <h2 className={classes.h6}>Il Cloud della Pubblica Amministrazione</h2>
-                </div>
+const CenterHeader = () => (
+  <HeaderReactKit type="center" theme="light">
+    <HeaderContent>
+      <div className="it-brand-wrapper">
+        <Link to="/">
+          <div className="it-brand-text">
+            <div className="d-flex align-items-center">
+              <img className="icon" src={logo} alt="Cloud PA logo" />
+              <div>
+                <h1 className="h3 mb-0">Cloud Italia</h1>
+                <span className="small">Il Cloud della Pubblica Amministrazione</span>
               </div>
             </div>
-          </Link>
-        </div>
-        <HeaderRightZone>
-          <HeaderSocialsZone label="Seguici su">
-            <ul>
-              <li>
-                <a
-                  href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
-                  className="d-block mr-3"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it"
-                >
-                  <Icon icon="it-medium" />
-                </a>
-              </li>
-            </ul>
-          </HeaderSocialsZone>
-        </HeaderRightZone>
-      </HeaderContent>
-    </HeaderReactKit>
-  );
-};
+          </div>
+        </Link>
+      </div>
+      <HeaderRightZone>
+        <HeaderSocialsZone label="Seguici su">
+          <ul>
+            <li>
+              <a
+                href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
+                className="d-block mr-3"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it"
+              >
+                <Icon icon="it-medium" />
+              </a>
+            </li>
+          </ul>
+        </HeaderSocialsZone>
+      </HeaderRightZone>
+    </HeaderContent>
+  </HeaderReactKit>
+);
 
 const NavHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -239,7 +237,7 @@ const NavHeader = () => {
 
               <NavItem>
                 <Link to="/catalogo-servizi-cloud/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Catalogo dei servizi</span>
+                  <span className="font-weight-semibold">Cos&apos;è il catalogo dei servizi</span>
                 </Link>
               </NavItem>
             </Nav>
@@ -249,10 +247,10 @@ const NavHeader = () => {
                   href="https://cloud.italia.it/marketplace"
                   rel="noreferrer"
                   target="_blank"
-                  aria-label="Marketplace: (Link esterno) Vai a Marketplace"
+                  aria-label="Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
                   className="nav-link"
                 >
-                  <span className="font-weight-semibold">Marketplace</span>
+                  <span className="font-weight-semibold">Cloud Marketplace</span>
                   <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
                 </a>
               </NavItem>

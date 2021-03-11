@@ -20,7 +20,7 @@ export const Benefit = () => {
     <Hero bgColor="light">
       <div className="row align-items-center">
         <HeroGraphic
-          alt="abilitazione cloud"
+          alt=""
           image={getImage(data.vantaggi_cloud)}
           className="col-lg-5 d-flex align-items-center justify-content-center"
         />
