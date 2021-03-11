@@ -1,20 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
-import 'typeface-titillium-web';
-import 'typeface-roboto-mono';
-import 'typeface-lora';
+import '@fontsource/titillium-web/latin.css';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import { createUseStyles } from 'react-jss';
-import favicon from '../images/favicon.ico';
 import { Header } from './Header.js';
 import { Footer } from './Footer.js';
+import { SEO } from './SEO.js';
 
 const useStyles = createUseStyles({
   '@global': {
     ':focus:not(:focus-visible)': {
       borderColor: 'initial',
       boxShadow: 'none',
+    },
+    // override text-primary color
+    '.text-primary': {
+      color: ['var(--primary)', '!important'],
     },
   },
   main: {
@@ -26,16 +27,7 @@ export const Layout = ({ children }) => {
   const classes = useStyles();
   return (
     <>
-      <Helmet
-        title="Cloud Italia"
-        meta={[
-          { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-          { name: 'description', content: 'Il Cloud della Pubblica Amministrazione' },
-        ]}
-      >
-        <html lang="it" />
-        <link rel="icon" href={favicon} />
-      </Helmet>
+      <SEO />
       <Header />
       <main className={classes.main}>{children}</main>
       <Footer />

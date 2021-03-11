@@ -6,7 +6,7 @@ import { createUseStyles } from 'react-jss';
 const useStyle = createUseStyles({
   icon: {
     transform: (collapsed) => (collapsed ? 'rotate(180deg)' : 'rotate(0deg)'),
-    transition: 'transform 1.5s',
+    transition: 'transform 0.8s',
   },
   button: {
     composes: 'd-flex flex-column align-items-center pt-4',

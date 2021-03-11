@@ -46,32 +46,45 @@ export const Services = () => {
             />
             <HeroBody>
               Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’
-              <strong>Agenzia per l’Italia Digitale (AgID)</strong>. I fornitori cloud devono sottoporre i servizi al
-              processo di qualificazione e, se in possesso dei requisiti, sono pubblicati e consultabili all’interno del{' '}
-              <em>marketplace</em>
+              <strong>AgID</strong>. I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
+              in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
             </HeroBody>
           </div>
           <HeroCtaContainer>
             <Cta linkTo="/qualificazione-servizi-cloud/" text="Scopri di più" color="light" />
-            <Cta linkTo="/catalogo-servizi-cloud" text="Catalogo dei servizi" color="light" type="outline" />
+            <Cta linkTo="/catalogo-servizi-cloud" text="Cos'è il catalogo dei servizi" color="light" type="outline" />
             <div aria-hidden="true" className={classes.verticalDelimiter} />
             <a
               href="https://cloud.italia.it/marketplace"
               rel="noreferrer"
               target="_blank"
-              aria-label="Marketplace: (Link esterno) Vai a Marketplace"
+              aria-label="Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
               className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon`}
             >
-              <span className="mr-3">Marketplace agid</span>
+              <span className="mr-3">Cloud marketplace</span>
               <Icon color="primary" icon="it-external-link" size="sm" />
             </a>
           </HeroCtaContainer>
         </div>
         <HeroGraphic
-          alt="qualificazione servizi cloud"
+          alt=""
           image={getImage(data.servizi_cloud)}
           className="col-lg-4 d-flex align-items-center justify-content-center"
         />
+      </div>
+      <div className="row mt-lg-2 mt-0">
+        <div className="col-12 text-center text-lg-left">
+          <a
+            href="https://cloud.italia.it/marketplace/opendata"
+            rel="noreferrer"
+            target="_blank"
+            aria-label="Open data marketplace: (Link esterno) Vai a open data marketplace"
+            className="btn-icon text-white"
+          >
+            <small>Open Data Cloud Marketplace</small>
+            <Icon className="ml-2" icon="it-external-link" size="sm" color="white" />
+          </a>
+        </div>
       </div>
     </Hero>
   );

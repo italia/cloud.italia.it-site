@@ -3,6 +3,8 @@ import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+// TODO: improve this component using react-transition-group
+
 const useStyle = createUseStyles({
   overlay: {
     composes: 'overlay',

@@ -1105,6 +1105,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/titillium-web@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/titillium-web/-/titillium-web-4.2.2.tgz#7a3482e9421240674162de0706587126c0c35109"
+  integrity sha512-OQeXcX4UuuyttAq1qe49gz6Afxsl/3UOS1dqip3Sw0NYZFv4N4NdysX7Z0qJMtXm1yvXhVjjJ79iyTYr1qy33A==
+
 "@gatsbyjs/reach-router@^1.3.5":
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/reach-router/-/reach-router-1.3.5.tgz#e5d86b341957611153279da353d0a39a82f34a8e"
@@ -13119,21 +13124,6 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
-
-typeface-lora@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-lora/-/typeface-lora-1.1.13.tgz#eb462416dd060fb90e51455bbdb9fea1c3e8db63"
-  integrity sha512-Y02iTW9l8PzGWkEVPqFJ4lVfckZHbYB+CZLKb5WsVRWjkKn/wo1X5OwlOwdKr8Tt+HzcgkOzwbdqY6CMgVO0tw==
-
-typeface-roboto-mono@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-roboto-mono/-/typeface-roboto-mono-1.1.13.tgz#2af8662db8f9119c00efd55d6ed8877d2a69ec94"
-  integrity sha512-pnzDc70b7ywJHin/BUFL7HZX8DyOTBLT2qxlJ92eH1UJOFcENIBXa9IZrxsJX/gEKjbEDKhW5vz/TKRBNk/ufQ==
-
-typeface-titillium-web@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-titillium-web/-/typeface-titillium-web-1.1.13.tgz#3fb50c8c7ea0cbc3531cad7f1a23d7218aeb24be"
-  integrity sha512-R21mXf9hoqle+dgR7k6C6QUN2XElopQNsTDYI5DoU1buuYayVvzn2jd2ihKJTwM/hJsltLrlJUkyumc3FFgevA==
 
 unbzip2-stream@^1.0.9:
   version "1.4.3"
