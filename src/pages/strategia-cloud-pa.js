@@ -1,8 +1,10 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { createUseStyles } from 'react-jss';
-import { ReferencesGroup } from '../components/ReferencesGroup.js';
+import { ReferencesHeader } from '../components/reference/ReferencesHeader.js';
 import { Hero } from '../components/Hero.js';
+import { AccordionReferences } from '../components/reference/AccordionReferences.js';
+import { References } from '../components/reference/References.js';
 
 const useStyles = createUseStyles({
   title: {
@@ -35,17 +37,27 @@ const StrategyPage = () => {
   `);
 
   return (
-    <Hero bgColor="light">
-      <div className="col-xl-8 col-lg-10 m-auto">
-        <div className="mx-4">
-          <h2 className={classes.title}>Risorse utili</h2>
-          {/* <div className="my-4 col-lg-10 col-12 pl-0"> */}
-          {/*  Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo */}
-          {/* </div> */}
+    <>
+      <Hero bgColor="light">
+        <div className="col-xl-8 col-lg-10 m-auto">
+          <div className="mx-4">
+            <h2 className={classes.title}>Risorse utili</h2>
+          </div>
+          <AccordionReferences references={strategyReferences} />
         </div>
-        <ReferencesGroup references={strategyReferences} />
-      </div>
-    </Hero>
+      </Hero>
+      <Hero bgColor="light">
+        <div className="col-xl-8 col-lg-10 m-auto">
+          <div className="mx-4">
+            <h2 className={classes.title}>Risorse utili</h2>
+          </div>
+          <div className="mt-5 mb-3 mx-4">
+            <ReferencesHeader title={strategyReferences[0].categoryTitle} classNames="text-info" />
+          </div>
+          <References references={strategyReferences[0].references} />
+        </div>
+      </Hero>
+    </>
   );
 };
 
