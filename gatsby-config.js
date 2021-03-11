@@ -6,6 +6,7 @@ module.exports = {
     description: 'L’adozione del modello cloud computing nelle amministrazioni italiane',
   },
   plugins: [
+    'gatsby-plugin-preload-fonts',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-jss',
     'gatsby-plugin-react-helmet',
