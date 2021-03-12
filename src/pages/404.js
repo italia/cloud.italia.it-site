@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
-import { Hero } from '../components/Hero.js';
+import { Hero } from '../components/hero/Hero.js';
 import { SEO } from '../components/SEO.js';
 
 const useStyles = createUseStyles({

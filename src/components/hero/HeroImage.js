@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { gatsbyImageDataProptype } from '../utils/proptypes.js';
+import { gatsbyImageDataProptype } from '../../utils/proptypes.js';
 
 const useStyle = createUseStyles({
   hero: {

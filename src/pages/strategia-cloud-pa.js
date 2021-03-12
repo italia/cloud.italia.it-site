@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import { ReferencesHeader } from '../components/reference/ReferencesHeader.js';
-import { Hero } from '../components/Hero.js';
+import { Hero } from '../components/hero/Hero.js';
 import { AccordionReferences } from '../components/reference/AccordionReferences.js';
 import { References } from '../components/reference/References.js';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { gatsbyImageDataProptype } from '../utils/proptypes.js';
+import { gatsbyImageDataProptype } from '../../utils/proptypes.js';
 
 const useStyles = createUseStyles({
   heroGraphic: {},
