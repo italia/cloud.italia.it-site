@@ -17,6 +17,9 @@ const useStyles = createUseStyles({
     '.text-primary': {
       color: ['var(--primary)', '!important'],
     },
+    '.text-info': {
+      color: ['#33485C', '!important'],
+    },
   },
   main: {
     backgroundColor: '#e6e9f21f', // TODO: qual è il colore corretto?

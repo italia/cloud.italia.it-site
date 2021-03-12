@@ -1,8 +1,9 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { createUseStyles } from 'react-jss';
-import { ReferencesGroup } from '../components/ReferencesGroup.js';
-import { Hero } from '../components/Hero.js';
+import { Hero } from '../components/hero/Hero.js';
+import { ResourcesWithAccordion } from '../components/resource/ResourcesWithAccordion.js';
+import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 
 const useStyles = createUseStyles({
   title: {
@@ -14,13 +15,13 @@ const useStyles = createUseStyles({
 const StrategyPage = () => {
   const classes = useStyles();
   const {
-    allStrategyReferencesYaml: { nodes: strategyReferences },
+    allStrategyResourcesYaml: { nodes: resources },
   } = useStaticQuery(graphql`
     {
-      allStrategyReferencesYaml {
+      allStrategyResourcesYaml {
         nodes {
           id
-          categoryTitle
+          title
           references {
             action
             ariaLabel
@@ -35,17 +36,24 @@ const StrategyPage = () => {
   `);
 
   return (
-    <Hero bgColor="light">
-      <div className="col-xl-8 col-lg-10 m-auto">
-        <div className="mx-4">
-          <h2 className={classes.title}>Risorse utili</h2>
-          {/* <div className="my-4 col-lg-10 col-12 pl-0"> */}
-          {/*  Vivamus orci risus, fringilla sit amet enim vel, semper faucibus elit. Aliquam nec laoreet leo */}
-          {/* </div> */}
+    <>
+      <Hero bgColor="light">
+        <div className="col-xl-8 col-lg-10 m-auto">
+          <div className="mx-4">
+            <h2 className={classes.title}>Risorse utili</h2>
+          </div>
+          <ResourcesWithAccordion resources={resources} />
         </div>
-        <ReferencesGroup references={strategyReferences} />
-      </div>
-    </Hero>
+      </Hero>
+      <Hero bgColor="light">
+        <div className="col-xl-8 col-lg-10 m-auto">
+          <div className="mx-4">
+            <h2 className={classes.title}>Risorse utili</h2>
+          </div>
+          <ResourcesWithList resources={resources} />
+        </div>
+      </Hero>
+    </>
   );
 };
 

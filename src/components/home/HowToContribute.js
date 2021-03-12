@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
 import { MobileSwiper } from '../MobileSwiper.js';
-import { Hero } from '../Hero.js';
+import { Hero } from '../hero/Hero.js';
 
 const data = [
   {

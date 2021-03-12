@@ -2,8 +2,8 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
 import { createUseStyles } from 'react-jss';
-import { HeroGraphic } from '../components/HeroGraphic.js';
-import { HeroImage } from '../components/HeroImage.js';
+import { HeroGraphic } from '../components/hero/HeroGraphic.js';
+import { HeroImage } from '../components/hero/HeroImage.js';
 
 const useStyles = createUseStyles({
   text: {

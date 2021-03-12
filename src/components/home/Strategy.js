@@ -1,13 +1,13 @@
 import React from 'react';
 import { getImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
-import { HeroCategory } from '../HeroCategory.js';
-import { HeroTitle } from '../HeroTitle.js';
-import { HeroBody } from '../HeroBody.js';
-import { HeroCtaContainer } from '../HeroCtaContainer.js';
+import { HeroCategory } from '../hero/HeroCategory.js';
+import { HeroTitle } from '../hero/HeroTitle.js';
+import { HeroBody } from '../hero/HeroBody.js';
+import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
 import { Cta } from '../Cta.js';
-import { HeroGraphic } from '../HeroGraphic.js';
-import { Hero } from '../Hero.js';
+import { HeroGraphic } from '../hero/HeroGraphic.js';
+import { Hero } from '../hero/Hero.js';
 
 export const Strategy = () => {
   const data = useStaticQuery(graphql`

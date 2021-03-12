@@ -1,5 +1,5 @@
 ---
-- categoryTitle: documenti
+- title: documenti
   references:
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
@@ -19,7 +19,7 @@
       link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
       title: Cloud Service Provider
       ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
-- categoryTitle: Seconda Categoria
+- title: Seconda Categoria
   references:
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
@@ -39,7 +39,7 @@
       link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
       title: Cloud Service Provider
       ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
-- categoryTitle: Terza categoria
+- title: Terza categoria
   references:
     - action: Leggi su <strong>Docs Italia</strong>
       description: La strategia cloud e e il modello cloud della PA
