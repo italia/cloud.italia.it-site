@@ -115,7 +115,7 @@ export const SEO = ({ title }) => {
         lang: 'it',
       }}
       title={title ?? site.siteMetadata.title}
-      link={[...favicons, ...fonts]}
+      link={[...favicons]}
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
         {
