@@ -40,7 +40,7 @@ export const Benefit = () => {
       }
     }
   `);
-  const [activeAccordion, handleClick] = useAccordion();
+  const [activeAccordion, openAccordion] = useAccordion();
   return (
     <Hero bgColor="light">
       <div className="row align-items-center">
@@ -64,7 +64,7 @@ export const Benefit = () => {
               <AccordionEntry
                 key={index}
                 active={activeAccordion === index + 1}
-                onToggle={() => handleClick(index + 1)}
+                onToggle={() => openAccordion(index + 1)}
                 header={entry.header}
                 body={entry.body}
               />

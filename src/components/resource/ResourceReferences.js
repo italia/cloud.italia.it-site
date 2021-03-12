@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from 'design-react-kit';
+import { referencePropType } from '../../utils/proptypes.js';
 
 const Reference = ({ reference }) => (
   <li>
@@ -19,7 +20,7 @@ const Reference = ({ reference }) => (
   </li>
 );
 
-export const References = ({ references }) => (
+export const ResourceReferences = ({ references }) => (
   <div className="it-list-wrapper">
     <ul className="it-list">
       {references.map((reference) => (
@@ -29,19 +30,10 @@ export const References = ({ references }) => (
   </div>
 );
 
-const referencePropType = PropTypes.shape({
-  action: PropTypes.string.isRequired,
-  ariaLabel: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-});
-
-References.propTypes = {
+ResourceReferences.propTypes = {
   references: PropTypes.arrayOf(referencePropType).isRequired,
 };
 
 Reference.propTypes = {
-  reference: referencePropType,
+  reference: referencePropType.isRequired,
 };
