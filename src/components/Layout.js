@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@fontsource/titillium-web/latin.css';
+// import '@fontsource/titillium-web/latin.css';
+import '../css/typography.css';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import { createUseStyles } from 'react-jss';
 import { Header } from './Header.js';

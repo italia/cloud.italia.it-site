@@ -2,6 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
+import font600 from '../fonts/titillium-web-v9-latin-600.woff2';
+import fontRegular from '../fonts/titillium-web-v9-latin-regular.woff2';
+import font700 from '../fonts/titillium-web-v9-latin-700.woff2';
+import font300 from '../fonts/titillium-web-v9-latin-300.woff2';
+import font300Italic from '../fonts/titillium-web-v9-latin-300italic.woff2';
 
 export const SEO = ({ title }) => {
   const { site } = useStaticQuery(
@@ -66,13 +71,51 @@ export const SEO = ({ title }) => {
     { name: 'og:image:height', content: '630' },
   ];
 
+  const fonts = [
+    {
+      rel: 'preload',
+      as: 'font',
+      href: fontRegular,
+      type: 'font/woff2',
+      crossOrigin: 'anonymous',
+    },
+    {
+      rel: 'preload',
+      as: 'font',
+      href: font600,
+      type: 'font/woff2',
+      crossOrigin: 'anonymous',
+    },
+    {
+      rel: 'preload',
+      as: 'font',
+      href: font700,
+      type: 'font/woff2',
+      crossOrigin: 'anonymous',
+    },
+    {
+      rel: 'preload',
+      as: 'font',
+      href: font300,
+      type: 'font/woff2',
+      crossOrigin: 'anonymous',
+    },
+    {
+      rel: 'preload',
+      as: 'font',
+      href: font300Italic,
+      type: 'font/woff2',
+      crossOrigin: 'anonymous',
+    },
+  ];
+
   return (
     <Helmet
       htmlAttributes={{
         lang: 'it',
       }}
       title={title ?? site.siteMetadata.title}
-      link={[...favicons]}
+      link={[...favicons, ...fonts]}
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
         {
