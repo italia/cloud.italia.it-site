@@ -1,24 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from 'design-react-kit';
+import { createUseStyles } from 'react-jss';
 import { referencePropType } from '../../utils/proptypes.js';
 
-const Reference = ({ reference }) => (
-  <li>
-    <a href={reference.link} target="_blank" rel="noreferrer" aria-label={reference.ariaLabel}>
-      <div className="it-right-zone pl-0">
-        <div>
-          <span className="text">{reference.title}</span>
-          <small className="text-dark">{reference.description}</small>
+const useStyles = createUseStyles({
+  icon: {
+    composes: 'ml-2',
+    minWidth: '16px',
+  },
+});
+
+const Reference = ({ reference }) => {
+  const classes = useStyles();
+  return (
+    <li>
+      <a href={reference.link} target="_blank" rel="noreferrer" aria-label={reference.ariaLabel}>
+        <div className="it-right-zone mx-4">
+          <div>
+            <span className="text">{reference.title}</span>
+            <small className="text-dark">{reference.description}</small>
+          </div>
+          <div className="btn-icon">
+            <small dangerouslySetInnerHTML={{ __html: reference.action }}></small>
+            <Icon icon={reference.icon} className={classes.icon} />
+          </div>
         </div>
-        <div className="btn-icon">
-          <small dangerouslySetInnerHTML={{ __html: reference.action }}></small>
-          <Icon icon={reference.icon} className="ml-2" />
-        </div>
-      </div>
-    </a>
-  </li>
-);
+      </a>
+    </li>
+  );
+};
 
 export const ResourceReferences = ({ references }) => (
   <div className="it-list-wrapper">
