@@ -10,7 +10,7 @@ import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 
 export const Enablement = () => {
-  const data = useStaticQuery(graphql`
+  const { abilitazione_cloud } = useStaticQuery(graphql`
     query {
       abilitazione_cloud: file(relativePath: { eq: "abilitazione_cloud_2x.png" }) {
         childImageSharp {
@@ -38,7 +38,7 @@ export const Enablement = () => {
         </div>
         <HeroGraphic
           alt=""
-          image={getImage(data.abilitazione_cloud)}
+          image={getImage(abilitazione_cloud)}
           className="col-lg-6 d-flex align-items-center justify-content-center"
         />
       </div>

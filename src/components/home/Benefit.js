@@ -8,34 +8,22 @@ import { Hero } from '../hero/Hero.js';
 import { AccordionEntry } from '../AccordionEntry.js';
 import { useAccordion } from '../../hooks/useAccordion.js';
 
-const accordionData = [
-  {
-    header: () => 'Per i cittadini',
-    body: () => `Servizi pubblici basati sul modello cloud garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto
-          della privacy. Sono servizi progettati in maniera nativa digitale e che hanno una minore incidenza sulla spesa
-          pubblica.`,
-  },
-  {
-    header: () => 'Per le amministrazioni',
-    body: () => `Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
-        maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
-        infrastrutture.`,
-  },
-  {
-    header: () => 'Per le PMI dell’ICT che operano nel settore pubblico',
-    body: () => `Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
-        amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
-        di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
-        maturo per le soluzioni cloud.`,
-  },
-];
-
 export const Benefit = () => {
-  const data = useStaticQuery(graphql`
+  const {
+    vantaggi_cloud,
+    allBenefitsYaml: { nodes: benefits },
+  } = useStaticQuery(graphql`
     query {
       vantaggi_cloud: file(relativePath: { eq: "vantaggi_cloud_1x.png" }) {
         childImageSharp {
           gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
+        }
+      }
+      allBenefitsYaml {
+        nodes {
+          id
+          title
+          body
         }
       }
     }
@@ -46,7 +34,7 @@ export const Benefit = () => {
       <div className="row align-items-center">
         <HeroGraphic
           alt=""
-          image={getImage(data.vantaggi_cloud)}
+          image={getImage(vantaggi_cloud)}
           className="col-lg-5 d-flex align-items-center justify-content-center"
         />
         <div className="col-lg-7 mt-4 mt-lg-0">
@@ -60,13 +48,13 @@ export const Benefit = () => {
             </div>
           </div>
           <Accordion className="bg-white shadow-lg">
-            {accordionData.map((entry, index) => (
+            {benefits.map((benefit, index) => (
               <AccordionEntry
-                key={index}
+                key={benefit.id}
                 active={activeAccordion === index + 1}
                 onToggle={() => openAccordion(index + 1)}
-                header={entry.header}
-                body={entry.body}
+                header={() => benefit.title}
+                body={() => benefit.body}
               />
             ))}
           </Accordion>
