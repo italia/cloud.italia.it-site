@@ -14,6 +14,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@fontsource/lora": "^4.2.2",
     "@fontsource/titillium-web": "^4.2.2",
     "bootstrap-italia": "^1.4.3",
     "classnames": "^2.2.6",
