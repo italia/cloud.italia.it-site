@@ -162,8 +162,8 @@ const CenterHeader = () => (
             <div className="d-flex align-items-center">
               <img className="icon" src={logo} alt="Cloud PA logo" />
               <div>
-                <h1 className="h3 mb-0">Cloud Italia</h1>
-                <span className="small">Il Cloud della Pubblica Amministrazione</span>
+                <div className="h3 mb-0">Cloud Italia</div>
+                <div className="small">Il Cloud della Pubblica Amministrazione</div>
               </div>
             </div>
           </div>

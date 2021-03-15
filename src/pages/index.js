@@ -9,6 +9,10 @@ import { Services } from '../components/home/Services.js';
 
 const IndexPage = () => (
   <>
+    <div className="sr-only">
+      <h1>Cloud Italia</h1>
+      <div>Il Cloud della Pubblica Amministrazione</div>
+    </div>
     <Strategy />
     <Benefit />
     <Enablement />

@@ -37,6 +37,7 @@ const StrategyPage = () => {
 
   return (
     <>
+      <h1 className="sr-only">Strategia cloud</h1>
       <Hero bgColor="light">
         <div className="col-xl-8 col-lg-10 m-auto">
           <div className="mx-4">

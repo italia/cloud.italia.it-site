@@ -16,10 +16,11 @@ const NotFoundPage = () => {
   return (
     <>
       <SEO title="Pagina non trovata" />
+      <h1 className="sr-only">Pagina non trovata</h1>
       <Hero>
         <div className="text-center text-primary">
           <div className={classes.statusCode}>404</div>
-          <h2 className="display-3">Pagina non trovata</h2>
+          <div className="display-3">Pagina non trovata</div>
           <div className="my-4 text-dark">
             Utilizza il menu per riprendere la navigazione, oppure prova a fare una nel sito
           </div>
