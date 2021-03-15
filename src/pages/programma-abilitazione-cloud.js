@@ -52,6 +52,7 @@ const CloudEnablementPage = () => {
   `);
   return (
     <>
+      <h1 className="sr-only">Programma di abilitazione</h1>
       <HeroGraphic
         subtitle="Strumenti, risorse e metodologie per innovare i servizi digitali pubblici utilizzando le tecnologie e le infrastrutture cloud."
         title="Programma di abilitazione al cloud"
