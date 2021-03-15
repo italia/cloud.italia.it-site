@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
 
 export const Services = () => {
   const classes = useStyles();
-  const data = useStaticQuery(graphql`
+  const { servizi_cloud } = useStaticQuery(graphql`
     query {
       servizi_cloud: file(relativePath: { eq: "servizi_cloud_1x.png" }) {
         childImageSharp {
@@ -68,7 +68,7 @@ export const Services = () => {
         </div>
         <HeroGraphic
           alt=""
-          image={getImage(data.servizi_cloud)}
+          image={getImage(servizi_cloud)}
           className="col-lg-4 d-flex align-items-center justify-content-center"
         />
       </div>

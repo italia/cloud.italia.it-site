@@ -10,7 +10,7 @@ import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 
 export const Strategy = () => {
-  const data = useStaticQuery(graphql`
+  const { strategia_cloud } = useStaticQuery(graphql`
     query {
       strategia_cloud: file(relativePath: { eq: "strategia_cloud_2x.png" }) {
         childImageSharp {
@@ -38,7 +38,7 @@ export const Strategy = () => {
         </div>
         <HeroGraphic
           alt=""
-          image={getImage(data.strategia_cloud)}
+          image={getImage(strategia_cloud)}
           className="col-lg-6 d-flex align-items-center justify-content-center"
         />
       </div>

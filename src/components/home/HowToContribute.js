@@ -1,45 +1,35 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
+import { graphql, useStaticQuery } from 'gatsby';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
 
-const data = [
-  {
-    icon: 'it-designers-italia',
-    title: 'Forum',
-    link: 'https://forum.italia.it/',
-    ariaLabel: 'Forum Italia: (Link esterno) Vai Forum Italia',
-    body:
-      'Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>',
-  },
-  {
-    icon: 'it-star-full',
-    title: 'Slack',
-    link: 'https://slack.developers.italia.it/',
-    ariaLabel: 'Slack Developers Italia: (Link esterno) Vai Slack Developers Italia',
-    body:
-      'Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>',
-  },
-  {
-    icon: 'it-github',
-    title: 'GitHub',
-    link: 'https://github.com/italia',
-    ariaLabel: 'GitHub: (Link esterno) Vai GitHub',
-    body:
-      'Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA',
-  },
-];
-
 export const HowToContribute = () => {
-  const slides = data.map((item, i) => (
-    <Card key={i} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
-      <a href={item.link} aria-label={item.ariaLabel} className="text-decoration-none">
+  const {
+    allHowToContributeYaml: { nodes: howToContribute },
+  } = useStaticQuery(graphql`
+    query {
+      allHowToContributeYaml {
+        nodes {
+          id
+          ariaLabel
+          body
+          icon
+          link
+          title
+        }
+      }
+    }
+  `);
+  const slides = howToContribute.map((contribute) => (
+    <Card key={contribute.id} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
+      <a href={contribute.link} aria-label={contribute.ariaLabel} className="text-decoration-none">
         <CardBody className="pb-5">
           <div className="mb-3 d-flex align-items-center">
-            <Icon color="primary" icon={item.icon} size="lg" />
-            <span className="primary-color px-3 h3 mb-0">{item.title}</span>
+            <Icon color="primary" icon={contribute.icon} size="lg" />
+            <span className="primary-color px-3 h3 mb-0">{contribute.title}</span>
           </div>
-          <p className="card-text" dangerouslySetInnerHTML={{ __html: item.body }}></p>
+          <p className="card-text" dangerouslySetInnerHTML={{ __html: contribute.body }}></p>
         </CardBody>
       </a>
     </Card>
