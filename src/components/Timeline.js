@@ -11,7 +11,7 @@ const useStyle = createUseStyles({
   },
   timeline: {
     overflow: 'hidden',
-    maxHeight: ({ collapsed, maxHeight }) => (collapsed ? '320px' : maxHeight),
+    maxHeight: ({ collapsed, maxHeight }) => (collapsed ? '290px' : maxHeight),
     transition: 'max-height 0.8s',
   },
   timelineEntryTitle: {
@@ -21,6 +21,11 @@ const useStyle = createUseStyles({
   timelineEntryBody: {
     composes: 'small text-info',
     fontFamily: 'Lora,Georgia,serif',
+  },
+  '@media (max-width: 1200px)': {
+    timeline: {
+      maxHeight: ({ collapsed, maxHeight }) => (collapsed ? '330px' : maxHeight),
+    },
   },
   '@media (max-width: 992px)': {
     timeline: {
