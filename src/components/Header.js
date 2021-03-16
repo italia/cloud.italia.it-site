@@ -1,5 +1,6 @@
-import { Link } from 'gatsby';
+import { graphql, Link, useStaticQuery } from 'gatsby';
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import {
   Collapse,
   Header as HeaderReactKit,
@@ -11,12 +12,12 @@ import {
   NavItem,
   HeaderBrand,
   HeaderLinkZone,
-  HeaderRightZone,
-  HeaderSocialsZone,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
+import { externalLinkPropType, internalLinkPropType } from '../utils/proptypes.js';
 import { HeaderNav } from './HeaderNav.js';
+import { ExternalLink } from './ExternalLink.js';
 
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
@@ -39,110 +40,71 @@ const useStyle = createUseStyles({
   },
 });
 
-const BrandSlimHeader = () => (
-  <span className="text-primary font-weight-semibold small">
-    <a
-      href="https://innovazione.gov.it/dipartimento/la-struttura/"
-      rel="noreferrer"
-      aria-label="Dipartimento per la Trasformazione Digitale: (Link esterno) Vai a Dipartimento per la Trasformazione Digitale"
-      className="mr-1"
-    >
-      Dipartimento per la Trasformazione Digitale
-    </a>
-    <span className="mr-1"> + </span>
-    <a
-      href="https://www.agid.gov.it/"
-      rel="noreferrer"
-      aria-label="Agenzia per l'Italia Digitale: (Link esterno) Vai a Agenzia per l'Italia Digitale"
-      className="mr-1"
-    >
-      AgID
-    </a>
-  </span>
-);
-
-const SlimHeader = () => {
+const SlimHeader = ({ links }) => {
   const [isOpen, toggleDropdown] = useState(false);
   const classes = useStyle();
   return (
     <HeaderReactKit type="slim" theme="light">
       <HeaderContent>
         <HeaderBrand tag="div">
-          <BrandSlimHeader />
+          <span className="text-primary font-weight-semibold small">
+            <ExternalLink linkTo={links.dipartimento.linkTo} ariaLabel={links.dipartimento.ariaLabel}>
+              {links.dipartimento.label}
+            </ExternalLink>
+            <span className="mx-1"> + </span>
+            <ExternalLink linkTo={links.agid.linkTo} ariaLabel={links.agid.ariaLabel}>
+              {links.agid.label}
+            </ExternalLink>
+          </span>
         </HeaderBrand>
         <HeaderLinkZone>
           <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="div" role="button">
-            <BrandSlimHeader />
-            <Icon icon="it-expand" size="sm" color="primary" />
+            <ExternalLink linkTo={links.dipartimento.linkTo} ariaLabel={links.dipartimento.ariaLabel}>
+              {links.dipartimento.label}
+            </ExternalLink>
+            <span className="mx-1"> + </span>
+            <ExternalLink linkTo={links.agid.linkTo} ariaLabel={links.agid.ariaLabel}>
+              {links.agid.label}
+            </ExternalLink>
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
             <div className="link-list-wrapper">
               <ul className="link-list pl-0 pr-0">
                 <li className={classes.verticalGroupDelimiter}>
-                  <a
-                    href="https://pianotriennale-ict.italia.it/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Piano Triennale: (Link esterno) Vai a Piano Triennale"
-                  >
-                    Piano Triennale
-                  </a>
+                  <ExternalLink linkTo={links.pianoTriennale.linkTo} ariaLabel={links.pianoTriennale.ariaLabel}>
+                    {links.pianoTriennale.label}
+                  </ExternalLink>
                 </li>
                 <li aria-hidden={true}>
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <a
-                    href="https://developers.italia.it/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Developers Italia: (Link esterno) Vai a Developers Italia"
-                  >
-                    Developers
-                  </a>
+                  <ExternalLink linkTo={links.developers.linkTo} ariaLabel={links.developers.ariaLabel}>
+                    {links.developers.label}
+                  </ExternalLink>
                 </li>
                 <li className={classes.verticalGroupDelimiter}>
-                  <a
-                    href="https://designers.italia.it/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Designers Italia: (Link esterno) Vai a Designers Italia"
-                  >
-                    Designers
-                  </a>
+                  <ExternalLink linkTo={links.designers.linkTo} ariaLabel={links.designers.ariaLabel}>
+                    {links.designers.label}
+                  </ExternalLink>
                 </li>
                 <li aria-hidden={true}>
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <a
-                    href="https://forum.italia.it/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Forum Italia: (Link esterno) Vai a Forum Italia"
-                  >
-                    Forum
-                  </a>
+                  <ExternalLink linkTo={links.forum.linkTo} ariaLabel={links.forum.ariaLabel}>
+                    {links.forum.label}
+                  </ExternalLink>
                 </li>
                 <li>
-                  <a
-                    href="https://docs.italia.it/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Docs Italia: (Link esterno) Vai a Docs Italia"
-                  >
-                    Docs
-                  </a>
+                  <ExternalLink linkTo={links.docs.linkTo} ariaLabel={links.docs.ariaLabel}>
+                    {links.docs.label}
+                  </ExternalLink>
                 </li>
                 <li>
-                  <a
-                    href="https://github.com/italia/"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="GitHub Italia: (Link esterno) Vai a GitHub Italia"
-                  >
-                    GitHub
-                  </a>
+                  <ExternalLink linkTo={links.github.linkTo} ariaLabel={links.github.ariaLabel}>
+                    {links.github.label}
+                  </ExternalLink>
                 </li>
               </ul>
             </div>
@@ -153,7 +115,20 @@ const SlimHeader = () => {
   );
 };
 
-const CenterHeader = () => (
+SlimHeader.propTypes = {
+  links: PropTypes.exact({
+    pianoTriennale: externalLinkPropType,
+    developers: externalLinkPropType,
+    designers: externalLinkPropType,
+    forum: externalLinkPropType,
+    docs: externalLinkPropType,
+    github: externalLinkPropType,
+    dipartimento: externalLinkPropType,
+    agid: externalLinkPropType,
+  }).isRequired,
+};
+
+const CenterHeader = ({ title, subtitle }) => (
   <HeaderReactKit type="center" theme="light">
     <HeaderContent>
       <div className="it-brand-wrapper">
@@ -162,35 +137,40 @@ const CenterHeader = () => (
             <div className="d-flex align-items-center">
               <img className="icon" src={logo} alt="Cloud PA logo" />
               <div>
-                <div className="h3 mb-0">Cloud Italia</div>
-                <div className="small">Il Cloud della Pubblica Amministrazione</div>
+                <div className="h3 mb-0">{title}</div>
+                <div className="small">{subtitle}</div>
               </div>
             </div>
           </div>
         </Link>
       </div>
-      <HeaderRightZone>
-        <HeaderSocialsZone label="Seguici su">
-          <ul>
-            <li>
-              <a
-                href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home"
-                className="d-block mr-3"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it"
-              >
-                <Icon icon="it-medium" />
-              </a>
-            </li>
-          </ul>
-        </HeaderSocialsZone>
-      </HeaderRightZone>
+      {/* <HeaderRightZone> */}
+      {/*  <HeaderSocialsZone label="Seguici su"> */}
+      {/*    <ul> */}
+      {/*      <li> */}
+      {/*        <a */}
+      {/*          href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home" */}
+      {/*          className="d-block mr-3" */}
+      {/*          target="_blank" */}
+      {/*          rel="noreferrer" */}
+      {/*          aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it" */}
+      {/*        > */}
+      {/*          <Icon icon="it-medium" /> */}
+      {/*        </a> */}
+      {/*      </li> */}
+      {/*    </ul> */}
+      {/*  </HeaderSocialsZone> */}
+      {/* </HeaderRightZone> */}
     </HeaderContent>
   </HeaderReactKit>
 );
 
-const NavHeader = () => {
+CenterHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+};
+
+const NavHeader = ({ links, marketPlace }) => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
@@ -209,50 +189,32 @@ const NavHeader = () => {
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
-                <Link to="/strategia-cloud-pa/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Strategia cloud</span>
+                <Link to={links.strategy.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                  <span className="font-weight-semibold">{links.strategy.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link
-                  to="/programma-abilitazione-cloud/"
-                  className="nav-link"
-                  activeClassName="active"
-                  onClick={closeMenu}
-                >
-                  <span className="font-weight-semibold">Programma di abilitazione</span>
+                <Link to={links.enablement.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                  <span className="font-weight-semibold">{links.enablement.label}</span>
                 </Link>
               </NavItem>
-
               <NavItem>
-                <Link
-                  to="/qualificazione-servizi-cloud/"
-                  className="nav-link"
-                  activeClassName="active"
-                  onClick={closeMenu}
-                >
-                  <span className="font-weight-semibold">Qualificazione dei servizi</span>
+                <Link to={links.services.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                  <span className="font-weight-semibold">{links.services.label}</span>
                 </Link>
               </NavItem>
-
               <NavItem>
-                <Link to="/catalogo-servizi-cloud/" className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">Cos&apos;è il catalogo dei servizi</span>
+                <Link to={links.catalogue.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                  <span className="font-weight-semibold">{links.catalogue.label}</span>
                 </Link>
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
               <NavItem>
-                <a
-                  href="https://cloud.italia.it/marketplace"
-                  rel="noreferrer"
-                  target="_blank"
-                  aria-label="Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
-                  className="nav-link"
-                >
-                  <span className="font-weight-semibold">Cloud Marketplace</span>
+                <ExternalLink linkTo={marketPlace.linkTo} ariaLabel={marketPlace.ariaLabel} className="nav-link">
+                  <span className="font-weight-semibold">{marketPlace.label}</span>
                   <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
-                </a>
+                </ExternalLink>
               </NavItem>
             </Nav>
           </div>
@@ -262,14 +224,111 @@ const NavHeader = () => {
   );
 };
 
-export const Header = () => (
-  <header>
-    <Headers>
-      <SlimHeader />
-      <div className="it-nav-wrapper">
-        <CenterHeader />
-        <NavHeader />
-      </div>
-    </Headers>
-  </header>
-);
+NavHeader.propTypes = {
+  links: PropTypes.exact({
+    strategy: internalLinkPropType.isRequired,
+    enablement: internalLinkPropType.isRequired,
+    services: internalLinkPropType.isRequired,
+    catalogue: internalLinkPropType.isRequired,
+  }).isRequired,
+  marketPlace: externalLinkPropType.isRequired,
+};
+
+export const Header = () => {
+  const {
+    linksYaml: { internalLinks, externalLinks },
+    site: {
+      siteMetadata: { title, subtitle },
+    },
+  } = useStaticQuery(
+    graphql`
+      query {
+        linksYaml {
+          internalLinks {
+            strategy {
+              label
+              linkTo
+            }
+            enablement {
+              label
+              linkTo
+            }
+            services {
+              label
+              linkTo
+            }
+            catalogue {
+              label
+              linkTo
+            }
+          }
+          externalLinks {
+            pianoTriennale {
+              ariaLabel
+              label
+              linkTo
+            }
+            forum {
+              ariaLabel
+              label
+              linkTo
+            }
+            developers {
+              ariaLabel
+              label
+              linkTo
+            }
+            designers {
+              ariaLabel
+              label
+              linkTo
+            }
+            docs {
+              ariaLabel
+              label
+              linkTo
+            }
+            github {
+              ariaLabel
+              label
+              linkTo
+            }
+            dipartimento {
+              ariaLabel
+              label
+              linkTo
+            }
+            agid {
+              ariaLabel
+              label
+              linkTo
+            }
+            marketplace {
+              ariaLabel
+              label
+              linkTo
+            }
+          }
+        }
+        site {
+          siteMetadata {
+            title
+            subtitle
+          }
+        }
+      }
+    `
+  );
+
+  return (
+    <header>
+      <Headers>
+        <SlimHeader links={externalLinks} />
+        <div className="it-nav-wrapper">
+          <CenterHeader title={title} subtitle={subtitle} />
+          <NavHeader links={internalLinks} marketPlace={externalLinks.marketplace} />
+        </div>
+      </Headers>
+    </header>
+  );
+};

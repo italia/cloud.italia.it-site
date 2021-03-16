@@ -25,3 +25,14 @@ export const resourcePropType = PropTypes.exact({
   title: PropTypes.string.isRequired,
   references: PropTypes.arrayOf(referencePropType).isRequired,
 });
+
+export const externalLinkPropType = PropTypes.exact({
+  linkTo: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  ariaLabel: PropTypes.string.isRequired,
+});
+
+export const internalLinkPropType = PropTypes.exact({
+  linkTo: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+});

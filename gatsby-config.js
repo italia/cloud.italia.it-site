@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     author: 'Dipartimento per la Trasformazione Digitale + AgID',
     siteUrl: 'https://cloud.italia.it',
-    title: 'Cloud Italia - Il Cloud della Pubblica Amministrazione',
+    title: 'Cloud Italia',
+    subtitle: 'Il Cloud della Pubblica Amministrazione',
     description: 'L’adozione del modello cloud computing nelle amministrazioni italiane',
   },
   plugins: [

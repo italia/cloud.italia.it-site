@@ -10,6 +10,7 @@ import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
 import { Cta } from '../Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
+import { ExternalLink } from '../ExternalLink.js';
 
 const useStyles = createUseStyles({
   btnPrimaryLight: {
@@ -24,11 +25,41 @@ const useStyles = createUseStyles({
 
 export const Services = () => {
   const classes = useStyles();
-  const { servizi_cloud } = useStaticQuery(graphql`
+  const {
+    servizi_cloud,
+    linksYaml: {
+      internalLinks: { services, catalogue },
+      externalLinks: { openDataMarketplace, marketplace },
+    },
+  } = useStaticQuery(graphql`
     query {
       servizi_cloud: file(relativePath: { eq: "servizi_cloud_1x.png" }) {
         childImageSharp {
           gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
+        }
+      }
+      linksYaml {
+        internalLinks {
+          services {
+            linkTo
+            label
+          }
+          catalogue {
+            linkTo
+            label
+          }
+        }
+        externalLinks {
+          marketplace {
+            ariaLabel
+            label
+            linkTo
+          }
+          openDataMarketplace {
+            ariaLabel
+            label
+            linkTo
+          }
         }
       }
     }
@@ -51,19 +82,17 @@ export const Services = () => {
             </HeroBody>
           </div>
           <HeroCtaContainer>
-            <Cta linkTo="/qualificazione-servizi-cloud/" text="Scopri di più" color="light" />
-            <Cta linkTo="/catalogo-servizi-cloud" text="Cos'è il catalogo dei servizi" color="light" type="outline" />
+            <Cta linkTo={services.linkTo} text="Scopri di più" color="light" type="outline" />
+            <Cta linkTo={catalogue.linkTo} text={catalogue.label} color="light" />
             <div aria-hidden="true" className={classes.verticalDelimiter} />
-            <a
-              href="https://cloud.italia.it/marketplace"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
+            <ExternalLink
+              linkTo={marketplace.linkTo}
+              ariaLabel={marketplace.ariaLabel}
               className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon`}
             >
-              <span className="mr-3">Cloud marketplace</span>
+              <span className="mr-3">{marketplace.label}</span>
               <Icon color="primary" icon="it-external-link" size="sm" />
-            </a>
+            </ExternalLink>
           </HeroCtaContainer>
         </div>
         <HeroGraphic
@@ -74,16 +103,14 @@ export const Services = () => {
       </div>
       <div className="row mt-lg-2 mt-0">
         <div className="col-12 text-center text-lg-left">
-          <a
-            href="https://cloud.italia.it/marketplace/opendata"
-            rel="noreferrer"
-            target="_blank"
-            aria-label="Open data marketplace: (Link esterno) Vai a open data marketplace"
+          <ExternalLink
+            linkTo={openDataMarketplace.linkTo}
+            ariaLabel={openDataMarketplace.ariaLabel}
             className="btn-icon text-white"
           >
-            <small>Open Data Cloud Marketplace</small>
+            <small>{openDataMarketplace.label}</small>
             <Icon className="ml-2" icon="it-external-link" size="sm" color="white" />
-          </a>
+          </ExternalLink>
         </div>
       </div>
     </Hero>

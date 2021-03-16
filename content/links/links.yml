@@ -1,0 +1,54 @@
+internalLinks:
+  strategy:
+    linkTo: /strategia-cloud-pa/
+    label: Strategia cloud
+  enablement:
+    linkTo: /programma-abilitazione-cloud/
+    label: Programma di abilitazione
+  services:
+    linkTo: /qualificazione-servizi-cloud/
+    label: Qualificazione dei servizi
+  catalogue:
+    linkTo: /catalogo-servizi-cloud/
+    label: Cos'è il catalogo dei servizi
+externalLinks:
+  pianoTriennale:
+    label: Piano Triennale
+    linkTo: https://pianotriennale-ict.italia.it/
+    ariaLabel: 'Piano Triennale: (Link esterno) Vai a Piano Triennale'
+  developers:
+    label: Developers
+    linkTo: https://developers.italia.it/
+    ariaLabel: 'Developers Italia: (Link esterno) Vai a Developers Italia'
+  designers:
+    label: Designers
+    linkTo: https://designers.italia.it/
+    ariaLabel: 'Designers Italia: (Link esterno) Vai a Designers Italia'
+  forum:
+    label: Forum
+    linkTo: https://forum.italia.it/
+    ariaLabel: 'Forum Italia: (Link esterno) Vai a Forum Italia'
+  docs:
+    label: Docs
+    linkTo: https://docs.italia.it/
+    ariaLabel: 'Docs Italia: (Link esterno) Vai a Docs Italia'
+  github:
+    label: GitHub
+    linkTo: https://github.com/italia/
+    ariaLabel: 'GitHub Italia: (Link esterno) Vai a GitHub Italia'
+  dipartimento:
+    label: Dipartimento per la Trasformazione Digitale
+    linkTo: https://innovazione.gov.it/dipartimento/la-struttura/
+    ariaLabel: 'Dipartimento per la Trasformazione Digitale: (Link esterno) Vai a Dipartimento per la Trasformazione Digitale'
+  agid:
+    label: AgID
+    linkTo: https://www.agid.gov.it/
+    ariaLabel: "Agenzia per l'Italia Digitale: (Link esterno) Vai a Agenzia per l'Italia Digitale"
+  marketplace:
+    label: Cloud Marketplace
+    linkTo: https://cloud.italia.it/marketplace
+    ariaLabel: "Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
+  openDataMarketplace:
+    label: Open Data Cloud Marketplace
+    linkTo: https://cloud.italia.it/marketplace/opendata
+    ariaLabel: "Open data marketplace: (Link esterno) Vai a Open Data Marketplace"
