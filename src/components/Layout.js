@@ -16,10 +16,14 @@ const useStyles = createUseStyles({
     },
     // override text-primary color
     '.text-primary': {
+      // eslint-disable-next-line sonarjs/no-duplicate-string
       color: ['var(--primary)', '!important'],
     },
     '.text-info': {
       color: ['#33485C', '!important'],
+    },
+    '.text-info-title': {
+      color: ['#455A64', '!important'],
     },
   },
   main: {
