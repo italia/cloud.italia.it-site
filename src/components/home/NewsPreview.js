@@ -18,12 +18,11 @@ const useStyle = createUseStyles({
 
 export const NewsPreview = () => {
   const {
-    allNewsPreviewYaml: { nodes: newsPreview },
+    newsPreviewYaml: { newsPreview, title, subtitle },
   } = useStaticQuery(graphql`
     query {
-      allNewsPreviewYaml {
-        nodes {
-          id
+      newsPreviewYaml {
+        newsPreview {
           body
           date
           link
@@ -31,12 +30,14 @@ export const NewsPreview = () => {
           title
           type
         }
+        title
+        subtitle
       }
     }
   `);
   const classes = useStyle();
   const slides = newsPreview.map((news) => (
-    <Card key={news.id} teaser noWrapper className="rounded shadow-lg">
+    <Card key={news.title} teaser noWrapper className="rounded shadow-lg">
       <CardBody className="h-100 d-flex flex-column">
         <div className="pb-3 d-flex align-items-center">
           <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>{news.type}</span>
@@ -61,8 +62,8 @@ export const NewsPreview = () => {
   return (
     <Hero>
       <div className="row align-items-center justify-content-center">
-        <h2 className="col-12 text-center text-uppercase h6">Le notizie</h2>
-        <h3 className="col-12 text-center h1">Articoli e approfondimenti</h3>
+        <h2 className="col-12 text-center text-uppercase h6">{title}</h2>
+        <h3 className="col-12 text-center h1">{subtitle}</h3>
         <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
           {slides}
         </div>
