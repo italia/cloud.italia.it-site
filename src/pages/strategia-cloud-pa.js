@@ -45,7 +45,7 @@ const StrategyPage = () => {
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
-              <HeroTitle title="La strategia nazionale cloud della PA" className="text-info" />
+              <HeroTitle title="La strategia nazionale cloud della PA" className="text-info" Tag="h2" />
               <HeroBody>
                 Il Piano triennale per l’informatica nella pubblica amministrazione prevede la realizzazione del sistema
                 operativo del paese mediante l’adozione del modello cloud computing nelle pubbliche amministrazioni. Il
