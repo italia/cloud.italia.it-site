@@ -39,7 +39,7 @@ const useStyle = createUseStyles({
   },
 });
 
-export const Timeline = ({ collapsible = true, data }) => {
+export const Timeline = ({ collapsible = true, data, title }) => {
   const timelineContainer = useRef();
 
   useEffect(() => {
@@ -63,6 +63,7 @@ export const Timeline = ({ collapsible = true, data }) => {
   const dateTimeNow = DateTime.now().setZone('Europe/Rome');
   return (
     <>
+      <h2 className="h4 text-center text-primary">{title}</h2>
       <TimelineReactKit className={`${classes.timeline} my-4`}>
         <div className="row" ref={timelineContainer}>
           {data.map((entry) => {
@@ -106,4 +107,5 @@ Timeline.propTypes = {
       title: PropTypes.string.isRequired,
     })
   ).isRequired,
+  title: PropTypes.string.isRequired,
 };
