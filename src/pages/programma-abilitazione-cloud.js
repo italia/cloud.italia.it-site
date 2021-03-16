@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { getImage } from 'gatsby-plugin-image';
 import { createUseStyles } from 'react-jss';
 import { HeroGraphic } from '../components/hero/HeroGraphic.js';
-import { HeroImage } from '../components/hero/HeroImage.js';
 
 const useStyles = createUseStyles({
   text: {
@@ -30,7 +29,6 @@ const CloudEnablementPage = () => {
       nodes: [md],
     },
     graphic,
-    image,
   } = useStaticQuery(graphql`
     query {
       allMarkdownRemark(filter: { fields: { type: { eq: "data" }, name: { eq: "cloud-enablement" } } }) {
@@ -60,9 +58,6 @@ const CloudEnablementPage = () => {
         imageSide="right"
         theme="white"
       />
-      <div className="container pb-4">
-        <HeroImage alt={'Una bella immagine'} gatsbyImage={getImage(image)} big={false} />
-      </div>
       <div className="container">
         <div className="row align-items-center">
           <div className={classes.text} dangerouslySetInnerHTML={{ __html: md.html }}></div>
