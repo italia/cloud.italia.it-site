@@ -23,6 +23,7 @@ const useStyles = createUseStyles({
     },
   },
   main: {
+    composes: 'text-info',
     backgroundColor: '#e6e9f21f', // TODO: qual è il colore corretto?
   },
 });
