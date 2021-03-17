@@ -39,7 +39,7 @@ const useStyle = createUseStyles({
   },
 });
 
-export const Timeline = ({ collapsible = true, data }) => {
+export const Timeline = ({ collapsible = true, data, title }) => {
   const timelineContainer = useRef();
 
   useEffect(() => {
@@ -63,6 +63,7 @@ export const Timeline = ({ collapsible = true, data }) => {
   const dateTimeNow = DateTime.now().setZone('Europe/Rome');
   return (
     <>
+      <h2 className="h4 text-center text-primary">{title}</h2>
       <TimelineReactKit className={`${classes.timeline} my-4`}>
         <div className="row" ref={timelineContainer}>
           {data.map((entry) => {
@@ -70,9 +71,8 @@ export const Timeline = ({ collapsible = true, data }) => {
             const past = dateTimeNow.startOf('year') > date.startOf('year');
             const now = dateTimeNow.startOf('year').toMillis() === date.startOf('year').toMillis();
             return (
-              <div className="col-12" key={entry.id}>
+              <div className="col-12" key={entry.title}>
                 <TimelinePin
-                  key={entry.id}
                   icon={past ? 'it-exchange-circle' : 'it-flag'}
                   label={date.setLocale('it').toFormat('yyyy')}
                   past={past}
@@ -102,8 +102,8 @@ Timeline.propTypes = {
     PropTypes.exact({
       body: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
-      id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
     })
   ).isRequired,
+  title: PropTypes.string.isRequired,
 };

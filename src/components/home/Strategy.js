@@ -5,9 +5,20 @@ import { HeroCategory } from '../hero/HeroCategory.js';
 import { HeroTitle } from '../hero/HeroTitle.js';
 import { HeroBody } from '../hero/HeroBody.js';
 import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../Cta.js';
+import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
+import content from '../../../content/home_page/hero.yml';
+import links from '../../../content/links.yml';
+import labels from '../../../content/labels.yml';
+
+const {
+  heroStrategy: { category, title, body },
+} = content;
+const {
+  internalLinks: { strategy },
+} = links;
+const { showMore } = labels;
 
 export const Strategy = () => {
   const { strategia_cloud } = useStaticQuery(graphql`
@@ -24,16 +35,12 @@ export const Strategy = () => {
       <div className="row align-items-center">
         <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
           <div className="text-center text-lg-left">
-            <HeroCategory title="La strategia nazione cloud della PA" />
-            <HeroTitle title="Il modello per realizzare il sistema operativo del Paese" linkTo="/strategia-cloud-pa/" />
-            <HeroBody>
-              Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
-              Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
-              efficienti.
-            </HeroBody>
+            <HeroCategory title={category} />
+            <HeroTitle title={title} linkTo={strategy.linkTo} />
+            <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta text="Scopri di più" linkTo="/strategia-cloud-pa/" />
+            <Cta text={showMore} linkTo={strategy.linkTo} />
           </HeroCtaContainer>
         </div>
         <HeroGraphic

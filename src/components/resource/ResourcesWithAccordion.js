@@ -27,7 +27,7 @@ export const ResourcesWithAccordion = ({ resources }) => {
     <Accordion className="mt-5">
       {resources.map((resource, index) => (
         <AccordionEntry
-          key={resource.id}
+          key={resource.title}
           active={activeAccordion === index + 1}
           onToggle={() => openAccordion(index + 1)}
           header={() => <ResourceHeader title={resource.title} />}

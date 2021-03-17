@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/hero/Hero.js';
 import { SEO } from '../components/SEO.js';
+import content from '../../content/404_page/index.yml';
 
 const useStyles = createUseStyles({
   statusCode: {
@@ -16,16 +17,14 @@ const NotFoundPage = () => {
   return (
     <>
       <SEO title="Pagina non trovata" />
-      <h1 className="sr-only">Pagina non trovata</h1>
+      <h1 className="sr-only">{content.title}</h1>
       <Hero>
         <div className="text-center text-primary">
           <div className={classes.statusCode}>404</div>
-          <div className="display-3">Pagina non trovata</div>
-          <div className="my-4 text-dark">
-            Utilizza il menu per riprendere la navigazione, oppure prova a fare una nel sito
-          </div>
+          <div className="display-3">{content.title}</div>
+          <div className="my-4 text-dark">{content.body}</div>
           <Link to="/" className="btn text-uppercase btn-primary">
-            Vai alla pagina iniziale
+            {content.returnToHome}
           </Link>
         </div>
       </Hero>

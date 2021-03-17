@@ -5,9 +5,20 @@ import { HeroCategory } from '../hero/HeroCategory.js';
 import { HeroTitle } from '../hero/HeroTitle.js';
 import { HeroBody } from '../hero/HeroBody.js';
 import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../Cta.js';
+import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
+import heroContent from '../../../content/home_page/hero.yml';
+import links from '../../../content/links.yml';
+import labels from '../../../content/labels.yml';
+
+const {
+  heroEnablement: { category, title, body },
+} = heroContent;
+const {
+  internalLinks: { enablement },
+} = links;
+const { showMore } = labels;
 
 export const Enablement = () => {
   const { abilitazione_cloud } = useStaticQuery(graphql`
@@ -24,16 +35,12 @@ export const Enablement = () => {
       <div className="row align-items-center">
         <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
           <div className="text-center text-lg-left">
-            <HeroCategory title="Il Programma di Abilitazione" />
-            <HeroTitle title="Come aderire al modello Cloud della PA" linkTo="/programma-abilitazione-cloud/" />
-            <HeroBody>
-              Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
-              (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
-              utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
-            </HeroBody>
+            <HeroCategory title={category} />
+            <HeroTitle title={title} linkTo={enablement.linkTo} />
+            <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta text="Scopri di più" linkTo="/programma-abilitazione-cloud/" />
+            <Cta text={showMore} linkTo={enablement.linkTo} />
           </HeroCtaContainer>
         </div>
         <HeroGraphic
