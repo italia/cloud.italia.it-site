@@ -8,11 +8,11 @@ const useStyles = createUseStyles({
   },
 });
 
-export const HeroBody = ({ children }) => {
+export const HeroBody = ({ html }) => {
   const classes = useStyles();
-  return <div className={classes.body}>{children}</div>;
+  return <div className={classes.body} dangerouslySetInnerHTML={{ __html: html }} />;
 };
 
 HeroBody.propTypes = {
-  children: PropTypes.node.isRequired,
+  html: PropTypes.string.isRequired,
 };

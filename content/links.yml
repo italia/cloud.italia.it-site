@@ -11,6 +11,9 @@ internalLinks:
   catalogue:
     linkTo: /catalogo-servizi-cloud/
     label: Cos'è il catalogo dei servizi
+  glossary:
+    linkTo: /glossario/cloud/
+    label: Glossario
 externalLinks:
   pianoTriennale:
     label: Piano Triennale
@@ -52,3 +55,15 @@ externalLinks:
     label: Open Data Cloud Marketplace
     linkTo: https://cloud.italia.it/marketplace/opendata
     ariaLabel: "Open data marketplace: (Link esterno) Vai a Open Data Marketplace"
+  noteLegali:
+    label: Note legali
+    linkTo: https://www.governo.it/note-legali
+    ariaLabel: "Note legali: (Link esterno) Leggi le note legali"
+  privacy:
+    label: Informativa privacy
+    linkTo: https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali/
+    ariaLabel: "Informativa privacy: (Link esterno) Vai all'informativa"
+  a11y:
+    label: Dichiarazione di accessibilità
+    linkTo: https://form.agid.gov.it/view/c7c157fa-0177-4262-aea2-206ae99ae422
+    ariaLabel: "Dichiarazione di accessibilità: (Link esterno) Vai alla Dichiarazione"

@@ -1,0 +1,31 @@
+heroStrategy:
+  category: La strategia nazione cloud della PA
+  title: Il modello per realizzare il sistema operativo del Paese
+  body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
+    Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
+    efficienti.
+heroBenefit:
+  category: I vantaggi
+  title: Un modello che porta beneficio all’intero sistema Paese
+  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire al
+    Paese la possibilità di crescere, competere, generare nuove opportunità di lavoro qualificato, creare e
+    distribuire nuova ricchezza in maniera uniforme su tutto il territorio nazionale
+heroEnablement:
+  category: Il Programma di Abilitazione
+  title: Come aderire al modello Cloud della PA
+  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
+    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
+heroServices:
+  category: La qualificazione dei servizi e il catalogo
+  title: Il percorso di qualificazione e il catalogo dei servizi cloud
+  body: Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’<strong>AgID</strong>.
+        I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
+        in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
+heroNews:
+  category: Le notizie
+  title: Articoli e approfondimenti
+heroContribute:
+  category: Come contribuire
+  title: Partecipa al cambiamento, contribuisci a Cloud Italia!
+  body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione

@@ -1,30 +1,17 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
-import { graphql, useStaticQuery } from 'gatsby';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
 import { ExternalLink } from '../ExternalLink.js';
+import heroContent from '../../../content/home_page/hero.yml';
+import contributeCards from '../../../content/home_page/contribute.yml';
+
+const {
+  heroContribute: { category, title, body },
+} = heroContent;
 
 export const HowToContribute = () => {
-  const {
-    contributeYaml: { title, subtitle, body, cards },
-  } = useStaticQuery(graphql`
-    query {
-      contributeYaml {
-        body
-        subtitle
-        title
-        cards {
-          ariaLabel
-          body
-          icon
-          link
-          title
-        }
-      }
-    }
-  `);
-  const slides = cards.map((card) => (
+  const slides = contributeCards.map((card) => (
     <Card key={card.title} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
       <ExternalLink linkTo={card.link} ariaLabel={card.ariaLabel} className="text-decoration-none">
         <CardBody className="pb-5">
@@ -41,8 +28,8 @@ export const HowToContribute = () => {
     <Hero bgColor="light">
       <div className="row">
         <div className="col-xl-4 col-lg-5 text-lg-left text-center">
-          <h2 className="text-uppercase h6 font-weight-semibold">{title}</h2>
-          <h3>{subtitle}</h3>
+          <h2 className="text-uppercase h6 font-weight-semibold">{category}</h2>
+          <h3>{title}</h3>
         </div>
       </div>
       <div className="row">

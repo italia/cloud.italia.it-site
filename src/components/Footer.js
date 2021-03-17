@@ -3,6 +3,13 @@ import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import dtdLogo from '../images/dtd-logo.svg';
 import agidLogo from '../images/agid-logo.svg';
+import links from '../../content/links.yml';
+import { ExternalLink } from './ExternalLink.js';
+
+const {
+  internalLinks: { glossary },
+  externalLinks: { dipartimento, agid, noteLegali, privacy, a11y },
+} = links;
 
 const useStyle = createUseStyles({
   mainFooter: {
@@ -32,39 +39,35 @@ const SlimFooter = () => {
       <div className="container">
         <ul className="list-inline link-list mb-0 text-center text-md-left">
           <li className="list-inline-item mr-0 mr-md-5">
-            <a
-              href="http://www.governo.it/note-legali"
+            <ExternalLink
+              linkTo={noteLegali.linkTo}
+              ariaLabel={noteLegali.ariaLabel}
               className="list-item mid-footer-link mx-4 mx-md-0"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Note legali: (Link esterno) Leggi le note legali"
             >
-              Note legali
-            </a>
+              {noteLegali.label}
+            </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <a
-              href="https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali/"
+            <ExternalLink
+              linkTo={privacy.linkTo}
+              ariaLabel={privacy.ariaLabel}
               className="list-item mid-footer-link mx-4 mx-md-0"
-              aria-label="Informativa privacy: (Link esterno) Vai all'informativa"
             >
-              Informativa privacy
-            </a>
+              {privacy.label}
+            </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <a
-              href="https://form.agid.gov.it/view/c7c157fa-0177-4262-aea2-206ae99ae422"
+            <ExternalLink
+              linkTo={a11y.linkTo}
+              ariaLabel={a11y.ariaLabel}
               className="list-item mid-footer-link mx-4 mx-md-0"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Dichiarazione di accessibilità: (Link esterno) Vai alla Dichiarazione"
             >
-              Dichiarazione di accessibilità
-            </a>
+              {a11y.label}
+            </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <Link to="/glossario/cloud" className="list-item mid-footer-link mx-4 mx-md-0">
-              Glossario
+            <Link to={glossary.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
+              {glossary.label}
             </Link>
           </li>
         </ul>
@@ -80,29 +83,15 @@ const MainFooter = () => {
       <div className="container">
         <div className="d-flex flex-column flex-md-row py-4 px-3 px-sm-0">
           <div className="py-3 py-sm-2">
-            <a
-              href="https://innovazione.gov.it/it/chi-siamo/dipartimento/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Dipartimento per la Trasformazione Digitale: (Link esterno) Vai a Dipartimento per la Trasformazione Digitale"
-            >
-              <img
-                className={classes.footerLogo}
-                src={dtdLogo}
-                alt="Dipartimento per la Trasformazione Digitale logo"
-              />
-            </a>
+            <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
+              <img className={classes.footerLogo} src={dtdLogo} alt="logo" />
+            </ExternalLink>
           </div>
           <div aria-hidden="true" className={classes.logoSeparator} />
           <div className="py-3 py-sm-2">
-            <a
-              href="https://www.agid.gov.it/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="AgID: (Link esterno) Vai a AgID"
-            >
-              <img className={classes.footerLogo} src={agidLogo} alt="AgID logo" />
-            </a>
+            <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
+              <img className={classes.footerLogo} src={agidLogo} alt="logo" />
+            </ExternalLink>
           </div>
         </div>
       </div>

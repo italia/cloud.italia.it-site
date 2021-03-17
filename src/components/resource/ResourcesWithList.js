@@ -6,7 +6,7 @@ import { ResourceReferences } from './ResourceReferences.js';
 
 export const ResourcesWithList = ({ resources }) =>
   resources.map((resource) => (
-    <React.Fragment key={resource.id}>
+    <React.Fragment key={resource.title}>
       <div className="mt-5 mb-3 mx-4">
         <ResourceHeader title={resource.title} classNames="text-info" />
       </div>

@@ -71,9 +71,8 @@ export const Timeline = ({ collapsible = true, data, title }) => {
             const past = dateTimeNow.startOf('year') > date.startOf('year');
             const now = dateTimeNow.startOf('year').toMillis() === date.startOf('year').toMillis();
             return (
-              <div className="col-12" key={entry.id}>
+              <div className="col-12" key={entry.title}>
                 <TimelinePin
-                  key={entry.id}
                   icon={past ? 'it-exchange-circle' : 'it-flag'}
                   label={date.setLocale('it').toFormat('yyyy')}
                   past={past}
@@ -103,7 +102,6 @@ Timeline.propTypes = {
     PropTypes.exact({
       body: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
-      id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
     })
   ).isRequired,

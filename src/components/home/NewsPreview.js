@@ -1,9 +1,15 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
-import { graphql, useStaticQuery } from 'gatsby';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
+import heroContent from '../../../content/home_page/hero.yml';
+import newsPreview from '../../../content/home_page/news-preview.yml';
+import { ExternalLink } from '../ExternalLink.js';
+
+const {
+  heroNews: { category, title },
+} = heroContent;
 
 const useStyle = createUseStyles({
   category: {
@@ -17,24 +23,6 @@ const useStyle = createUseStyles({
 });
 
 export const NewsPreview = () => {
-  const {
-    newsPreviewYaml: { newsPreview, title, subtitle },
-  } = useStaticQuery(graphql`
-    query {
-      newsPreviewYaml {
-        newsPreview {
-          body
-          date
-          link
-          source
-          title
-          type
-        }
-        title
-        subtitle
-      }
-    }
-  `);
   const classes = useStyle();
   const slides = newsPreview.map((news) => (
     <Card key={news.title} teaser noWrapper className="rounded shadow-lg">
@@ -46,9 +34,9 @@ export const NewsPreview = () => {
           </span>
         </div>
         <h4 className="h6 text-primary font-weight-bold">
-          <a href={news.link} className="text-decoration-none" rel="noreferrer" target="_blank">
+          <ExternalLink linkTo={news.link} className="text-decoration-none" ariaLabel="">
             {news.title}
-          </a>
+          </ExternalLink>
         </h4>
         <p className="card-text pt-2 pb-4 text-dark">{news.body}</p>
         <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
@@ -62,8 +50,8 @@ export const NewsPreview = () => {
   return (
     <Hero>
       <div className="row align-items-center justify-content-center">
-        <h2 className="col-12 text-center text-uppercase h6">{title}</h2>
-        <h3 className="col-12 text-center h1">{subtitle}</h3>
+        <h2 className="col-12 text-center text-uppercase h6">{category}</h2>
+        <h3 className="col-12 text-center h1">{title}</h3>
         <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
           {slides}
         </div>

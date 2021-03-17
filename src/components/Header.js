@@ -1,6 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import {
   Collapse,
   Header as HeaderReactKit,
@@ -15,9 +14,13 @@ import {
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
-import { externalLinkPropType, internalLinkPropType } from '../utils/proptypes.js';
+import links from '../../content/links.yml';
+import labels from '../../content/labels.yml';
 import { HeaderNav } from './HeaderNav.js';
 import { ExternalLink } from './ExternalLink.js';
+
+const { internalLinks, externalLinks } = links;
+const { ariaLabel } = labels;
 
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
@@ -40,7 +43,7 @@ const useStyle = createUseStyles({
   },
 });
 
-const SlimHeader = ({ links }) => {
+const SlimHeader = () => {
   const [isOpen, toggleDropdown] = useState(false);
   const classes = useStyle();
   return (
@@ -48,62 +51,65 @@ const SlimHeader = ({ links }) => {
       <HeaderContent>
         <HeaderBrand tag="div">
           <span className="text-primary font-weight-semibold small">
-            <ExternalLink linkTo={links.dipartimento.linkTo} ariaLabel={links.dipartimento.ariaLabel}>
-              {links.dipartimento.label}
+            <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
+              {externalLinks.dipartimento.label}
             </ExternalLink>
             <span className="mx-1"> + </span>
-            <ExternalLink linkTo={links.agid.linkTo} ariaLabel={links.agid.ariaLabel}>
-              {links.agid.label}
+            <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
+              {externalLinks.agid.label}
             </ExternalLink>
           </span>
         </HeaderBrand>
         <HeaderLinkZone>
           <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="div" role="button">
-            <ExternalLink linkTo={links.dipartimento.linkTo} ariaLabel={links.dipartimento.ariaLabel}>
-              {links.dipartimento.label}
+            <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
+              {externalLinks.dipartimento.label}
             </ExternalLink>
             <span className="mx-1"> + </span>
-            <ExternalLink linkTo={links.agid.linkTo} ariaLabel={links.agid.ariaLabel}>
-              {links.agid.label}
+            <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
+              {externalLinks.agid.label}
             </ExternalLink>
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
             <div className="link-list-wrapper">
               <ul className="link-list pl-0 pr-0">
                 <li className={classes.verticalGroupDelimiter}>
-                  <ExternalLink linkTo={links.pianoTriennale.linkTo} ariaLabel={links.pianoTriennale.ariaLabel}>
-                    {links.pianoTriennale.label}
+                  <ExternalLink
+                    linkTo={externalLinks.pianoTriennale.linkTo}
+                    ariaLabel={externalLinks.pianoTriennale.ariaLabel}
+                  >
+                    {externalLinks.pianoTriennale.label}
                   </ExternalLink>
                 </li>
                 <li aria-hidden={true}>
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <ExternalLink linkTo={links.developers.linkTo} ariaLabel={links.developers.ariaLabel}>
-                    {links.developers.label}
+                  <ExternalLink linkTo={externalLinks.developers.linkTo} ariaLabel={externalLinks.developers.ariaLabel}>
+                    {externalLinks.developers.label}
                   </ExternalLink>
                 </li>
                 <li className={classes.verticalGroupDelimiter}>
-                  <ExternalLink linkTo={links.designers.linkTo} ariaLabel={links.designers.ariaLabel}>
-                    {links.designers.label}
+                  <ExternalLink linkTo={externalLinks.designers.linkTo} ariaLabel={externalLinks.designers.ariaLabel}>
+                    {externalLinks.designers.label}
                   </ExternalLink>
                 </li>
                 <li aria-hidden={true}>
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <ExternalLink linkTo={links.forum.linkTo} ariaLabel={links.forum.ariaLabel}>
-                    {links.forum.label}
+                  <ExternalLink linkTo={externalLinks.forum.linkTo} ariaLabel={externalLinks.forum.ariaLabel}>
+                    {externalLinks.forum.label}
                   </ExternalLink>
                 </li>
                 <li>
-                  <ExternalLink linkTo={links.docs.linkTo} ariaLabel={links.docs.ariaLabel}>
-                    {links.docs.label}
+                  <ExternalLink linkTo={externalLinks.docs.linkTo} ariaLabel={externalLinks.docs.ariaLabel}>
+                    {externalLinks.docs.label}
                   </ExternalLink>
                 </li>
                 <li>
-                  <ExternalLink linkTo={links.github.linkTo} ariaLabel={links.github.ariaLabel}>
-                    {links.github.label}
+                  <ExternalLink linkTo={externalLinks.github.linkTo} ariaLabel={externalLinks.github.ariaLabel}>
+                    {externalLinks.github.label}
                   </ExternalLink>
                 </li>
               </ul>
@@ -115,73 +121,69 @@ const SlimHeader = ({ links }) => {
   );
 };
 
-SlimHeader.propTypes = {
-  links: PropTypes.exact({
-    pianoTriennale: externalLinkPropType,
-    developers: externalLinkPropType,
-    designers: externalLinkPropType,
-    forum: externalLinkPropType,
-    docs: externalLinkPropType,
-    github: externalLinkPropType,
-    dipartimento: externalLinkPropType,
-    agid: externalLinkPropType,
-  }).isRequired,
-};
-
-const CenterHeader = ({ title, subtitle }) => (
-  <HeaderReactKit type="center" theme="light">
-    <HeaderContent>
-      <div className="it-brand-wrapper">
-        <Link to="/">
-          <div className="it-brand-text">
-            <div className="d-flex align-items-center">
-              <img className="icon" src={logo} alt="Cloud PA logo" />
-              <div>
-                <div className="h3 mb-0">{title}</div>
-                <div className="small">{subtitle}</div>
+const CenterHeader = () => {
+  const {
+    site: {
+      siteMetadata: { title, subtitle },
+    },
+  } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            subtitle
+          }
+        }
+      }
+    `
+  );
+  return (
+    <HeaderReactKit type="center" theme="light">
+      <HeaderContent>
+        <div className="it-brand-wrapper">
+          <Link to="/">
+            <div className="it-brand-text">
+              <div className="d-flex align-items-center">
+                <img className="icon" src={logo} alt="Cloud PA logo" />
+                <div>
+                  <div className="h3 mb-0">{title}</div>
+                  <div className="small">{subtitle}</div>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
-      </div>
-      {/* <HeaderRightZone> */}
-      {/*  <HeaderSocialsZone label="Seguici su"> */}
-      {/*    <ul> */}
-      {/*      <li> */}
-      {/*        <a */}
-      {/*          href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home" */}
-      {/*          className="d-block mr-3" */}
-      {/*          target="_blank" */}
-      {/*          rel="noreferrer" */}
-      {/*          aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it" */}
-      {/*        > */}
-      {/*          <Icon icon="it-medium" /> */}
-      {/*        </a> */}
-      {/*      </li> */}
-      {/*    </ul> */}
-      {/*  </HeaderSocialsZone> */}
-      {/* </HeaderRightZone> */}
-    </HeaderContent>
-  </HeaderReactKit>
-);
-
-CenterHeader.propTypes = {
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+          </Link>
+        </div>
+        {/* <HeaderRightZone> */}
+        {/*  <HeaderSocialsZone label="Seguici su"> */}
+        {/*    <ul> */}
+        {/*      <li> */}
+        {/*        <a */}
+        {/*          href="https://medium.com/team-per-la-trasformazione-digitale/infrastrutture-digitali-cloud/home" */}
+        {/*          className="d-block mr-3" */}
+        {/*          target="_blank" */}
+        {/*          rel="noreferrer" */}
+        {/*          aria-label="Medium: (Link esterno) Vai al Medium di cloud.italia.it" */}
+        {/*        > */}
+        {/*          <Icon icon="it-medium" /> */}
+        {/*        </a> */}
+        {/*      </li> */}
+        {/*    </ul> */}
+        {/*  </HeaderSocialsZone> */}
+        {/* </HeaderRightZone> */}
+      </HeaderContent>
+    </HeaderReactKit>
+  );
 };
 
-const NavHeader = ({ links, marketPlace }) => {
+const NavHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
   return (
     <HeaderReactKit type="navbar" theme="light">
-      <HeaderContent expand="lg" megamenu aria-label="Menu principale">
-        <HeaderToggler
-          onClick={() => setIsOpen(!isOpen)}
-          aria-expanded={isOpen}
-          aria-label="Mostra / Nascondi la navigazione"
-        >
+      <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu}>
+        <HeaderToggler onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen} aria-label={ariaLabel.toggleMenu}>
           <Icon icon="it-burger" />
         </HeaderToggler>
 
@@ -189,30 +191,54 @@ const NavHeader = ({ links, marketPlace }) => {
           <div className="menu-wrapper">
             <Nav navbar>
               <NavItem>
-                <Link to={links.strategy.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">{links.strategy.label}</span>
+                <Link
+                  to={internalLinks.strategy.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to={links.enablement.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">{links.enablement.label}</span>
+                <Link
+                  to={internalLinks.enablement.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.enablement.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to={links.services.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">{links.services.label}</span>
+                <Link
+                  to={internalLinks.services.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.services.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to={links.catalogue.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
-                  <span className="font-weight-semibold">{links.catalogue.label}</span>
+                <Link
+                  to={internalLinks.catalogue.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
                 </Link>
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
               <NavItem>
-                <ExternalLink linkTo={marketPlace.linkTo} ariaLabel={marketPlace.ariaLabel} className="nav-link">
-                  <span className="font-weight-semibold">{marketPlace.label}</span>
+                <ExternalLink
+                  linkTo={externalLinks.marketplace.linkTo}
+                  ariaLabel={externalLinks.marketplace.ariaLabel}
+                  className="nav-link"
+                >
+                  <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
                   <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
                 </ExternalLink>
               </NavItem>
@@ -224,111 +250,14 @@ const NavHeader = ({ links, marketPlace }) => {
   );
 };
 
-NavHeader.propTypes = {
-  links: PropTypes.exact({
-    strategy: internalLinkPropType.isRequired,
-    enablement: internalLinkPropType.isRequired,
-    services: internalLinkPropType.isRequired,
-    catalogue: internalLinkPropType.isRequired,
-  }).isRequired,
-  marketPlace: externalLinkPropType.isRequired,
-};
-
-export const Header = () => {
-  const {
-    linksYaml: { internalLinks, externalLinks },
-    site: {
-      siteMetadata: { title, subtitle },
-    },
-  } = useStaticQuery(
-    graphql`
-      query {
-        linksYaml {
-          internalLinks {
-            strategy {
-              label
-              linkTo
-            }
-            enablement {
-              label
-              linkTo
-            }
-            services {
-              label
-              linkTo
-            }
-            catalogue {
-              label
-              linkTo
-            }
-          }
-          externalLinks {
-            pianoTriennale {
-              ariaLabel
-              label
-              linkTo
-            }
-            forum {
-              ariaLabel
-              label
-              linkTo
-            }
-            developers {
-              ariaLabel
-              label
-              linkTo
-            }
-            designers {
-              ariaLabel
-              label
-              linkTo
-            }
-            docs {
-              ariaLabel
-              label
-              linkTo
-            }
-            github {
-              ariaLabel
-              label
-              linkTo
-            }
-            dipartimento {
-              ariaLabel
-              label
-              linkTo
-            }
-            agid {
-              ariaLabel
-              label
-              linkTo
-            }
-            marketplace {
-              ariaLabel
-              label
-              linkTo
-            }
-          }
-        }
-        site {
-          siteMetadata {
-            title
-            subtitle
-          }
-        }
-      }
-    `
-  );
-
-  return (
-    <header>
-      <Headers>
-        <SlimHeader links={externalLinks} />
-        <div className="it-nav-wrapper">
-          <CenterHeader title={title} subtitle={subtitle} />
-          <NavHeader links={internalLinks} marketPlace={externalLinks.marketplace} />
-        </div>
-      </Headers>
-    </header>
-  );
-};
+export const Header = () => (
+  <header>
+    <Headers>
+      <SlimHeader />
+      <div className="it-nav-wrapper">
+        <CenterHeader />
+        <NavHeader />
+      </div>
+    </Headers>
+  </header>
+);

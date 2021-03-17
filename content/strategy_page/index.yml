@@ -1,49 +1,58 @@
----
-- heroTitle: 'La strategia nazionale cloud della PA'
-  heroBody: 'Il Piano triennale per l’informatica nella pubblica amministrazione prevede la realizzazione del sistema
-      operativo del paese mediante l’adozione del modello cloud computing nelle pubbliche amministrazioni. Il
-      Dipartimento per la trasformazione digitale, in collaborazione con AgID, ha definito la strategia Cloud
-      della PA e il programma per abilitare il cloud computing nel settore pubblico.'
-  timelineTitle: 'Piano di attuazione'
-  resourceTitle: 'Risorse utili'
-  firstParagraph:
-    text: "La strategia per il cloud prevista dal
-      <a
-        href='https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html'
-        rel='noreferrer'
-        target='_blank'
-        aria-label='Piano Triennale: (Link esterno) Vai al Piano Triennale'
-        class='text-decoration-none font-weight-semibold'
-        >Piano Triennale</a>
-    individua tre linee di indirizzo che caratterizzano il percorso di trasformazione"
-    list:
-      - html: '<strong>cloud first:</strong> incentivare le pubbliche amministrazioni all’adozione di soluzioni basate
-          sul cloud computing, nell’ottica di proporre un’offerta di servizi digitali e infrastrutture
-          tecnologiche sicure, efficienti, affidabili e autonome, in linea con le raccomandazioni destinate
-          all’intero mercato europeo;'
-      - html: "<strong>Polo Strategico Nazionale:</strong> mettere in sicurezza gli asset strategici per il Paese
-          mediante lo sviluppo di un&apos;infrastruttura ad alta affidabilità promossa dalla Presidenza del
-          Consiglio dei ministri (
+name: Strategia cloud
+heroTitle: 'La strategia nazionale cloud della PA'
+heroBody: 'Il Piano triennale per l’informatica nella pubblica amministrazione prevede la realizzazione del sistema
+          operativo del paese mediante l’adozione del modello cloud computing nelle pubbliche amministrazioni. Il
+          Dipartimento per la trasformazione digitale, in collaborazione con AgID, ha definito la strategia Cloud
+          della PA e il programma per abilitare il cloud computing nel settore pubblico.'
+
+firstParagraph:
+  text: "La strategia per il cloud prevista dal
+        <a
+          href='https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html'
+          rel='noreferrer'
+          target='_blank'
+          aria-label='Piano Triennale: (Link esterno) Vai al Piano Triennale'
+          class='text-decoration-none font-weight-semibold'
+          >Piano Triennale</a>
+        individua tre linee di indirizzo che caratterizzano il percorso di trasformazione"
+  list:
+    - html: '<strong>cloud first:</strong> incentivare le pubbliche amministrazioni all’adozione di soluzioni basate
+        sul cloud computing, nell’ottica di proporre un’offerta di servizi digitali e infrastrutture
+        tecnologiche sicure, efficienti, affidabili e autonome, in linea con le raccomandazioni destinate
+        all’intero mercato europeo;'
+    - html: "<strong>Polo Strategico Nazionale:</strong> mettere in sicurezza gli asset strategici per il Paese
+        mediante lo sviluppo di un'infrastruttura ad alta affidabilità promossa dalla Presidenza del
+        Consiglio dei ministri (
+        <a
+          href='https://www.gazzettaufficiale.it/eli/id/2020/09/14/20A04921/sg'
+          rel='noreferrer'
+          target='_blank'
+          aria-label='Gazzetta Ufficiale articolo 35: (Link esterno) Vai a Gazzetta Ufficiale articolo 35'
+          class='text-decoration-none font-weight-semibold'
+          >articolo 35</a>
+        del Decreto legge Semplificazioni e innovazione digitale);"
+    - html: '<strong>data center di qualità della PA:</strong> valorizzando le strutture delle amministrazioni e
+        rafforzando la loro capacità di offrire servizi cloud ad altre amministrazioni.'
+
+timelineTitle: 'Piano di attuazione'
+
+secondParagraph:
+  title: 'Adottare il modello Cloud della PA'
+  text: "Al fine di attuare la strategia Cloud della PA, abbiamo definito il
           <a
-            href='https://www.gazzettaufficiale.it/eli/id/2020/09/14/20A04921/sg'
-            rel='noreferrer'
-            target='_blank'
-            aria-label='Gazzetta Ufficiale articolo 35: (Link esterno) Vai a Gazzetta Ufficiale articolo 35'
+            href='/programma-abilitazione-cloud/'
             class='text-decoration-none font-weight-semibold'
-            >articolo 35</a>
-          del Decreto legge Semplificazioni e innovazione digitale);"
-      - html: '<strong>data center di qualità della PA:</strong> valorizzando le strutture delle amministrazioni e
-          rafforzando la loro capacità di offrire servizi cloud ad altre amministrazioni.'
-  secondParagraph:
-    title: 'Adottare il modello Cloud della PA'
-    text: 'Al fine di attuare la strategia Cloud della PA, abbiamo definito il programma di abilitazione al cloud, che
-            supporta le pubbliche amministrazioni nel percorso di migrazione al cloud computing. Nell’ambito del
-            programma è stato definito un modello di organizzazione (framework) per le unità operative che supporteranno
-            la migrazione (unità di controllo, unità di esecuzione e centri di competenza), ed è stata elaborata la
-            prima versione del kit di abilitazione al cloud, una raccolta di metodologie, buone pratiche e strumenti
-            dedicati alle PA coinvolte nel programma.'
-  thirdParagraph:
-    title: 'Cloud first e modello Cloud della PA'
+            >programma di abilitazione al cloud</a>
+          , che supporta le pubbliche amministrazioni nel percorso di migrazione al cloud computing. Nell’ambito del
+          programma è stato definito un modello di organizzazione (framework) per le unità operative che supporteranno
+          la migrazione (unità di controllo, unità di esecuzione e centri di competenza), ed è stata elaborata la
+          prima versione del kit di abilitazione al cloud, una raccolta di metodologie, buone pratiche e strumenti
+          dedicati alle PA coinvolte nel programma."
+
+resourceTitle: 'Risorse utili'
+
+thirdParagraph:
+  - title: 'Cloud first e modello Cloud della PA'
     text: "La strategia italiana sul cloud per la PA prevede il principio cloud first. Tuttavia, non tutti i servizi
             cloud hanno le medesime caratteristiche di qualità, adeguate alle esigenze della PA. A tal fine, la
             strategia ha previsto la definizione di requisiti che devono essere soddisfatti dai servizi cloud offerti
@@ -72,7 +81,7 @@
       - html: 'riduzione del rischio di vendor lock-in, ossia che le amministrazioni diventino dipendenti dai fornitori di tecnologie'
       - html: 'riqualificazione dell’offerta, ampliamento e diversificazione del mercato dei fornitori anche verso start-up e pubbliche e medie imprese;'
       - html: 'resilienza, scalabilità, reversibilità.'
-    footerText: "Il Cloud della PA si compone di infrastrutture e servizi, qualificati da AgID sulla base di requisiti minimi descritti nelle
+    footer: "Il Cloud della PA si compone di infrastrutture e servizi, qualificati da AgID sulla base di requisiti minimi descritti nelle
                 <a
                   href='https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/'
                   rel='noreferrer'
@@ -80,14 +89,12 @@
                   aria-label='Read the docs: (Link esterno) Vai a Read the docs'
                   class='text-decoration-none font-weight-semibold'
                   >circolari AgID n.2 e n.3 del 2018</a>."
-  forthParagraph:
-    title: 'Data center di qualità e Polo Strategico Nazionale'
+  - title: 'Data center di qualità e Polo Strategico Nazionale'
     text: 'Le infrastrutture digitali ricoprono un ruolo vitale per un gran numero di attività che sono ormai parte
             della nostra vita quotidiana nonché l’ossatura portante del sistema di servizi che le amministrazioni
             utilizzano ed erogano a cittadini e imprese. Le infrastrutture digitali della PA devono quindi essere
             affidabili, sicure, ecologiche ed economicamente sostenibili.'
-  fifthParagraph:
-    title: "Lo stato dell'arte"
+  - title: "Lo stato dell'arte"
     text: 'AgID ha fotografato lo stato molto precario di queste infrastrutture, pubblicando il Censimento del
             Patrimonio ICT della PA 2018-2019. Al censimento hanno partecipato 990 amministrazioni, centrali e locali,
             permettendo la valutazione di 1252 data center. I dati non sono incoraggianti: il 95% dei data center
@@ -99,8 +106,7 @@
             anche di identificare un insieme di 63 data center di qualità (di tipo A), che rispettano i requisiti minimi
             di affidabilità definiti da AgID. Di questi 63 data center, 24 appartengono a PA centrali e i restanti 39 a
             PA locali.'
-  sixthParagraph:
-    title: 'Strategia nazionale per i data center della PA'
+  - title: 'Strategia nazionale per i data center della PA'
     text: 'La strategia nazionale si differenzia in base alla tipologia di PA e, in particolare:'
     list:
       - html: 'Le amministrazioni centrali che erogano servizi tramite infrastrutture classificate di Gruppo B,
@@ -111,8 +117,7 @@
           potendo eventualmente consolidare nelle stesse i propri data center di Gruppo B.'
       - html: 'Le amministrazioni locali dismettono i data center di Gruppo B e migrano i propri servizi verso soluzioni cloud qualificate da AgID;
           inoltre, possono stringere accordi con altre amministrazioni per consolidare le infrastrutture e servizi all’interno di data center di tipo A.'
-  seventhParagraph:
-    title: 'Il Polo Strategico Nazionale'
+  - title: 'Il Polo Strategico Nazionale'
     text: "Per assicurare la sicurezza di asset strategici per il Paese, è previsto lo sviluppo di un'infrastruttura ad alta affidabilità promossa
       dalla Presidenza del Consiglio dei Ministri (
       <a

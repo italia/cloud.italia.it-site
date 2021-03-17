@@ -7,25 +7,19 @@ import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 import { AccordionEntry } from '../AccordionEntry.js';
 import { useAccordion } from '../../hooks/useAccordion.js';
+import heroContent from '../../../content/home_page/hero.yml';
+import benefits from '../../../content/home_page/benefits.yml';
+
+const {
+  heroBenefit: { category, title, body },
+} = heroContent;
 
 export const Benefit = () => {
-  const {
-    vantaggi_cloud,
-    benefitsYaml: { title, subtitle, body, benefits },
-  } = useStaticQuery(graphql`
+  const { vantaggi_cloud } = useStaticQuery(graphql`
     query {
       vantaggi_cloud: file(relativePath: { eq: "vantaggi_cloud_1x.png" }) {
         childImageSharp {
           gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
-        }
-      }
-      benefitsYaml {
-        title
-        subtitle
-        body
-        benefits {
-          title
-          body
         }
       }
     }
@@ -41,8 +35,8 @@ export const Benefit = () => {
         />
         <div className="col-lg-7 mt-4 mt-lg-0">
           <div className="col-xl-9 text-center text-lg-left">
-            <HeroCategory title={title} />
-            <h3 className="h3">{subtitle}</h3>
+            <HeroCategory title={category} />
+            <h3 className="h3">{title}</h3>
             <div className="mt-3 mb-5">{body}</div>
           </div>
           <Accordion className="bg-white shadow-lg">

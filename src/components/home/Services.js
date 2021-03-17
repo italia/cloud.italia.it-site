@@ -7,10 +7,21 @@ import { HeroCategory } from '../hero/HeroCategory.js';
 import { HeroTitle } from '../hero/HeroTitle.js';
 import { HeroBody } from '../hero/HeroBody.js';
 import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../Cta.js';
+import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 import { ExternalLink } from '../ExternalLink.js';
+import heroContent from '../../../content/home_page/hero.yml';
+import links from '../../../content/links.yml';
+
+const {
+  heroServices: { category, title, body },
+} = heroContent;
+
+const {
+  internalLinks: { services, catalogue },
+  externalLinks: { marketplace, openDataMarketplace },
+} = links;
 
 const useStyles = createUseStyles({
   btnPrimaryLight: {
@@ -25,41 +36,11 @@ const useStyles = createUseStyles({
 
 export const Services = () => {
   const classes = useStyles();
-  const {
-    servizi_cloud,
-    linksYaml: {
-      internalLinks: { services, catalogue },
-      externalLinks: { openDataMarketplace, marketplace },
-    },
-  } = useStaticQuery(graphql`
+  const { servizi_cloud } = useStaticQuery(graphql`
     query {
       servizi_cloud: file(relativePath: { eq: "servizi_cloud_1x.png" }) {
         childImageSharp {
           gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
-        }
-      }
-      linksYaml {
-        internalLinks {
-          services {
-            linkTo
-            label
-          }
-          catalogue {
-            linkTo
-            label
-          }
-        }
-        externalLinks {
-          marketplace {
-            ariaLabel
-            label
-            linkTo
-          }
-          openDataMarketplace {
-            ariaLabel
-            label
-            linkTo
-          }
         }
       }
     }
@@ -69,17 +50,9 @@ export const Services = () => {
       <div className="row align-items-center">
         <div className="col-lg-8 mt-4 mt-lg-0">
           <div className="col-xl-9 col-lg-11 text-center text-lg-left text-white">
-            <HeroCategory title="La qualificazione dei servizi e il catalogo" />
-            <HeroTitle
-              title="Il percorso di qualificazione e il catalogo dei servizi cloud"
-              linkTo="/qualificazione-servizi-cloud/"
-              className="text-white"
-            />
-            <HeroBody>
-              Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’
-              <strong>AgID</strong>. I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
-              in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
-            </HeroBody>
+            <HeroCategory title={category} />
+            <HeroTitle title={title} linkTo={services.linkTo} className="text-white" />
+            <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
             <Cta linkTo={services.linkTo} text="Scopri di più" color="light" type="outline" />
