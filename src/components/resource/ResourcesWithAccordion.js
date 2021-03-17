@@ -21,13 +21,13 @@ const useStyles = createUseStyles({
 
 export const ResourcesWithAccordion = ({ resources }) => {
   const classes = useStyles();
-  const [activeAccordion, openAccordion] = useAccordion();
+  const [activeAccordion, openAccordion] = useAccordion({ noActiveOnInit: true });
 
   return (
-    <Accordion className="mt-5">
+    <Accordion>
       {resources.map((resource, index) => (
         <AccordionEntry
-          key={resource.title}
+          key={index}
           active={activeAccordion === index + 1}
           onToggle={() => openAccordion(index + 1)}
           header={() => <ResourceHeader title={resource.title} />}

@@ -1,27 +1,17 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import classNames from 'classnames';
 import { Hero } from '../components/hero/Hero.js';
-import { List } from '../components/List.js';
-import { Paragraph } from '../components/Paragraph.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Timeline } from '../components/Timeline.js';
+import { Paragraphs } from '../components/Paragraphs.js';
 import content from '../../content/strategy_page/index.yml';
 import timelineData from '../../content/strategy_page/timeline.yml';
 import resources from '../../content/strategy_page/resources.yml';
+import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 
-const {
-  name,
-  heroTitle,
-  heroBody,
-  timelineTitle,
-  resourceTitle,
-  firstParagraph,
-  secondParagraph,
-  thirdParagraph,
-} = content;
+const { name, heroTitle, heroBody, timelineTitle, resourceTitle, paragraphs } = content;
 
 const StrategyPage = () => (
   <>
@@ -46,10 +36,7 @@ const StrategyPage = () => (
     />
 
     <Hero>
-      <Paragraph>
-        <div dangerouslySetInnerHTML={{ __html: firstParagraph.text }} />
-        <List items={firstParagraph.list} />
-      </Paragraph>
+      <Paragraphs paragraphs={paragraphs.slice(0, 1)} />
     </Hero>
 
     <Hero bgColor="light">
@@ -57,35 +44,18 @@ const StrategyPage = () => (
     </Hero>
 
     <Hero>
-      <Paragraph>
-        <h2 className="h5 font-weight-semibold mb-4">{secondParagraph.title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: secondParagraph.text }} />
-      </Paragraph>
+      <Paragraphs paragraphs={paragraphs.slice(1, 2)} />
     </Hero>
 
     <Hero bgColor="light">
       <div className="col-xl-8 col-lg-10 m-auto">
-        <div className="mx-4">
-          <h2 className="h5 font-weight-semibold text-info-title">{resourceTitle}</h2>
-        </div>
+        <ResourceTitle title={resourceTitle} />
         <ResourcesWithList resources={resources} />
       </div>
     </Hero>
 
     <Hero>
-      {thirdParagraph.map((paragraph, index) => {
-        const classes = classNames('h5 font-weight-semibold mb-4', {
-          'mt-4': index > 0,
-        });
-        return (
-          <Paragraph key={paragraph.title}>
-            <h2 className={classes}>{paragraph.title}</h2>
-            <div dangerouslySetInnerHTML={{ __html: paragraph.text }} />
-            {paragraph.list && <List items={paragraph.list} />}
-            {paragraph.footer && <div dangerouslySetInnerHTML={{ __html: paragraph.footer }} />}
-          </Paragraph>
-        );
-      })}
+      <Paragraphs paragraphs={paragraphs.slice(3)} />
     </Hero>
   </>
 );

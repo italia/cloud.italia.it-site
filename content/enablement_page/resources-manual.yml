@@ -1,0 +1,7 @@
+- references:
+  - action: Leggi su <strong>Docs Italia</strong>
+    description: Metodi, strumenti e buone pratiche che le pubbliche amministrazioni possono usare per la migrazione al cloud di infrastrutture e applicativi esistenti
+    icon: it-external-link
+    link: https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/index.html
+    ariaLabel: 'Manuale di abilitazione al cloud: (Link esterno) Vai a Manuale di abilitazione al cloud su Docs Italia'
+    title: Manuale di abilitazione al cloud

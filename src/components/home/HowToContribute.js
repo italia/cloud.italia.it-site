@@ -3,7 +3,7 @@ import { Card, CardBody, Icon } from 'design-react-kit';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
 import { ExternalLink } from '../ExternalLink.js';
-import heroContent from '../../../content/home_page/hero.yml';
+import heroContent from '../../../content/home_page/index.yml';
 import contributeCards from '../../../content/home_page/contribute.yml';
 
 const {

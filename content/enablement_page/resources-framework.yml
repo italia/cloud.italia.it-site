@@ -1,0 +1,7 @@
+- references:
+  - action: Leggi su <strong>Docs Italia</strong>
+    description: Risorse, strategie operative, metodologie e strumenti necessari per attuare il programma di abilitazione al cloud della PA
+    icon: it-external-link
+    link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/cloud-enablement.html#la-strategia-di-cloud-enablement
+    ariaLabel: 'Il framework di lavoro: (Link esterno) Vai a Il framework di lavoro su Docs Italia'
+    title: Il framework di lavoro

@@ -3,7 +3,7 @@ import { Card, CardBody, Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
-import heroContent from '../../../content/home_page/hero.yml';
+import heroContent from '../../../content/home_page/index.yml';
 import newsPreview from '../../../content/home_page/news-preview.yml';
 import { ExternalLink } from '../ExternalLink.js';
 

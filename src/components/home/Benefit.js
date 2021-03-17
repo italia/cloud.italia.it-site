@@ -7,7 +7,7 @@ import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 import { AccordionEntry } from '../AccordionEntry.js';
 import { useAccordion } from '../../hooks/useAccordion.js';
-import heroContent from '../../../content/home_page/hero.yml';
+import heroContent from '../../../content/home_page/index.yml';
 import benefits from '../../../content/home_page/benefits.yml';
 
 const {

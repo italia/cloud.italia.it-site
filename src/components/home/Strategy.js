@@ -8,7 +8,7 @@ import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
 import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
-import content from '../../../content/home_page/hero.yml';
+import content from '../../../content/home_page/index.yml';
 import links from '../../../content/links.yml';
 import labels from '../../../content/labels.yml';
 
