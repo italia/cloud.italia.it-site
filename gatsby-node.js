@@ -1,6 +1,22 @@
 const path = require('path');
 const fsPromises = require('fs/promises');
 
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
+
+  // Ensures we are processing only markdown files
+  if (node.internal.type === 'MarkdownRemark') {
+    const parent = getNode(node.parent);
+    if (parent.sourceInstanceName === 'content') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: parent.relativePath,
+      });
+    }
+  }
+};
+
 exports.onPostBuild = async () => {
   /*
    * These are a collection of redirects. Some are needed due to the restyling of the site, others are required because are used by AgID

@@ -1,6 +1,3 @@
----
-slug: strategy-chunk1
----
 La strategia per il cloud prevista dal 
 [Piano Triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Piano Triennale: (Link esterno) Vai al Piano Triennale}
 individua tre linee di indirizzo che caratterizzano il percorso di trasformazione

@@ -2,10 +2,10 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { createUseStyles } from 'react-jss';
 import { graphql, useStaticQuery } from 'gatsby';
-import content from '../../content/enablement_page/index.yml';
-import resources from '../../content/enablement_page/resources.yml';
-import resourcesManual from '../../content/enablement_page/resources-manual.yml';
-import resourcesFramework from '../../content/enablement_page/resources-framework.yml';
+import content from '../../content/enablement-page/index.yml';
+import resources from '../../content/enablement-page/resources.yml';
+import resourcesManual from '../../content/enablement-page/resources-manual.yml';
+import resourcesFramework from '../../content/enablement-page/resources-framework.yml';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
@@ -44,7 +44,7 @@ const CloudEnablementPage = () => {
     textChunk: { html: textChunk },
   } = useStaticQuery(graphql`
     query {
-      textChunk: markdownRemark(frontmatter: { slug: { eq: "enablement" } }) {
+      textChunk: markdownRemark(fields: { slug: { eq: "enablement-page/enablement.md" } }) {
         html
       }
     }

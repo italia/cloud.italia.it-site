@@ -6,7 +6,7 @@ import { Strategy } from '../components/home/Strategy.js';
 import { Benefit } from '../components/home/Benefit.js';
 import { Enablement } from '../components/home/Enablement.js';
 import { Services } from '../components/home/Services.js';
-import content from '../../content/home_page/index.yml';
+import content from '../../content/home-page/index.yml';
 
 const IndexPage = () => (
   <>

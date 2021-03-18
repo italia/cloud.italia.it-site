@@ -1,7 +1,3 @@
----
-slug: strategy-chunk3
----
-
 ## Cloud first e modello Cloud della PA
 {class="h5 font-weight-semibold mb-4"}
 

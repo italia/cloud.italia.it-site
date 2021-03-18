@@ -1,6 +1,3 @@
----
-slug: strategy-chunk2
----
 ## Adottare il modello Cloud della PA
 {class="h5 font-weight-semibold mb-4"}
 

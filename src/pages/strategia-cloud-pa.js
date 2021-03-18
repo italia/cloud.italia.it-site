@@ -6,9 +6,9 @@ import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Timeline } from '../components/Timeline.js';
-import content from '../../content/strategy_page/index.yml';
-import timelineData from '../../content/strategy_page/timeline.yml';
-import resources from '../../content/strategy_page/resources.yml';
+import content from '../../content/strategy-page/index.yml';
+import timelineData from '../../content/strategy-page/timeline.yml';
+import resources from '../../content/strategy-page/resources.yml';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { TextChunk } from '../components/TextChunk.js';
 
@@ -21,13 +21,13 @@ const StrategyPage = () => {
     chunk3: { html: chunk3 },
   } = useStaticQuery(graphql`
     query {
-      chunk1: markdownRemark(frontmatter: { slug: { eq: "strategy-chunk1" } }) {
+      chunk1: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk1.md" } }) {
         html
       }
-      chunk2: markdownRemark(frontmatter: { slug: { eq: "strategy-chunk2" } }) {
+      chunk2: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk2.md" } }) {
         html
       }
-      chunk3: markdownRemark(frontmatter: { slug: { eq: "strategy-chunk3" } }) {
+      chunk3: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk3.md" } }) {
         html
       }
     }

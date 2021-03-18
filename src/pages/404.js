@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/hero/Hero.js';
 import { SEO } from '../components/SEO.js';
-import content from '../../content/404_page/index.yml';
+import content from '../../content/404-page/index.yml';
 
 const useStyles = createUseStyles({
   statusCode: {
@@ -16,7 +16,7 @@ const NotFoundPage = () => {
   const classes = useStyles();
   return (
     <>
-      <SEO title="Pagina non trovata" />
+      <SEO title={content.title} />
       <h1 className="sr-only">{content.title}</h1>
       <Hero>
         <div className="text-center text-primary">
