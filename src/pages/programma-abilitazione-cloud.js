@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { createUseStyles } from 'react-jss';
+import { graphql, useStaticQuery } from 'gatsby';
 import content from '../../content/enablement_page/index.yml';
 import resources from '../../content/enablement_page/resources.yml';
 import resourcesManual from '../../content/enablement_page/resources-manual.yml';
@@ -8,12 +9,12 @@ import resourcesFramework from '../../content/enablement_page/resources-framewor
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
-import { Paragraphs } from '../components/Paragraphs.js';
 import { ResourcesWithAccordion } from '../components/resource/ResourcesWithAccordion.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
+import { TextChunk } from '../components/TextChunk.js';
 
-const { name, heroTitle, heroBody, paragraphs, resourceTitleBlockOne, resourceTitleBlockTwo } = content;
+const { name, heroTitle, heroBody, resourceTitleBlockOne, resourceTitleBlockTwo } = content;
 
 const useStyles = createUseStyles({
   noBorderBottom: {
@@ -23,9 +24,32 @@ const useStyles = createUseStyles({
       },
     },
   },
+  list: {
+    '@global': {
+      ul: {
+        paddingLeft: '24px',
+      },
+      li: {
+        marginBottom: '13px',
+      },
+      'li::marker': {
+        color: 'var(--primary)',
+      },
+    },
+  },
 });
 const CloudEnablementPage = () => {
   const classes = useStyles();
+  const {
+    textChunk: { html: textChunk },
+  } = useStaticQuery(graphql`
+    query {
+      textChunk: markdownRemark(frontmatter: { slug: { eq: "enablement" } }) {
+        html
+      }
+    }
+  `);
+
   return (
     <>
       <h1 className="sr-only">{name}</h1>
@@ -49,7 +73,7 @@ const CloudEnablementPage = () => {
       />
 
       <Hero>
-        <Paragraphs paragraphs={paragraphs} />
+        <TextChunk html={textChunk} />
       </Hero>
 
       <Hero bgColor="light">
