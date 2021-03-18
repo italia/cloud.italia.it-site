@@ -6220,13 +6220,6 @@ gatsby-recipes@^0.11.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-remark-attr@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-attr/-/gatsby-remark-attr-0.1.0.tgz#7cf943b24f3568e0b1bae1373793716b9e7c564d"
-  integrity sha512-jT5U74Ac04o8awuAN4FIJse9biD6rO9vqae8vfPaAVZG+JQYSYNfqQXK/CQaw3Pdt04bYugkUlOhgGjn3QO50Q==
-  dependencies:
-    remark-attr "^0.11.0"
-
 gatsby-source-filesystem@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-3.0.0.tgz#6f82e8eeac8772be2848bee9959f217c87f5b86e"
@@ -11325,7 +11318,7 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
-remark-attr@^0.11.0:
+remark-attr@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/remark-attr/-/remark-attr-0.11.1.tgz#4f2f96b16316be2887a24662116756c88ee36f15"
   integrity sha512-NnzURvBJ52c58L3AohBk5qSTBPXdMKsf5+w9L0YNhi/HCtv7ZA9dNRz5NsPIxLtIHhoZIjTqQsMzoyggyPVvkQ==
