@@ -3,8 +3,8 @@ import { Card, CardBody, Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import { MobileSwiper } from '../MobileSwiper.js';
 import { Hero } from '../hero/Hero.js';
-import heroContent from '../../../content/home-page/index.yml';
-import newsPreview from '../../../content/home-page/news-preview.yml';
+import heroContent from '../../../contents/home-page/index.yml';
+import newsPreview from '../../../contents/home-page/news-preview.yml';
 import { ExternalLink } from '../ExternalLink.js';
 
 const {

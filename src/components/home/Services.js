@@ -11,8 +11,8 @@ import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
 import { ExternalLink } from '../ExternalLink.js';
-import heroContent from '../../../content/home-page/index.yml';
-import links from '../../../content/links.yml';
+import heroContent from '../../../contents/home-page/index.yml';
+import links from '../../../contents/links.yml';
 
 const {
   heroServices: { category, title, body },

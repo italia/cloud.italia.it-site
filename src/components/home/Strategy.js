@@ -8,9 +8,9 @@ import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
 import { Cta } from '../hero/Cta.js';
 import { HeroGraphic } from '../hero/HeroGraphic.js';
 import { Hero } from '../hero/Hero.js';
-import content from '../../../content/home-page/index.yml';
-import links from '../../../content/links.yml';
-import labels from '../../../content/labels.yml';
+import content from '../../../contents/home-page/index.yml';
+import links from '../../../contents/links.yml';
+import labels from '../../../contents/labels.yml';
 
 const {
   heroStrategy: { category, title, body },

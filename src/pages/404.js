@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/hero/Hero.js';
 import { SEO } from '../components/SEO.js';
-import content from '../../content/404-page/index.yml';
+import content from '../../contents/404-page/index.yml';
 
 const useStyles = createUseStyles({
   statusCode: {

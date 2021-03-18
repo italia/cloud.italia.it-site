@@ -6,9 +6,9 @@ import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Timeline } from '../components/Timeline.js';
-import content from '../../content/strategy-page/index.yml';
-import timelineData from '../../content/strategy-page/timeline.yml';
-import resources from '../../content/strategy-page/resources.yml';
+import content from '../../contents/strategy-page/index.yml';
+import timelineData from '../../contents/strategy-page/timeline.yml';
+import resources from '../../contents/strategy-page/resources.yml';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { TextChunk } from '../components/TextChunk.js';
 

@@ -14,8 +14,8 @@ import {
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
-import links from '../../content/links.yml';
-import labels from '../../content/labels.yml';
+import links from '../../contents/links.yml';
+import labels from '../../contents/labels.yml';
 import { HeaderNav } from './HeaderNav.js';
 import { ExternalLink } from './ExternalLink.js';
 
