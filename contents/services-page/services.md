@@ -16,4 +16,4 @@ Per agevolare il processo di qualificazione, AgID ha reso disponibile un tool di
 È inoltre disponibile il 
 [manuale utente della piattaforma di qualificazione](https://cloud.italia.it/marketplace/serve/doc/GuidaPortaleFornitori_v1.3.0_20201001.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=manuale utente della piattaforma di qualificazione: (Link esterno) Vai a manuale utente della piattaforma di qualificazione}.
 Per ulteriori chiarimenti sul processo di qualificazione è possibile inviare una mail all'indirizzo
-[qualificazione-cloud@agid.gov.it](qualificazione-cloud@agid.gov.it){class="text-decoration-none font-weight-semibold"}
+[qualificazione-cloud@agid.gov.it](mailto:qualificazione-cloud@agid.gov.it){class="text-decoration-none font-weight-semibold"}
