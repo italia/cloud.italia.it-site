@@ -3,20 +3,20 @@ import { getImage } from 'gatsby-plugin-image';
 import { Icon } from 'design-react-kit';
 import { graphql, useStaticQuery } from 'gatsby';
 import { createUseStyles } from 'react-jss';
-import { HeroCategory } from '../hero/HeroCategory.js';
-import { HeroTitle } from '../hero/HeroTitle.js';
-import { HeroBody } from '../hero/HeroBody.js';
-import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../hero/Cta.js';
-import { HeroGraphic } from '../hero/HeroGraphic.js';
-import { Hero } from '../hero/Hero.js';
-import { ExternalLink } from '../ExternalLink.js';
-import heroContent from '../../../content/home_page/hero.yml';
-import links from '../../../content/links.yml';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
+import { HeroCtaContainer } from '../../components/hero/HeroCtaContainer.js';
+import { Cta } from '../../components/hero/Cta.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
+import { ExternalLink } from '../../components/ExternalLink.js';
+import content from '../../../contents/home-page/index.yml';
+import links from '../../../contents/links.yml';
 
 const {
   heroServices: { category, title, body },
-} = heroContent;
+} = content;
 
 const {
   internalLinks: { services, catalogue },
@@ -34,7 +34,7 @@ const useStyles = createUseStyles({
   },
 });
 
-export const Services = () => {
+export const ServicesSection = () => {
   const classes = useStyles();
   const { servizi_cloud } = useStaticQuery(graphql`
     query {

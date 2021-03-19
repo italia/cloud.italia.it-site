@@ -17,9 +17,9 @@ const Reference = ({ reference }) => {
     <li>
       <a href={reference.link} target="_blank" rel="noreferrer" aria-label={reference.ariaLabel}>
         <div className="it-right-zone mx-4">
-          <div>
+          <div className="col-7 col-lg-8">
             <span className="text">{reference.title}</span>
-            <small className="text-dark">{reference.description}</small>
+            {reference.description && <small className="text-dark">{reference.description}</small>}
           </div>
           <div className="btn-icon">
             <small dangerouslySetInnerHTML={{ __html: reference.action }}></small>

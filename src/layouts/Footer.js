@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import dtdLogo from '../images/dtd-logo.svg';
 import agidLogo from '../images/agid-logo.svg';
-import links from '../../content/links.yml';
-import { ExternalLink } from './ExternalLink.js';
+import links from '../../contents/links.yml';
+import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
   internalLinks: { glossary },

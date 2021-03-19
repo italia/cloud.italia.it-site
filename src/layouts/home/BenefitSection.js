@@ -2,19 +2,19 @@ import React from 'react';
 import { getImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
 import { Accordion } from 'design-react-kit';
-import { HeroCategory } from '../hero/HeroCategory.js';
-import { HeroGraphic } from '../hero/HeroGraphic.js';
-import { Hero } from '../hero/Hero.js';
-import { AccordionEntry } from '../AccordionEntry.js';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
+import { AccordionEntry } from '../../components/AccordionEntry.js';
 import { useAccordion } from '../../hooks/useAccordion.js';
-import heroContent from '../../../content/home_page/hero.yml';
-import benefits from '../../../content/home_page/benefits.yml';
+import content from '../../../contents/home-page/index.yml';
 
 const {
   heroBenefit: { category, title, body },
-} = heroContent;
+  benefits,
+} = content;
 
-export const Benefit = () => {
+export const BenefitSection = () => {
   const { vantaggi_cloud } = useStaticQuery(graphql`
     query {
       vantaggi_cloud: file(relativePath: { eq: "vantaggi_cloud_1x.png" }) {

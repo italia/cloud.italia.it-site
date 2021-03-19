@@ -1,0 +1,81 @@
+name: Cloud Italia - Il Cloud della Pubblica Amministrazione
+heroStrategy:
+  category: La strategia nazione cloud della PA
+  title: Il modello per realizzare il sistema operativo del Paese
+  body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
+    Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
+    efficienti.
+heroBenefit:
+  category: I vantaggi
+  title: Un modello che porta beneficio all’intero sistema Paese
+  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire al
+    Paese la possibilità di crescere, competere, generare nuove opportunità di lavoro qualificato, creare e
+    distribuire nuova ricchezza in maniera uniforme su tutto il territorio nazionale
+benefits:
+  - title: Per i cittadini
+    body: Servizi pubblici basati sul modello cloud garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto
+      della privacy. Sono servizi progettati in maniera nativa digitale e che hanno una minore incidenza sulla spesa
+      pubblica.
+  - title: Per le amministrazioni
+    body: Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
+      maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
+      infrastrutture.
+  - title: Per le PMI dell’ICT che operano nel settore pubblico
+    body: Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
+      amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
+      di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
+      maturo per le soluzioni cloud.
+heroEnablement:
+  category: Il Programma di Abilitazione
+  title: Come aderire al modello Cloud della PA
+  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
+    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
+heroServices:
+  category: La qualificazione dei servizi e il catalogo
+  title: Il percorso di qualificazione e il catalogo dei servizi cloud
+  body: Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’<strong>AgID</strong>.
+        I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
+        in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
+heroNews:
+  category: Le notizie
+  title: Articoli e approfondimenti
+newsPreview:
+  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+    date: 27 novembre 2020
+    link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
+    source: 'Fonte: innovazione.gov.it'
+    title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
+    type: Articolo
+  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+    date: 21 febbraio 2020
+    link: https://medium.com/blog-per-la-trasformazione-digitale/inizia-la-rivoluzione-cloud-la-strategia-per-le-infrastrutture-digitali-della-pubblica-eddcd0a8e3f8
+    source: 'Fonte: medium'
+    title: 'Inizia la rivoluzione cloud: la strategia per le infrastrutture digitali della Pubblica Amministrazione'
+    type: Approfondimento
+  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+    date: 12 luglio 2019
+    link: https://medium.com/team-per-la-trasformazione-digitale/migrazione-in-cloud-servizi-pubblica-amministrazione-vantaggi-rischi-strategie-44ec2439bebf
+    source: 'Fonte: medium'
+    title: Un kit per portare i servizi pubblici nel cloud
+    type: Approfondimento
+heroContribute:
+  category: Come contribuire
+  title: Partecipa al cambiamento, contribuisci a Cloud Italia!
+  body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
+contributions:
+  - ariaLabel: 'Forum Italia: (Link esterno) Vai Forum Italia'
+    body: Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
+    icon: it-designers-italia
+    link: https://forum.italia.it/
+    title: Forum
+  - ariaLabel: 'Slack Developers Italia: (Link esterno) Vai Slack Developers Italia'
+    body: Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>
+    icon: it-star-full
+    link: https://slack.developers.italia.it/
+    title: Slack
+  - ariaLabel: 'GitHub Italia: (Link esterno) Vai GitHub Italia'
+    body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA
+    icon: it-github
+    link: https://github.com/italia
+    title: Github

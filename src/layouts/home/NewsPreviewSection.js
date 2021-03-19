@@ -1,15 +1,15 @@
 import React from 'react';
 import { Card, CardBody, Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
-import { MobileSwiper } from '../MobileSwiper.js';
-import { Hero } from '../hero/Hero.js';
-import heroContent from '../../../content/home_page/hero.yml';
-import newsPreview from '../../../content/home_page/news-preview.yml';
-import { ExternalLink } from '../ExternalLink.js';
+import { MobileSwiper } from '../../components/MobileSwiper.js';
+import { Hero } from '../../components/hero/Hero.js';
+import content from '../../../contents/home-page/index.yml';
+import { ExternalLink } from '../../components/ExternalLink.js';
 
 const {
   heroNews: { category, title },
-} = heroContent;
+  newsPreview,
+} = content;
 
 const useStyle = createUseStyles({
   category: {
@@ -22,7 +22,7 @@ const useStyle = createUseStyles({
   },
 });
 
-export const NewsPreview = () => {
+export const NewsPreviewSection = () => {
   const classes = useStyle();
   const slides = newsPreview.map((news) => (
     <Card key={news.title} teaser noWrapper className="rounded shadow-lg">

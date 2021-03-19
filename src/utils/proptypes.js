@@ -8,13 +8,13 @@ export const gatsbyImageDataProptype = PropTypes.oneOfType([
 export const referencePropType = PropTypes.exact({
   action: PropTypes.string.isRequired,
   ariaLabel: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   icon: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 });
 
 export const resourcePropType = PropTypes.exact({
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   references: PropTypes.arrayOf(referencePropType).isRequired,
 });

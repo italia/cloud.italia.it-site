@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-export const useAccordion = () => {
-  const [activeAccordion, setActiveAccordion] = useState(1);
+export const useAccordion = ({ noActiveOnInit = false } = {}) => {
+  const [activeAccordion, setActiveAccordion] = useState(noActiveOnInit ? 0 : 1);
 
   const openAccordion = (accordionNumber) => {
     if (accordionNumber === activeAccordion) {

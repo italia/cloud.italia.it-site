@@ -1,9 +1,5 @@
 import React from 'react';
+import EnablementPage from '../layouts/EnablementPage.js';
 
-const CloudEnablementPage = () => (
-  <>
-    <h1 className="sr-only">Programma di abilitazione</h1>
-  </>
-);
-
-export default CloudEnablementPage;
+const Page = () => <EnablementPage />;
+export default Page;
