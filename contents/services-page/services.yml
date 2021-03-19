@@ -1,0 +1,29 @@
+name: Qualificazione dei servizi
+title: La qualificazione dei servizi Cloud per la PA
+body: Come qualificare i servizi cloud dedicati alla Pubblica Amministrazione
+resourceTitle: Risorse utili
+resources:
+  - title: Documenti
+    references:
+      - action: Leggi
+        icon: it-external-link
+        link: https://cloud.italia.it/marketplace/info
+        ariaLabel: 'Come ottenere le qualificazioni Cloud: (Link esterno) Vai a Come ottenere le qualificazioni Cloud'
+        title: Come ottenere le qualificazioni Cloud
+      - action: Consulta
+        icon: it-external-link
+        link: https://cloud.italia.it/marketplace/
+        title: Il catalogo dei servizi qualificati
+        ariaLabel: 'Il catalogo dei servizi qualificati: (Link esterno) Vai a Il catalogo dei servizi qualificati'
+      - action: Leggi su <strong>Read the Docs</strong>
+        description: Qualificazione dei Cloud Service Provider
+        icon: it-external-link
+        link: https://cloud-italia-circolari.readthedocs.io/it/latest/circolari/CSP/circolare_qualificazione_CSP_v1.2.html
+        title: Circolare AgID N. 2 del 9 aprile 2018
+        ariaLabel: 'Circolare AgID N. 2 del 9 aprile 2018: (Link esterno) Vai a Circolare AgID N. 2 del 9 aprile 2018 su Read the Docs'
+      - action: Leggi su <strong>Read the Docs</strong>
+        description: Qualificazione dei servizi SaaS
+        icon: it-external-link
+        link: https://cloud-italia-circolari.readthedocs.io/it/latest/circolari/SaaS/circolare_qualificazione_SaaS_v_4.12.27.html
+        title: Circolare AgID N. 3 del 9 aprile 2018
+        ariaLabel: 'Circolare AgID N. 3 del 9 aprile 2018: (Link esterno) Vai a Circolare AgID N. 3 del 9 aprile 2018 su Read the Docs'

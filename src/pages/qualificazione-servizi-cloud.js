@@ -1,9 +1,5 @@
 import React from 'react';
+import { ServicesPage } from '../layouts/ServicesPage.js';
 
-const ServicesPage = () => (
-  <>
-    <h1 className="sr-only">Qualificazione dei servizi</h1>
-  </>
-);
-
-export default ServicesPage;
+const Page = () => <ServicesPage />;
+export default Page;
