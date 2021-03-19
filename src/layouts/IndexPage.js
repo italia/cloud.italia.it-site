@@ -1,6 +1,6 @@
 import React from 'react';
 
-import content from '../../contents/home-page/index.yml';
+import content from '../../contents/home-page/home.yml';
 import { NewsPreviewSection } from './home/NewsPreviewSection.js';
 import { HowToContributeSection } from './home/HowToContributeSection.js';
 import { StrategySection } from './home/StrategySection.js';
