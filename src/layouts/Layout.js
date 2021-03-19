@@ -4,9 +4,9 @@ import '@fontsource/titillium-web/latin.css';
 import '@fontsource/lora/latin.css';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import { createUseStyles } from 'react-jss';
+import { SEO } from '../components/SEO.js';
 import { Header } from './Header.js';
 import { Footer } from './Footer.js';
-import { SEO } from './SEO.js';
 
 const useStyles = createUseStyles({
   '@global': {

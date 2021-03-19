@@ -16,8 +16,8 @@ import { createUseStyles } from 'react-jss';
 import logo from '../images/cloud-logo.svg';
 import links from '../../contents/links.yml';
 import labels from '../../contents/labels.yml';
-import { HeaderNav } from './HeaderNav.js';
-import { ExternalLink } from './ExternalLink.js';
+import { HeaderNav } from '../components/HeaderNav.js';
+import { ExternalLink } from '../components/ExternalLink.js';
 
 const { internalLinks, externalLinks } = links;
 const { ariaLabel } = labels;

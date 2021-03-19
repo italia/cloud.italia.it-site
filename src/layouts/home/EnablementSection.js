@@ -1,26 +1,26 @@
 import React from 'react';
 import { getImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
-import { HeroCategory } from '../hero/HeroCategory.js';
-import { HeroTitle } from '../hero/HeroTitle.js';
-import { HeroBody } from '../hero/HeroBody.js';
-import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../hero/Cta.js';
-import { HeroGraphic } from '../hero/HeroGraphic.js';
-import { Hero } from '../hero/Hero.js';
-import heroContent from '../../../contents/home-page/index.yml';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
+import { HeroCtaContainer } from '../../components/hero/HeroCtaContainer.js';
+import { Cta } from '../../components/hero/Cta.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
+import content from '../../../contents/home-page/index.yml';
 import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
 
 const {
   heroEnablement: { category, title, body },
-} = heroContent;
+} = content;
 const {
   internalLinks: { enablement },
 } = links;
 const { showMore } = labels;
 
-export const Enablement = () => {
+export const EnablementSection = () => {
   const { abilitazione_cloud } = useStaticQuery(graphql`
     query {
       abilitazione_cloud: file(relativePath: { eq: "abilitazione_cloud_2x.png" }) {

@@ -1,0 +1,53 @@
+name: Strategia cloud
+title: 'La strategia nazionale cloud della PA'
+body: 'Il Piano triennale per l’informatica nella pubblica amministrazione prevede la realizzazione del sistema
+          operativo del paese mediante l’adozione del modello cloud computing nelle pubbliche amministrazioni. Il
+          Dipartimento per la trasformazione digitale, in collaborazione con AgID, ha definito la strategia Cloud
+          della PA e il programma per abilitare il cloud computing nel settore pubblico.'
+resourceTitle: 'Risorse utili'
+resources:
+  - title: documenti
+    references:
+      - action: Leggi su <strong>Docs Italia</strong>
+        description: La strategia cloud e il modello cloud della PA
+        icon: it-external-link
+        link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
+        ariaLabel: 'Il modello cloud della PA: (Link esterno) Vai a il modello cloud della PA su Docs Italia'
+        title: Il modello cloud della PA
+      - action: Leggi su <strong>Read the Docs</strong>
+        description: Circolare per la qualificazione dei servizi cloud SaaS
+        icon: it-external-link
+        link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
+        title: Servizi cloud SaaS
+        ariaLabel: 'Servizi cloud SaaS: (Link esterno) Vai a servizi cloud SaaS su Read the Docs'
+      - action: Leggi su <strong>Read the Docs</strong>
+        description: Circolare per la qualificazione dei Cloud Service Provider
+        icon: it-external-link
+        link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
+        title: Cloud Service Provider
+        ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
+timelineTitle: 'Piano di attuazione'
+timeline:
+  - date: '2021-12-31'
+    title: Consolidamento della strategia Cloud della PA
+    body: Aggiornamento del kit per il programma di abilitazione al cloud, con un focus sui Comuni.
+  - date: '2020-12-31'
+    title: Aggiornamento della strategia Cloud della PA
+    body: Il Piano Triennale per l’informatica nella PA 2020-2022 aggiorna la strategia Cloud della PA,
+      rafforzando il principio cloud first e SaaS first quale elemento strategico per il miglioramento anche della qualità dei servizi erogati dalla pubblica amministrazione.
+      L’aggiornamento ha riguardato anche la strategia sulla classificazione dei data center della pubblica amministrazione e delle azioni di consolidamento previste.
+  - date: '2019-12-31'
+    title: Indicazioni sui livelli di qualità del Patrimonio ICT della PA
+    body: Pubblicazione del kit per il programma nazionale di abilitazione al cloud. AgID emana la circolare che definisce i livelli minimi di qualità dei data center.
+      Conclusione del Censimento del Patrimonio ICT della PA.
+  - date: '2018-12-31'
+    title: Avvio della qualificazione dei servizi cloud per la PA
+    body: AgID emana le circolari che regolamentano i requisiti che i servizi cloud devono possedere per poter essere acquisiti dalla Pubblica Amministrazione,
+      definiscono il percorso di qualificazione che i fornitori devono attuare per qualificare i propri servizi e cloud.
+      È pubblicato il Catalogo che le amministrazioni consultano per verificare i servizi cloud che sono stati qualificati da AgID.
+  - date: '2017-12-31'
+    title: Prima versione della strategia Cloud della PA
+    body: La strategia Cloud della PA è introdotta nel Piano Triennale per l’informatica nella PA 2017-2019,
+      quale parte del modello strategico evolutivo dell’IT della PA relativo alle infrastrutture fisiche.
+      La strategia introduce un modello che prevede infrastrutture e servizi cloud qualificati da AgID creando le basi per l’introduzione del principio Cloud first.
+      AgID avvia il Censimento del Patrimonio ICT della PA.

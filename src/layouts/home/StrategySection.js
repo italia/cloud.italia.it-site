@@ -1,13 +1,13 @@
 import React from 'react';
 import { getImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
-import { HeroCategory } from '../hero/HeroCategory.js';
-import { HeroTitle } from '../hero/HeroTitle.js';
-import { HeroBody } from '../hero/HeroBody.js';
-import { HeroCtaContainer } from '../hero/HeroCtaContainer.js';
-import { Cta } from '../hero/Cta.js';
-import { HeroGraphic } from '../hero/HeroGraphic.js';
-import { Hero } from '../hero/Hero.js';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
+import { HeroCtaContainer } from '../../components/hero/HeroCtaContainer.js';
+import { Cta } from '../../components/hero/Cta.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
 import content from '../../../contents/home-page/index.yml';
 import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
@@ -16,11 +16,11 @@ const {
   heroStrategy: { category, title, body },
 } = content;
 const {
-  internalLinks: { strategy },
+  internalLinks: { strategy: strategyHero },
 } = links;
 const { showMore } = labels;
 
-export const Strategy = () => {
+export const StrategySection = () => {
   const { strategia_cloud } = useStaticQuery(graphql`
     query {
       strategia_cloud: file(relativePath: { eq: "strategia_cloud_2x.png" }) {
@@ -36,11 +36,11 @@ export const Strategy = () => {
         <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0">
           <div className="text-center text-lg-left">
             <HeroCategory title={category} />
-            <HeroTitle title={title} linkTo={strategy.linkTo} />
+            <HeroTitle title={title} linkTo={strategyHero.linkTo} />
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta text={showMore} linkTo={strategy.linkTo} />
+            <Cta text={showMore} linkTo={strategyHero.linkTo} />
           </HeroCtaContainer>
         </div>
         <HeroGraphic
