@@ -1,10 +1,5 @@
 import React from 'react';
+import CataloguePage from '../layouts/CataloguePage.js';
 
-const CataloguePage = () => (
-  <>
-    <h1 className="sr-only">Cos&apos;è il catalogo dei servizi</h1>
-    Catalogo dei servizi
-  </>
-);
-
-export default CataloguePage;
+const Page = () => <CataloguePage />;
+export default Page;
