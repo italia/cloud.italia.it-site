@@ -9,7 +9,7 @@ export const Hero = ({ bgColor = '', children }) => {
   });
   return (
     <div className={heroClasses}>
-      <div className="container py-xl-5">{children}</div>
+      <div className="container py-xl-5 px-3 px-md-0">{children}</div>
     </div>
   );
 };
