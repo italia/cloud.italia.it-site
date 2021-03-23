@@ -9,7 +9,7 @@ import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import content from '../../contents/services-page/services.yml';
 
-const { name, title, body, resourceTitle, resources } = content;
+const { title, body, resourceTitle, resources } = content;
 
 const query = graphql`
   query {
@@ -26,12 +26,11 @@ export const ServicesPage = () => {
 
   return (
     <>
-      <h1 className="sr-only">{name}</h1>
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
-              <HeroTitle title={title} className="text-info" Tag="h2" />
+              <HeroTitle title={title} className="text-info" Tag="h1" />
               <HeroBody html={body} />
             </div>
           </div>

@@ -1,10 +1,11 @@
 name: Cloud Italia - Il Cloud della Pubblica Amministrazione
 heroStrategy:
-  category: La strategia nazione cloud della PA
+  category: La strategia nazionale cloud della PA
   title: Il modello per realizzare il sistema operativo del Paese
   body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
     Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
     efficienti.
+  ctaAriaLabel: Scopri di più su la strategia nazionale cloud della PA
 heroBenefit:
   category: I vantaggi
   title: Un modello che porta beneficio all’intero sistema Paese
@@ -31,29 +32,34 @@ heroEnablement:
   body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
     (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
     utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
+  ctaAriaLabel: Scopri di più su il programma di abilitazione
 heroServices:
   category: La qualificazione dei servizi e il catalogo
   title: Il percorso di qualificazione e il catalogo dei servizi cloud
   body: Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’<strong>AgID</strong>.
         I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
         in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
+  ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
 heroNews:
   category: Le notizie
   title: Articoli e approfondimenti
 newsPreview:
-  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+  - ariaLabel: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali (link esterno)
+    body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali
     date: 27 novembre 2020
     link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
     source: 'Fonte: innovazione.gov.it'
     title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
     type: Articolo
-  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+  - ariaLabel: 'Inizia la rivoluzione cloud: la strategia per le infrastrutture digitali della Pubblica Amministrazione (link esterno)'
+    body: Dal censimento al Polo strategico nazionale, il piano per la razionalizzazione delle infrastrutture digitali della Pubblica Amministrazione
     date: 21 febbraio 2020
     link: https://medium.com/blog-per-la-trasformazione-digitale/inizia-la-rivoluzione-cloud-la-strategia-per-le-infrastrutture-digitali-della-pubblica-eddcd0a8e3f8
     source: 'Fonte: medium'
     title: 'Inizia la rivoluzione cloud: la strategia per le infrastrutture digitali della Pubblica Amministrazione'
     type: Approfondimento
-  - body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.
+  - ariaLabel: Un kit per portare i servizi pubblici nel cloud (link esterno)
+    body: Un viaggio in cinque tappe, per individuare i vantaggi, i rischi e le migliori strategie per migrare in cloud alcuni servizi pubblici della Pubblica Amministrazione
     date: 12 luglio 2019
     link: https://medium.com/team-per-la-trasformazione-digitale/migrazione-in-cloud-servizi-pubblica-amministrazione-vantaggi-rischi-strategie-44ec2439bebf
     source: 'Fonte: medium'
@@ -64,17 +70,17 @@ heroContribute:
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
   body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
 contributions:
-  - ariaLabel: 'Forum Italia: (Link esterno) Vai Forum Italia'
+  - ariaLabel: 'Forum Italia (link esterno)'
     body: Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
     icon: it-designers-italia
     link: https://forum.italia.it/
     title: Forum
-  - ariaLabel: 'Slack Developers Italia: (Link esterno) Vai Slack Developers Italia'
+  - ariaLabel: 'Slack Developers Italia (link esterno)'
     body: Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>
     icon: it-star-full
     link: https://slack.developers.italia.it/
     title: Slack
-  - ariaLabel: 'GitHub Italia: (Link esterno) Vai GitHub Italia'
+  - ariaLabel: 'GitHub Italia (link esterno)'
     body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA
     icon: it-github
     link: https://github.com/italia

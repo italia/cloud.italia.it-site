@@ -1,6 +1,9 @@
 showMore: Scopri di più
 close: Chiudi
 notFound: Pagina non trovata
+goToMainContent: Vai al contenuto principale
+goToFooter: Vai al footer
 ariaLabel:
   menu: Menu principale
   toggleMenu: Mostra / Nascondi la navigazione
+  slimMenu: Menu progetti correlati

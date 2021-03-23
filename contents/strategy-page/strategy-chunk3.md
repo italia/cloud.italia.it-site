@@ -5,20 +5,20 @@ La strategia italiana sul cloud per la PA prevede il principio cloud first. Tutt
 cloud hanno le medesime caratteristiche di qualità, adeguate alle esigenze della PA. A tal fine, la
 strategia ha previsto la definizione di requisiti che devono essere soddisfatti dai servizi cloud offerti
 alla PA. I servizi cloud che soddisfano tali requisiti sono qualificati da AgID ed entrano così a far parte del
-[modello cloud della PA](https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Modello cloud della PA: (Link esterno) Vai al modello cloud della PA}
+[modello cloud della PA](https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Modello cloud della PA (link esterno)'}
 Il modello consente di qualificare servizi e infrastrutture secondo parametri
 idonei per le esigenze della PA e che rispettano i principi di:
 
 - miglioramento dei livelli di servizio, accessibilità, usabilità e sicurezza nel rispetto di standard definiti a livello internazionale;
 - sovranità digitale, controllo e protezione dei dati nel rispetto dei
-  [valori europei](https://ec.europa.eu/digital-single-market/en/news/towards-next-generation-cloud-europe){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Commissione Europea: (Link esterno) Vai a Commissione Europea};
+  [valori europei](https://ec.europa.eu/digital-single-market/en/news/towards-next-generation-cloud-europe){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Commissione Europea (link esterno)'};
 - interoperabilità dei servizi e portabilità dei dati;
 - riduzione del rischio di vendor lock-in, ossia che le amministrazioni diventino dipendenti dai fornitori di tecnologie.
 - riqualificazione dell’offerta, ampliamento e diversificazione del mercato dei fornitori anche verso start-up e pubbliche e medie imprese;
 - resilienza, scalabilità, reversibilità.
 
 Il Cloud della PA si compone di infrastrutture e servizi, qualificati da AgID sulla base di requisiti minimi descritti nelle
-[circolari AgID n.2 e n.3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Read the docs: (Link esterno) Vai a Read the docs}.
+[circolari AgID n.2 e n.3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Circolari AgID n.2 e n.3 del 2018 (link esterno)'}.
 
 ## Data center di qualità e Polo Strategico Nazionale
 {class="h5 font-weight-semibold my-4"}
@@ -62,7 +62,7 @@ La strategia nazionale si differenzia in base alla tipologia di PA e, in partico
 
 Per assicurare la sicurezza di asset strategici per il Paese, è previsto lo sviluppo di un'infrastruttura ad alta affidabilità promossa
 dalla Presidenza del Consiglio dei Ministri
-([articolo 35](https://www.gazzettaufficiale.it/eli/id/2020/09/14/20A04921/sg){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Gazzetta Ufficiale articolo 35: (Link esterno) Vai a Gazzetta Ufficiale articolo 35}
+([articolo 35](https://www.gazzettaufficiale.it/eli/id/2020/09/14/20A04921/sg){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Gazzetta Ufficiale articolo 35 (link esterno)'}
 del Decreto legge Semplificazioni e innovazione digitale). Questa infrastruttura di eccellenza è pensata 
 per l’insieme delle infrastrutture digitali delle amministrazioni centrali che attualmente non garantiscono
 livelli adeguati di sicurezza, affidabilità ed efficienza energetica.

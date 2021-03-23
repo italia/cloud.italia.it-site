@@ -43,6 +43,20 @@ const useStyle = createUseStyles({
   },
 });
 
+const BrandSlimHeader = () => (
+  <>
+    <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
+      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.dipartimento.label}</span>
+      <span className="d-none d-lg-inline d-xl-none">DTD</span>
+    </ExternalLink>
+    <span className="mx-1"> + </span>
+    <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
+      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.agid.label}</span>
+      <span className="d-none d-lg-inline d-xl-none">AGID</span>
+    </ExternalLink>
+  </>
+);
+
 const SlimHeader = () => {
   const [isOpen, toggleDropdown] = useState(false);
   const classes = useStyle();
@@ -51,24 +65,13 @@ const SlimHeader = () => {
       <HeaderContent>
         <HeaderBrand tag="div">
           <span className="text-primary font-weight-semibold small">
-            <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
-              {externalLinks.dipartimento.label}
-            </ExternalLink>
-            <span className="mx-1"> + </span>
-            <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
-              {externalLinks.agid.label}
-            </ExternalLink>
+            <BrandSlimHeader />
           </span>
         </HeaderBrand>
-        <HeaderLinkZone>
+        <HeaderLinkZone aria-label={ariaLabel.slimMenu}>
           <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="div" role="button">
-            <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
-              {externalLinks.dipartimento.label}
-            </ExternalLink>
-            <span className="mx-1"> + </span>
-            <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
-              {externalLinks.agid.label}
-            </ExternalLink>
+            <BrandSlimHeader />
+            <Icon icon="it-expand" size="sm" color="primary" aria-expanded={isOpen} />
           </HeaderToggler>
           <Collapse isOpen={isOpen} header>
             <div className="link-list-wrapper">
@@ -145,7 +148,7 @@ const CenterHeader = () => {
           <Link to="/">
             <div className="it-brand-text">
               <div className="d-flex align-items-center">
-                <img className="icon" src={logo} alt="Cloud PA logo" />
+                <img className="icon" src={logo} alt="Logo Cloud Italia" />
                 <div>
                   <div className="h3 mb-0">{title}</div>
                   <div className="small">{subtitle}</div>
@@ -239,7 +242,15 @@ const NavHeader = () => {
                   className="nav-link"
                 >
                   <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
-                  <Icon className="ml-2 pb-1" color="primary" icon="it-external-link" size="sm" />
+                  <Icon
+                    className="ml-2 pb-1"
+                    color="primary"
+                    icon="it-external-link"
+                    size="sm"
+                    focusable={false}
+                    role="img"
+                    aria-label={externalLinks.marketplace.ariaLabel}
+                  />
                 </ExternalLink>
               </NavItem>
             </Nav>

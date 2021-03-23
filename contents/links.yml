@@ -18,52 +18,52 @@ externalLinks:
   pianoTriennale:
     label: Piano Triennale
     linkTo: https://pianotriennale-ict.italia.it/
-    ariaLabel: 'Piano Triennale: (Link esterno) Vai a Piano Triennale'
+    ariaLabel: 'Piano Triennale (link esterno)'
   developers:
     label: Developers
     linkTo: https://developers.italia.it/
-    ariaLabel: 'Developers Italia: (Link esterno) Vai a Developers Italia'
+    ariaLabel: 'Developers Italia (link esterno)'
   designers:
     label: Designers
     linkTo: https://designers.italia.it/
-    ariaLabel: 'Designers Italia: (Link esterno) Vai a Designers Italia'
+    ariaLabel: 'Designers Italia (link esterno)'
   forum:
     label: Forum
     linkTo: https://forum.italia.it/
-    ariaLabel: 'Forum Italia: (Link esterno) Vai a Forum Italia'
+    ariaLabel: 'Forum Italia (link esterno)'
   docs:
     label: Docs
     linkTo: https://docs.italia.it/
-    ariaLabel: 'Docs Italia: (Link esterno) Vai a Docs Italia'
+    ariaLabel: 'Docs Italia (link esterno)'
   github:
     label: GitHub
     linkTo: https://github.com/italia/
-    ariaLabel: 'GitHub Italia: (Link esterno) Vai a GitHub Italia'
+    ariaLabel: 'GitHub Italia (link esterno)'
   dipartimento:
     label: Dipartimento per la Trasformazione Digitale
     linkTo: https://innovazione.gov.it/dipartimento/la-struttura/
-    ariaLabel: 'Dipartimento per la Trasformazione Digitale: (Link esterno) Vai a Dipartimento per la Trasformazione Digitale'
+    ariaLabel: 'Dipartimento per la Trasformazione Digitale (link esterno)'
   agid:
     label: AgID
     linkTo: https://www.agid.gov.it/
-    ariaLabel: "Agenzia per l'Italia Digitale: (Link esterno) Vai a Agenzia per l'Italia Digitale"
+    ariaLabel: "Agenzia per l'Italia Digitale (link esterno)"
   marketplace:
     label: Cloud Marketplace
     linkTo: https://cloud.italia.it/marketplace
-    ariaLabel: "Cloud Marketplace: (Link esterno) Vai al Cloud Marketplace"
+    ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
     linkTo: https://cloud.italia.it/marketplace/opendata
-    ariaLabel: "Open data marketplace: (Link esterno) Vai a Open Data Marketplace"
+    ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali
     linkTo: https://www.governo.it/note-legali
-    ariaLabel: "Note legali: (Link esterno) Leggi le note legali"
+    ariaLabel: "Note legali (link esterno)"
   privacy:
     label: Informativa privacy
     linkTo: https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali/
-    ariaLabel: "Informativa privacy: (Link esterno) Vai all'informativa"
+    ariaLabel: "Informativa privacy (link esterno)"
   a11y:
     label: Dichiarazione di accessibilità
     linkTo: https://form.agid.gov.it/view/c7c157fa-0177-4262-aea2-206ae99ae422
-    ariaLabel: "Dichiarazione di accessibilità: (Link esterno) Vai alla Dichiarazione"
+    ariaLabel: "Dichiarazione di accessibilità (link esterno)"

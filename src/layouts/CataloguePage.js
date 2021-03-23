@@ -6,7 +6,7 @@ import { Hero } from '../components/hero/Hero.js';
 import { TextChunk } from '../components/TextChunk.js';
 import content from '../../contents/catalogue-page/catalogue.yml';
 
-const { name, title } = content;
+const { title } = content;
 
 const query = graphql`
   query {
@@ -23,12 +23,11 @@ const CataloguePage = () => {
 
   return (
     <>
-      <h1 className="sr-only">{name}</h1>
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
-              <HeroTitle title={title} className="text-info" Tag="h2" />
+              <HeroTitle title={title} className="text-info" Tag="h1" />
             </div>
           </div>
         </div>

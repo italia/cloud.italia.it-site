@@ -5,8 +5,11 @@ import '@fontsource/lora/latin.css';
 import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
 import { createUseStyles } from 'react-jss';
 import { SEO } from '../components/SEO.js';
+import labels from '../../contents/labels.yml';
 import { Header } from './Header.js';
 import { Footer } from './Footer.js';
+
+const { goToMainContent, goToFooter } = labels;
 
 const useStyles = createUseStyles({
   '@global': {
@@ -26,19 +29,23 @@ const useStyles = createUseStyles({
       color: ['#455A64', '!important'],
     },
   },
-  main: {
-    composes: 'text-info',
-    backgroundColor: '#e6e9f21f', // TODO: qual è il colore corretto?
-  },
 });
 
 export const Layout = ({ children }) => {
-  const classes = useStyles();
+  useStyles();
   return (
     <>
       <SEO />
+      <a className="sr-only sr-only-focusable" href="#content">
+        {goToMainContent}
+      </a>
+      <a className="sr-only sr-only-focusable" href="#footer">
+        {goToFooter}
+      </a>
       <Header />
-      <main className={classes.main}>{children}</main>
+      <main className="text-info" id="content">
+        {children}
+      </main>
       <Footer />
     </>
   );
