@@ -13,9 +13,10 @@ import { Hero } from '../../components/hero/Hero.js';
 import { ExternalLink } from '../../components/ExternalLink.js';
 import content from '../../../contents/home-page/home.yml';
 import links from '../../../contents/links.yml';
+import labels from '../../../contents/labels.yml';
 
 const {
-  heroServices: { category, title, body },
+  heroServices: { category, title, body, ctaAriaLabel },
 } = content;
 
 const {
@@ -23,14 +24,24 @@ const {
   externalLinks: { marketplace, openDataMarketplace },
 } = links;
 
+const { showMore } = labels;
+
 const useStyles = createUseStyles({
   btnPrimaryLight: {
+    // eslint-disable-next-line sonarjs/no-duplicate-string
     backgroundColor: 'var(--white)',
     color: 'var(--primary)',
   },
   verticalDelimiter: {
     composes: 'd-none d-xl-block mr-4',
     borderLeft: '1px solid #E6E9F2',
+  },
+  whiteHighContrast: {
+    color: 'var(--white)',
+    '&:hover': {
+      // Needed to grant high contrast for a11y
+      color: ['var(--white)', '!important'],
+    },
   },
 });
 
@@ -55,7 +66,7 @@ export const ServicesSection = () => {
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta linkTo={services.linkTo} text="Scopri di più" color="light" type="outline" />
+            <Cta linkTo={services.linkTo} text={showMore} color="light" type="outline" aria-label={ctaAriaLabel} />
             <Cta linkTo={catalogue.linkTo} text={catalogue.label} color="light" />
             <div aria-hidden="true" className={classes.verticalDelimiter} />
             <ExternalLink
@@ -79,10 +90,18 @@ export const ServicesSection = () => {
           <ExternalLink
             linkTo={openDataMarketplace.linkTo}
             ariaLabel={openDataMarketplace.ariaLabel}
-            className="btn-icon text-white"
+            className={`btn-icon ${classes.whiteHighContrast}`}
           >
             <small>{openDataMarketplace.label}</small>
-            <Icon className="ml-2" icon="it-external-link" size="sm" color="white" />
+            <Icon
+              className="ml-2"
+              icon="it-external-link"
+              size="sm"
+              color="white"
+              focusable={false}
+              role="img"
+              aria-label={openDataMarketplace.ariaLabel}
+            />
           </ExternalLink>
         </div>
       </div>

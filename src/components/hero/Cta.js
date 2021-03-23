@@ -16,7 +16,7 @@ const useStyles = createUseStyles({
   },
 });
 
-export const Cta = ({ linkTo, text, color = 'primary', type = 'primary' }) => {
+export const Cta = ({ linkTo, text, color = 'primary', type = 'primary', ...attributes }) => {
   const classes = useStyles();
   const linkClasses = classNames('btn text-uppercase mx-4 ml-lg-0 my-2', {
     'btn-primary': color === 'primary' && type === 'primary',
@@ -25,13 +25,14 @@ export const Cta = ({ linkTo, text, color = 'primary', type = 'primary' }) => {
     [classes.btnOutlineLight]: color === 'light' && type === 'outline',
   });
   return (
-    <Link to={linkTo} className={linkClasses}>
+    <Link to={linkTo} className={linkClasses} {...attributes}>
       {text}
     </Link>
   );
 };
 
 Cta.propTypes = {
+  attributes: PropTypes.object,
   color: PropTypes.oneOf(['primary', 'light']),
   type: PropTypes.oneOf(['primary', 'outline']),
   linkTo: PropTypes.string.isRequired,

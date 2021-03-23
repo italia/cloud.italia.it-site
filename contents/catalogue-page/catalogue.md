@@ -1,5 +1,5 @@
 Le amministrazioni possono acquisire esclusivamente servizi IaaS, PaaS e SaaS qualificati da AgID e pubblicati nel
-[catalogo dei servizi cloud per la PA qualificati](https://cloud.italia.it/marketplace/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label=Catalogo dei servizi cloud per la PA qualificati: (Link esterno) Vai a catalogo dei servizi cloud per la PA qualificati}.
+[catalogo dei servizi cloud per la PA qualificati](https://cloud.italia.it/marketplace/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Catalogo dei servizi cloud per la PA qualificati (link esterno)'}.
 
 Il catalogo rappresenta un elemento centrale per l’adozione del cloud: contiene tutti i servizi cloud qualificati acquistabili dalla PA
 con informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, ai livelli di servizio garantiti 

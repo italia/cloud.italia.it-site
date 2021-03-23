@@ -84,13 +84,17 @@ const MainFooter = () => {
         <div className="d-flex flex-column flex-md-row py-4 px-3 px-sm-0">
           <div className="py-3 py-sm-2">
             <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
-              <img className={classes.footerLogo} src={dtdLogo} alt="logo" />
+              <img
+                className={classes.footerLogo}
+                src={dtdLogo}
+                alt="logo Dipartimento per la Trasformazione Digitale"
+              />
             </ExternalLink>
           </div>
           <div aria-hidden="true" className={classes.logoSeparator} />
           <div className="py-3 py-sm-2">
             <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-              <img className={classes.footerLogo} src={agidLogo} alt="logo" />
+              <img className={classes.footerLogo} src={agidLogo} alt="logo AgID" />
             </ExternalLink>
           </div>
         </div>
@@ -100,7 +104,7 @@ const MainFooter = () => {
 };
 
 export const Footer = () => (
-  <footer className="it-footer">
+  <footer className="it-footer" id="footer">
     <MainFooter />
     <SlimFooter />
   </footer>
