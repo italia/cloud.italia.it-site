@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
+import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/hero/Hero.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
@@ -26,7 +27,14 @@ const query = graphql`
 
 const { timeline, timelineTitle, name, body, title, resourceTitle, resources } = content;
 
+const useStyles = createUseStyles({
+  heroImage: {
+    maxHeight: '500px',
+  },
+});
+
 const StrategyPage = () => {
+  const classes = useStyles();
   const {
     chunk1: { html: chunk1 },
     chunk2: { html: chunk2 },
@@ -48,9 +56,11 @@ const StrategyPage = () => {
       </Hero>
 
       <StaticImage
-        aspectRatio={1280 / 548}
         src="../images/strategia_hero_cloud_2x.jpg"
+        className={classes.heroImage}
         alt=""
+        height={500}
+        layout={'fullWidth'}
         placeholder="blurred"
         formats={['AUTO', 'AVIF', 'WEBP']}
       />
