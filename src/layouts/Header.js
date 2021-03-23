@@ -5,7 +5,6 @@ import {
   Header as HeaderReactKit,
   Headers,
   HeaderContent,
-  HeaderToggler,
   Icon,
   Nav,
   NavItem,
@@ -69,10 +68,18 @@ const SlimHeader = () => {
           </span>
         </HeaderBrand>
         <HeaderLinkZone aria-label={ariaLabel.slimMenu}>
-          <HeaderToggler className={classes.navToggler} onClick={() => toggleDropdown(!isOpen)} tag="div" role="button">
+          <div className={classes.navToggler}>
             <BrandSlimHeader />
-            <Icon icon="it-expand" size="sm" color="primary" aria-expanded={isOpen} />
-          </HeaderToggler>
+            <a
+              onClick={() => toggleDropdown(!isOpen)}
+              aria-expanded={isOpen}
+              aria-label={ariaLabel.toggleMenu}
+              href="#"
+              className="it-opener d-lg-none d-inline navbar-toggler"
+            >
+              <Icon icon="it-expand" size="sm" color="primary" />
+            </a>
+          </div>
           <Collapse isOpen={isOpen} header>
             <div className="link-list-wrapper">
               <ul className="link-list pl-0 pr-0">
@@ -186,9 +193,15 @@ const NavHeader = () => {
   return (
     <HeaderReactKit type="navbar" theme="light">
       <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu}>
-        <HeaderToggler onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen} aria-label={ariaLabel.toggleMenu}>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label={ariaLabel.toggleMenu}
+          aria-expanded={isOpen}
+          type="button"
+          className="custom-navbar-toggler navbar-toggler"
+        >
           <Icon icon="it-burger" />
-        </HeaderToggler>
+        </button>
 
         <HeaderNav isOpen={isOpen} onCloseMenu={toogleMenu}>
           <div className="menu-wrapper">
