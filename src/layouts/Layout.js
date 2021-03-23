@@ -54,7 +54,6 @@ export const Layout = ({ children }) => {
     const isProd = window.location.hostname === hostname;
     /* eslint-disable */
     const webanalytics = () => {
-      console.log('sono webanalytics');
       const _paq = (window._paq = window._paq || []);
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
       _paq.push(['trackPageView']);
@@ -72,9 +71,19 @@ export const Layout = ({ children }) => {
         s.parentNode.insertBefore(g, s);
       })();
     };
+    const googleAnalytics = () => {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96140462-9', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    }
     /* eslint-enable */
     if (isProd) {
       webanalytics();
+      googleAnalytics();
     }
   });
   return (
