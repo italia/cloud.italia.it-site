@@ -33,13 +33,17 @@ const CataloguePage = () => {
         </div>
       </Hero>
 
-      <StaticImage
-        aspectRatio={1280 / 548}
-        src="../images/strategia_hero_cloud_2x.jpg"
-        alt=""
-        placeholder="blurred"
-        formats={['AUTO', 'AVIF', 'WEBP']}
-      />
+      <div className="d-flex justify-content-center">
+        <StaticImage
+          src="../images/unsplash_3.jpg"
+          alt=""
+          placeholder="blurred"
+          layout="fixed"
+          height={400}
+          width={800}
+          formats={['AUTO', 'AVIF', 'WEBP']}
+        />
+      </div>
 
       <Hero>
         <TextChunk html={textChunk} />
