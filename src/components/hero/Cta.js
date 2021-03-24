@@ -6,11 +6,11 @@ import { Link } from 'gatsby';
 
 const useStyles = createUseStyles({
   btnOutlineLight: {
-    composes: 'btn-primary',
+    composes: 'btn-primary focus-a11y-contrast',
     boxShadow: 'inset 0 0 0 2px white',
   },
   btnPrimaryLight: {
-    composes: 'btn-primary',
+    composes: 'btn-primary focus-a11y-contrast',
     backgroundColor: 'var(--white)',
     color: 'var(--primary)',
   },

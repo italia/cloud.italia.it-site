@@ -29,6 +29,9 @@ const useStyles = createUseStyles({
     '.text-info-title': {
       color: ['#455A64', '!important'],
     },
+    '.focus-a11y-contrast:focus': {
+      border: '2px solid #ff9900', // This is used for a11y high contrast compliance
+    },
   },
 });
 
