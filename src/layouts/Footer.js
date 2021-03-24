@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
-import dtdLogo from '../images/dtd-logo.svg';
-import agidLogo from '../images/agid-logo.svg';
 import links from '../../contents/links.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
@@ -86,7 +84,7 @@ const MainFooter = () => {
             <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
               <img
                 className={classes.footerLogo}
-                src={dtdLogo}
+                src="/dtd-logo.svg"
                 alt="logo Dipartimento per la Trasformazione Digitale"
               />
             </ExternalLink>
@@ -94,7 +92,7 @@ const MainFooter = () => {
           <div aria-hidden="true" className={classes.logoSeparator} />
           <div className="py-3 py-sm-2">
             <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-              <img className={classes.footerLogo} src={agidLogo} alt="logo AgID" />
+              <img className={classes.footerLogo} src="/agid-logo.svg" alt="logo AgID" />
             </ExternalLink>
           </div>
         </div>
