@@ -6,7 +6,7 @@ import { referencePropType } from '../../utils/proptypes.js';
 
 const useStyles = createUseStyles({
   icon: {
-    composes: 'ml-2',
+    composes: 'ml-2 mr-0',
     minWidth: '16px',
   },
 });
@@ -16,7 +16,7 @@ const Reference = ({ reference }) => {
   return (
     <li>
       <a href={reference.link} target="_blank" rel="noreferrer" aria-label={reference.ariaLabel}>
-        <div className="it-right-zone mx-4">
+        <div className="it-right-zone mx-0 mx-sm-4">
           <div className="col-7 col-lg-8">
             <span className="text">{reference.title}</span>
             {reference.description && <small className="text-dark">{reference.description}</small>}

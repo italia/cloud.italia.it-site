@@ -70,7 +70,7 @@ const EnablementPage = () => {
         <TextChunk html={textChunk} />
       </Hero>
 
-      <Hero bgColor="light">
+      <Hero bgColor="light" xPadding={false}>
         <a name="kit" />
         <div className="col-xl-8 col-lg-10 mx-auto">
           <ResourceTitle title={resourceTitleBlockOne} />

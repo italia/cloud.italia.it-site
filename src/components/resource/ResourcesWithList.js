@@ -8,7 +8,7 @@ export const ResourcesWithList = ({ resources, className = '' }) =>
   resources.map((resource, index) => (
     <div key={index} className={className}>
       {resource.title && (
-        <div className="mt-5 mb-3 mx-4">
+        <div className="mt-5 mb-3 mx-0 mx-sm-4">
           <ResourceHeader title={resource.title} classNames="text-info" />
         </div>
       )}
