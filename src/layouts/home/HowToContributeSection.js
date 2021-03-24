@@ -3,7 +3,6 @@ import { Card, CardBody } from 'design-react-kit';
 import { createUseStyles } from 'react-jss'; // This should be in BI
 import { MobileSwiper } from '../../components/MobileSwiper.js';
 import { Hero } from '../../components/hero/Hero.js';
-import { ExternalLink } from '../../components/ExternalLink.js';
 import content from '../../../contents/home-page/home.yml';
 
 const {
@@ -21,14 +20,12 @@ export const HowToContributeSection = () => {
   const classes = useStyles();
   const slides = contributions.map((card) => (
     <Card key={card.icon} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
-      <ExternalLink linkTo={card.link} ariaLabel={card.ariaLabel} className="text-decoration-none">
-        <CardBody className="pb-5">
-          <div className="mb-3 d-flex align-items-center">
-            <img src={`/${card.icon}`} alt={`${card.alt}`} className={classes.logo} />
-          </div>
-          <p className="card-text" dangerouslySetInnerHTML={{ __html: card.body }}></p>
-        </CardBody>
-      </ExternalLink>
+      <CardBody className="pb-5">
+        <div className="mb-3 d-flex align-items-center">
+          <img src={`/${card.icon}`} alt={`${card.alt}`} className={classes.logo} />
+        </div>
+        <p className="card-text" dangerouslySetInnerHTML={{ __html: card.body }}></p>
+      </CardBody>
     </Card>
   ));
   return (

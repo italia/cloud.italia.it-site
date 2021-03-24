@@ -70,18 +70,18 @@ heroContribute:
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
   body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
 contributions:
-  - ariaLabel: 'Forum Italia (link esterno)'
-    body: Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
+  - body: Entra in
+      <a href="https://forum.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="Forum Italia (link esterno)"><strong>forum.italia.it</strong></a>
+      e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
     icon: forum-italia-logo.png
     alt: Forum Italia logo
-    link: https://forum.italia.it/
-  - ariaLabel: 'Slack Developers Italia (link esterno)'
-    body: Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>
+  - body: Unisciti alla community di
+      <a href="https://slack.developers.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="Developers Italia su Slack (link esterno)"><strong>Developers Italia su Slack</strong></a>
+      e raggiungi il canale <strong>#cloud</strong>
     icon: slack-logo.png
     alt: Slack logo
-    link: https://slack.developers.italia.it/
-  - ariaLabel: 'GitHub Italia (link esterno)'
-    body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA
+  - body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei
+      <a href="https://slack.developers.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="GitHub Italia (link esterno)"><strong>repository pubblici</strong></a>
+      che contengono codice e documentazione per lo sviluppo del cloud della PA
     icon: github-logo.png
     alt: GitHub logo
-    link: https://github.com/italia
