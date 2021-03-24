@@ -70,18 +70,21 @@ heroContribute:
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
   body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
 contributions:
-  - ariaLabel: 'Forum Italia (link esterno)'
-    body: Entra in <strong>forum.italia.it</strong> e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
-    icon: forum-italia-logo.png
+  - body: Entra in
+      <a href="https://forum.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="forum Italia (link esterno)"><strong>forum.italia.it</strong></a>
+      e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
+    icon: it-logo.svg
     alt: Forum Italia logo
-    link: https://forum.italia.it/
-  - ariaLabel: 'Slack Developers Italia (link esterno)'
-    body: Unisciti alla community di <strong>Developers Italia su Slack</strong> e raggiungi il canale <strong>#cloud</strong>
-    icon: slack-logo.png
+    title: Forum
+  - body: Unisciti alla community di
+      <a href="https://slack.developers.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="Developers Italia su Slack (link esterno)"><strong>Developers Italia su Slack</strong></a>
+      e raggiungi il canale <strong>#cloud</strong>
+    icon: slack-logo.svg
     alt: Slack logo
-    link: https://slack.developers.italia.it/
-  - ariaLabel: 'GitHub Italia (link esterno)'
-    body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei <strong>repository pubblici</strong> che contengono codice e documentazione per lo sviluppo del cloud della PA
-    icon: github-logo.png
+    title: Slack
+  - body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei
+      <a href="https://github.com/italia" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="repository pubblici (link esterno)"><strong>repository pubblici</strong></a>
+      che contengono codice e documentazione per lo sviluppo del cloud della PA
+    icon: github-logo.svg
     alt: GitHub logo
-    link: https://github.com/italia
+    title: GitHub
