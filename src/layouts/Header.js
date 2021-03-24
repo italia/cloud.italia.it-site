@@ -12,7 +12,6 @@ import {
   HeaderLinkZone,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
-import logo from '../images/cloud-logo.svg';
 import links from '../../contents/links.yml';
 import labels from '../../contents/labels.yml';
 import { HeaderNav } from '../components/HeaderNav.js';
@@ -155,7 +154,7 @@ const CenterHeader = () => {
           <Link to="/">
             <div className="it-brand-text">
               <div className="d-flex align-items-center">
-                <img className="icon" src={logo} alt="Logo Cloud Italia" />
+                <img className="icon" src="/cloud-logo.svg" alt="Logo Cloud Italia" />
                 <div>
                   <div className="h3 mb-0">{title}</div>
                   <div className="small">{subtitle}</div>
