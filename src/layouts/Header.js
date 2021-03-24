@@ -34,9 +34,17 @@ const useStyle = createUseStyles({
   horizontalGroupDelimiter: {
     backgroundColor: 'rgba(0,89,179,.2)',
   },
+  subtitle: {
+    composes: 'small',
+  },
   '@media (max-width: 992px)': {
     verticalGroupDelimiter: {
       borderRight: 'none',
+    },
+  },
+  '@media (max-width: 300px)': {
+    subtitle: {
+      display: 'none',
     },
   },
 });
@@ -131,6 +139,7 @@ const SlimHeader = () => {
 };
 
 const CenterHeader = () => {
+  const classes = useStyle();
   const {
     site: {
       siteMetadata: { title, subtitle },
@@ -152,12 +161,12 @@ const CenterHeader = () => {
       <HeaderContent>
         <div className="it-brand-wrapper">
           <Link to="/">
-            <div className="it-brand-text">
+            <div className="it-brand-text pr-0">
               <div className="d-flex align-items-center">
                 <img className="icon" src="/cloud-logo.svg" alt="Logo Cloud Italia" />
                 <div>
                   <div className="h3 mb-0">{title}</div>
-                  <div className="small">{subtitle}</div>
+                  <div className={classes.subtitle}>{subtitle}</div>
                 </div>
               </div>
             </div>

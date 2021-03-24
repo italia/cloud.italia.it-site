@@ -32,7 +32,8 @@ export const ResourcesWithAccordion = ({ resources }) => {
           onToggle={() => openAccordion(index + 1)}
           header={() => <ResourceHeader title={resource.title} />}
           body={() => <ResourceReferences references={resource.references} />}
-          bodyClassNames={classes.accordionBody}
+          headerClassName="px-0 px-sm-4"
+          bodyClassName={classes.accordionBody}
         />
       ))}
     </Accordion>

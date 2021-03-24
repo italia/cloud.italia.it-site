@@ -49,7 +49,7 @@ export const ServicesPage = () => {
         <TextChunk html={textChunk} />
       </Hero>
 
-      <Hero bgColor="light">
+      <Hero bgColor="light" xPadding={false}>
         <div className="col-xl-8 col-lg-10 mx-auto">
           <ResourceTitle title={resourceTitle} />
           <ResourcesWithList resources={resources} />

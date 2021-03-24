@@ -98,7 +98,7 @@ export const Layout = ({ children }) => {
         {goToFooter}
       </a>
       <Header />
-      <main className="text-info" id="content">
+      <main className="text-info text-break" id="content">
         {children}
       </main>
       <Footer />

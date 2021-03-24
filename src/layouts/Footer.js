@@ -28,6 +28,11 @@ const useStyle = createUseStyles({
     composes: 'mx-5 d-none d-md-block',
     borderLeft: '1px solid #E6E9F2',
   },
+  '@media (max-width: 300px)': {
+    footerLogo: {
+      height: '2rem',
+    },
+  },
 });
 
 const SlimFooter = () => {
