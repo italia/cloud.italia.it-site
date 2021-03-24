@@ -72,7 +72,7 @@ export const ServicesSection = () => {
             <ExternalLink
               linkTo={marketplace.linkTo}
               ariaLabel={marketplace.ariaLabel}
-              className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon`}
+              className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon focus-a11y-contrast`}
             >
               <span className="mr-3">{marketplace.label}</span>
               <Icon color="primary" icon="it-external-link" size="sm" />
