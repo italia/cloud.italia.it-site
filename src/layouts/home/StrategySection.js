@@ -13,7 +13,7 @@ import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
 
 const {
-  heroStrategy: { category, title, body },
+  heroStrategy: { category, title, body, ctaAriaLabel },
 } = content;
 const {
   internalLinks: { strategy: strategyHero },
@@ -40,7 +40,7 @@ export const StrategySection = () => {
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta text={showMore} linkTo={strategyHero.linkTo} />
+            <Cta text={showMore} linkTo={strategyHero.linkTo} aria-label={ctaAriaLabel} />
           </HeroCtaContainer>
         </div>
         <HeroGraphic

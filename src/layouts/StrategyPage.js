@@ -25,7 +25,7 @@ const query = graphql`
   }
 `;
 
-const { timeline, timelineTitle, name, body, title, resourceTitle, resources } = content;
+const { timeline, timelineTitle, body, title, resourceTitle, resources } = content;
 
 const useStyles = createUseStyles({
   heroImage: {
@@ -43,12 +43,11 @@ const StrategyPage = () => {
 
   return (
     <>
-      <h1 className="sr-only">{name}</h1>
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
-              <HeroTitle title={title} className="text-info" Tag="h2" />
+              <HeroTitle title={title} className="text-info" Tag="h1" />
               <HeroBody html={body} />
             </div>
           </div>

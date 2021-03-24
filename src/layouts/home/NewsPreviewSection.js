@@ -34,14 +34,21 @@ export const NewsPreviewSection = () => {
           </span>
         </div>
         <h4 className="h6 text-primary font-weight-bold">
-          <ExternalLink linkTo={news.link} className="text-decoration-none" ariaLabel="">
+          <ExternalLink linkTo={news.link} className="text-decoration-none" ariaLabel={news.ariaLabel}>
             {news.title}
           </ExternalLink>
         </h4>
         <p className="card-text pt-2 pb-4 text-dark">{news.body}</p>
         <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
           <span>{news.source}</span>
-          <Icon className="ml-2" icon="it-external-link" size="sm" />
+          <Icon
+            className="ml-2"
+            icon="it-external-link"
+            size="sm"
+            focusable={false}
+            role="img"
+            aria-label={news.ariaLabel}
+          />
         </p>
       </CardBody>
     </Card>

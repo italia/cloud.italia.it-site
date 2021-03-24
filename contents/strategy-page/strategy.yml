@@ -1,4 +1,3 @@
-name: Strategia cloud
 title: 'La strategia nazionale cloud della PA'
 body: 'Il Piano triennale per l’informatica nella pubblica amministrazione prevede la realizzazione del sistema
           operativo del paese mediante l’adozione del modello cloud computing nelle pubbliche amministrazioni. Il
@@ -12,20 +11,20 @@ resources:
         description: La strategia cloud e il modello cloud della PA
         icon: it-external-link
         link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
-        ariaLabel: 'Il modello cloud della PA: (Link esterno) Vai a il modello cloud della PA su Docs Italia'
+        ariaLabel: 'Il modello cloud della PA (link esterno)'
         title: Il modello cloud della PA
       - action: Leggi su <strong>Read the Docs</strong>
         description: Circolare per la qualificazione dei servizi cloud SaaS
         icon: it-external-link
         link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
         title: Servizi cloud SaaS
-        ariaLabel: 'Servizi cloud SaaS: (Link esterno) Vai a servizi cloud SaaS su Read the Docs'
+        ariaLabel: 'Servizi cloud SaaS (link esterno)'
       - action: Leggi su <strong>Read the Docs</strong>
         description: Circolare per la qualificazione dei Cloud Service Provider
         icon: it-external-link
         link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
         title: Cloud Service Provider
-        ariaLabel: 'Cloud Service Provider: (Link esterno) Vai a Cloud Service Provider su Read the Docs'
+        ariaLabel: 'Cloud Service Provider (link esterno)'
 timelineTitle: 'Piano di attuazione'
 timeline:
   - date: '2021-12-31'

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export const ResourceHeader = ({ title, classNames = '' }) => (
-  <span className={`text-uppercase font-weight-semibold small ${classNames}`}>{title}</span>
+  <h3 className={`text-uppercase font-weight-semibold h6 ${classNames}`}>{title}</h3>
 );
 
 ResourceHeader.propTypes = {

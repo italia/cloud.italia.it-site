@@ -13,7 +13,7 @@ import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
 
 const {
-  heroEnablement: { category, title, body },
+  heroEnablement: { category, title, body, ctaAriaLabel },
 } = content;
 const {
   internalLinks: { enablement },
@@ -40,7 +40,7 @@ export const EnablementSection = () => {
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            <Cta text={showMore} linkTo={enablement.linkTo} />
+            <Cta text={showMore} linkTo={enablement.linkTo} aria-label={ctaAriaLabel} />
           </HeroCtaContainer>
         </div>
         <HeroGraphic

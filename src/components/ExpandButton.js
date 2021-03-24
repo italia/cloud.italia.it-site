@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
+import labels from '../../contents/labels.yml';
+
+const { showMore, close } = labels;
 
 const useStyle = createUseStyles({
   icon: {
@@ -16,8 +19,13 @@ const useStyle = createUseStyles({
 export const ExpandButton = ({ collapsed, handleCollapse }) => {
   const classes = useStyle(collapsed);
   return (
-    <div role="button" className="d-flex flex-column align-items-center pt-4" onClick={handleCollapse}>
-      <div className="primary-color h6">{collapsed ? 'Scopri di più' : 'Chiudi'}</div>
+    <div
+      role="button"
+      className="d-flex flex-column align-items-center pt-4"
+      onClick={handleCollapse}
+      aria-expanded={!collapsed}
+    >
+      <div className="primary-color h6">{collapsed ? showMore : close}</div>
       <Icon color="primary" className={classes.icon} icon="it-arrow-up-circle" />
     </div>
   );
