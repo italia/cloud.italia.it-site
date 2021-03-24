@@ -58,7 +58,6 @@ const StrategyPage = () => {
         src="../images/strategia_hero_cloud_2x.jpg"
         className={classes.heroImage}
         alt=""
-        height={500}
         layout={'fullWidth'}
         placeholder="blurred"
         formats={['AUTO', 'AVIF', 'WEBP']}
