@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServicesPage } from '../layouts/ServicesPage.js';
+import { QualificationPage } from '../layouts/QualificationPage.js';
 
-const Page = () => <ServicesPage />;
+const Page = () => <QualificationPage />;
 export default Page;

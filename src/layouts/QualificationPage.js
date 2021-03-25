@@ -7,19 +7,19 @@ import { HeroBody } from '../components/hero/HeroBody.js';
 import { TextChunk } from '../components/TextChunk.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
-import content from '../../contents/services-page/services.yml';
+import content from '../../contents/qualification-page/qualification.yml';
 
 const { title, body, resourceTitle, resources } = content;
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "services-page/services.md" } }) {
+    textChunk: markdownRemark(fields: { slug: { eq: "qualification-page/qualification.md" } }) {
       html
     }
   }
 `;
 
-export const ServicesPage = () => {
+export const QualificationPage = () => {
   const {
     textChunk: { html: textChunk },
   } = useStaticQuery(query);
