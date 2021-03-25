@@ -1,5 +1,5 @@
 import React from 'react';
-import CataloguePage from '../layouts/CataloguePage.js';
+import { CataloguePage } from '../layouts/CataloguePage.js';
 
 const Page = () => <CataloguePage />;
 export default Page;

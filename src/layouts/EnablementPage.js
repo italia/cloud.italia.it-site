@@ -39,7 +39,7 @@ const query = graphql`
   }
 `;
 
-const EnablementPage = () => {
+export const EnablementPage = () => {
   const classes = useStyles();
   const {
     textChunk: { html: textChunk },
@@ -86,5 +86,3 @@ const EnablementPage = () => {
     </>
   );
 };
-
-export default EnablementPage;

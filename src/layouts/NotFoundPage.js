@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const NotFoundPage = () => {
+export const NotFoundPage = () => {
   const classes = useStyles();
   return (
     <>
@@ -31,5 +31,3 @@ const NotFoundPage = () => {
     </>
   );
 };
-
-export default NotFoundPage;

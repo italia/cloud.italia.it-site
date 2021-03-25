@@ -16,7 +16,7 @@ const query = graphql`
   }
 `;
 
-const CataloguePage = () => {
+export const CataloguePage = () => {
   const {
     textChunk: { html: textChunk },
   } = useStaticQuery(query);
@@ -51,5 +51,3 @@ const CataloguePage = () => {
     </>
   );
 };
-
-export default CataloguePage;

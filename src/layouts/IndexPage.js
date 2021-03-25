@@ -8,7 +8,7 @@ import { BenefitSection } from './home/BenefitSection.js';
 import { EnablementSection } from './home/EnablementSection.js';
 import { ServicesSection } from './home/ServicesSection.js';
 
-const IndexPage = () => (
+export const IndexPage = () => (
   <>
     <div className="sr-only">
       <h1>{content.name}</h1>
@@ -21,5 +21,3 @@ const IndexPage = () => (
     <HowToContributeSection />
   </>
 );
-
-export default IndexPage;

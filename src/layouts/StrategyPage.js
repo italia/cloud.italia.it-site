@@ -33,7 +33,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const StrategyPage = () => {
+export const StrategyPage = () => {
   const classes = useStyles();
   const {
     chunk1: { html: chunk1 },
@@ -88,5 +88,3 @@ const StrategyPage = () => {
     </>
   );
 };
-
-export default StrategyPage;

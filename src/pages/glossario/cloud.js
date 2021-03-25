@@ -1,5 +1,5 @@
 import React from 'react';
+import { GlossaryPage } from '../../layouts/GlossaryPage.js';
 
-const CloudGlossary = () => <>Glossario cloud</>;
-
-export default CloudGlossary;
+const Page = () => <GlossaryPage />;
+export default Page;
