@@ -4,20 +4,22 @@ import { Accordion } from 'design-react-kit';
 import { useAccordion } from '../hooks/useAccordion.js';
 import { AccordionEntry } from './AccordionEntry.js';
 
-const Term = ({ name, description, active, onToogle }) => (
-  <Accordion key={name} className="bg-white shadow-lg my-0 my-lg-3 mx-0 mx-lg-2">
-    <AccordionEntry
-      headerClassName="border-0"
-      active={active}
-      onToggle={onToogle}
-      header={() => name}
-      body={() => description}
-    />
-  </Accordion>
-);
+const Term = ({ name, description }) => {
+  const [activeAccordion, openAccordion] = useAccordion({ noActiveOnInit: true });
+  return (
+    <Accordion key={name} className="bg-white shadow-lg my-0 my-lg-3 mx-0 mx-lg-2">
+      <AccordionEntry
+        headerClassName="border-0"
+        active={activeAccordion === 1}
+        onToggle={() => openAccordion(1)}
+        header={() => name}
+        body={() => description}
+      />
+    </Accordion>
+  );
+};
 
 export const Glossary = ({ terms }) => {
-  const [activeAccordion, openAccordion] = useAccordion();
   const termsSorted = terms.sort((a, b) => {
     const aName = a.name.toUpperCase();
     const bName = b.name.toUpperCase();
@@ -34,25 +36,13 @@ export const Glossary = ({ terms }) => {
   return (
     <div className="row">
       <div className="col-12 col-lg-6">
-        {even.map((term, index) => (
-          <Term
-            key={term.name}
-            name={term.name}
-            description={term.description}
-            active={activeAccordion === index + 1}
-            onToogle={() => openAccordion(index + 1)}
-          />
+        {even.map((term) => (
+          <Term key={term.name} name={term.name} description={term.description} />
         ))}
       </div>
       <div className="col-12 col-lg-6">
-        {odd.map((term, index) => (
-          <Term
-            key={term.name}
-            name={term.name}
-            description={term.description}
-            active={activeAccordion === even.length + index + 1}
-            onToogle={() => openAccordion(even.length + index + 1)}
-          />
+        {odd.map((term) => (
+          <Term key={term.name} name={term.name} description={term.description} />
         ))}
       </div>
     </div>
