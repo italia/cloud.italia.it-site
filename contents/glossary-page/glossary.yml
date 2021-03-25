@@ -1,0 +1,108 @@
+title: Il glossario del cloud
+body: Consulta il glossario per approfondire il significato dei termini chiave relativi al cloud computing per le amministrazioni pubbliche.
+glossary:
+  - name: Infrastructure-as-a-Service (IaaS)
+    description: "Infrastructure-as-a-Service (IaaS), o infrastruttura distribuita come servizio: servizi cloud che permettono di allocare
+      risorse infrastrutturali fisiche e virtuali (server, macchine virtuali, risorse di archiviazione e networking)
+      su richiesta e con un pagamento commisurato in base al consumo di risorse. I principali benefici derivanti dall’adozione
+      della soluzione IaaS riguardano la riduzione dei tempi di deployment, l’incremento di velocità, scalabilità e di disponibilità (uptime),
+      la riduzione dei costi per l’acquisto, l’aggiornamento e la manutenzione dell’hardware,
+      la possibilità di liberare risorse umane da impiegare in attività produttive diverse dalla gestione dell’hardware."
+  - name: Platform-as-a-Service (PaaS)
+    description: "Platform-as-a-Service (PaaS), o piattaforma distribuita come servizio: servizi cloud che forniscono strumenti e ambienti per lo sviluppo,
+      il test, la distribuzione e la gestione di applicazioni software, solitamente tramite strumenti specifici forniti
+      dal provider stesso e pannelli di configurazione fruibili via browser web. Una soluzione PaaS è progettata per consentire
+      agli sviluppatori di progettare e creare applicativi concentrandosi sulle loro funzionalità, lasciando al fornitore
+      del servizio aspetti come la configurazione, la gestione dell’ambiente di esecuzione dell’archiviazione o dei database.
+      Tra i principali benefici vi è la riduzione dei tempi del ciclo di vita del software."
+  - name: TEST (PaaS)
+    description: "Platform-as-a-Service (PaaS), o piattaforma distribuita come servizio: servizi cloud che forniscono strumenti e ambienti per lo sviluppo,
+      il test, la distribuzione e la gestione di applicazioni software, solitamente tramite strumenti specifici forniti
+      dal provider stesso e pannelli di configurazione fruibili via browser web. Una soluzione PaaS è progettata per consentire
+      agli sviluppatori di progettare e creare applicativi concentrandosi sulle loro funzionalità, lasciando al fornitore
+      del servizio aspetti come la configurazione, la gestione dell’ambiente di esecuzione dell’archiviazione o dei database.
+      Tra i principali benefici vi è la riduzione dei tempi del ciclo di vita del software."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
+  - name: Cloud computing
+    description: "Il cloud computing (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
+      che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
+      applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
+      ad esempio, di come configurare e installare un software sulla propria macchina. Le classi di servizio più comuni
+      che caratterizzano i servizi cloud sono IaaS, PaaS e SaaS. Tali servizi possono erogati agli utenti
+      secondo diverse modalità di fruizione: public cloud, private cloud e hybrid cloud."
