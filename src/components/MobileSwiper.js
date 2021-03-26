@@ -15,6 +15,10 @@ const useStyles = createUseStyles({
       },
     },
   },
+  bullet: {
+    composes: 'swiper-pagination-bullet p-2',
+    margin: '0px 20px',
+  },
   activeBullet: {
     composes: 'swiper-pagination-bullet-active',
     backgroundColor: '#0066CC',
@@ -48,7 +52,7 @@ export const MobileSwiper = ({ slides }) => {
             pagination={{
               el: `[data-swiper-id=${paginationId}]`,
               clickable: true,
-              bulletClass: 'swiper-pagination-bullet p-2 mx-3',
+              bulletClass: classes.bullet,
               bulletActiveClass: classes.activeBullet,
             }}
           >
@@ -60,7 +64,7 @@ export const MobileSwiper = ({ slides }) => {
           </Swiper>
         </div>
       </div>
-      <div className="pb-4 d-flex justify-content-center pt-3 d-lg-none">
+      <div className="mt-4 pb-4 d-flex justify-content-center pt-3 d-lg-none">
         {paginationId && <div data-swiper-id={paginationId} className="swiper-pagination"></div>}
       </div>
     </>
