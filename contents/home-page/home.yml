@@ -6,12 +6,14 @@ heroStrategy:
     Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
     efficienti.
   ctaAriaLabel: Scopri di più su la strategia nazionale cloud della PA
+  altImg: Composizione grafica raffigurante una nuvola stilizzata simbolo del cloud con logo Italia sovrapposto
 heroBenefit:
   category: I vantaggi
   title: Un modello che porta beneficio all’intero sistema Paese
   body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire al
     Paese la possibilità di crescere, competere, generare nuove opportunità di lavoro qualificato, creare e
     distribuire nuova ricchezza in maniera uniforme su tutto il territorio nazionale
+  altImg: Composizione grafica raffigurante un gruppo di donne e uomini multietnici che lavorano come professionisti del settore digital
 benefits:
   - title: Per i cittadini
     body: Servizi pubblici basati sul modello cloud garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto
@@ -33,13 +35,15 @@ heroEnablement:
     (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
     utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
   ctaAriaLabel: Scopri di più su il programma di abilitazione
-heroServices:
+  altImg: Elaborazione grafica decorativa raffigurante cavi di server ed altri elementi legati all’hardware digitale
+heroQualification:
   category: La qualificazione dei servizi e il catalogo
   title: Il percorso di qualificazione e il catalogo dei servizi cloud
   body: Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’<strong>AgID</strong>.
         I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
         in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
+  altImg: Elaborazione di elementi grafici decorativi che raffigurano la nuvola simbolo del cloud, il logo italia, lo schermo di un computer e altri elementi hardware digitali
 heroNews:
   category: Le notizie
   title: Articoli e approfondimenti

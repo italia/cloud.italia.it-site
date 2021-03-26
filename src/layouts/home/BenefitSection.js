@@ -1,6 +1,5 @@
 import React from 'react';
-import { getImage } from 'gatsby-plugin-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Accordion } from 'design-react-kit';
 import { HeroCategory } from '../../components/hero/HeroCategory.js';
 import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
@@ -10,29 +9,23 @@ import { useAccordion } from '../../hooks/useAccordion.js';
 import content from '../../../contents/home-page/home.yml';
 
 const {
-  heroBenefit: { category, title, body },
+  heroBenefit: { category, title, body, altImg },
   benefits,
 } = content;
 
 export const BenefitSection = () => {
-  const { vantaggi_cloud } = useStaticQuery(graphql`
-    query {
-      vantaggi_cloud: file(relativePath: { eq: "vantaggi_cloud_1x.png" }) {
-        childImageSharp {
-          gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
-        }
-      }
-    }
-  `);
   const [activeAccordion, openAccordion] = useAccordion();
   return (
     <Hero bgColor="light">
       <div className="row align-items-center">
-        <HeroGraphic
-          alt=""
-          image={getImage(vantaggi_cloud)}
-          className="col-lg-5 d-flex align-items-center justify-content-center"
-        />
+        <HeroGraphic className="col-lg-5 d-flex align-items-center justify-content-center">
+          <StaticImage
+            src="../../images/vantaggi_cloud_1x.png"
+            alt={altImg}
+            placeholder="blurred"
+            formats={['AUTO', 'AVIF', 'WEBP']}
+          />
+        </HeroGraphic>
         <div className="col-lg-7 mt-4 mt-lg-0">
           <div className="col-xl-9 text-center text-lg-left">
             <HeroCategory title={category} />

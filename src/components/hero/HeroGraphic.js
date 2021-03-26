@@ -1,8 +1,6 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
-import { GatsbyImage } from 'gatsby-plugin-image';
-import { gatsbyImageDataProptype } from '../../utils/proptypes.js';
 
 const useStyles = createUseStyles({
   heroGraphic: {},
@@ -13,17 +11,12 @@ const useStyles = createUseStyles({
   },
 });
 
-export const HeroGraphic = ({ alt, className = '', image }) => {
+export const HeroGraphic = ({ className = '', children }) => {
   const classes = useStyles();
-  return (
-    <div className={`${classes.heroGraphic} ${className}`}>
-      <GatsbyImage alt={alt} image={image} />
-    </div>
-  );
+  return <div className={`${classes.heroGraphic} ${className}`}>{children}</div>;
 };
 
 HeroGraphic.propTypes = {
-  alt: PropTypes.string.isRequired,
   className: PropTypes.string,
-  image: gatsbyImageDataProptype,
+  children: PropTypes.node.isRequired,
 };

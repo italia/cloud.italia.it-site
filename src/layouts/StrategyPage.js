@@ -25,7 +25,7 @@ const query = graphql`
   }
 `;
 
-const { timeline, timelineTitle, body, title, resourceTitle, resources } = content;
+const { timeline, timelineTitle, body, title, altImg, resourceTitle, resources } = content;
 
 const useStyles = createUseStyles({
   heroImage: {
@@ -57,7 +57,7 @@ export const StrategyPage = () => {
       <StaticImage
         src="../images/strategia_hero_cloud_2x.jpg"
         className={classes.heroImage}
-        alt=""
+        alt={altImg}
         layout={'fullWidth'}
         placeholder="blurred"
         formats={['AUTO', 'AVIF', 'WEBP']}
