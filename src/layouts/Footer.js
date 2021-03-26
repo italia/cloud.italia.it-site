@@ -5,8 +5,8 @@ import links from '../../contents/links.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
-  internalLinks: { glossary },
-  externalLinks: { dipartimento, agid, noteLegali, privacy, a11y },
+  internalLinks: { glossary, privacy },
+  externalLinks: { dipartimento, agid, noteLegali, a11y },
 } = links;
 
 const useStyle = createUseStyles({
@@ -51,13 +51,9 @@ const SlimFooter = () => {
             </ExternalLink>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <ExternalLink
-              linkTo={privacy.linkTo}
-              ariaLabel={privacy.ariaLabel}
-              className="list-item mid-footer-link mx-4 mx-md-0"
-            >
+            <Link to={privacy.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
               {privacy.label}
-            </ExternalLink>
+            </Link>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
             <ExternalLink
