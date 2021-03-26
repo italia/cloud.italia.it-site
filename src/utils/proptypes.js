@@ -18,3 +18,9 @@ export const resourcePropType = PropTypes.exact({
   title: PropTypes.string,
   references: PropTypes.arrayOf(referencePropType).isRequired,
 });
+
+export const glossaryTermPropTypes = PropTypes.exact({
+  id: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+});
