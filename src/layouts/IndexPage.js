@@ -6,7 +6,7 @@ import { HowToContributeSection } from './home/HowToContributeSection.js';
 import { StrategySection } from './home/StrategySection.js';
 import { BenefitSection } from './home/BenefitSection.js';
 import { EnablementSection } from './home/EnablementSection.js';
-import { ServicesSection } from './home/ServicesSection.js';
+import { QualificationSection } from './home/QualificationSection.js';
 
 export const IndexPage = () => (
   <>
@@ -16,7 +16,7 @@ export const IndexPage = () => (
     <StrategySection />
     <BenefitSection />
     <EnablementSection />
-    <ServicesSection />
+    <QualificationSection />
     <NewsPreviewSection />
     <HowToContributeSection />
   </>

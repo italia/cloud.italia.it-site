@@ -1,7 +1,6 @@
 import React from 'react';
-import { getImage } from 'gatsby-plugin-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Icon } from 'design-react-kit';
-import { graphql, useStaticQuery } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import { HeroCategory } from '../../components/hero/HeroCategory.js';
 import { HeroTitle } from '../../components/hero/HeroTitle.js';
@@ -16,7 +15,7 @@ import links from '../../../contents/links.yml';
 import labels from '../../../contents/labels.yml';
 
 const {
-  heroServices: { category, title, body, ctaAriaLabel },
+  heroQualification: { category, title, body, ctaAriaLabel, altImg },
 } = content;
 
 const {
@@ -45,17 +44,8 @@ const useStyles = createUseStyles({
   },
 });
 
-export const ServicesSection = () => {
+export const QualificationSection = () => {
   const classes = useStyles();
-  const { servizi_cloud } = useStaticQuery(graphql`
-    query {
-      servizi_cloud: file(relativePath: { eq: "servizi_cloud_1x.png" }) {
-        childImageSharp {
-          gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF, WEBP])
-        }
-      }
-    }
-  `);
   return (
     <Hero bgColor="primary">
       <div className="row align-items-center">
@@ -79,11 +69,14 @@ export const ServicesSection = () => {
             </ExternalLink>
           </HeroCtaContainer>
         </div>
-        <HeroGraphic
-          alt=""
-          image={getImage(servizi_cloud)}
-          className="col-lg-4 d-flex align-items-center justify-content-center"
-        />
+        <HeroGraphic className="col-lg-4 d-flex align-items-center justify-content-center">
+          <StaticImage
+            src="../../images/servizi_cloud_1x.png"
+            alt={altImg}
+            placeholder="blurred"
+            formats={['AUTO', 'AVIF', 'WEBP']}
+          />
+        </HeroGraphic>
       </div>
       <div className="row mt-lg-2 mt-0">
         <div className="col-12 text-center text-lg-left">
