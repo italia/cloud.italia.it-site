@@ -14,6 +14,9 @@ internalLinks:
   glossary:
     linkTo: /glossario/cloud/
     label: Glossario
+  privacy:
+    linkTo: /privacy-policy/
+    label: Informativa privacy
 externalLinks:
   pianoTriennale:
     label: Piano Triennale
@@ -59,10 +62,6 @@ externalLinks:
     label: Note legali
     linkTo: https://www.governo.it/note-legali
     ariaLabel: "Note legali (link esterno)"
-  privacy:
-    label: Informativa privacy
-    linkTo: https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali/
-    ariaLabel: "Informativa privacy (link esterno)"
   a11y:
     label: Dichiarazione di accessibilità
     linkTo: https://form.agid.gov.it/view/c7c157fa-0177-4262-aea2-206ae99ae422
