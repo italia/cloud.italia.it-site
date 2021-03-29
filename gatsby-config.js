@@ -12,6 +12,16 @@ module.exports = {
     'gatsby-plugin-jss',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: 'ZVQ0Q5N0dY',
+        matomoUrl: 'https://ingestion.webanalytics.italia.it/',
+        siteUrl: 'https://cloud-italia-i-git-test-analytics-dip-trasformazione-d-145d52.vercel.app/',
+        matomoPhpScript: 'matomo.php',
+        matomoJsScript: 'matomo.js',
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'contents',
