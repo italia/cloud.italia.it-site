@@ -41,7 +41,7 @@ export const CataloguePage = () => {
 
       <hr />
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk1} />
       </Hero>
 
@@ -56,7 +56,7 @@ export const CataloguePage = () => {
         />
       </div>
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk2} />
       </Hero>
     </>

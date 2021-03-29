@@ -20,7 +20,7 @@ export const PrivacyPolicyPage = () => {
   return (
     <>
       <Breadcrumb currentPage={content.breadcrumb} />
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk} />
       </Hero>
     </>

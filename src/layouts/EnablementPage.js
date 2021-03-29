@@ -64,7 +64,7 @@ export const EnablementPage = () => {
 
       <hr />
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk1} />
       </Hero>
 
@@ -79,7 +79,7 @@ export const EnablementPage = () => {
         />
       </div>
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk2} />
       </Hero>
 
