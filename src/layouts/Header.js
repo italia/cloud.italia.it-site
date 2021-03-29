@@ -270,7 +270,6 @@ const NavHeader = () => {
                     size="sm"
                     focusable={false}
                     role="img"
-                    aria-label={externalLinks.marketplace.ariaLabel}
                   />
                 </ExternalLink>
               </NavItem>
