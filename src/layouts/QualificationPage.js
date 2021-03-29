@@ -43,7 +43,7 @@ export const QualificationPage = () => {
 
       <hr />
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk1} />
       </Hero>
 
@@ -58,7 +58,7 @@ export const QualificationPage = () => {
         />
       </div>
 
-      <Hero yPadding={false}>
+      <Hero yPaddingXLScreen={false}>
         <TextChunk html={textChunk2} />
       </Hero>
 

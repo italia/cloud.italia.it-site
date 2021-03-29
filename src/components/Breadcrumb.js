@@ -8,7 +8,7 @@ export const Breadcrumb = ({ currentPage }) => (
     <div className="row">
       <div className="col-12">
         <nav aria-label={labels.ariaLabel.breadcrumb} className="breadcrumb-container">
-          <ol className="breadcrumb ml-0 ml-sm-4 mt-4 justify-content-center justify-content-sm-start">
+          <ol className="breadcrumb ml-0 ml-sm-4 mt-4 mb-0 justify-content-center justify-content-sm-start">
             <li className="breadcrumb-item d-none d-sm-block">
               <Link className="font-weight-normal" to="/">
                 Home
