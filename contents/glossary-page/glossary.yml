@@ -5,7 +5,7 @@ glossaryTerms:
   - id: cloud-computing
     name: Cloud computing
     description: "Il
-      <a href='https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/il-cloud/cos%C3%A8-il-cloud.html' class='text-decoration-none' rel='noreferrer' target='_blank' aria-label='cloud computing (link esterno)'><strong>cloud computing</strong></a>
+      <a href='https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/il-cloud/cos%C3%A8-il-cloud.html' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='cloud computing (link esterno)'>cloud computing</a>
       (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
       che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
       applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
