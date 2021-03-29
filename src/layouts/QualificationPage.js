@@ -13,7 +13,10 @@ const { title, body, resourceTitle, resources } = content;
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "qualification-page/qualification.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk1.md" } }) {
+      html
+    }
+    textChunk2: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk2.md" } }) {
       html
     }
   }
@@ -21,7 +24,8 @@ const query = graphql`
 
 export const QualificationPage = () => {
   const {
-    textChunk: { html: textChunk },
+    textChunk1: { html: textChunk1 },
+    textChunk2: { html: textChunk2 },
   } = useStaticQuery(query);
 
   return (
@@ -37,16 +41,25 @@ export const QualificationPage = () => {
         </div>
       </Hero>
 
-      <StaticImage
-        aspectRatio={1280 / 548}
-        src="../images/strategia_hero_cloud_2x.jpg"
-        alt=""
-        placeholder="blurred"
-        formats={['AUTO', 'AVIF', 'WEBP']}
-      />
+      <hr />
 
-      <Hero>
-        <TextChunk html={textChunk} />
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk1} />
+      </Hero>
+
+      <div className="d-flex justify-content-center">
+        <StaticImage
+          src="../images/qualificazione.png"
+          alt=""
+          placeholder="blurred"
+          height={400}
+          width={800}
+          formats={['AUTO', 'AVIF', 'WEBP']}
+        />
+      </div>
+
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk2} />
       </Hero>
 
       <Hero bgColor="light" xPadding={false}>
