@@ -3,7 +3,7 @@ module.exports = {
     author: 'Dipartimento per la Trasformazione Digitale + AgID',
     description: 'L’adozione del modello cloud computing nelle amministrazioni italiane',
     hostname: 'cloud.italia.it',
-    siteUrl: `https://cloud.italia.it`,
+    siteUrl: 'https://cloud.italia.it',
     title: 'Cloud Italia',
     subtitle: 'Il Cloud della Pubblica Amministrazione',
   },
