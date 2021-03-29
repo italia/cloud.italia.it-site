@@ -6055,6 +6055,14 @@ gatsby-page-utils@^1.1.0:
     lodash "^4.17.21"
     micromatch "^4.0.2"
 
+gatsby-plugin-google-analytics@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.1.0.tgz#210c1ee3a7705f82490e89b21cb0b384ca1d4138"
+  integrity sha512-52+R1ahvLJf7po4yGJtNSme6fFruIpj8Uvhy53Fu2/eTjbu4kSyC1sfmO+vC8xD57M8FYGJy8mB1n4Up6vyyZA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    minimatch "3.0.4"
+
 gatsby-plugin-image@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-1.1.1.tgz#b23789c105fda88196d846fc55e3fc290f1a99e5"
