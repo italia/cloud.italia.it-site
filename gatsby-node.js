@@ -24,6 +24,7 @@ exports.onPostBuild = async () => {
   const redirects = [
     { from: '/it/cloud-enablement/', to: '/programma-abilitazione-cloud/' },
     { from: '/it/qualificazioni/', to: '/qualificazione-servizi-cloud/' },
+    { from: '/it/privacy-policy/', to: '/privacy-policy/' },
     { from: '/it/latest/', to: '/' },
     {
       from: '/projects/cloud-italia-circolari/it/latest/',
