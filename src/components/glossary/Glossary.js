@@ -14,31 +14,22 @@ const GlossaryTerms = ({ terms, expandedTermOnInit, scrollTermIntoViewOnInit }) 
   ));
 
 export const Glossary = ({ terms, expandedTermOnInit, scrollTermIntoViewOnInit = null }) => {
-  const even = terms.filter((t, index) => index % 2 === 0);
-  const odd = terms.filter((t, index) => index % 2 !== 0);
+  const firstColumn = terms.slice(0, terms.length / 2);
+  const secondColumn = terms.slice(terms.length / 2, terms.length);
   return (
     <>
       {/* We need different layouts for mobile and desktop in order to retain the order of the terms */}
-      <div className="d-none d-lg-flex row">
+      <div className="row">
         <div className="col-lg-6">
           <GlossaryTerms
-            terms={even}
+            terms={firstColumn}
             expandedTermOnInit={expandedTermOnInit}
             scrollTermIntoViewOnInit={scrollTermIntoViewOnInit}
           />
         </div>
         <div className="col-lg-6">
           <GlossaryTerms
-            terms={odd}
-            expandedTermOnInit={expandedTermOnInit}
-            scrollTermIntoViewOnInit={scrollTermIntoViewOnInit}
-          />
-        </div>
-      </div>
-      <div className="row d-lg-none">
-        <div className="col-12">
-          <GlossaryTerms
-            terms={terms}
+            terms={secondColumn}
             expandedTermOnInit={expandedTermOnInit}
             scrollTermIntoViewOnInit={scrollTermIntoViewOnInit}
           />
