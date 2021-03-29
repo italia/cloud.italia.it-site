@@ -33,7 +33,10 @@ const {
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "enablement-page/enablement.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk1.md" } }) {
+      html
+    }
+    textChunk2: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk2.md" } }) {
       html
     }
   }
@@ -42,7 +45,8 @@ const query = graphql`
 export const EnablementPage = () => {
   const classes = useStyles();
   const {
-    textChunk: { html: textChunk },
+    textChunk1: { html: textChunk1 },
+    textChunk2: { html: textChunk2 },
   } = useStaticQuery(query);
 
   return (
@@ -58,16 +62,25 @@ export const EnablementPage = () => {
         </div>
       </Hero>
 
-      <StaticImage
-        aspectRatio={1280 / 548}
-        src="../images/strategia_hero_cloud_2x.jpg"
-        alt=""
-        placeholder="blurred"
-        formats={['AUTO', 'AVIF', 'WEBP']}
-      />
+      <hr />
 
-      <Hero>
-        <TextChunk html={textChunk} />
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk1} />
+      </Hero>
+
+      <div className="d-flex justify-content-center">
+        <StaticImage
+          src="../images/abilitazione.jpg"
+          alt=""
+          placeholder="blurred"
+          height={400}
+          width={800}
+          formats={['AUTO', 'AVIF', 'WEBP']}
+        />
+      </div>
+
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk2} />
       </Hero>
 
       <Hero bgColor="light" xPadding={false}>

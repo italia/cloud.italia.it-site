@@ -11,7 +11,10 @@ const { title, body } = content;
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk1.md" } }) {
+      html
+    }
+    textChunk2: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk2.md" } }) {
       html
     }
   }
@@ -19,7 +22,8 @@ const query = graphql`
 
 export const CataloguePage = () => {
   const {
-    textChunk: { html: textChunk },
+    textChunk1: { html: textChunk1 },
+    textChunk2: { html: textChunk2 },
   } = useStaticQuery(query);
 
   return (
@@ -35,20 +39,25 @@ export const CataloguePage = () => {
         </div>
       </Hero>
 
+      <hr />
+
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk1} />
+      </Hero>
+
       <div className="d-flex justify-content-center">
         <StaticImage
-          src="../images/unsplash_3.jpg"
+          src="../images/catalogo.jpg"
           alt=""
           placeholder="blurred"
-          layout="fixed"
           height={400}
           width={800}
           formats={['AUTO', 'AVIF', 'WEBP']}
         />
       </div>
 
-      <Hero>
-        <TextChunk html={textChunk} />
+      <Hero yPadding={false}>
+        <TextChunk html={textChunk2} />
       </Hero>
     </>
   );
