@@ -269,7 +269,7 @@ const NavHeader = () => {
                     icon="it-external-link"
                     size="sm"
                     focusable={false}
-                    role="img"
+                    role="presentation"
                   />
                 </ExternalLink>
               </NavItem>
