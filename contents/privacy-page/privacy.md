@@ -1,4 +1,4 @@
-# Privacy Policy
+# Informativa privacy
 {class="h3 mb-4"}
 
 ## Informativa sul trattamento dei dati personali

@@ -4,8 +4,9 @@ import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
 import { Glossary } from '../components/glossary/Glossary.js';
+import { Breadcrumb } from '../components/Breadcrumb.js';
 
-const { title, body, glossaryTerms } = content;
+const { title, body, glossaryTerms, breadcrumb } = content;
 
 const sortTermsByName = (terms) =>
   terms.sort((a, b) => {
@@ -44,7 +45,8 @@ export const GlossaryPage = () => {
   }, []);
   return (
     <>
-      <Hero>
+      <Breadcrumb currentPage={breadcrumb} />
+      <Hero yPadding={false}>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">

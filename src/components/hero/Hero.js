@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-export const Hero = ({ bgColor = '', xPadding = true, children }) => {
-  const heroClasses = classNames('py-5', {
+export const Hero = ({ bgColor = '', xPadding = true, yPadding = true, children }) => {
+  const heroClasses = classNames({
+    'py-5': yPadding,
     'bg-primary': bgColor === 'primary',
     'lightgrey-bg-a2': bgColor === 'light',
   });
@@ -20,5 +21,6 @@ export const Hero = ({ bgColor = '', xPadding = true, children }) => {
 Hero.propTypes = {
   bgColor: PropTypes.oneOf(['primary', 'light']),
   xPadding: PropTypes.bool,
+  yPadding: PropTypes.bool,
   children: PropTypes.node.isRequired,
 };
