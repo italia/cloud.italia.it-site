@@ -1,11 +1,7 @@
 module.exports = {
   siteMetadata: {
-    author: 'Dipartimento per la Trasformazione Digitale + AgID',
-    description: 'L’adozione del modello cloud computing nelle amministrazioni italiane',
     hostname: 'cloud.italia.it',
     siteUrl: 'https://cloud.italia.it',
-    title: 'Cloud Italia',
-    subtitle: 'Il Cloud della Pubblica Amministrazione',
   },
   plugins: [
     'gatsby-plugin-sitemap',
@@ -16,13 +12,6 @@ module.exports = {
       options: {
         name: 'contents',
         path: `${__dirname}/contents`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: `${__dirname}/src/images`,
       },
     },
     {

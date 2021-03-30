@@ -6,8 +6,11 @@ import { Hero } from '../components/hero/Hero.js';
 import { TextChunk } from '../components/TextChunk.js';
 import content from '../../contents/catalogue-page/catalogue.yml';
 import { HeroBody } from '../components/hero/HeroBody.js';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
 
 const { title, body } = content;
+const { title: seoTitle, description: seoDescription } = seo.cataloguePage;
 
 const query = graphql`
   query {
@@ -28,6 +31,7 @@ export const CataloguePage = () => {
 
   return (
     <>
+      <SEO title={seoTitle} description={seoDescription} />
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

@@ -1,4 +1,4 @@
-import { graphql, Link, useStaticQuery } from 'gatsby';
+import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -18,7 +18,7 @@ import { HeaderNav } from '../components/HeaderNav.js';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const { internalLinks, externalLinks } = links;
-const { ariaLabel } = labels;
+const { ariaLabel, headerTitle, headerSubtitle } = labels;
 
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
@@ -140,22 +140,6 @@ const SlimHeader = () => {
 
 const CenterHeader = () => {
   const classes = useStyle();
-  const {
-    site: {
-      siteMetadata: { title, subtitle },
-    },
-  } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            subtitle
-          }
-        }
-      }
-    `
-  );
   return (
     <HeaderReactKit type="center" theme="light">
       <HeaderContent>
@@ -165,8 +149,8 @@ const CenterHeader = () => {
               <div className="d-flex align-items-center">
                 <img className="icon" src="/cloud-logo.svg" alt="Logo Cloud Italia" />
                 <div>
-                  <div className="h3 mb-0">{title}</div>
-                  <div className={classes.subtitle}>{subtitle}</div>
+                  <div className="h3 mb-0">{headerTitle}</div>
+                  <div className={classes.subtitle}>{headerSubtitle}</div>
                 </div>
               </div>
             </div>

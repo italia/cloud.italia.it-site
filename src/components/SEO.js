@@ -1,23 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import seo from '../../contents/seo.yml';
 
-export const SEO = ({ title }) => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            author
-            title
-            description
-          }
-        }
-      }
-    `
-  );
+const { title: seoTitle, description: seoDescription } = seo.homePage;
 
+export const SEO = ({ title, description }) => {
   const favicons = [
     {
       rel: 'icon',
@@ -47,17 +35,17 @@ export const SEO = ({ title }) => {
 
   const twitter = [
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:creator', content: site.siteMetadata.author },
-    { name: 'twitter:title', content: title ?? site.siteMetadata.title },
-    { name: 'twitter:description', content: site.siteMetadata.description },
+    { name: 'twitter:creator', content: seo.author },
+    { name: 'twitter:title', content: title ?? seoTitle },
+    { name: 'twitter:description', content: description ?? seoDescription },
     { name: 'twitter:site', content: '@https://twitter.com/InnovazioneGov' },
     { name: 'twitter:image', content: 'https://cloud.italia.it/cloud-pa-logo-twitter.jpeg' },
   ];
 
   const facebook = [
     { name: 'og:url', content: '/' },
-    { name: 'og:title', content: title ?? site.siteMetadata.title },
-    { name: 'og:description', content: site.siteMetadata.description },
+    { name: 'og:title', content: title ?? seoTitle },
+    { name: 'og:description', content: description ?? seoDescription },
     { name: 'og:type', content: 'website' },
     { name: 'og:image', content: 'http://cloud.italia.it/cloud-pa-logo-og.jpeg' },
     { name: 'og:image:secure_url', content: 'https://cloud.italia.it/cloud-pa-logo-og.jpeg' },
@@ -66,19 +54,21 @@ export const SEO = ({ title }) => {
     { name: 'og:image:height', content: '630' },
   ];
 
+  const metaDescription = {
+    name: 'description',
+    content: description ?? seoDescription,
+  };
+
   return (
     <Helmet
       htmlAttributes={{
         lang: 'it',
       }}
-      title={title ?? site.siteMetadata.title}
+      title={title ?? seoTitle}
       link={[...favicons]}
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-        {
-          name: 'description',
-          content: site.siteMetadata.description,
-        },
+        metaDescription,
         ...twitter,
         ...facebook,
       ]}
@@ -87,5 +77,6 @@ export const SEO = ({ title }) => {
 };
 
 SEO.propTypes = {
+  description: PropTypes.string,
   title: PropTypes.string,
 };
