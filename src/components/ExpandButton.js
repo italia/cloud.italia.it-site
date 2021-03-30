@@ -26,7 +26,7 @@ export const ExpandButton = ({ collapsed, handleCollapse }) => {
       aria-expanded={!collapsed}
     >
       <div className="primary-color h6">{collapsed ? showMore : close}</div>
-      <Icon color="primary" className={classes.icon} icon="it-arrow-up-circle" />
+      <Icon color="primary" className={classes.icon} icon="it-arrow-up-circle" focusable={false} role="presentation" />
     </div>
   );
 };

@@ -41,14 +41,7 @@ export const NewsPreviewSection = () => {
         <p className="card-text pt-2 pb-4 text-dark">{news.body}</p>
         <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
           <span>{news.source}</span>
-          <Icon
-            className="ml-2"
-            icon="it-external-link"
-            size="sm"
-            focusable={false}
-            role="img"
-            aria-label={news.ariaLabel}
-          />
+          <Icon className="ml-2" icon="it-external-link" size="sm" focusable={false} role="presentation" />
         </p>
       </CardBody>
     </Card>

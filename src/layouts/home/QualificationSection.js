@@ -65,7 +65,7 @@ export const QualificationSection = () => {
               className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon focus-a11y-contrast`}
             >
               <span className="mr-3">{marketplace.label}</span>
-              <Icon color="primary" icon="it-external-link" size="sm" />
+              <Icon color="primary" icon="it-external-link" size="sm" focusable={false} role="presentation" />
             </ExternalLink>
           </HeroCtaContainer>
         </div>
@@ -92,8 +92,7 @@ export const QualificationSection = () => {
               size="sm"
               color="white"
               focusable={false}
-              role="img"
-              aria-label={openDataMarketplace.ariaLabel}
+              role="presentation"
             />
           </ExternalLink>
         </div>
