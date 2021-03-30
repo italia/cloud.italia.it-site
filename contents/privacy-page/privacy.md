@@ -30,7 +30,7 @@ sull’uso del Sito e per verificare il corretto funzionamento dello stesso. Uti
 - Il servizio SaaS "Web Analytics Italia" (WAI) erogato da AGID che raccoglie altresì dati statistici anonimi mediante IP anonimizzato 
   relativi alle visite del sito internet da parte degli utenti.
 
-Tali cookie vengono conservati per un periodo non superiore a 6 mesi dal momento della raccolta, salvo che la loro ulteriore conservazione 
+Tali cookie vengono conservati per un periodo non superiore a 13 mesi dal momento della raccolta, salvo che la loro ulteriore conservazione 
 non si renda necessaria per l’accertamento di reati.
 
 
