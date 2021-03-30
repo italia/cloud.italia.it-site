@@ -14,6 +14,7 @@ export const GlossaryTerm = ({ term, expandedOnMount = false, scrollIntoView = f
   return (
     <Accordion id={term.id} className="bg-white shadow-lg my-0 my-lg-3 mx-0 mx-lg-2">
       <AccordionEntry
+        headerLang="en"
         headerClassName="border-0"
         active={expanded}
         onToggle={() => setExpanded(!expanded)}

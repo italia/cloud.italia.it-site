@@ -5,7 +5,7 @@ glossaryTerms:
   - id: cloud-computing
     name: Cloud computing
     description: "Il
-      <a href='https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/il-cloud/cos%C3%A8-il-cloud.html' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='cloud computing (link esterno)'>cloud computing</a>
+      <a href='https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/il-cloud/cos%C3%A8-il-cloud.html' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='cloud computing (link esterno)' lang='en'>cloud computing</a>
       (in italiano \"nuvola informatica\"), più semplicemente cloud, è un modello di infrastrutture informatiche
       che consente di disporre, tramite internet, di un insieme di risorse hardware e software  (ad es. reti, server, risorse di archiviazione,
       applicazioni software) che possono essere rapidamente erogate come servizio, consentendo all’utente di non dover preoccuparsi,
@@ -51,7 +51,7 @@ glossaryTerms:
       metodologie e strumenti basati sull'automazione dello sviluppo e della messa in produzione delle applicazioni."
   - id: iaas
     name: Infrastructure-as-a-Service (IaaS)
-    description: "<strong>Infrastructure-as-a-Service (IaaS)</strong>, o infrastruttura distribuita come servizio: servizi cloud che permettono di allocare
+    description: "<strong lang='en'>Infrastructure-as-a-Service (IaaS)</strong>, o infrastruttura distribuita come servizio: servizi cloud che permettono di allocare
       risorse infrastrutturali fisiche e virtuali (server, macchine virtuali, risorse di archiviazione e networking)
       su richiesta e con un pagamento commisurato in base al consumo di risorse. I principali benefici derivanti dall’adozione
       della soluzione IaaS riguardano la riduzione dei tempi di deployment, l’incremento di velocità, scalabilità e di disponibilità (uptime),
@@ -64,7 +64,7 @@ glossaryTerms:
       ove necessario, il principio di sovranità digitale, disponibilità e tempi di risposta."
   - id: paas
     name: Platform-as-a-Service (PaaS)
-    description: "<strong>Platform-as-a-Service (PaaS)</strong>, o piattaforma distribuita come servizio: servizi cloud che forniscono strumenti e ambienti per lo sviluppo,
+    description: "<strong lang='en'>Platform-as-a-Service (PaaS)</strong>, o piattaforma distribuita come servizio: servizi cloud che forniscono strumenti e ambienti per lo sviluppo,
       il test, la distribuzione e la gestione di applicazioni software, solitamente tramite strumenti specifici forniti
       dal provider stesso e pannelli di configurazione fruibili via browser web. Una soluzione PaaS è progettata per consentire
       agli sviluppatori di progettare e creare applicativi concentrandosi sulle loro funzionalità, lasciando al fornitore
@@ -72,7 +72,7 @@ glossaryTerms:
       Tra i principali benefici vi è la riduzione dei tempi del ciclo di vita del software."
   - id: saas
     name: Software-as-a-Service (SaaS)
-    description: "<strong>Software-as-a-Service (SaaS)</strong>, o software come servizio: metodo per la distribuzione di applicativi software tramite internet,
+    description: "<strong lang='en'>Software-as-a-Service (SaaS)</strong>, o software come servizio: metodo per la distribuzione di applicativi software tramite internet,
       su richiesta e in genere in base a una sottoscrizione. Nel caso di una soluzione SaaS, i provider di servizi cloud ospitano
       e gestiscono il software e l’infrastruttura sottostante - anche per quanto riguarda gli aspetti di sicurezza - e si occupano
       delle attività di manutenzione (come gli aggiornamenti) con conseguenti vantaggi per il cliente che non dovrà impegnarsi in queste attività gestionali.
