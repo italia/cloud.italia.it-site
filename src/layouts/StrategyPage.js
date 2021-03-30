@@ -10,6 +10,8 @@ import { Timeline } from '../components/Timeline.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { TextChunk } from '../components/TextChunk.js';
 import content from '../../contents/strategy-page/strategy.yml';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
 
 const query = graphql`
   query {
@@ -26,6 +28,7 @@ const query = graphql`
 `;
 
 const { timeline, timelineTitle, body, title, altImg, resourceTitle, resources } = content;
+const { title: seoTitle, description: seoDescription } = seo.strategyPage;
 
 const useStyles = createUseStyles({
   heroImage: {
@@ -43,6 +46,7 @@ export const StrategyPage = () => {
 
   return (
     <>
+      <SEO title={seoTitle} description={seoDescription} />
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

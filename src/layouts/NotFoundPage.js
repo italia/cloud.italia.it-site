@@ -4,6 +4,9 @@ import { createUseStyles } from 'react-jss';
 import { Hero } from '../components/hero/Hero.js';
 import { SEO } from '../components/SEO.js';
 import content from '../../contents/not-found-page/not-found.yml';
+import seo from '../../contents/seo.yml';
+
+const { title: seoTitle, description: seoDescription } = seo.notFoundPage;
 
 const useStyles = createUseStyles({
   statusCode: {
@@ -16,7 +19,7 @@ export const NotFoundPage = () => {
   const classes = useStyles();
   return (
     <>
-      <SEO title={content.title} />
+      <SEO title={seoTitle} description={seoDescription} />
       <h1 className="sr-only">{content.title}</h1>
       <Hero>
         <div className="text-center text-primary">

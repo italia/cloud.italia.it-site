@@ -10,6 +10,8 @@ import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { TextChunk } from '../components/TextChunk.js';
 import content from '../../contents/enablement-page/enablement.yml';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
 
 const useStyles = createUseStyles({
   noBorderBottom: {
@@ -31,6 +33,8 @@ const {
   resourcesFramework,
 } = content;
 
+const { title: seoTitle, description: seoDescription } = seo.enablementPage;
+
 const query = graphql`
   query {
     textChunk1: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk1.md" } }) {
@@ -51,6 +55,7 @@ export const EnablementPage = () => {
 
   return (
     <>
+      <SEO title={seoTitle} description={seoDescription} />
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

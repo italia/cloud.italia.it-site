@@ -8,8 +8,11 @@ import { TextChunk } from '../components/TextChunk.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import content from '../../contents/qualification-page/qualification.yml';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
 
 const { title, body, resourceTitle, resources } = content;
+const { title: seoTitle, description: seoDescription } = seo.qualificationPage;
 
 const query = graphql`
   query {
@@ -30,6 +33,7 @@ export const QualificationPage = () => {
 
   return (
     <>
+      <SEO title={seoTitle} description={seoDescription} />
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

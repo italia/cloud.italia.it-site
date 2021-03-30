@@ -1,0 +1,30 @@
+author: Dipartimento per la Trasformazione Digitale + AgID
+homePage:
+  title: Il cloud della Pubblica Amministrazione italiana - Cloud Italia
+  description: Cloud Italia è il punto di riferimento per l’adozione del cloud computing nella Pubblica Amministrazione,
+    e offre informazioni e strumenti per la realizzazione della strategia cloud per la PA
+strategyPage:
+  title: La strategia nazionale cloud della PA - Cloud Italia
+  description: La strategia nazionale dedicata al cloud della PA indirizza il percorso di trasformazione delle amministrazioni verso servizi
+    e infrastrutture basate sul cloud computing
+enablementPage:
+  title: Il programma di abilitazione al cloud per la PA - Cloud Italia
+  description: Il programma di abilitazione al cloud per la PA offre strumenti e risorse per innovare i servizi digitali pubblici grazie a tecnologie e infrastrutture cloud
+qualificationPage:
+  title: Il percorso di qualificazione dei servizi cloud della PA - Cloud Italia
+  description: Informazioni utili sul percorso di qualificazione dei servizi cloud dedicati alla Pubblica Amministrazione italiana
+cataloguePage:
+  title: Cos’è il catalogo dei servizi cloud della PA - Cloud Italia
+  description: Cos’è e come funziona il catalogo dei servizi dedicati al cloud della Pubblica Amministrazione per acquisire servizi IaaS, PaaS e SaaS qualificati
+glossaryPage:
+  title: Il glossario dei termini dedicati al cloud della PA - Cloud Italia
+  description: Un elenco dei principali termini tecnici riferiti al modello del cloud computing applicato al settore delle amministrazioni pubbliche italiane
+privacyPage:
+  title: Informativa privacy - Cloud Italia
+  description: Informativa sulla gestione dei cookie del sito Cloud Italia
+creditsPage:
+  title: Crediti - Cloud Italia
+  description: Elenco degli autori delle risorse visuali utilizzate per il sito Cloud Italia
+notFoundPage:
+  title: Pagina non trovata - Cloud Italia
+  description: Pagina non trovata

@@ -5,8 +5,11 @@ import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
 import { Glossary } from '../components/glossary/Glossary.js';
 import { Breadcrumb } from '../components/Breadcrumb.js';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
 
 const { title, body, glossaryTerms, breadcrumb } = content;
+const { title: seoTitle, description: seoDescription } = seo.glossaryPage;
 
 const sortTermsByName = (terms) =>
   terms.sort((a, b) => {
@@ -45,6 +48,7 @@ export const GlossaryPage = () => {
   }, []);
   return (
     <>
+      <SEO title={seoTitle} description={seoDescription} />
       <Breadcrumb currentPage={breadcrumb} />
       <Hero yPaddingXLScreen={false}>
         <div className="row align-items-center">
