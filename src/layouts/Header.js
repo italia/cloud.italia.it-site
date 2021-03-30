@@ -89,7 +89,7 @@ const SlimHeader = () => {
           </div>
           <Collapse isOpen={isOpen} header>
             <div className="link-list-wrapper">
-              <ul className="link-list pl-0 pr-0">
+              <ul className="link-list pl-0 pr-0 mr-0">
                 <li className={classes.verticalGroupDelimiter}>
                   <ExternalLink
                     linkTo={externalLinks.pianoTriennale.linkTo}
@@ -221,13 +221,23 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
                 </Link>
               </NavItem>
+              <NavItem>
+                <Link
+                  to={internalLinks.glossary.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.glossary.label}</span>
+                </Link>
+              </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
               <NavItem>
                 <ExternalLink
                   linkTo={externalLinks.marketplace.linkTo}
                   ariaLabel={externalLinks.marketplace.ariaLabel}
-                  className="nav-link"
+                  className="nav-link pr-0"
                 >
                   <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
                   <Icon

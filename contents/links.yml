@@ -1,13 +1,13 @@
 internalLinks:
   strategy:
     linkTo: /strategia-cloud-pa/
-    label: Strategia cloud
+    label: Strategia
   enablement:
     linkTo: /programma-abilitazione-cloud/
     label: Programma di abilitazione
   services:
     linkTo: /qualificazione-servizi-cloud/
-    label: Qualificazione dei servizi
+    label: Qualificazione servizi
   catalogue:
     linkTo: /catalogo-servizi-cloud/
     label: Cos'è il catalogo dei servizi

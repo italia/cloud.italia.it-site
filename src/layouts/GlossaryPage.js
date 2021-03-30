@@ -4,11 +4,10 @@ import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
 import { Glossary } from '../components/glossary/Glossary.js';
-import { Breadcrumb } from '../components/Breadcrumb.js';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
-const { title, body, glossaryTerms, breadcrumb } = content;
+const { title, body, glossaryTerms } = content;
 const { title: seoTitle, description: seoDescription } = seo.glossaryPage;
 
 const sortTermsByName = (terms) =>
@@ -49,8 +48,7 @@ export const GlossaryPage = () => {
   return (
     <>
       <SEO title={seoTitle} description={seoDescription} />
-      <Breadcrumb currentPage={breadcrumb} />
-      <Hero yPaddingXLScreen={false}>
+      <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
