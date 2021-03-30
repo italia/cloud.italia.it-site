@@ -44,10 +44,10 @@ secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito
 Nel caso in cui si disabilitino tutti i cookie il Sito potrebbe non funzionare correttamente.
 
 - [Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Chrome (link esterno)'}
-- [Firefox](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop?redirectslug=Attivare+e+disattivare+i+cookie&redirectlocale=it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Firefox (link esterno)'}
-- [Safari](https://support.apple.com/en-gb/guide/safari/sfri11471/mac){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Safari (link esterno)'}
-- [Internet Explorer](https://support.microsoft.com/it-it/topic/eliminare-e-gestire-i-cookie-168dab11-0753-043d-7c16-ede5947fc64d){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Internet Explorer (link esterno)'}
-- [Edge](https://support.microsoft.com/it-it/microsoft-edge/eliminare-i-cookie-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Edge (link esterno)'}
+- [Firefox](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop?redirectlocale=it&redirectslug=Attivare+e+disattivare+i+cookie){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Firefox (link esterno)'}
+- [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Safari (link esterno)'}
+- [Internet Explorer](https://support.microsoft.com/it-it/help/17442/windows-internet-explorer-delete-manage-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Internet Explorer (link esterno)'}
+- [Edge](https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Edge (link esterno)'}
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Opera (link esterno)'}
 
 Le presenti informazioni sono aggiornate alla data riportata in calce a questa pagina e sono rese dalla 
