@@ -56,3 +56,5 @@ contatti: e-mail
 [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"};
 PEC
 [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
+
+<p class="text-right"><em>ultimo aggionamento: 31/12/2021</em></p>
