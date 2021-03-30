@@ -42,6 +42,14 @@ const useStyles = createUseStyles({
       color: ['var(--white)', '!important'],
     },
   },
+  // This is a dirty hack to avoid pa11y issues with contrast ratio on noscript text content
+  a11yHighContrast: {
+    '@global': {
+      noscript: {
+        color: 'white',
+      },
+    },
+  },
 });
 
 export const QualificationSection = () => {
@@ -65,12 +73,13 @@ export const QualificationSection = () => {
               className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon focus-a11y-contrast`}
             >
               <span className="mr-3">{marketplace.label}</span>
-              <Icon color="primary" icon="it-external-link" size="sm" focusable={false} role="presentation" />
+              <Icon color="primary" icon="it-external-link" size="sm" focusable={false} role="img" />
             </ExternalLink>
           </HeroCtaContainer>
         </div>
         <HeroGraphic className="col-lg-4 d-flex align-items-center justify-content-center">
           <StaticImage
+            className={classes.a11yHighContrast}
             src="../../images/servizi_cloud_1x.png"
             alt={altImg}
             placeholder="blurred"
@@ -86,14 +95,7 @@ export const QualificationSection = () => {
             className={`btn-icon ${classes.whiteHighContrast}`}
           >
             <small>{openDataMarketplace.label}</small>
-            <Icon
-              className="ml-2"
-              icon="it-external-link"
-              size="sm"
-              color="white"
-              focusable={false}
-              role="presentation"
-            />
+            <Icon className="ml-2" icon="it-external-link" size="sm" color="white" focusable={false} role="img" />
           </ExternalLink>
         </div>
       </div>
