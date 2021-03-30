@@ -75,19 +75,19 @@ heroContribute:
   body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
 contributions:
   - body: Entra in
-      <a href="https://forum.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="forum Italia (link esterno)"><strong>forum.italia.it</strong></a>
+      <a href="https://forum.italia.it/" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="forum Italia (link esterno)">forum.italia.it</a>
       e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
     icon: it-logo.svg
     alt: Forum Italia logo
     title: Forum
   - body: Unisciti alla community di
-      <a href="https://slack.developers.italia.it/" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="Developers Italia su Slack (link esterno)"><strong>Developers Italia su Slack</strong></a>
+      <a href="https://slack.developers.italia.it/" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="Developers Italia su Slack (link esterno)">Developers Italia su Slack</a>
       e raggiungi il canale <strong>#cloud</strong>
     icon: slack-logo.svg
     alt: Slack logo
     title: Slack
   - body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei
-      <a href="https://github.com/italia" class="text-decoration-none" rel="noreferrer" target="_blank" aria-label="repository pubblici (link esterno)"><strong>repository pubblici</strong></a>
+      <a href="https://github.com/italia" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="repository pubblici (link esterno)">repository pubblici</a>
       che contengono codice e documentazione per lo sviluppo del cloud della PA
     icon: github-logo.svg
     alt: GitHub logo
