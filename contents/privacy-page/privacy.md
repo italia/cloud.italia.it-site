@@ -57,4 +57,4 @@ contatti: e-mail
 PEC
 [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
-<p class="text-right"><em>ultimo aggionamento: 31/12/2021</em></p>
+<p class="text-right"><em>ultimo aggionamento: 31/03/2021</em></p>
