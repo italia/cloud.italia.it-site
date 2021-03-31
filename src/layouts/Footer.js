@@ -5,7 +5,7 @@ import links from '../../contents/links.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
-  internalLinks: { glossary, privacy },
+  internalLinks: { privacy },
   externalLinks: { dipartimento, agid, noteLegali, a11y },
 } = links;
 
@@ -63,11 +63,6 @@ const SlimFooter = () => {
             >
               {a11y.label}
             </ExternalLink>
-          </li>
-          <li className="list-inline-item mr-0 mr-md-5">
-            <Link to={glossary.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
-              {glossary.label}
-            </Link>
           </li>
         </ul>
       </div>
