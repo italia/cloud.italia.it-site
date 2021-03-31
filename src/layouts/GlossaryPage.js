@@ -26,29 +26,16 @@ const sortTermsByName = (terms) =>
 const glossaryTermsSorted = sortTermsByName(glossaryTerms);
 
 export const GlossaryPage = () => {
-  const [state, setState] = useState({
-    expandedTermOnInit: null,
-    scrollTermIntoViewOnInit: null,
-  });
   const [expandedTermOnInit, setExpandedTermOnInit] = useState(null);
+  const [terms, setTerms] = useState([]);
   useEffect(() => {
-    // This useEffect is used to:
-    // - Understand what is the expanded term in the page
-    // - Scroll the term into the view if the term id is in the url hash
-    // Those computations can't be done at build time.
+    // This useEffect is used to understand if there is an expanded term in the page on init, based on the term id in the url hash.
+    // Due to the fact that the url hash depends on the client, this computation can't be done in the SSR phase.
     const termId = location.hash.replace('#', '');
     if (glossaryTermsSorted.some((term) => term.id === termId)) {
       setExpandedTermOnInit(termId);
     }
-    const expandedTermOnInit = glossaryTermsSorted.some((term) => term.id === termId)
-      ? termId
-      : glossaryTermsSorted[0].id;
-    const scrollTermIntoViewOnInit = glossaryTermsSorted.find((term) => term.id === termId)?.id;
-    setState({
-      expandedTermOnInit,
-      scrollTermIntoViewOnInit,
-    });
-
+    setTerms(glossaryTermsSorted);
   }, []);
   return (
     <>
@@ -66,13 +53,7 @@ export const GlossaryPage = () => {
       <Hero bgColor="light">
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-10 mt-4 mt-lg-0">
-            {state.expandedTermOnInit !== null && (
-              <Glossary
-                terms={glossaryTermsSorted}
-                expandedTermOnInit={state.expandedTermOnInit}
-                scrollTermIntoViewOnInit={state.scrollTermIntoViewOnInit}
-              />
-            )}
+            {terms.length > 0 && <Glossary terms={glossaryTermsSorted} expandedTermOnInit={expandedTermOnInit} />}
           </div>
         </div>
       </Hero>
