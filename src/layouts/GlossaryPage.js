@@ -27,7 +27,6 @@ const glossaryTermsSorted = sortTermsByName(glossaryTerms);
 
 export const GlossaryPage = () => {
   const [expandedTermOnInit, setExpandedTermOnInit] = useState(null);
-  const [terms, setTerms] = useState([]);
   useEffect(() => {
     // This useEffect is used to understand if there is an expanded term in the page on init, based on the term id in the url hash.
     // Due to the fact that the url hash depends on the client, this computation can't be done in the SSR phase.
@@ -35,7 +34,6 @@ export const GlossaryPage = () => {
     if (glossaryTermsSorted.some((term) => term.id === termId)) {
       setExpandedTermOnInit(termId);
     }
-    setTerms(glossaryTermsSorted);
   }, []);
   return (
     <>
@@ -53,7 +51,7 @@ export const GlossaryPage = () => {
       <Hero bgColor="light">
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-10 mt-4 mt-lg-0">
-            {terms.length > 0 && <Glossary terms={glossaryTermsSorted} expandedTermOnInit={expandedTermOnInit} />}
+            <Glossary terms={glossaryTermsSorted} expandTerm={expandedTermOnInit} />
           </div>
         </div>
       </Hero>
