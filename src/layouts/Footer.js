@@ -2,12 +2,15 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import links from '../../contents/links.yml';
+import labels from '../../contents/labels.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
   internalLinks: { privacy },
   externalLinks: { dipartimento, agid, noteLegali, a11y },
 } = links;
+
+const { footerA11y } = labels;
 
 const useStyle = createUseStyles({
   mainFooter: {
@@ -74,23 +77,28 @@ const MainFooter = () => {
   const classes = useStyle();
   return (
     <div className={classes.mainFooter}>
-      <div className="container">
-        <div className="d-flex flex-column flex-md-row py-4 px-3 px-sm-0">
-          <div className="py-3 py-sm-2">
-            <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
-              <img
-                className={classes.footerLogo}
-                src="/dtd-logo.svg"
-                alt="logo Dipartimento per la Trasformazione Digitale"
-              />
-            </ExternalLink>
+      <div className="container text-center text-md-left">
+        <div className="row">
+          <div className="col-12 d-flex flex-column flex-md-row py-4">
+            <div className="py-3">
+              <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
+                <img
+                  className={classes.footerLogo}
+                  src="/dtd-logo.svg"
+                  alt="logo Dipartimento per la Trasformazione Digitale"
+                />
+              </ExternalLink>
+            </div>
+            <div aria-hidden="true" className={classes.logoSeparator} />
+            <div className="pt-3">
+              <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
+                <img className={classes.footerLogo} src="/agid-logo.svg" alt="logo AgID" />
+              </ExternalLink>
+            </div>
           </div>
-          <div aria-hidden="true" className={classes.logoSeparator} />
-          <div className="py-3 py-sm-2">
-            <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-              <img className={classes.footerLogo} src="/agid-logo.svg" alt="logo AgID" />
-            </ExternalLink>
-          </div>
+        </div>
+        <div className="row pb-4">
+          <div className="col-12 small" dangerouslySetInnerHTML={{ __html: footerA11y }}></div>
         </div>
       </div>
     </div>
