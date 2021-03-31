@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
 
 export const ResourcesWithAccordion = ({ resources }) => {
   const classes = useStyles();
-  const [activeAccordion, openAccordion] = useAccordion({ noActiveOnInit: true });
+  const [activeAccordion, openAccordion] = useAccordion();
 
   return (
     <Accordion>

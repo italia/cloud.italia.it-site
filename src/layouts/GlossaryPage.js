@@ -30,12 +30,16 @@ export const GlossaryPage = () => {
     expandedTermOnInit: null,
     scrollTermIntoViewOnInit: null,
   });
+  const [expandedTermOnInit, setExpandedTermOnInit] = useState(null);
   useEffect(() => {
     // This useEffect is used to:
     // - Understand what is the expanded term in the page
     // - Scroll the term into the view if the term id is in the url hash
-    // Those computation can't be done at build time.
+    // Those computations can't be done at build time.
     const termId = location.hash.replace('#', '');
+    if (glossaryTermsSorted.some((term) => term.id === termId)) {
+      setExpandedTermOnInit(termId);
+    }
     const expandedTermOnInit = glossaryTermsSorted.some((term) => term.id === termId)
       ? termId
       : glossaryTermsSorted[0].id;
@@ -44,6 +48,7 @@ export const GlossaryPage = () => {
       expandedTermOnInit,
       scrollTermIntoViewOnInit,
     });
+
   }, []);
   return (
     <>
