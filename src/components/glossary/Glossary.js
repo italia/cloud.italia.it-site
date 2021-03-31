@@ -3,21 +3,20 @@ import PropTypes from 'prop-types';
 import { glossaryTermPropTypes } from '../../utils/proptypes.js';
 import { GlossaryTerm } from './GlossaryTerm.js';
 
-const GlossaryTerms = ({ terms, expandedTermOnInit }) =>
-  terms.map((term) => <GlossaryTerm key={term.id} term={term} expandedOnInit={term.id === expandedTermOnInit} />);
+const GlossaryTerms = ({ terms, expandTerm }) =>
+  terms.map((term) => <GlossaryTerm key={term.id} term={term} expandAndScrollIntoView={term.id === expandTerm} />);
 
-export const Glossary = ({ terms, expandedTermOnInit }) => {
+export const Glossary = ({ terms, expandTerm }) => {
   const firstColumn = terms.slice(0, terms.length / 2);
   const secondColumn = terms.slice(terms.length / 2, terms.length);
   return (
     <>
-      {/* We need different layouts for mobile and desktop in order to retain the order of the terms */}
       <div className="row">
         <div className="col-lg-6">
-          <GlossaryTerms terms={firstColumn} expandedTermOnInit={expandedTermOnInit} />
+          <GlossaryTerms terms={firstColumn} expandTerm={expandTerm} />
         </div>
         <div className="col-lg-6">
-          <GlossaryTerms terms={secondColumn} expandedTermOnInit={expandedTermOnInit} />
+          <GlossaryTerms terms={secondColumn} expandTerm={expandTerm} />
         </div>
       </div>
     </>
@@ -26,5 +25,5 @@ export const Glossary = ({ terms, expandedTermOnInit }) => {
 
 Glossary.propTypes = {
   terms: PropTypes.arrayOf(glossaryTermPropTypes),
-  expandedTermOnInit: PropTypes.string,
+  expandTerm: PropTypes.string,
 };
