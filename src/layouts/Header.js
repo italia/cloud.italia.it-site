@@ -167,7 +167,7 @@ const NavHeader = () => {
   const toogleMenu = () => setIsOpen(!isOpen);
   return (
     <HeaderReactKit type="navbar" theme="light">
-      <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu}>
+      <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu} className="px-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label={ariaLabel.toggleMenu}
