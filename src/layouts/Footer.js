@@ -89,7 +89,7 @@ const MainFooter = () => {
               <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
                 <img
                   className={classes.footerLogo}
-                  src="/dtd-logo.svg"
+                  src="/assets/dtd-logo.svg"
                   alt="logo Dipartimento per la Trasformazione Digitale"
                 />
               </ExternalLink>
@@ -97,7 +97,7 @@ const MainFooter = () => {
             <div aria-hidden="true" className={classes.logoSeparator} />
             <div className="pt-3">
               <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-                <img className={classes.footerLogo} src="/agid-logo.svg" alt="logo AgID" />
+                <img className={classes.footerLogo} src="/assets/agid-logo.svg" alt="logo AgID" />
               </ExternalLink>
             </div>
           </div>

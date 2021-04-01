@@ -147,7 +147,7 @@ const CenterHeader = () => {
           <Link to="/">
             <div className="it-brand-text pr-0">
               <div className="d-flex align-items-center">
-                <img className="icon" src="/cloud-logo.svg" alt="Logo Cloud Italia" />
+                <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
                 <div>
                   <div className="h3 mb-0">{headerTitle}</div>
                   <div className={classes.subtitle}>{headerSubtitle}</div>

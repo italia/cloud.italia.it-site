@@ -22,7 +22,7 @@ export const HowToContributeSection = () => {
     <Card key={card.title} teaser noWrapper className="rounded shadow-lg col-lg-3 col-12 mr-4">
       <CardBody className="pb-5">
         <div className="mb-3 d-flex align-items-center">
-          <img src={`/${card.icon}`} alt={`${card.alt}`} className={classes.logo} />
+          <img src={`/assets/${card.icon}`} alt={`${card.alt}`} className={classes.logo} />
           <span className="primary-color px-3 h3 mb-0">{card.title}</span>
         </div>
         <p className="card-text" dangerouslySetInnerHTML={{ __html: card.body }}></p>
