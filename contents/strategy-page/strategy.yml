@@ -13,6 +13,7 @@ resources:
         icon: it-external-link
         link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
         ariaLabel: 'Il modello cloud della PA (link esterno)'
+        ariaLabelIcon: link esterno
         title: Il modello cloud della PA
       - action: Leggi su <strong>Read the Docs</strong>
         description: Circolare per la qualificazione dei servizi cloud SaaS
@@ -20,12 +21,14 @@ resources:
         link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/
         title: Servizi cloud SaaS
         ariaLabel: 'Servizi cloud SaaS (link esterno)'
+        ariaLabelIcon: link esterno
       - action: Leggi su <strong>Read the Docs</strong>
         description: Circolare per la qualificazione dei Cloud Service Provider
         icon: it-external-link
         link: https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/
         title: Cloud Service Provider
         ariaLabel: 'Cloud Service Provider (link esterno)'
+        ariaLabelIcon: link esterno
 timelineTitle: 'Piano di attuazione'
 timeline:
   - date: '2021-12-31'

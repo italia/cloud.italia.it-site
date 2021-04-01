@@ -23,7 +23,13 @@ const Reference = ({ reference }) => {
           </div>
           <div className="col-12 col-md-5 col-lg-4 btn-icon justify-content-center justify-content-md-end mt-3 mt-md-0">
             <small dangerouslySetInnerHTML={{ __html: reference.action }}></small>
-            <Icon icon={reference.icon} className={classes.icon} focusable={false} role="img" />
+            <Icon
+              icon={reference.icon}
+              className={classes.icon}
+              focusable={false}
+              role="img"
+              aria-label={reference.ariaLabelIcon}
+            />
           </div>
         </div>
       </a>
