@@ -17,6 +17,9 @@ internalLinks:
   privacy:
     linkTo: /cookie-policy/
     label: Cookie policy
+  credits:
+    linkTo: /crediti/
+    label: Crediti
 externalLinks:
   pianoTriennale:
     label: Piano Triennale

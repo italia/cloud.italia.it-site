@@ -6,7 +6,7 @@ import labels from '../../contents/labels.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
-  internalLinks: { privacy },
+  internalLinks: { privacy, credits },
   externalLinks: { dipartimento, agid, noteLegali, a11y },
 } = links;
 
@@ -56,6 +56,11 @@ const SlimFooter = () => {
           <li className="list-inline-item mr-0 mr-md-5">
             <Link to={privacy.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
               {privacy.label}
+            </Link>
+          </li>
+          <li className="list-inline-item mr-0 mr-md-5">
+            <Link to={credits.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
+              {credits.label}
             </Link>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
