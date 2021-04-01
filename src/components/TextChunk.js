@@ -24,7 +24,7 @@ export const TextChunk = ({ html }) => {
   return (
     <div className="row align-items-center my-2">
       <div
-        className={`col-xs-12 col-sm-10 col-md-8 col-lg-6 m-auto ${classes.list}`}
+        className={`col-12 col-lg-7 m-auto ${classes.list}`}
         dangerouslySetInnerHTML={{ __html: html }}
       ></div>
     </div>
