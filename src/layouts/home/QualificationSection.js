@@ -23,7 +23,7 @@ const {
   externalLinks: { marketplace, openDataMarketplace },
 } = links;
 
-const { showMore } = labels;
+const { showMore, ariaLabel } = labels;
 
 const useStyles = createUseStyles({
   btnPrimaryLight: {
@@ -73,7 +73,14 @@ export const QualificationSection = () => {
               className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon focus-a11y-contrast`}
             >
               <span className="mr-3">{marketplace.label}</span>
-              <Icon color="primary" icon="it-external-link" size="sm" focusable={false} role="img" />
+              <Icon
+                color="primary"
+                icon="it-external-link"
+                size="sm"
+                focusable={false}
+                role="img"
+                aria-label={ariaLabel.externalLink}
+              />
             </ExternalLink>
           </HeroCtaContainer>
         </div>
@@ -95,7 +102,15 @@ export const QualificationSection = () => {
             className={`btn-icon ${classes.whiteHighContrast}`}
           >
             <small>{openDataMarketplace.label}</small>
-            <Icon className="ml-2" icon="it-external-link" size="sm" color="white" focusable={false} role="img" />
+            <Icon
+              className="ml-2"
+              icon="it-external-link"
+              size="sm"
+              color="white"
+              focusable={false}
+              role="img"
+              aria-label={ariaLabel.externalLink}
+            />
           </ExternalLink>
         </div>
       </div>

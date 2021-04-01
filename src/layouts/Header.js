@@ -247,6 +247,7 @@ const NavHeader = () => {
                     size="sm"
                     focusable={false}
                     role="img"
+                    aria-label={ariaLabel.externalLink}
                   />
                 </ExternalLink>
               </NavItem>

@@ -4,12 +4,15 @@ import { createUseStyles } from 'react-jss';
 import { MobileSwiper } from '../../components/MobileSwiper.js';
 import { Hero } from '../../components/hero/Hero.js';
 import content from '../../../contents/home-page/home.yml';
+import labels from '../../../contents/labels.yml';
 import { ExternalLink } from '../../components/ExternalLink.js';
 
 const {
   heroNews: { category, title },
   newsPreview,
 } = content;
+
+const { ariaLabel } = labels;
 
 const useStyle = createUseStyles({
   category: {
@@ -41,7 +44,14 @@ export const NewsPreviewSection = () => {
         <p className="card-text pt-2 pb-4 text-dark">{news.body}</p>
         <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
           <span>{news.source}</span>
-          <Icon className="ml-2" icon="it-external-link" size="sm" focusable={false} role="img" />
+          <Icon
+            className="ml-2"
+            icon="it-external-link"
+            size="sm"
+            focusable={false}
+            role="img"
+            aria-label={ariaLabel.externalLink}
+          />
         </p>
       </CardBody>
     </Card>
