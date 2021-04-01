@@ -12,7 +12,7 @@ If you find an issue in the repository please check if it's already known otherw
 
 3. When you finished your work, open a PR against `main` and link the issue into the PR.
 
-4. The CI builds a live preview of your PR that allows you to see the results of your work: please check it carefully and,
+4. The CI builds a live preview of your PR that allows you to see the results of your work. Please check it carefully and,
    if you spot any problems, uncheck the "Ready for review" box or mark the PR as "Draft".
    
 5. Ask for an approval.
