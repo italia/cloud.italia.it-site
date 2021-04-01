@@ -1,7 +1,9 @@
 ## Cloud first e modello Cloud della PA
 {class="h5 font-weight-semibold mb-4"}
 
-La strategia italiana sul cloud per la PA prevede il principio cloud first. Tuttavia, non tutti i servizi
+La strategia italiana sul cloud per la PA prevede il principio
+[cloud first](/glossario/cloud/#cloud-first){class="text-decoration-none font-weight-semibold"}.
+Tuttavia, non tutti i servizi
 cloud hanno le medesime caratteristiche di qualità, adeguate alle esigenze della PA. A tal fine, la
 strategia ha previsto la definizione di requisiti che devono essere soddisfatti dai servizi cloud offerti
 alla PA. I servizi cloud che soddisfano tali requisiti sono qualificati da AgID ed entrano così a far parte del
