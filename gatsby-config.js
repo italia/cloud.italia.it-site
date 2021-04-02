@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     name: 'Cloud Italia',
     hostname: 'cloud.italia.it',
-    siteUrl: 'https://cloud.italia.it',
+    siteUrl: 'https://cloud-italia-i-git-test-social-card-dip-trasformazione-d-476055.vercel.app',
   },
   plugins: [
     'gatsby-plugin-sitemap',
