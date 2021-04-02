@@ -41,10 +41,6 @@ export const SEO = ({ title, description, socialCard }) => {
       href: '/assets/favicons/favicon-32x32.png',
     },
     {
-      rel: 'mask-icon',
-      href: '/assets/favicons/safari-pinned-tag.svg',
-    },
-    {
       rel: 'apple-touch-icon',
       href: '/assets/favicons/apple-touch-icon.png',
     },
