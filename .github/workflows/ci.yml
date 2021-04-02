@@ -13,5 +13,5 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: yarn lint
-      - run: yarn pa11y
+      # - run: yarn pa11y
       - run: yarn html-proofer
