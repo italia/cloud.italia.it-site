@@ -20,9 +20,10 @@ In particolare, il Sito si avvale di cookie analitici utilizzati per raccogliere
 sul numero degli utenti e su come gli stessi visitano il Sito. I dati sono raccolti all’unico fine di elaborare informazioni statistiche 
 sull’uso del Sito e per verificare il corretto funzionamento dello stesso. Utilizziamo:
 
-- Il servizio Google Analytics, la cui policy può essere visionata a questo link. Al fine di rispettare la privacy degli utenti, 
+- Il servizio Google Analytics, la cui policy può essere visionata a questo link [a questo link](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage (link esterno)'}.
+Al fine di rispettare la privacy degli utenti, 
   il servizio è utilizzato con la modalità “anonymizeIp” che consente di mascherare gli indirizzi IP degli utenti che navigano 
-  sul Sito (maggiori informazioni sulla funzionalità si possono trovare a questo link). 
+  sul Sito (maggiori informazioni sulla funzionalità [a questo link](https://support.google.com/analytics/answer/2763052?hl=it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='https://support.google.com/analytics/answer/2763052?hl=it (link esterno)'}). 
   Si può comunque effettuare l’opt-out visitando il sito web
   [https://tools.google.com/dlpage/gaoptout?hl=en](https://tools.google.com/dlpage/gaoptout?hl=en){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='https://tools.google.com/dlpage/gaoptout?hl=en (link esterno)'}, 
   eseguendo l’opt-out;
@@ -57,4 +58,4 @@ contatti: e-mail
 PEC
 [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
-<p class="text-right"><em>ultimo aggiornamento: 31/03/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 02/04/2021</em></p>
