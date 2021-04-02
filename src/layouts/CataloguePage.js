@@ -31,7 +31,7 @@ export const CataloguePage = () => {
 
   return (
     <>
-      <SEO title={seoTitle} description={seoDescription} />
+      <SEO title={seoTitle} description={seoDescription} socialCard="catalogo.jpg" />
       <Hero>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
