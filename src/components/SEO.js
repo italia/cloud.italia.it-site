@@ -6,7 +6,7 @@ import seo from '../../contents/seo.yml';
 
 const { title: seoTitle, description: seoDescription } = seo.homePage;
 
-export const SEO = ({ title, description, twitterImg, ogImg }) => {
+export const SEO = ({ title, description, socialCard }) => {
   const {
     site: {
       siteMetadata: { name, siteUrl },
@@ -41,26 +41,21 @@ export const SEO = ({ title, description, twitterImg, ogImg }) => {
       href: '/assets/favicons/favicon-32x32.png',
     },
     {
-      rel: 'mask-icon',
-      href: '/assets/favicons/safari-pinned-tag.svg',
-    },
-    {
       rel: 'apple-touch-icon',
       href: '/assets/favicons/apple-touch-icon.png',
     },
   ];
+
+  const socialCardContent = socialCard
+    ? `${siteUrl}/assets/social-cards/${socialCard}`
+    : `${siteUrl}/assets/social-cards/home.png`;
 
   const twitter = [
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: title ?? seoTitle },
     { name: 'twitter:description', content: description ?? seoDescription },
     { name: 'twitter:site', content: '@innovazioneGov' },
-    {
-      name: 'twitter:image',
-      content: twitterImg
-        ? `${siteUrl}/social-cards/${twitterImg}`
-        : `${siteUrl}/social-cards/cloud-pa-logo-twitter.jpeg`,
-    },
+    { name: 'twitter:image', content: socialCardContent },
   ];
 
   const facebook = [
@@ -68,19 +63,9 @@ export const SEO = ({ title, description, twitterImg, ogImg }) => {
     { name: 'og:description', content: description ?? seoDescription },
     { name: 'og:type', content: 'website' },
     { name: 'og:locale', content: 'it_IT' },
-    {
-      name: 'og:image',
-      content: ogImg
-        ? `${siteUrl}/assets/social-cards/${ogImg}`
-        : `${siteUrl}/assets/social-cards/cloud-pa-logo-og.jpeg`,
-    },
+    { name: 'og:image', content: socialCardContent },
     { name: 'og:site_name', content: name },
   ];
-
-  const metaDescription = {
-    name: 'description',
-    content: description ?? seoDescription,
-  };
 
   return (
     <Helmet
@@ -91,7 +76,7 @@ export const SEO = ({ title, description, twitterImg, ogImg }) => {
       link={[...favicons]}
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-        metaDescription,
+        { name: 'description', content: description ?? seoDescription },
         ...twitter,
         ...facebook,
       ]}
@@ -102,6 +87,5 @@ export const SEO = ({ title, description, twitterImg, ogImg }) => {
 SEO.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
-  ogImg: PropTypes.string,
-  twitterImg: PropTypes.string,
+  socialCard: PropTypes.string,
 };
