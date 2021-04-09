@@ -77,3 +77,8 @@ glossaryTerms:
       delle attività di manutenzione (come gli aggiornamenti) con conseguenti vantaggi per il cliente che non dovrà impegnarsi in queste attività gestionali.
       Gli utenti si connettono all’applicazione tramite internet e possono accedervi da diverse tipologie di dispositivi (es. desktop, mobile, tablet, etc.),
       spesso con il vantaggio di poter lavorare in collaborazione e contemporaneamente (strumenti collaborativi)."
+  - id: data-center
+    name: Data center
+    description: "<strong lang='en'>Data center</strong> ovvero Centro Elaborazione Dati (CED). Si  intende  una struttura fisica, normalmente un edificio compartimentato,
+      unitamente a tutti gli impianti elettrici, di condizionamento, di attestazioni di rete, di cablaggi, ecc. e a sistemi di sicurezza  fisica e logica, che in tale edificio sono presenti,
+      progettato e allestito per ospitare e gestire un numero elevato di apparecchiature e infrastrutture informatiche e i dati ivi contenuti, allo scopo di garantirne la sicurezza fisica e gestionale."

@@ -1,7 +1,7 @@
 name: Cloud Italia - Il Cloud della Pubblica Amministrazione
 heroStrategy:
   category: La strategia nazionale cloud della PA
-  title: Il modello per realizzare il sistema operativo del Paese
+  title: Realizziamo il sistema operativo del Paese
   body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
     Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
     efficienti.
@@ -9,10 +9,9 @@ heroStrategy:
   altImg: Composizione grafica raffigurante una nuvola stilizzata simbolo del cloud con logo Italia sovrapposto
 heroBenefit:
   category: I vantaggi
-  title: Un modello che porta beneficio all’intero sistema Paese
-  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire al
-    Paese la possibilità di crescere, competere, generare nuove opportunità di lavoro qualificato, creare e
-    distribuire nuova ricchezza in maniera uniforme su tutto il territorio nazionale
+  title: Una strategia che porta beneficio all’intero sistema
+  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire ai cittadini di godere dei diritti digitali
+    e al Paese di crescere, competere e generare nuove opportunità per i professionisti e per il mercato.
   altImg: Composizione grafica raffigurante un gruppo di donne e uomini multietnici che lavorano come professionisti del settore digital
 benefits:
   - title: Per i cittadini
@@ -23,7 +22,7 @@ benefits:
     body: Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
       maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
       infrastrutture.
-  - title: Per le PMI dell’ICT che operano nel settore pubblico
+  - title: Per le piccole e medie imprese che operano nel settore pubblico
     body: Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
       amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
       di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
@@ -31,17 +30,18 @@ benefits:
 heroEnablement:
   category: Il Programma di Abilitazione
   title: Come aderire al modello Cloud della PA
-  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
-    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
-    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
+  body: "Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+    (AgID), ha elaborato un
+    <a class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' href='https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/cloud-enablement.html' aria-label='programma di abilitazione (link esterno)'>programma di abilitazione</a>
+    al cloud che definisce l’insieme di attività e risorse
+    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA."
   ctaAriaLabel: Scopri di più su il programma di abilitazione
   altImg: Elaborazione grafica decorativa raffigurante cavi di server ed altri elementi legati all’hardware digitale
 heroQualification:
   category: La qualificazione dei servizi e il catalogo
   title: Il percorso di qualificazione e il catalogo dei servizi cloud
-  body: Le Pubbliche Amministrazioni possono acquisire servizi cloud solo se qualificati dall’<strong>AgID</strong>.
-        I fornitori cloud devono sottoporre i servizi al processo di qualificazione e, se
-        in possesso dei requisiti, sono pubblicati e consultabili all’interno del marketplace
+  body: Le amministrazioni possono acquisire servizi cloud solo se qualificati da AgID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
+    se in possesso dei requisiti, sono pubblicati e consultabili all’interno del catalogo AgID.
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
   altImg: Elaborazione di elementi grafici decorativi che raffigurano la nuvola simbolo del cloud, il logo italia, lo schermo di un computer e altri elementi hardware digitali
 heroNews:
