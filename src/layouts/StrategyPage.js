@@ -6,7 +6,6 @@ import { Hero } from '../components/hero/Hero.js';
 import { ResourcesWithList } from '../components/resource/ResourcesWithList.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
-import { Timeline } from '../components/Timeline.js';
 import { ResourceTitle } from '../components/resource/ResourceTitle.js';
 import { TextChunk } from '../components/TextChunk.js';
 import content from '../../contents/strategy-page/strategy.yml';
@@ -21,13 +20,10 @@ const query = graphql`
     chunk2: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk2.md" } }) {
       html
     }
-    chunk3: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk3.md" } }) {
-      html
-    }
   }
 `;
 
-const { timeline, timelineTitle, body, title, altImg, resourceTitle, resources } = content;
+const { body, title, altImg, resourceTitle, resources } = content;
 const { title: seoTitle, description: seoDescription } = seo.strategyPage;
 
 const useStyles = createUseStyles({
@@ -41,7 +37,6 @@ export const StrategyPage = () => {
   const {
     chunk1: { html: chunk1 },
     chunk2: { html: chunk2 },
-    chunk3: { html: chunk3 },
   } = useStaticQuery(query);
 
   return (
@@ -71,13 +66,13 @@ export const StrategyPage = () => {
         <TextChunk html={chunk1} />
       </Hero>
 
-      <Hero bgColor="light">
-        <Timeline data={timeline} title={timelineTitle} />
-      </Hero>
-
-      <Hero>
-        <TextChunk html={chunk2} />
-      </Hero>
+      {/* The Timeline is temporary removed due to lack of useful contents. 
+        Because it could be reintroduced in the near future I have left it here commented.
+        Please remove if it won't be used after a while.
+        Time of writing: 2021-04-09 */}
+      {/* <Hero bgColor="light"> */}
+      {/*  <Timeline data={timeline} title={timelineTitle} /> */}
+      {/* </Hero> */}
 
       <Hero bgColor="light" xPadding={false}>
         <div className="col-xl-8 col-lg-10 m-auto">
@@ -87,7 +82,7 @@ export const StrategyPage = () => {
       </Hero>
 
       <Hero>
-        <TextChunk html={chunk3} />
+        <TextChunk html={chunk2} />
       </Hero>
     </>
   );
