@@ -28,14 +28,14 @@ glossaryTerms:
       rispetto a quanto sarebbe possibile con una connessione ad un data center."
   - id: cloud-marketplace-agid
     name: Cloud marketplace AgID
-    description: "Piattaforma che espone il catalogo di servizi e infrastrutture qualificate da AgID secondo quanto disposto dalle circolari AgID n. 2 e n.3 del 9 aprile 2018.
+    description: "Piattaforma che espone il catalogo di servizi e infrastrutture qualificate da AgID, secondo quanto disposto dalle circolari AgID n. 2 e n.3 del 9 aprile 2018.
       All'interno del cloud marketplace è possibile visualizzare la scheda tecnica di ogni servizio che mette in evidenza le caratteristiche tecniche,
       il modello di costo e i livelli di servizio dichiarati dal fornitore in sede di qualificazione."
   - id: cloud-privato
     name: Cloud privato
     description: "Installato dall’utente nel suo data center per suo utilizzo esclusivo. I servizi vengono forniti da elaboratori che si trovano interamente nel dominio del cliente che detiene controllo
       e totale responsabilità della gestione delle macchine sulle quali vengono conservati i dati e vengono eseguiti i suoi processi, assieme ai complessi aspetti relativi alla sicurezza dei dati.
-      Oltre allo scenario in cui si possiede interamente l’infrastruttura sui propri data center, un altro scenario possibile è invece quello in cui l’utente installa
+      Oltre allo scenario in cui si possiede interamente l’infrastruttura sui propri data center, un altro scenario possibile è quello in cui l’utente installa
       il proprio cloud privato nel data center di un terzo soggetto (tipicamente un fornitore di servizi cloud), in cui dispone di macchine dedicate.
       In questo caso, l’utente ha il controllo delle macchine anche se non risiedono nel suo dominio, e può configurarle secondo le proprie necessità."
   - id: cloud-pubblico

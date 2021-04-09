@@ -4,8 +4,8 @@ applica il principio cloud first, favorendo l’adozione prioritaria da parte de
 
 La strategia, inoltre, individua tre obiettivi strategici che caratterizzano il percorso di trasformazione:
 - incentivare le amministrazioni all’adozione di soluzioni basate sul cloud computing, attraverso il modello Cloud della PA, nell’ottica di proporre un’offerta di servizi digitali e infrastrutture tecnologiche sicure, efficienti, affidabili e autonome, in linea con le raccomandazioni destinate all’intero mercato europeo;
-- garantire la  sicurezza degli asset strategici per il Paese mediante lo sviluppo di un'infrastruttura ad alta affidabilità promossa dalla Presidenza del Consiglio dei ministri, mediante il consolidamento dei data center delle amministrazioni centrali;
-- valorizzare le  amministrazioni e la loro capacità di offrire servizi digitali.
+- garantire la sicurezza degli asset strategici per il Paese mediante lo sviluppo di un'infrastruttura ad alta affidabilità promossa dalla Presidenza del Consiglio dei ministri, consentendo il consolidamento dei data center delle amministrazioni centrali;
+- valorizzare le amministrazioni e la loro capacità di offrire servizi digitali.
 
 ## Il punto di partenza
 {class="h5 font-weight-semibold mb-4"}
