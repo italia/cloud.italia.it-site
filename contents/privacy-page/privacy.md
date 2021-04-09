@@ -1,9 +1,13 @@
 # Cookie policy
 {class="h3 mb-4"}
 
-La presente "cookie policy" è relativa al sito 
-[https://cloud.italia.it/](https://cloud.italia.it/){class="text-decoration-none font-weight-semibold"}
-("Sito").
+La presente cookie policy è relativa al sito
+[https://cloud.italia.it/](https://cloud.italia.it/){class="text-decoration-none font-weight-semibold"} 
+("Sito"), fatta eccezione per le pagine legate alla gestione del marketplace all’URL 
+[https://cloud.italia.it/marketplace](https://cloud.italia.it/marketplace){class="text-decoration-none font-weight-semibold"} 
+cui si applica una diversa informativa 
+([https://cloud.italia.it/marketplace/privacy](https://cloud.italia.it/marketplace/privacy){class="text-decoration-none font-weight-semibold"}) 
+perché mantenute dall’Agenzia per l’Italia Digitale.
 
 Il Sito utilizza esclusivamente cookie per garantire il corretto funzionamento delle procedure e migliorare l'esperienza d'uso dei propri visitatori, 
 il cui utilizzo non è strumentale alla raccolta di dati personali identificativi dell'utente.
@@ -58,4 +62,4 @@ contatti: e-mail
 PEC
 [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
-<p class="text-right"><em>ultimo aggiornamento: 02/04/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 09/04/2021</em></p>
