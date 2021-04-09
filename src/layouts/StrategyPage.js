@@ -17,9 +17,6 @@ const query = graphql`
     chunk1: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk1.md" } }) {
       html
     }
-    chunk2: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk2.md" } }) {
-      html
-    }
   }
 `;
 
@@ -36,7 +33,6 @@ export const StrategyPage = () => {
   const classes = useStyles();
   const {
     chunk1: { html: chunk1 },
-    chunk2: { html: chunk2 },
   } = useStaticQuery(query);
 
   return (
@@ -79,10 +75,6 @@ export const StrategyPage = () => {
           <ResourceTitle title={resourceTitle} />
           <ResourcesWithList resources={resources} />
         </div>
-      </Hero>
-
-      <Hero>
-        <TextChunk html={chunk2} />
       </Hero>
     </>
   );
