@@ -79,6 +79,16 @@ glossaryTerms:
       spesso con il vantaggio di poter lavorare in collaborazione e contemporaneamente (strumenti collaborativi)."
   - id: data-center
     name: Data center
-    description: "<strong lang='en'>Data center</strong> ovvero Centro Elaborazione Dati (CED). Si  intende  una struttura fisica, normalmente un edificio compartimentato,
-      unitamente a tutti gli impianti elettrici, di condizionamento, di attestazioni di rete, di cablaggi, ecc. e a sistemi di sicurezza  fisica e logica, che in tale edificio sono presenti,
-      progettato e allestito per ospitare e gestire un numero elevato di apparecchiature e infrastrutture informatiche e i dati ivi contenuti, allo scopo di garantirne la sicurezza fisica e gestionale."
+    description: "<strong lang='en'>Data center</strong> ovvero Centro Elaborazione Dati (CED). Si  intende  una struttura fisica,
+      normalmente un edificio compartimentato, unitamente a tutti gli impianti elettrici, di condizionamento, di attestazioni di rete, di cablaggi,
+      ecc. e ai sistemi di sicurezza fisica e logica, che in tale edificio sono presenti, progettato e allestito per ospitare e gestire un numero elevato
+      di apparecchiature e infrastrutture informatiche e i dati ivi contenuti, allo scopo di garantirne la sicurezza fisica e gestionale.
+      La circolare AgID n. 1/2019, modificata dal
+      <a href='https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='Piano Triennale (link esterno)'>Piano triennale</a>,
+      distingue i data center all’interno del percorso di razionalizzazione delle infrastrutture digitali tra:
+      <p>
+        <ul>
+          <li>data center di tipo A, in possesso dei requisiti minimi di affidabilità e sicurezza dal punto di vista infrastrutturale e/o organizzativo;</li>
+          <li>data center di gruppo B, con carenze strutturali e/o organizzative o che non garantiscono la continuità dei servizi.</li>
+        </ul>
+      </p>"

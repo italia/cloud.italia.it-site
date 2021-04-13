@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 export const referencePropType = PropTypes.exact({
   action: PropTypes.string.isRequired,
   ariaLabel: PropTypes.string.isRequired,
+  ariaLabelIcon: PropTypes.string.isRequired,
   description: PropTypes.string,
   icon: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
