@@ -22,9 +22,9 @@ internalLinks:
     label: Crediti
 externalLinks:
   pianoTriennale:
-    label: Piano Triennale
+    label: Piano triennale
     linkTo: https://pianotriennale-ict.italia.it/
-    ariaLabel: 'Piano Triennale (link esterno)'
+    ariaLabel: 'Piano triennale (link esterno)'
   developers:
     label: Developers
     linkTo: https://developers.italia.it/

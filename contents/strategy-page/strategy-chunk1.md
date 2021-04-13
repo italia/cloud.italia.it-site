@@ -1,6 +1,8 @@
 La strategia nazionale, prevista dal
-[Piano Triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Piano Triennale (link esterno)'}, 
-applica il principio cloud first, favorendo l’adozione prioritaria da parte delle Pubblica Amministrazione di strumenti e tecnologie di tipo cloud nello sviluppo di nuovi servizi e nell’acquisizione di software.
+[Piano triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Piano triennale (link esterno)'}, 
+applica il principio 
+[cloud first](/glossario/cloud/#cloud-first){class="text-decoration-none font-weight-semibold"},
+favorendo l’adozione prioritaria da parte delle Pubblica Amministrazione di strumenti e tecnologie di tipo cloud nello sviluppo di nuovi servizi e nell’acquisizione di software.
 
 La strategia, inoltre, individua tre obiettivi strategici che caratterizzano il percorso di trasformazione:
 - incentivare le amministrazioni all’adozione di soluzioni basate sul cloud computing, attraverso il modello Cloud della PA, nell’ottica di proporre un’offerta di servizi digitali e infrastrutture tecnologiche sicure, efficienti, affidabili e autonome, in linea con i principi di tutela della privacy e le raccomandazioni destinate all’intero mercato europeo;
@@ -24,11 +26,10 @@ Contestualmente, si è riscontrato uno scarso utilizzo del cloud da parte della 
 {class="h5 font-weight-semibold mb-4"}
 
 Non tutti i servizi cloud hanno le medesime caratteristiche di qualità, adeguate alle esigenze del settore pubblico.\
-Il modello Cloud della PA prevede che le amministrazioni adottino servizi cloud qualificati e, per facilitare il loro percorso di migrazione, è stato definito il
+Il [modello Cloud della PA](https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='modello Cloud della PA (link esterno)'}
+prevede che le amministrazioni adottino servizi cloud qualificati e, per facilitare il loro percorso di migrazione, è stato definito il
 [programma di abilitazione al cloud](/programma-abilitazione-cloud/){class="text-decoration-none font-weight-semibold"}.\
-Solo i servizi qualificati da AgID entrano a far parte del
-[modello Cloud della PA](https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='modello Cloud della PA (link esterno)'}
-poiché soddisfano i
+Solo i servizi qualificati da AgID entrano a far parte del modello Cloud della PA poiché soddisfano i
 [requisiti](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='requisiti (link esterno)'}
 di sicurezza, affidabilità e scalabilità.
 
@@ -45,7 +46,7 @@ La qualificazione di servizi cloud e infrastrutture avviene secondo parametri id
 {class="h5 font-weight-semibold mb-4"}
 
 Il
-[Piano triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Piano Triennale (link esterno)'},
+[Piano triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Piano triennale (link esterno)'},
 prevede di mettere in sicurezza i servizi erogati  dalle amministrazioni e in particolare:
 - le amministrazioni centrali che non hanno i requisiti definiti da AgID, migrano i propri servizi verso una infrastruttura ad alta affidabilità o oppure verso i servizi cloud qualificati da AgID; 
 - le amministrazioni locali migrano i propri servizi verso soluzioni cloud qualificate da AgID; o in alternativa, possono rivolgersi ad altre amministrazioni locali 
