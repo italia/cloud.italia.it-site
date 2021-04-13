@@ -1,10 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import { Accordion } from 'design-react-kit';
 import PropTypes from 'prop-types';
+import { createUseStyles } from 'react-jss';
 import { AccordionEntry } from '../AccordionEntry.js';
 import { glossaryTermPropTypes } from '../../utils/proptypes.js';
 
+const useStyles = createUseStyles({
+  list: {
+    '@global': {
+      ul: {
+        paddingLeft: '24px',
+      },
+      li: {
+        marginBottom: '16px',
+      },
+      'li::marker': {
+        color: 'var(--primary)',
+      },
+    },
+  },
+});
+
 export const GlossaryTerm = ({ term, expandAndScrollIntoView = false }) => {
+  const classes = useStyles();
   const [expanded, setExpanded] = useState(expandAndScrollIntoView);
   useEffect(() => {
     if (expandAndScrollIntoView) {
@@ -22,7 +40,7 @@ export const GlossaryTerm = ({ term, expandAndScrollIntoView = false }) => {
   }, [expandAndScrollIntoView, term.id]);
 
   return (
-    <Accordion id={term.id} className="bg-white shadow-lg my-0 my-lg-3 mx-0 mx-lg-2">
+    <Accordion id={term.id} className={`bg-white shadow-lg my-0 my-lg-3 mx-0 mx-lg-2 ${classes.list}`}>
       <AccordionEntry
         headerLang="en"
         headerClassName="border-0"
