@@ -3517,10 +3517,10 @@ classnames@^2.2.3, classnames@^2.2.5:
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
-classnames@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.0.tgz#19524334bad47ccd99793936b67f9be0860fe835"
-  integrity sha512-UUf/S3eeczXBjHPpSnrZ1ZyxH3KmLW8nVYFUWIZA/dixYMIQr7l94yYKxaAkmPk7HO9dlT6gFqAPZC02tTdfQw==
+classnames@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 clean-stack@^2.0.0:
   version "2.2.0"
@@ -5343,10 +5343,10 @@ eslint@^7.20.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint@^7.23.0:
-  version "7.23.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.23.0.tgz#8d029d252f6e8cf45894b4bee08f5493f8e94325"
-  integrity sha512-kqvNVbdkjzpFy0XOszNwjkKzZ+6TcwCQ/h+ozlcIWwaimBBuhlQ4nN6kbiM2L+OjDcznkTJxzYfRFH92sx4a0Q==
+eslint@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.24.0.tgz#2e44fa62d93892bfdb100521f17345ba54b8513a"
+  integrity sha512-k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==
   dependencies:
     "@babel/code-frame" "7.12.11"
     "@eslint/eslintrc" "^0.4.0"
@@ -6233,10 +6233,10 @@ gatsby-page-utils@^1.2.0:
     lodash "^4.17.21"
     micromatch "^4.0.2"
 
-gatsby-plugin-image@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-1.2.0.tgz#ad571ba270b5c1e8a679ac33eeccd01ac3370db3"
-  integrity sha512-tG39QNnmld4rpTLettTL6r8BFm1rRrcionBpgUJXi9l5W4UaUn/hKdM9jV8g5aNUzo4YrEcgZcf1v2dPfrz9Iw==
+gatsby-plugin-image@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-1.2.1.tgz#69f220c06593e3b35d1a3a22638d113ed9d8f368"
+  integrity sha512-XXIxZdcqlI31hHd55Ba7TrXbzkYT+no3X+VOek1lTMjEuTQDnLwrpCgCBFwp/YgYNgPRV7b3QnHpjmc7sUY+Wg==
   dependencies:
     "@babel/code-frame" "^7.12.13"
     "@babel/parser" "^7.12.5"
@@ -6279,10 +6279,10 @@ gatsby-plugin-react-helmet@^4.2.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-plugin-sharp@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.2.0.tgz#d0e638f91c823800e5014a83c8860c98dec914c3"
-  integrity sha512-+Y4z/Q0bQL+wA1kb9wvAKlSz+o0+2V3IRxhu8kx/0pfpk48Q0apk+v4UMn7l835yocKfsePj8qvW7Ez0D47O9A==
+gatsby-plugin-sharp@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.2.1.tgz#6c150484b9d07ccdf24adf86b92f5e3a23597bd4"
+  integrity sha512-ZAEiDehEz7VRgykQSVwg0ESu9c+rA2BUfi6+VCi2ppemRezXm+jGUkSTo+WUhjiPmEhQq+IIOOWe4lpslJoZRg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
@@ -6486,10 +6486,10 @@ gatsby-transformer-sharp@^3.2.0:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.2.0.tgz#4b92b3063761572eb8116b9fd4efce3c916bb045"
-  integrity sha512-eVaAR6LQA4D7bPeN1/2Hzk5kt7QJzb0DoPUuBy9daxZy3oPR1Zf6wfdV6RQcW6+ABLpG073h5uOTMxANAlm66A==
+gatsby@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.2.1.tgz#c1130764077e4fc7360cb6892b25e810ae53cbbf"
+  integrity sha512-nakOINSniWsBPfbZE5HJOoEwC2/bBoJAYxGYNG/P7M8mM9JVbsIsnAylTe205/MsO0qpcTpqRm0usxzyvF3yYw==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.12.3"
@@ -13067,10 +13067,10 @@ svgxuse@1.2.6:
   resolved "https://registry.yarnpkg.com/svgxuse/-/svgxuse-1.2.6.tgz#d6251edd07a75cb28618e0c23e8d4db64936d6be"
   integrity sha512-0KC0I24LDskC2vaVjUQfFmdtKJk8wFwMYOjCci0HlhBRSc0F86dZRqNBHf6BoS5bibQ7chgnBQWyJCTYkzVuSA==
 
-swiper@^6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.5.3.tgz#ff42617dd87277bd0f622c729572d3db47bee225"
-  integrity sha512-WsRKA/il3cHkpHFivvQCEFsgo9eYgvKpHBrgNsLCENyuG1z3E8Rc6zFMEioy5NDQI0BztR3r5UyMqBZyqs9u8Q==
+swiper@^6.5.6:
+  version "6.5.6"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.5.6.tgz#4d1dc5cd124696dd765818f2484a1ec8e0d3d3bc"
+  integrity sha512-oKVshbF0vhdMFJXtcNH8vLpmyCHc7VvvIlOUafyazzlYzCRJmI80FxoIBWKzSqDyy8EXRn7Iy78p9o4I1Bww/Q==
   dependencies:
     dom7 "^3.0.0"
     ssr-window "^3.0.0"
