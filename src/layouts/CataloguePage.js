@@ -9,7 +9,7 @@ import { HeroBody } from '../components/hero/HeroBody.js';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
-const { title, body } = content;
+const { title, body, altImg } = content;
 const { title: seoTitle, description: seoDescription } = seo.cataloguePage;
 
 const query = graphql`
@@ -52,7 +52,7 @@ export const CataloguePage = () => {
       <div className="d-flex justify-content-center">
         <StaticImage
           src="../images/catalogo.jpg"
-          alt=""
+          alt={altImg}
           placeholder="blurred"
           height={400}
           width={800}
