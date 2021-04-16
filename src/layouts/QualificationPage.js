@@ -11,7 +11,7 @@ import content from '../../contents/qualification-page/qualification.yml';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
-const { title, body, resourceTitle, resources } = content;
+const { title, body, altImg, resourceTitle, resources } = content;
 const { title: seoTitle, description: seoDescription } = seo.qualificationPage;
 
 const query = graphql`
@@ -54,7 +54,7 @@ export const QualificationPage = () => {
       <div className="d-flex justify-content-center">
         <StaticImage
           src="../images/qualificazione.png"
-          alt=""
+          alt={altImg}
           placeholder="blurred"
           height={400}
           width={800}

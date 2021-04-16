@@ -26,6 +26,7 @@ const useStyles = createUseStyles({
 const {
   title,
   body,
+  altImg,
   resourceTitleBlockOne,
   resourceTitleBlockTwo,
   resources,
@@ -76,7 +77,7 @@ export const EnablementPage = () => {
       <div className="d-flex justify-content-center">
         <StaticImage
           src="../images/abilitazione.jpg"
-          alt=""
+          alt={altImg}
           placeholder="blurred"
           height={400}
           width={800}
