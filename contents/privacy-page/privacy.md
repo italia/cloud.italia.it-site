@@ -50,7 +50,12 @@ L’elenco dei responsabili del trattamento può essere richiesto al Titolare in
 
 Ti ricordiamo che hai sempre diritto di:
 
-TABELLA
+- **Diritto di accedere ai dati**: puoi ottenere conferma e informazioni sul trattamento.
+- **Diritto di rettifica**: puoi rettificare dati inesatti o integrarli.
+- **Diritto di cancellazione**: nei casi di legge, puoi chiedere l'oblio.
+- **Diritto di limitazione al trattamento**: nei casi di legge, puoi chiedere di limitare il trattamento.
+- **Diritto alla portabilità dei dati**: non hai diritto alla portabilità dei tuoi dati quando il trattamento è necessario per eseguire un compito di interesse pubblico o nell’esercizio di funzioni pubbliche o adempiere a obblighi legali.
+- **Diritto di opporsi al trattamento**: per particolari motivi puoi opporti al trattamento per l'esecuzione di un compito di interesse pubblico o connesso all'esercizio di pubblici poteri.
 
 Per maggiori informazioni o esercitare i tuoi diritti contatta il Titolare agli indirizzi sopra indicati.
 Se invece ritieni che il trattamento dei dati personali a te riferiti avvenga in violazione di quanto previsto dal GDPR, hai anche diritto di proporre reclamo, ai sensi dell’art. 77 del GDPR, al Garante per la protezione dei dati personali.
@@ -105,4 +110,4 @@ Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare c
 
 Le presenti informazioni sono aggiornate alla data riportata in calce a questa pagina.
 
-<p class="text-right"><em>ultimo aggiornamento: 16/04/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 20/04/2021</em></p>
