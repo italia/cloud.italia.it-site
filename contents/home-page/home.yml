@@ -29,11 +29,9 @@ benefits:
 heroEnablement:
   category: Il Programma di Abilitazione
   title: Come aderire al modello Cloud della PA
-  body: "Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
-    (AgID), ha elaborato un
-    <a class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' href='https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/cloud-enablement.html' aria-label='programma di abilitazione (link esterno)'>programma di abilitazione</a>
-    al cloud che definisce l’insieme di attività e risorse
-    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA."
+  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
+    utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
   ctaAriaLabel: Scopri di più su il programma di abilitazione
   altImg: Composizione con cavi di server e altri hardware
 heroQualification:
