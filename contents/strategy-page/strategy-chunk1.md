@@ -60,6 +60,6 @@ Per realizzare il consolidamento e la messa in sicurezza delle infrastrutture di
 modificando l’art.
 [33-septies del D.L. 179/2012](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012;179){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'}
  (Ulteriori misure urgenti per la crescita del Paese), 
-ha introdotto la realizzazione di una infrastruttura ad alta affidabilità localizzata sul territorio nazionale, il cui sviluppo è promosso dalla 
+ha introdotto la realizzazione di una infrastruttura ad alta affidabilità localizzata (detta anche Polo Strategico Nazionale o PSN) sul territorio nazionale, il cui sviluppo è promosso dalla 
 Presidenza del Consiglio dei ministri. L’infrastruttura ospiterà i servizi digitali delle amministrazioni le cui infrastrutture oggi 
 non garantiscono livelli adeguati di sicurezza, affidabilità ed efficienza energetica.
