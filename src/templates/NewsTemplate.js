@@ -40,7 +40,6 @@ const NewsTemplate = ({ data }) => {
       <div className="container d-flex justify-content-center pb-2">
         <div className="row justify-content-center">
           <div className="col-md-10 mb-5 mt-5">
-            <div className={classes.author}>{frontmatter.author}</div>
             <div className={classes.date}>{date.toFormat('LLL dd, yyyy')}</div>
           </div>
           <TextChunk html={html} />
@@ -57,7 +56,6 @@ export const pageQuery = graphql`
       frontmatter {
         date
         title
-        author
         subtitle
       }
     }
@@ -72,7 +70,6 @@ NewsTemplate.propTypes = {
       frontmatter: PropTypes.exact({
         date: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
-        author: PropTypes.string.isRequired,
         subtitle: PropTypes.string.isRequired,
       }),
       html: PropTypes.string.isRequired,
