@@ -20,5 +20,4 @@ If you find an issue in the repository please check if it's already known otherw
 ## Gitflow
 - The `main` branch is not directly writable.
 - Branch `fix/*` or `feat/*` are used for development.
-- The code in the `main` branch is deployed in staging.
-- A release pushes the code in production.
+- The code in the `main` branch is deployed in production.
