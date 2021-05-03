@@ -10,6 +10,7 @@ footerA11y: "Per segnalazioni ed eventuali suggerimenti sull'accessibilità del 
 date: Data
 minutes: Minuti
 timeToRead: Tempo di lettura
+topics: Argomenti
 ariaLabel:
   menu: Menu principale
   toggleMenu: Mostra / Nascondi la navigazione

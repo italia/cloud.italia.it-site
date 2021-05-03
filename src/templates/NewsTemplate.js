@@ -18,7 +18,7 @@ const NewsTemplate = ({ data }) => {
       {/* Quick fix to render a multiple levels breadcrumb without the navigable level 'notizie' */}
       <Breadcrumb currentPage={`notizie / ${frontmatter.title}`} />
       <Hero yPaddingXLScreen={false}>
-        <div className="row align-items-center">
+        <div className="row">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="">
               <HeroTitle title={frontmatter.title} className="text-info" Tag="h1" />
@@ -36,6 +36,14 @@ const NewsTemplate = ({ data }) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="offset-lg-1 col-lg-4 mt-4 mt-lg-0">
+            <div className="h6 text-uppercase">{labels.topics}</div>
+            {frontmatter.tags.map((tag) => (
+              <div className="d-inline-block d-lg-block mr-4 mt-lg-2" key={tag}>
+                {tag}
+              </div>
+            ))}
           </div>
         </div>
       </Hero>
@@ -57,6 +65,7 @@ export const pageQuery = graphql`
         date
         title
         subtitle
+        tags
       }
       timeToRead
     }
@@ -72,6 +81,7 @@ NewsTemplate.propTypes = {
         date: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         subtitle: PropTypes.string.isRequired,
+        tags: PropTypes.arrayOf(PropTypes.string),
       }),
       html: PropTypes.string.isRequired,
       timeToRead: PropTypes.number.isRequired,
