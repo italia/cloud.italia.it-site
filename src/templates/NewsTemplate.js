@@ -15,7 +15,8 @@ const NewsTemplate = ({ data }) => {
   const date = DateTime.fromISO(frontmatter.date);
   return (
     <>
-      <Breadcrumb currentPage={frontmatter.title} />
+      {/* Quick fix to render a multiple levels breadcrumb without the navigable level 'notizie' */}
+      <Breadcrumb currentPage={`notizie / ${frontmatter.title}`} />
       <Hero yPaddingXLScreen={false}>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
