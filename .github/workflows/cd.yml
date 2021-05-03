@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,9 +16,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn clean
       - run: yarn build
-      - run: yarn lint
-      - run: yarn pa11y
-      - run: yarn html-proofer
       - run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@https://github.com/italia/cloud.italia.it-site.git
           yarn deploy
