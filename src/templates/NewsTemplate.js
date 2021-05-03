@@ -2,49 +2,48 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { DateTime } from 'luxon';
-import { createUseStyles } from 'react-jss';
 import { TextChunk } from '../components/TextChunk.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
-
-const useStyle = createUseStyles({
-  author: {
-    color: 'var(--primary)',
-  },
-  date: {
-    textTransform: 'uppercase',
-    fontSize: '.7rem',
-    color: '#17324d',
-    fontWeight: 900,
-  },
-});
+import { Breadcrumb } from '../components/Breadcrumb.js';
+import labels from '../../contents/labels.yml';
 
 const NewsTemplate = ({ data }) => {
-  const classes = useStyle();
   const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html, timeToRead } = markdownRemark;
   const date = DateTime.fromISO(frontmatter.date);
   return (
     <>
-      <Hero>
+      <Breadcrumb currentPage={frontmatter.title} />
+      <Hero yPaddingXLScreen={false}>
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
-            <div className="text-center text-lg-left">
+            <div className="">
               <HeroTitle title={frontmatter.title} className="text-info" Tag="h1" />
               <HeroBody html={frontmatter.subtitle} />
+              <div className="row align-items-center mt-4">
+                <div className="col-lg-6">
+                  <div className="h6 text-uppercase">{labels.date}</div>
+                  <div>{date.toFormat('LLL dd, yyyy')}</div>
+                </div>
+                <div className="col-lg-6 mt-4 mt-lg-0">
+                  <div className="h6 text-uppercase">{labels.timeToRead}</div>
+                  <div>
+                    {timeToRead} {labels.minutes}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </Hero>
-      <div className="container d-flex justify-content-center pb-2">
-        <div className="row justify-content-center">
-          <div className="col-md-10 mb-5 mt-5">
-            <div className={classes.date}>{date.toFormat('LLL dd, yyyy')}</div>
-          </div>
-          <TextChunk html={html} />
-        </div>
-      </div>
+
+      <hr />
+
+      <Hero yPaddingXLScreen={false}>
+        <TextChunk html={html} />
+      </Hero>
     </>
   );
 };
@@ -58,6 +57,7 @@ export const pageQuery = graphql`
         title
         subtitle
       }
+      timeToRead
     }
   }
 `;
@@ -73,6 +73,7 @@ NewsTemplate.propTypes = {
         subtitle: PropTypes.string.isRequired,
       }),
       html: PropTypes.string.isRequired,
+      timeToRead: PropTypes.number.isRequired,
     }),
   }).isRequired,
 };

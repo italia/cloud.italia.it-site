@@ -1,10 +1,8 @@
 ---
 type: "news"
 date: "2021-02-17"
-author: "Giuseppe De Marco"
 title: "SPID e CIE, disponibili nuove risorse open source"
-subtitle: "La community di Developers Italia a supporto delle PA"
-show_in_home: true
+subtitle: "Creates a link between a parent and child node. This is used when you transform content from a node creating a new child node. You need to add this new child node to the children array of the parent but since you don’t have direct access to the immutable parent node, use this action instead."
 ---
 
 Entro il 28 febbraio 2021 tutte le amministrazioni locali e centrali dovranno integrare
@@ -18,7 +16,7 @@ Un'altra risorsa pubblicata è [Satosa-Saml2SPID](https://github.com/italia/Sato
 
 ![Una spiaggia con gli ombrelloni](images/spiaggia.jpg)
 
-Per gli enti che utilizzano il **CMS Entando** è disponibile un [modulo di integrazione con SPID](https://github.com/italia/spid-keycloak-entando).
+Per gli enti che utilizzano il **CMS Entando** è disponibile un [modulo di integrazione con SPID](https://github.com/italia/spid-keycloak-entando).V
 Di fatto questo si basa su *keycloak* come piattaforma di gestione delle identità e il modulo pubblicato permette di configurarla facilmente per agevolare l’integrazione. Come per *Satosa-Saml2SPID*, anche questa componente può essere usata in modalità standalone.
 
 Altri progetti degni di nota sviluppati da membri della community di Developers Italia e recentemente pubblicati sono [AspNetCore Remote Authenticator for SPID](https://github.com/italia/spid-aspnetcore) e [AspNetCore Remote Authenticator for CIE](https://github.com/italia/cie-aspnetcore) che rappresentano strumenti semplici ed immediati per integrare rispettivamente SPID e CIE in web app sviluppate con **AspNetCore MVC**. In questo caso un ringraziamento speciale del team è rivolto a Daniele Giallonardo per il suo contributo.
