@@ -1,7 +1,7 @@
 La strategia nazionale, prevista dal
 [Piano triennale](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Piano triennale (link esterno)'}, 
 applica il principio 
-[cloud first](/glossario/cloud/#cloud-first){class="text-decoration-none font-weight-semibold"},
+[cloud first](/glossario/#cloud-first){class="text-decoration-none font-weight-semibold"},
 favorendo l’adozione prioritaria da parte delle Pubblica Amministrazione di strumenti e tecnologie di tipo cloud nello sviluppo di nuovi servizi e nell’acquisizione di software.
 
 La strategia, inoltre, individua tre obiettivi strategici che caratterizzano il percorso di trasformazione:
@@ -50,7 +50,7 @@ Il
 prevede di mettere in sicurezza i servizi erogati  dalle amministrazioni e in particolare:
 - le amministrazioni centrali che non hanno i requisiti definiti da AgID, migrano i propri servizi verso una infrastruttura ad alta affidabilità o oppure verso i servizi cloud qualificati da AgID; 
 - le amministrazioni locali migrano i propri servizi verso soluzioni cloud qualificate da AgID; o in alternativa, possono rivolgersi ad altre amministrazioni locali 
-  ([data center di tipo A](/glossario/cloud/#data-center){class="text-decoration-none font-weight-semibold"})
+  ([data center di tipo A](/glossario/#data-center){class="text-decoration-none font-weight-semibold"})
   per consolidare le proprie infrastrutture e servizi.
 
 ## Infrastruttura ad alta affidabilità
