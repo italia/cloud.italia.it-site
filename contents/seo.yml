@@ -18,6 +18,9 @@ cataloguePage:
 glossaryPage:
   title: Il glossario dei termini dedicati al cloud della PA - Cloud Italia
   description: Un elenco dei principali termini tecnici riferiti al modello del cloud computing applicato al settore delle amministrazioni pubbliche italiane
+newsPage:
+  title: Qui il titolo della sezione news - Cloud Italia
+  description: Qui la descrizione della sezione news
 privacyPage:
   title: Informativa privacy - Cloud Italia
   description: Informativa sulla gestione dei cookie del sito Cloud Italia

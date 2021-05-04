@@ -1,12 +1,12 @@
 ---
 type: "news"
-date: "2021-02-17"
-title: "SPID e CIE, disponibili nuove risorse open source"
+date: "2021-04-20"
+title: "Questa è la notizia chiamata cloud"
 subtitle: "Creates a link between a parent and child node. This is used when you transform content from a node creating a new child node. You need to add this new child node to the children array of the parent but since you don’t have direct access to the immutable parent node, use this action instead."
 
 tags:
-- Spid
-- Migrazione
+- Sono un tag
+- Sono il secondo tag
 ---
 
 Entro il 28 febbraio 2021 tutte le amministrazioni locali e centrali dovranno integrare
