@@ -14,10 +14,10 @@ const { title: seoTitle, description: seoDescription } = seo.cataloguePage;
 
 const query = graphql`
   query {
-    textChunk1: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk1.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk1" } }) {
       html
     }
-    textChunk2: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk2.md" } }) {
+    textChunk2: markdownRemark(fields: { slug: { eq: "catalogue-page/catalogue-chunk2" } }) {
       html
     }
   }

@@ -11,7 +11,7 @@ const { title: seoTitle, description: seoDescription } = seo.creditsPage;
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "credits-page/credits.md" } }) {
+    textChunk: markdownRemark(fields: { slug: { eq: "credits-page/credits" } }) {
       html
     }
   }

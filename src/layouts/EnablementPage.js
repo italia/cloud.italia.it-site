@@ -38,10 +38,10 @@ const { title: seoTitle, description: seoDescription } = seo.enablementPage;
 
 const query = graphql`
   query {
-    textChunk1: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk1.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk1" } }) {
       html
     }
-    textChunk2: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk2.md" } }) {
+    textChunk2: markdownRemark(fields: { slug: { eq: "enablement-page/enablement-chunk2" } }) {
       html
     }
   }
