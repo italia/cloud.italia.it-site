@@ -8,6 +8,7 @@ import { HeroBody } from '../components/hero/HeroBody.js';
 import { Hero } from '../components/hero/Hero.js';
 import { Breadcrumb } from '../components/Breadcrumb.js';
 import labels from '../../contents/labels.yml';
+import { SEO } from '../components/SEO.js';
 
 const NewsTemplate = ({ data }) => {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
@@ -15,6 +16,7 @@ const NewsTemplate = ({ data }) => {
   const date = DateTime.fromISO(frontmatter.date);
   return (
     <>
+      <SEO title={`${frontmatter.title} - Cloud Italia`} description={frontmatter.subtitle} />
       {/* Quick fix to render a multiple levels breadcrumb without the navigable level 'notizie' */}
       <Breadcrumb currentPage={`notizie / ${frontmatter.title}`} />
       <Hero yPaddingXLScreen={false}>
