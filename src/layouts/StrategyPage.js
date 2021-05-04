@@ -14,7 +14,7 @@ import seo from '../../contents/seo.yml';
 
 const query = graphql`
   query {
-    chunk1: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk1.md" } }) {
+    chunk1: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk1" } }) {
       html
     }
   }

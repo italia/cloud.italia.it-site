@@ -11,7 +11,7 @@ const { title: seoTitle, description: seoDescription } = seo.privacyPage;
 
 const query = graphql`
   query {
-    textChunk: markdownRemark(fields: { slug: { eq: "privacy-page/privacy.md" } }) {
+    textChunk: markdownRemark(fields: { slug: { eq: "privacy-page/privacy" } }) {
       html
     }
   }
