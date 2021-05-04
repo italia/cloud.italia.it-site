@@ -16,10 +16,10 @@ const { title: seoTitle, description: seoDescription } = seo.qualificationPage;
 
 const query = graphql`
   query {
-    textChunk1: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk1.md" } }) {
+    textChunk1: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk1" } }) {
       html
     }
-    textChunk2: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk2.md" } }) {
+    textChunk2: markdownRemark(fields: { slug: { eq: "qualification-page/qualification-chunk2" } }) {
       html
     }
   }

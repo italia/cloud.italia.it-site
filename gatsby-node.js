@@ -11,7 +11,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       createNodeField({
         node,
         name: 'slug',
-        value: parent.relativePath,
+        value: parent.relativePath.replace(path.extname(parent.relativePath), ''),
       });
     }
   }
