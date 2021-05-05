@@ -15,7 +15,10 @@ export const NewsPage = () => {
     allMarkdownRemark: { nodes },
   } = useStaticQuery(graphql`
     {
-      allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
+      allMarkdownRemark(
+        sort: { fields: frontmatter___date, order: DESC }
+        filter: { frontmatter: { type: { eq: "news" } } }
+      ) {
         nodes {
           fields {
             slug
@@ -46,7 +49,7 @@ export const NewsPage = () => {
       <Hero>
         {nodes.map((n) => (
           <div key={n.frontmatter.title}>
-            <Link to={`/${n.fields.slug.replace('.md', '')}`}>
+            <Link to={`/${n.fields.slug}`}>
               {n.frontmatter.title} - {n.frontmatter.date}
             </Link>
           </div>

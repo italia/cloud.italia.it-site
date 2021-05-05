@@ -37,7 +37,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
 
   return result.data.allMarkdownRemark.nodes.forEach(({ fields }) => {
     createPage({
-      path: fields.slug.replace(path.extname(fields.slug), ''),
+      path: fields.slug,
       component: path.resolve(__dirname, 'src/templates/NewsTemplate.js'),
       context: {
         slug: fields.slug,
