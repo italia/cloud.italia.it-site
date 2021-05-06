@@ -2,7 +2,7 @@
 type: "news"
 date: "2021-04-20"
 title: "Questa è la notizia chiamata cloud"
-subtitle: "Creates a link between a parent and child node. This is used when you transform content from a node creating a new child node. You need to add this new child node to the children array of the parent but since you don’t have direct access to the immutable parent node, use this action instead."
+subtitle: "Questo è il sottotitolo a link between a parent and child node. This is used when you transform content from a node creating a new child node. You need to add this new child node to the children array of the parent but since you don’t have direct access to the immutable parent node, use this action instead."
 
 tags:
 - Sono un tag
