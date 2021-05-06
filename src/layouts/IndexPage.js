@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import content from '../../contents/home-page/home.yml';
 import { NewsPreviewSection } from './home/NewsPreviewSection.js';
@@ -14,7 +13,6 @@ export const IndexPage = () => (
     <div className="sr-only">
       <h1>{content.name}</h1>
     </div>
-    <Link to={'/notizie'}>Notizie sample</Link>
     <StrategySection />
     <BenefitSection />
     <EnablementSection />

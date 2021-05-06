@@ -9,27 +9,43 @@ tags:
 - Sono il secondo tag
 ---
 
-Entro il 28 febbraio 2021 tutte le amministrazioni locali e centrali dovranno integrare
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non 
+numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
+fugiat quo voluptas nulla pariatur?
+
+## Questo è un titolo
+{class="h4 font-weight-semibold mb-4"}
+
+**Questo è un testo grassetto**
+
+*Questo è un testo italico*
+
 [questo è un link](https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/pianificare-la-migrazione/le-strategie-di-migrazione.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='questo è un link (link esterno)'}
-(Sistema Pubblico di Identità Digitale) e come sistemi di autenticazione, uniformando di fatto l’accesso ai servizi pubblici digitali in tutto il Paese.
-Una scadenza importante, quella prevista dal Decreto Legge “semplificazione e innovazione digitale”, che ha portato in questi mesi il team e la community di Developers Italia a impegnarsi su più fronti per supportare gli enti, effettuando numerosi rilasci di librerie e software applicativo.
 
-Un esempio significativo è rappresentato dal che permette una facile integrazione di SPID e CIE all’interno di architetture web basate sullo stack tecnologico **Express**.
+Questa è una lista:
+- primo punto
+- secondo punto
+- terzo punto
 
-Un'altra risorsa pubblicata è un proxy di autenticazione compatibile con il Sistema Pubblico di Identità Digitale italiano. Nella fattispecie questa soluzione consente di abbattere i tempi di accreditamento per tutte le organizzazioni che già sfruttano **SAML2** come protocollo di autenticazione. Satosa-Saml2SPID è un esempio di un software open source sviluppato originariamente all'interno della pubblica amministrazione italiana, l’[Università della Calabria](https://developers.italia.it/it/pa/unical), con una potenziale ricaduta positiva per molti altri enti che stanno effettuando il percorso di trasformazione digitale.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+nesciunt. Neque porro quisquam est,
 
 ![Una spiaggia con gli ombrelloni](images/spiaggia.jpg)
 
-Per gli enti che utilizzano il **CMS Entando** è disponibile.
-Di fatto questo si basa su *keycloak* come piattaforma di gestione delle identità e il modulo pubblicato permette di configurarla facilmente per agevolare l’integrazione. Come per *Satosa-Saml2SPID*, anche questa componente può essere usata in modalità standalone.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+fugiat quo voluptas nulla pariatur?
 
-Altri progetti degni di nota sviluppati da membri della community di Developers Italia e recentemente pubblicati **AspNetCore MVC**. In questo caso un ringraziamento speciale del team è rivolto a Daniele Giallonardo per il suo contributo.
-
-Tutte le soluzioni citate sono accomunate dalla loro natura open source che garantisce la possibilità di consultare il codice sorgente e testare in modo indipendente le possibili integrazione per adattarle alle proprie esigenze.
-
-### Questo è un titolo
-{class="h4 font-weight-semibold mb-4"}
-
-Hai già sviluppato un integrazione con SPID o CIE oppure ci stai lavorando? Parliamone insieme nei canali di community.
-
-Il Team Developers Italia
+<a class="btn text-uppercase my-2 btn-primary" aria-label="Questo è un bottone (link esterno)" href="https://innovazione.gov.it" target="_blank">Questo è un bottone</a>
