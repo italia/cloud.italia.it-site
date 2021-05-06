@@ -7,6 +7,10 @@ goToMainContent: Vai al contenuto principale
 goToFooter: Vai al footer
 footerA11y: "Per segnalazioni ed eventuali suggerimenti sull'accessibilità del sito, scrivi a
   <a class='text-decoration-none font-weight-semibold text-white' href='mailto:accessibilita@innovazione.gov.it' aria-label='accessibilita@innovazione.gov.it'>accessibilita@innovazione.gov.it</a>"
+date: Data
+minutes: Minuti
+timeToRead: Tempo di lettura
+topics: Argomenti
 ariaLabel:
   menu: Menu principale
   toggleMenu: Mostra / Nascondi la navigazione
