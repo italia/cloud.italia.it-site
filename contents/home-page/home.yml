@@ -2,7 +2,8 @@ name: Cloud Italia - Il Cloud della Pubblica Amministrazione
 heroStrategy:
   category: La strategia nazionale del cloud per la PA
   title: Realizziamo il sistema operativo del Paese
-  body: Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
+  body:
+    Definiamo la strategia per l’evoluzione tecnologica delle infrastrutture digitali della Pubblica
     Amministrazione e abilitiamo l’adozione del modello cloud computing per servizi pubblici più sicuri ed
     efficienti.
   ctaAriaLabel: Scopri di più su la strategia nazionale cloud della PA
@@ -10,26 +11,31 @@ heroStrategy:
 heroBenefit:
   category: I vantaggi
   title: Una strategia che porta beneficio all’intero sistema Paese
-  body: La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire ai cittadini di godere dei diritti digitali
+  body:
+    La trasformazione dei servizi pubblici attraverso l'adozione del cloud è essenziale per garantire ai cittadini di godere dei diritti digitali
     e al Paese di crescere, competere e generare nuove opportunità per i professionisti e per il mercato.
   altImg: Gruppo multietnico che lavora nel settore digitale
 benefits:
   - title: Per i cittadini
-    body: Servizi pubblici basati sul modello Cloud della PA garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto della privacy.
+    body:
+      Servizi pubblici basati sul modello Cloud della PA garantiscono ai cittadini maggiore affidabilità, sicurezza e rispetto della privacy.
       Sono servizi progettati in maniera innovativa che consentono economie di scala e favoriscono una riqualificazione della  spesa pubblica.
   - title: Per le amministrazioni
-    body: Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
+    body:
+      Le amministrazioni beneficiano di risparmi significativi da reinvestire nello sviluppo di nuovi servizi,
       maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle
       infrastrutture.
   - title: Per le piccole e medie imprese che operano nel settore pubblico
-    body: Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
+    body:
+      Le piccole e medie imprese (PMI) nel settore delle tecnologie digitali sono chiamate ad accompagnare le
       amministrazioni verso l’adozione di soluzioni in cloud per i propri servizi, aumentando la qualità e la quantità
       di servizi qualificati. Rappresentano un elemento di stimolo per il settore pubblico nel rivolgersi a un mercato
       maturo per le soluzioni cloud.
 heroEnablement:
   category: Il Programma di Abilitazione
   title: Come aderire al modello Cloud della PA
-  body: Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
+  body:
+    Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
     (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
     utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
   ctaAriaLabel: Scopri di più su il programma di abilitazione
@@ -37,7 +43,8 @@ heroEnablement:
 heroQualification:
   category: La qualificazione dei servizi e il catalogo
   title: Il percorso di qualificazione e il catalogo dei servizi cloud
-  body: Le amministrazioni possono acquisire servizi cloud solo se qualificati da AgID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
+  body:
+    Le amministrazioni possono acquisire servizi cloud solo se qualificati da AgID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
     se in possesso dei requisiti, sono pubblicati e consultabili all’interno del catalogo AgID.
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
   altImg: Nuvola simbolo cloud, logo Italia, server e altri elementi hardware in commistione
@@ -45,27 +52,27 @@ heroNews:
   category: Le notizie
   title: Articoli e approfondimenti
 newsPreview:
+  - ariaLabel: "Più accessibile e innovativo: è online Cloud Italia (link esterno)"
+    body: Un sito rinnovato per accompagnare le amministrazioni verso l’adozione del modello Cloud della PA e l’erogazione di servizi pubblici più sicuri ed efficienti.
+    date: 28 maggio 2021
+    link: https://innovazione.gov.it/notizie/
+    source: "Fonte: innovazione.gov.it"
+    title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
+    type: Articolo
   - ariaLabel: Next Generation Italia, approvato il piano del Governo (link esterno)
     body: L'esecutivo ha dato il via libera in Consiglio dei ministri al Piano nazionale di ripresa e resilienza.
-    date: 30 aprile 2020
+    date: 30 aprile 2021
     link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
-    source: 'Fonte: innovazione.gov.it'
+    source: "Fonte: innovazione.gov.it"
     title: Next Generation Italia, approvato il piano del Governo
     type: Articolo
   - ariaLabel: Cloud e infrastrutture digitali (link esterno)
     body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
-    date: 30 aprile 2020
+    date: 30 aprile 2021
     link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
+    source: "Fonte: innovazione.gov.it"
     title: Cloud e infrastrutture digitali
     type: Approfondimento
-  - ariaLabel: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali (link esterno)
-    body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali
-    date: 27 novembre 2020
-    link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
-    title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
-    type: Articolo
 heroContribute:
   category: Come contribuire
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
