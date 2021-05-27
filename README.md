@@ -18,3 +18,9 @@ yarn develop
 At the end of the build process, the website is available at http://localhost:8000/.
 
 For more information about contributing and the gitflow see [contributing](CONTRIBUTING.md).
+
+# License
+
+Copyright © 2021 Presidenza del Consiglio dei Ministri
+
+The source code is released under the BSD license (SPDX code: BSD-3-Clause).
