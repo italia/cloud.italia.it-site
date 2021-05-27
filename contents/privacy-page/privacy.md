@@ -16,8 +16,8 @@ che ci fornisci direttamente o di cui comunque potremo venire in possesso tramit
 {class="h4"}
 Titolare del Trattamento è la Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma
 contattabile ai seguenti recapiti:
-- Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"}
-- PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}
+- Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"};
+- PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
 ## Responsabile per la protezione dei dati
 {class="h4"}
