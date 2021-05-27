@@ -5,7 +5,7 @@
 
 **Le pagine legate alla gestione del marketplace all’URL** 
 [https://cloud.italia.it/marketplace](https://cloud.italia.it/marketplace){class="text-decoration-none font-weight-semibold"}
-**sono mantenute dall’Agenzia per l’Italia Digitale. Puoi consultare l’informativa relativa al marketplace a questo link** 
+**sono mantenute dall’Agenzia per l’Italia Digitale. Puoi consultare l’informativa relativa al marketplace al seguente link** 
 ([https://cloud.italia.it/marketplace/privacy](https://cloud.italia.it/marketplace/privacy){class="text-decoration-none font-weight-semibold"})**.**
 
 A norma degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR) vogliamo fornirti un'informativa semplice e chiara su come trattiamo i dati personali 
@@ -16,8 +16,8 @@ che ci fornisci direttamente o di cui comunque potremo venire in possesso tramit
 {class="h4"}
 Titolare del Trattamento è la Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma
 contattabile ai seguenti recapiti:
-- Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"}
-- PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}
+- Email: [segreteria.trasformazionedigitale@governo.it](mailto:segreteria.trasformazionedigitale@governo.it){class="text-decoration-none font-weight-semibold"};
+- PEC: [diptrasformazionedigitale@pec.governo.it](mailto:diptrasformazionedigitale@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
 ## Responsabile per la protezione dei dati
 {class="h4"}
