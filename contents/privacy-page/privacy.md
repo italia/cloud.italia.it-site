@@ -5,7 +5,7 @@
 
 **Le pagine legate alla gestione del marketplace all’URL** 
 [https://cloud.italia.it/marketplace](https://cloud.italia.it/marketplace){class="text-decoration-none font-weight-semibold"}
-**sono mantenute dall’Agenzia per l’Italia Digitale. Puoi consultare l’informativa relativa al marketplace a questo link** 
+**sono mantenute dall’Agenzia per l’Italia Digitale. Puoi consultare l’informativa relativa al marketplace al seguente link** 
 ([https://cloud.italia.it/marketplace/privacy](https://cloud.italia.it/marketplace/privacy){class="text-decoration-none font-weight-semibold"})**.**
 
 A norma degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR) vogliamo fornirti un'informativa semplice e chiara su come trattiamo i dati personali 
