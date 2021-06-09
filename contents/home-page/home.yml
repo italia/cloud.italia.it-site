@@ -52,19 +52,19 @@ heroNews:
   category: Le notizie
   title: Articoli e approfondimenti
 newsPreview:
+  - ariaLabel: "#PAdigitale, i protagonisti: il Comune di Pesaro (link esterno)"
+    body: La “nuvola” invisibile di Pesaro al servizio dei cittadini 24 ore su 24.
+    date: 03 giugno 2021
+    link: https://innovazione.gov.it/notizie/articoli/padigitale-i-protagonisti-il-comune-di-pesaro/
+    source: "Fonte: innovazione.gov.it"
+    title: "#PAdigitale, i protagonisti: il Comune di Pesaro"
+    type: Articolo
   - ariaLabel: "Più accessibile e innovativo: è online Cloud Italia (link esterno)"
     body: Un sito rinnovato per accompagnare le amministrazioni verso l’adozione del modello Cloud della PA e l’erogazione di servizi pubblici più sicuri ed efficienti.
     date: 28 maggio 2021
     link: https://innovazione.gov.it/notizie/articoli/piu-accessibile-e-innovativo-e-online-cloud-italia/
     source: "Fonte: innovazione.gov.it"
     title: "Più accessibile e innovativo: è online Cloud Italia"
-    type: Articolo
-  - ariaLabel: Next Generation Italia, approvato il piano del Governo (link esterno)
-    body: L'esecutivo ha dato il via libera in Consiglio dei ministri al Piano nazionale di ripresa e resilienza.
-    date: 30 aprile 2021
-    link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
-    source: "Fonte: innovazione.gov.it"
-    title: Next Generation Italia, approvato il piano del Governo
     type: Articolo
   - ariaLabel: Cloud e infrastrutture digitali (link esterno)
     body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
