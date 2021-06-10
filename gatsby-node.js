@@ -25,10 +25,48 @@ exports.onPostBuild = async () => {
     { from: '/it/cloud-enablement/', to: '/programma-abilitazione-cloud/' },
     { from: '/it/qualificazioni/', to: '/qualificazione-servizi-cloud/' },
     { from: '/it/privacy-policy/', to: '/privacy-policy/' },
+
+    // Linked from AgID's https://cloud.italia.it/marketplace/
     { from: '/it/latest/', to: '/' },
     {
       from: '/projects/cloud-italia-circolari/it/latest/',
       to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/CSP/circolare_qualificazione_CSP_v1.2.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/circolare_qualificazione_CSP_v1.2.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/SaaS/circolare_qualificazione_SaaS_v_4.12.27.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/circolare_qualificazione_SaaS_v_4.12.27.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_a_qualificazione_CSP_v1.2.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_a_qualificazione_CSP_v1.2.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_docs/appendice-2.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_docs/appendice-2.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_docs/appendice-1.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/CSP/allegato_docs/appendice-1.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_a_qualificazione_SaaS_v6.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_a_qualificazione_SaaS_v6.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_docs/appendice-2.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_docs/appendice-2.html',
+    },
+    {
+      from: '/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_docs/appendice-1.html',
+      to: 'https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/circolari/SaaS/allegato_docs/appendice-1.html',
+    },
+    {
+      from: '/projects/cloud-italia-docs/it/latest/domande-frequenti.html',
+      to: 'https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/domande-frequenti.html',
     },
     {
       from: '/projects/cloud-italia-docs/it/latest',
