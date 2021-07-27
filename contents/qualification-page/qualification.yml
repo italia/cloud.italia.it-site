@@ -7,13 +7,13 @@ resources:
     references:
       - action: Leggi
         icon: it-external-link
-        link: https://cloud.italia.it/marketplace/info
+        link: https://catalogocloud.agid.gov.it/info
         ariaLabel: 'Come ottenere le qualificazioni Cloud (link esterno)'
         ariaLabelIcon: link esterno
         title: Come ottenere le qualificazioni cloud
       - action: Consulta
         icon: it-external-link
-        link: https://cloud.italia.it/marketplace/
+        link: https://catalogocloud.agid.gov.it/
         title: Il catalogo dei servizi qualificati
         ariaLabel: 'Il catalogo dei servizi qualificati (link esterno)'
         ariaLabelIcon: link esterno

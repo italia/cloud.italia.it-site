@@ -55,11 +55,11 @@ externalLinks:
     ariaLabel: "Agenzia per l'Italia Digitale (link esterno)"
   marketplace:
     label: Cloud Marketplace
-    linkTo: https://cloud.italia.it/marketplace
+    linkTo: https://catalogocloud.agid.gov.it/
     ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
-    linkTo: https://cloud.italia.it/marketplace/opendata
+    linkTo: https://catalogocloud.agid.gov.it/opendata
     ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali
