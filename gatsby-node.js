@@ -26,7 +26,10 @@ exports.onPostBuild = async () => {
     { from: '/it/qualificazioni/', to: '/qualificazione-servizi-cloud/' },
     { from: '/it/privacy-policy/', to: '/privacy-policy/' },
 
-    // Linked from AgID's https://cloud.italia.it/marketplace/
+    // Old AgID Marketplace URL
+    { from: '/marketplace/', to: 'https://catalogocloud.agid.gov.it/' },
+
+    // Linked from AgID's https://catalogocloud.agid.gov.it/
     { from: '/it/latest/', to: '/' },
     {
       from: '/projects/cloud-italia-circolari/it/latest/',
