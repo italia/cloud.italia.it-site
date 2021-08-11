@@ -14,6 +14,7 @@ const NewsTemplate = ({ data }) => {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html, timeToRead } = markdownRemark;
   const date = DateTime.fromISO(frontmatter.date);
+  const ItDate = DateTime.fromISO(frontmatter.date).toLocaleString();
   return (
     <>
       <SEO title={`${frontmatter.title} - Cloud Italia`} description={frontmatter.subtitle} />
@@ -28,7 +29,8 @@ const NewsTemplate = ({ data }) => {
               <div className="row align-items-center mt-4">
                 <div className="col-lg-6">
                   <div className="h6 text-uppercase">{labels.date}</div>
-                  <div>{date.toFormat('LLL dd, yyyy')}</div>
+                  {/* <div>{date.toFormat('dd LLL yyyy')}</div> */}
+                  <div>{ItDate}</div>
                 </div>
                 <div className="col-lg-6 mt-4 mt-lg-0">
                   <div className="h6 text-uppercase">{labels.timeToRead}</div>

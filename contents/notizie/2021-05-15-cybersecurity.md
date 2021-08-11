@@ -3,7 +3,11 @@ type: "news"
 date: "2021-05-15"
 title: "Questa è la notizia chiamata cybersecurity"
 subtitle: "Creates a link between a parent and child node. This is used when you transform content from a node creating a new child node. You need to add this new child node to the children array of the parent but since you don’t have direct access to the immutable parent node, use this action instead."
-
+image: https://assets.innovazione.gov.it/1628172022-6e5675cc-c260-4519-8ab0-5fa067582ed3.jpg
+evidence: false
+internalNews: true
+showInHome: false
+typeOfNews: Approfondimento
 tags:
 - Sicurezza
 - Cloud first

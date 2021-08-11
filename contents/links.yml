@@ -7,13 +7,16 @@ internalLinks:
     label: Programma di abilitazione
   services:
     linkTo: /qualificazione-servizi-cloud/
-    label: Qualificazione servizi
+    label: Qualificazione
   catalogue:
     linkTo: /catalogo-servizi-cloud/
-    label: Cos'è il catalogo dei servizi
+    label: Catalogo
   glossary:
     linkTo: /glossario/
     label: Glossario
+  news:
+    linkTo: /notizie/
+    label: Notizie
   privacy:
     linkTo: /privacy-policy/
     label: Privacy policy

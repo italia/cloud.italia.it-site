@@ -14,7 +14,6 @@ export const IndexPage = () => (
     <div className="sr-only">
       <h1>{content.name}</h1>
     </div>
-    <Link to={'/notizie'}>Notizie sample</Link>
     <StrategySection />
     <BenefitSection />
     <EnablementSection />

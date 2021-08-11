@@ -44,28 +44,28 @@ heroQualification:
 heroNews:
   category: Le notizie
   title: Articoli e approfondimenti
-newsPreview:
-  - ariaLabel: Next Generation Italia, approvato il piano del Governo (link esterno)
-    body: L'esecutivo ha dato il via libera in Consiglio dei ministri al Piano nazionale di ripresa e resilienza.
-    date: 30 aprile 2020
-    link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
-    source: 'Fonte: innovazione.gov.it'
-    title: Next Generation Italia, approvato il piano del Governo
-    type: Articolo
-  - ariaLabel: Cloud e infrastrutture digitali (link esterno)
-    body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
-    date: 30 aprile 2020
-    link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
-    title: Cloud e infrastrutture digitali
-    type: Approfondimento
-  - ariaLabel: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali (link esterno)
-    body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali
-    date: 27 novembre 2020
-    link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
-    source: 'Fonte: innovazione.gov.it'
-    title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
-    type: Articolo
+# newsPreview:
+#   - ariaLabel: Next Generation Italia, approvato il piano del Governo (link esterno)
+#     body: L'esecutivo ha dato il via libera in Consiglio dei ministri al Piano nazionale di ripresa e resilienza.
+#     date: 30 aprile 2020
+#     link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
+#     source: 'Fonte: innovazione.gov.it'
+#     title: Next Generation Italia, approvato il piano del Governo
+#     type: Articolo
+#   - ariaLabel: Cloud e infrastrutture digitali (link esterno)
+#     body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
+#     date: 30 aprile 2020
+#     link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
+#     source: 'Fonte: innovazione.gov.it'
+#     title: Cloud e infrastrutture digitali
+#     type: Approfondimento
+#   - ariaLabel: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali (link esterno)
+#     body: Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali
+#     date: 27 novembre 2020
+#     link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
+#     source: 'Fonte: innovazione.gov.it'
+#     title: Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali
+#     type: Articolo
 heroContribute:
   category: Come contribuire
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
