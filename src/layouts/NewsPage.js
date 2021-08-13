@@ -29,6 +29,7 @@ const useStyle = createUseStyles({
   iconOntop: 'top: .5em',
   iconWidth: 'width: 30px',
   borderRadius: 'border-radius: 20px',
+  fontSize1_3: 'font-size: 1.3rem'
 });
 
 /* eslint max-lines-per-function: ["error", 210] */
@@ -223,7 +224,7 @@ export const NewsPage = () => {
           <div className="col-lg-4 offset-lg-1 pl-lg-4 mb-3 my-lg-0 border-left pt-lg-5">
             <div className="pb-4 pb-lg-0">
               <h2 className="h4 font-weight-semibold">
-                News Tags: <i>#{activeTag}</i>
+                News by Tags: <small className={classes.fontSize1_3}>#{activeTag}</small>
               </h2>
             </div>
             <div className="d-flex flex-column justify-content-start">{newsListByTag}</div>

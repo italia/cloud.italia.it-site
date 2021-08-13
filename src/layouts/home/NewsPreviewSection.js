@@ -24,6 +24,9 @@ const useStyle = createUseStyles({
       fontSize: '0.78rem',
     },
   },
+  imgNewsDimension: {
+    width: '100%',
+  },
 });
 
 export const NewsPreviewSection = () => {
@@ -48,11 +51,11 @@ export const NewsPreviewSection = () => {
             date(formatString: "DD/MM/YYYY")
             evidence
             internalNews
-            link
             fonte
             showInHome
             typeOfNews
             link
+            image
             tags
           }
         }
@@ -61,8 +64,13 @@ export const NewsPreviewSection = () => {
   `);
 
   const dinamicSlides = nodes.map((news) => (
-    <Card key={news.frontmatter.title} teaser noWrapper className="rounded shadow-lg">
-      <CardBody className="h-100 d-flex flex-column">
+    <Card key={news.frontmatter.title} teaser noWrapper className="rounded shadow-lg p-0">
+      {news.frontmatter.image ? (
+        <div className="mb-3 d-flex align-items-center">
+          <img src={news.frontmatter.image} alt={news.frontmatter.subtitle} className={classes.imgNewsDimension} />
+        </div>
+      ) : null}
+      <CardBody className={`${!news.frontmatter.image ? 'h-100 ' : null}d-flex flex-column p-4`}>
         <div className="pb-3 d-flex align-items-center">
           <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>
             {news.frontmatter.typeOfNews}

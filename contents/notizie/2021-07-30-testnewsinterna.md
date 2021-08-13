@@ -12,6 +12,7 @@ link:
 tags:
 - Sono un tag
 - Sono il secondo tag
+- B&B
 ---
 
 news interna
