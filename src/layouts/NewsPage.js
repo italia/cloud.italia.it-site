@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 import { Card, CardBody, Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
@@ -26,9 +26,12 @@ const useStyle = createUseStyles({
     width: '100%',
   },
   iconOnRight: 'right: .5em',
-  iconOntop: 'top: -.1em'
+  iconOntop: 'top: .5em',
+  iconWidth: 'width: 30px',
+  borderRadius: 'border-radius: 20px',
 });
 
+/* eslint max-lines-per-function: ["error", 210] */
 export const NewsPage = () => {
   const classes = useStyle();
 
@@ -55,6 +58,7 @@ export const NewsPage = () => {
             typeOfNews
             link
             image
+            tags
           }
         }
       }
@@ -79,15 +83,14 @@ export const NewsPage = () => {
       <Card key={news.frontmatter.title} teaser noWrapper className="rounded shadow-lg p-0 pb-4">
         <CardBody className="h-100 d-flex flex-column">
           {news.frontmatter.evidence ? (
-            <Icon
-              className={`position-absolute ${classes.iconOnRight} ${classes.iconOntop}`}
-              icon="it-bookmark"
-              color="primary"
-              size="m"
-              focusable={false}
-              aria-label={`${news.frontmatter.title} (news in evidenza)}`}
+            <img
+              src="/assets/evidence.png"
+              alt={`${news.frontmatter.title} (news in evidenza)}`}
+              className={`position-absolute ${classes.iconWidth}
+              ${classes.iconOnRight}
+              ${classes.iconOntop}`}
             />
-          ) : null }
+          ) : null}
           {news.frontmatter.image ? (
             <div className="mb-3 d-flex align-items-center">
               <img src={news.frontmatter.image} alt={news.frontmatter.subtitle} className={classes.imgNewsDimension} />
@@ -103,7 +106,9 @@ export const NewsPage = () => {
           </div>
           <h4 className="px-3 h6 text-primary font-weight-bold">
             {news.frontmatter.internalNews ? (
-              <Link to={`/${news.fields.slug}`} className="text-decoration-none">{news.frontmatter.title}</Link>
+              <Link to={`/${news.fields.slug}`} className="text-decoration-none">
+                {news.frontmatter.title}
+              </Link>
             ) : (
               <ExternalLink
                 linkTo={news.frontmatter.link}
@@ -134,22 +139,47 @@ export const NewsPage = () => {
   const arrByEvidence = nodes.filter(orderByEvidence);
   const arrNoEvidence = nodes.filter(ordernoEvidence);
 
+  const tagsArray = [];
+  const newsListBytags = {};
+
+  const createListForTags = (value, array) => {
+    array.map((tag) => {
+      if (newsListBytags[tag] === undefined) {
+        newsListBytags[tag] = [];
+        newsListBytags[tag].active = false;
+      }
+      newsListBytags[tag].push(value);
+      tagsArray.indexOf(tag) === -1 && tagsArray.push(tag);
+    });
+  };
+
+  nodes.filter((value) => {
+    if (value.frontmatter.tags) {
+      createListForTags(value, value.frontmatter.tags);
+    }
+  });
+
+  const FIRST_LIST_TO_LOAD = 'Cloud first';
+
   const newListEvidence = arrByEvidence.map((news) => CardCodeMap(news));
   const newRestOfList = arrNoEvidence.map((news) => CardCodeMap(news));
 
+  const loadTagsList = (id, tag) => {
+    setActiveTagButton(id);
+    setActiveTag(tag);
+    setTagList(newsListBytags[tag]);
+  };
+
+  const [tagList, setTagList] = useState(newsListBytags[FIRST_LIST_TO_LOAD]);
+  const [activeTagButton, setActiveTagButton] = useState(`btn_tag_${FIRST_LIST_TO_LOAD}`);
+  const [activeTag, setActiveTag] = useState(FIRST_LIST_TO_LOAD);
+  const btnClassName = `btn btn-sm py-2 px-4 m-1 btn-outline-primary ${classes.borderRadius}`;
+  const btnClassNameActive = `btn btn-sm py-2 px-4 m-1 btn-primary ${classes.borderRadius}`;
+
+  const newsListByTag = tagList.map((news) => CardCodeMap(news));
   return (
     <>
       <SEO title={seoTitle} description={seoDescription} />
-      {/* <Hero>
-        <div className="row align-items-center">
-          <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
-            <div className="text-center text-lg-left">
-              <HeroTitle title={title} className="text-info" Tag="h1" />
-              <HeroBody html={body} />
-            </div>
-          </div>
-        </div>
-      </Hero> */}
       <Hero>
         <div className="row">
           <div className="offset-lg-1 col-lg-6 col-md-8 mb-0 mb-lg-4">
@@ -165,25 +195,38 @@ export const NewsPage = () => {
             <span className="mid-caption text-uppercase font-weight-semibold mb-2 d-block mid-caption--large">
               Argomenti
             </span>
-            <p>TODO: lista Tag notizie</p>
+            {tagsArray.map((tag) => (
+              <button
+                key={tag}
+                id={`btn_tag_${tag}`}
+                onClick={() => loadTagsList(`btn_tag_${tag}`, tag)}
+                className={activeTagButton === `btn_tag_${tag}` ? btnClassNameActive : btnClassName}
+                aria-label={`Esplora i contenuti per ${tag}`}
+              >
+                <span className="text-nowrap">{tag}</span>
+              </button>
+            ))}
           </div>
         </div>
       </Hero>
       <div className="container px-4 border-top">
         <div className="row d-lg-flex">
           <div className="col-lg-7 pt-5">
-            {/* <div className="pb-4 pb-lg-0">
-              <h2 className="h4 font-weight-semibold">Gli articoli</h2>
-            </div> */}
+            <div className="pb-4 pb-lg-0">
+              <h2 className="h4 font-weight-semibold">Elenco news ordinate</h2>
+            </div>
             <div className="d-flex flex-column justify-content-start">
               {newListEvidence}
               {newRestOfList}
             </div>
           </div>
-          <div className="col-lg-4 offset-lg-1 pl-lg-4 mb-3 my-lg-0 mid-border-lg-left pt-lg-5">
+          <div className="col-lg-4 offset-lg-1 pl-lg-4 mb-3 my-lg-0 border-left pt-lg-5">
             <div className="pb-4 pb-lg-0">
-              <h2 className="h4 font-weight-semibold">To do...</h2>
+              <h2 className="h4 font-weight-semibold">
+                News Tags: <i>#{activeTag}</i>
+              </h2>
             </div>
+            <div className="d-flex flex-column justify-content-start">{newsListByTag}</div>
           </div>
         </div>
       </div>

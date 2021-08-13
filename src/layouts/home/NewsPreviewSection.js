@@ -53,6 +53,7 @@ export const NewsPreviewSection = () => {
             showInHome
             typeOfNews
             link
+            tags
           }
         }
       }
