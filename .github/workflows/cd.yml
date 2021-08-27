@@ -18,6 +18,8 @@ jobs:
       - run: yarn build
       - run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/italia/cloud.italia.it-site.git
+          echo cloud.italia.it > public/CNAME
+
           yarn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
