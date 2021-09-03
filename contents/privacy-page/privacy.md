@@ -110,4 +110,4 @@ Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare c
 
 Le presenti informazioni sono aggiornate alla data riportata in calce a questa pagina.
 
-<p class="text-right"><em>ultimo aggiornamento: 20/04/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 28/07/2021</em></p>
