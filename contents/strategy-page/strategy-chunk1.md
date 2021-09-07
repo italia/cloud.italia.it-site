@@ -49,7 +49,7 @@ La strategia prevede di mettere in sicurezza i servizi erogati dalle amministraz
 - le amministrazioni centrali i cui sistemi informativi non hanno i requisiti definiti da AgID, migrano i servizi ospitati su tali sistemi verso l'infrastruttura ad alta affidabilità promossa dalla Presidenza del Consiglio dei Ministri, anche detta Polo Strategico Nazionale oppure verso i servizi cloud qualificati;
 - le amministrazioni locali i cui sistemi informativi non hanno i requisiti definiti da AgID, migrano i servizi ospitati su tali sistemi verso soluzioni cloud qualificate da AgID; o in alternativa, possono rivolgersi ad altre amministrazioni locali ([data center di tipo A](/glossario/#data-center){class="text-decoration-none font-weight-semibold"}), o al Polo Strategico Nazionale per consolidare le proprie infrastrutture e servizi.
 
-La scelta di quali servizi migrare verso soluzioni cloud qualificate da AgID o verso il Polo Strategico Nazionale avviene sulla base della classificazione dei dati definita all’interno della [Strategia Cloud Italia -- WAIT LINK](https://corriere.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='valori europei (link esterno)'}.
+La scelta di quali servizi migrare verso soluzioni cloud qualificate da AgID o verso il Polo Strategico Nazionale avviene sulla base della classificazione dei dati definita all’interno della [Strategia Cloud Italia](https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='valori europei (link esterno)'}.
 
 ## Infrastruttura ad alta affidabilità
 {class="h5 font-weight-semibold mb-4"}

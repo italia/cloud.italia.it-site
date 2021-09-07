@@ -8,8 +8,8 @@ resources:
       - action: Leggi su <strong>innovazione.gov.it</strong>
         description: Il documento di indirizzo strategico per l’adozione del cloud nella PA
         icon: it-external-link
-        link: https://www.corriere.it/
-        title: Strategia Cloud Italia -- WAIT LINK
+        link: https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/
+        title: Strategia Cloud Italia
         ariaLabel: 'Strategia Cloud Italia (link esterno)'
         ariaLabelIcon: link esterno
       - action: Leggi su <strong>Docs Italia</strong>
