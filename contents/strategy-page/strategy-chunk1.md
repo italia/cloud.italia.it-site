@@ -1,4 +1,4 @@
-[La strategia](https://assets.innovazione.gov.it/1631016873-strategiaclouditalia2021ita.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='il Censimento del Patrimonio ICT (link esterno)'} applica il principio [cloud first](/glossario/#cloud-first){class="text-decoration-none font-weight-semibold"},
+La [strategia](https://assets.innovazione.gov.it/1631016873-strategiaclouditalia2021ita.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='il Censimento del Patrimonio ICT (link esterno)'} applica il principio [cloud first](/glossario/#cloud-first){class="text-decoration-none font-weight-semibold"},
 favorendo l’adozione prioritaria da parte delle Pubblica Amministrazione di strumenti e tecnologie di tipo cloud nello sviluppo di nuovi servizi e nell’acquisizione di software.
 
 La strategia, inoltre, individua tre obiettivi strategici che caratterizzano il percorso di trasformazione:
