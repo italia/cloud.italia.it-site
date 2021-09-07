@@ -52,6 +52,14 @@ heroNews:
   category: Le notizie
   title: Articoli e approfondimenti
 newsPreview:
+  - ariaLabel: "Cloud Italia: presentati gli indirizzi strategici per la PA (link esterno)"
+    body: "Le sfide della strategia: assicurare l’autonomia tecnologica del Paese, garantire il controllo sui dati e aumentare la resilienza dei servizi digitali"
+    date: 07 settembre 2021
+    link: https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/
+    source: "Fonte: innovazione.gov.it"
+    title: "Cloud Italia: presentati gli indirizzi strategici per la PA"
+    type: Articolo
+
   - ariaLabel: "Polo Strategico Nazionale (link esterno)"
     body: L’infrastruttura per garantire la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese.
     date: 08 luglio 2021
@@ -59,13 +67,6 @@ newsPreview:
     source: "Fonte: innovazione.gov.it"
     title: "Polo Strategico Nazionale"
     type: Focus
-  - ariaLabel: "#PAdigitale, i protagonisti: il Comune di Pesaro (link esterno)"
-    body: La “nuvola” invisibile di Pesaro al servizio dei cittadini 24 ore su 24.
-    date: 03 giugno 2021
-    link: https://innovazione.gov.it/notizie/articoli/padigitale-i-protagonisti-il-comune-di-pesaro/
-    source: "Fonte: innovazione.gov.it"
-    title: "#PAdigitale, i protagonisti: il Comune di Pesaro"
-    type: Articolo
   - ariaLabel: Cloud e infrastrutture digitali (link esterno)
     body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
     date: 30 aprile 2021
