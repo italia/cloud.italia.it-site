@@ -5,13 +5,20 @@ resourceTitle: 'Risorse utili'
 resources:
   - title: documenti
     references:
-      - action: Leggi su <strong>innovazione.gov.it</strong>
+      - action: Leggi su <strong>Docs Italia</strong>
         description: Il documento di indirizzo strategico per l’adozione del cloud nella PA
         icon: it-external-link
-        link: https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/
+        link: https://docs.italia.it/italia/cloud-italia/strategia-cloud-italia-docs/it/stabile/index.html
         title: Strategia Cloud Italia
         ariaLabel: 'Strategia Cloud Italia (link esterno)'
         ariaLabelIcon: link esterno
+      - action: Read on <strong>Docs Italia</strong>
+        description: The document outlines the strategic direction for the implementation of cloud solutions in the PA.
+        icon: it-external-link
+        link: https://docs.italia.it/italia/cloud-italia/italian-cloud-strategy-docs/
+        title: The Italian Cloud Strategy
+        ariaLabel: 'The Italian Cloud Strategy (external link)'
+        ariaLabelIcon: external link
       - action: Leggi su <strong>Docs Italia</strong>
         description: Il modello strategico per l’adozione del cloud nella PA
         icon: it-external-link
