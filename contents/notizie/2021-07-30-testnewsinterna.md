@@ -6,7 +6,7 @@ subtitle: "sottotitolo della news interna che ha link alla relativa news interna
 image: https://assets.innovazione.gov.it/1622036871-datitestatafocus-1.png
 evidence: false
 internalNews: true
-showInHome: true
+showInHome: false
 typeOfNews: Approfondimento
 link:
 tags:

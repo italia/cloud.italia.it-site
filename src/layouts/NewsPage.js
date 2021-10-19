@@ -8,6 +8,7 @@ import { HeroBody } from '../components/hero/HeroBody.js';
 import content from '../../contents/news-page/news.yml';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
+import startTag from '../../contents/startTag.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const { body, title } = content;
@@ -160,7 +161,7 @@ export const NewsPage = () => {
     }
   });
 
-  const FIRST_LIST_TO_LOAD = 'Cloud first';
+  const FIRST_LIST_TO_LOAD = startTag.firstTag;
 
   const newListEvidence = arrByEvidence.map((news) => CardCodeMap(news));
   const newRestOfList = arrNoEvidence.map((news) => CardCodeMap(news));
