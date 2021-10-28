@@ -11,7 +11,6 @@ typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/
 image: /assets/img_news/2021-09-07-cloud.jpeg
 tags:
-- Cloud Italia
-- Pubblica amministrazione
+- Articoli
 ---
 

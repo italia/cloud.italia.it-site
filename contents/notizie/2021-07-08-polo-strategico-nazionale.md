@@ -11,7 +11,6 @@ typeOfNews: Focus
 link: https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/
 image: 
 tags:
-- Cloud Italia
-- Polo Strategico
+- Approfondimenti
 ---
 

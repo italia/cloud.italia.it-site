@@ -172,7 +172,7 @@ export const NewsPage = () => {
     setTagList(newsListBytags[tag]);
   };
 
-  const [tagList, setTagList] = useState(newsListBytags[FIRST_LIST_TO_LOAD]);
+  const [tagList, setTagList] = useState(newsListBytags[FIRST_LIST_TO_LOAD] || []);
   const [activeTagButton, setActiveTagButton] = useState(`btn_tag_${FIRST_LIST_TO_LOAD}`);
   const [activeTag, setActiveTag] = useState(FIRST_LIST_TO_LOAD);
   const btnClassName = `btn btn-sm py-2 px-4 m-1 btn-outline-primary ${classes.borderRadius}`;

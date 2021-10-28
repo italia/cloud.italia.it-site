@@ -11,7 +11,6 @@ typeOfNews: Approfondimento
 link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
 image: https://assets.innovazione.gov.it/1620115566-infrastrutture-digitali2.png?w=1000&h=1500&fit=max&auto=compress
 tags:
-- Cloud Italia
-- Infrastrutture
+- Approfondimenti
 ---
 
