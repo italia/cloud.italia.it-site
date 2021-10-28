@@ -215,7 +215,7 @@ export const NewsPage = () => {
         <div className="row d-lg-flex">
           <div className="col-lg-7 pt-5">
             <div className="pb-4 pb-lg-0">
-              <h2 className="h4 font-weight-semibold">Elenco news ordinate</h2>
+              <h2 className="h4 font-weight-semibold">Gli articoli</h2>
             </div>
             <div className="d-flex flex-column justify-content-start">
               {newListEvidence}
@@ -225,7 +225,7 @@ export const NewsPage = () => {
           <div className="col-lg-4 offset-lg-1 pl-lg-4 mb-3 my-lg-0 border-left pt-lg-5">
             <div className="pb-4 pb-lg-0">
               <h2 className="h4 font-weight-semibold">
-                News by Tags: <small className={classes.fontSize1_3}>#{activeTag}</small>
+                Filtro: <small className={classes.fontSize1_3}><i>{activeTag}</i></small>
               </h2>
             </div>
             <div className="d-flex flex-column justify-content-start">{newsListByTag}</div>
