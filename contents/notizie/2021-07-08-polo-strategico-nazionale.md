@@ -9,8 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Focus
 link: https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/
-image: 
+image: /assets/img_news/2021-04-30-polo-strategico.png
 tags:
-- Approfondimenti
+  - Approfondimenti
 ---
-

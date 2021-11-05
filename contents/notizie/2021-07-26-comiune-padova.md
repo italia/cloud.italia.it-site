@@ -11,6 +11,5 @@ typeOfNews: Pa digitale
 link: https://innovazione.gov.it/notizie/articoli/padigitale-i-protagonisti-il-comune-di-padova/
 image:
 tags:
-- Pa digitale
+  - Pa digitale
 ---
-

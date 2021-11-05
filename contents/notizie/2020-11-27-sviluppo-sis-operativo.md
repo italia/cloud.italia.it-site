@@ -11,6 +11,5 @@ typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/sviluppiamo-il-sistema-operativo-a-partire-dalle-infrastrutture-digitali/
 image:
 tags:
-- Articoli
+  - Articoli
 ---
-

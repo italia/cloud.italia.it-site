@@ -11,6 +11,5 @@ typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/next-generation-italia-approvato-il-piano-del-governo/
 image:
 tags:
-- Articoli
+  - Articoli
 ---
-
