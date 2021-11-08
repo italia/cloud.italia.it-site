@@ -1,13 +1,26 @@
-title: 'La strategia nazionale del cloud per la PA'
-body: 'Il Piano triennale per l’informatica nella Pubblica Amministrazione prevede la realizzazione del sistema operativo del Paese anche mediante l’adozione del cloud computing nel settore pubblico.
-  <p>Il Dipartimento, in collaborazione con AgID, ha definito la strategia per il cloud e il relativo programma di abilitazione per le pubbliche amministrazioni.</p>'
+title: 'La Strategia Cloud Italia'
+body: 'La strategia prevede la realizzazione del sistema operativo del Paese anche mediante l’adozione del cloud computing nel settore pubblico.<br>Il Dipartimento, in collaborazione con l’Agenzia per la cybersicurezza nazionale, ha definito la strategia per il cloud per le pubbliche amministrazioni.'
 altImg: Composizione con elementi hardware, logo Italia e nuvola simbolo cloud
 resourceTitle: 'Risorse utili'
 resources:
   - title: documenti
     references:
       - action: Leggi su <strong>Docs Italia</strong>
-        description: La strategia cloud e il modello cloud della PA
+        description: Il documento di indirizzo strategico per l’adozione del cloud nella PA
+        icon: it-external-link
+        link: https://docs.italia.it/italia/cloud-italia/strategia-cloud-italia-docs/it/stabile/index.html
+        title: Strategia Cloud Italia
+        ariaLabel: 'Strategia Cloud Italia (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Read on <strong>Docs Italia</strong>
+        description: The document outlines the strategic direction for the implementation of cloud solutions in the PA.
+        icon: it-external-link
+        link: https://docs.italia.it/italia/cloud-italia/italian-cloud-strategy-docs/
+        title: The Italian Cloud Strategy
+        ariaLabel: 'The Italian Cloud Strategy (external link)'
+        ariaLabelIcon: external link
+      - action: Leggi su <strong>Docs Italia</strong>
+        description: Il modello strategico per l’adozione del cloud nella PA
         icon: it-external-link
         link: https://docs.italia.it/italia/piano-triennale-ict/cloud-docs/it/stabile/index.html
         ariaLabel: 'Il modello cloud della PA (link esterno)'
