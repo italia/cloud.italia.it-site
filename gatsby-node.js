@@ -17,6 +17,35 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
+exports.createPages = async ({ actions: { createPage }, graphql }) => {
+  const result = await graphql(`
+    {
+      allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
+        nodes {
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  `);
+
+  if (result.errors) {
+    console.error(result.errors);
+    throw new Error(result.errors);
+  }
+
+  return result.data.allMarkdownRemark.nodes.forEach(({ fields }) => {
+    createPage({
+      path: fields.slug,
+      component: path.resolve(__dirname, 'src/templates/NewsTemplate.js'),
+      context: {
+        slug: fields.slug,
+      },
+    });
+  });
+};
+
 exports.onPostBuild = async () => {
   /*
    * These are a collection of redirects. Some are needed due to the restyling of the site, others are required because are used by AgID

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import content from '../../contents/home-page/home.yml';
 import { NewsPreviewSection } from './home/NewsPreviewSection.js';

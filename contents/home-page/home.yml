@@ -50,30 +50,7 @@ heroQualification:
   altImg: Nuvola simbolo cloud, logo Italia, server e altri elementi hardware in commistione
 heroNews:
   category: Le notizie
-  title: Articoli e approfondimenti
-newsPreview:
-  - ariaLabel: "Cloud Italia: presentati gli indirizzi strategici per la PA (link esterno)"
-    body: "Le sfide della strategia: assicurare l’autonomia tecnologica del Paese, garantire il controllo sui dati e aumentare la resilienza dei servizi digitali"
-    date: 07 settembre 2021
-    link: https://innovazione.gov.it/notizie/articoli/cloud-italia-presentati-gli-indirizzi-strategici-per-la-pubblica-amministrazione/
-    source: "Fonte: innovazione.gov.it"
-    title: "Cloud Italia: presentati gli indirizzi strategici per la PA"
-    type: Articolo
-
-  - ariaLabel: "Polo Strategico Nazionale (link esterno)"
-    body: L’infrastruttura per garantire la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese.
-    date: 08 luglio 2021
-    link: https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/
-    source: "Fonte: innovazione.gov.it"
-    title: "Polo Strategico Nazionale"
-    type: Focus
-  - ariaLabel: Cloud e infrastrutture digitali (link esterno)
-    body: Uno degli obiettivi del PNRR è portare entro il 2026 circa il 75% delle PA italiane a utilizzare servizi in cloud, secondo un approccio cloud first.
-    date: 30 aprile 2021
-    link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
-    source: "Fonte: innovazione.gov.it"
-    title: Cloud e infrastrutture digitali
-    type: Approfondimento
+  title: Le ultime novità sull'attuazione della Strategia Cloud Italia
 heroContribute:
   category: Come contribuire
   title: Partecipa al cambiamento, contribuisci a Cloud Italia!
