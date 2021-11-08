@@ -1,12 +1,12 @@
-import React from 'react';
-import { graphql, useStaticQuery, Link } from 'gatsby';
-import { Card, CardBody, Icon } from 'design-react-kit';
-import { createUseStyles } from 'react-jss';
-import { MobileSwiper } from '../../components/MobileSwiper.js';
-import { Hero } from '../../components/hero/Hero.js';
-import content from '../../../contents/home-page/home.yml';
-import labels from '../../../contents/labels.yml';
-import { ExternalLink } from '../../components/ExternalLink.js';
+import React from "react";
+import { graphql, useStaticQuery, Link } from "gatsby";
+import { Card, CardBody, Icon } from "design-react-kit";
+import { createUseStyles } from "react-jss";
+import { MobileSwiper } from "../../components/MobileSwiper.js";
+import { Hero } from "../../components/hero/Hero.js";
+import content from "../../../contents/home-page/home.yml";
+import labels from "../../../contents/labels.yml";
+import { ExternalLink } from "../../components/ExternalLink.js";
 
 const {
   heroNews: { category, title },
@@ -17,11 +17,11 @@ const { ariaLabel } = labels;
 
 const useStyle = createUseStyles({
   category: {
-    fontSize: '0.875rem',
+    fontSize: "0.875rem",
   },
-  '@media (min-width: 992px)': {
+  "@media (min-width: 992px)": {
     category: {
-      fontSize: '0.78rem',
+      fontSize: "0.78rem",
     },
   },
 });
@@ -35,7 +35,9 @@ export const NewsPreviewSection = () => {
     {
       allMarkdownRemark(
         sort: { fields: frontmatter___date, order: DESC }
-        filter: { frontmatter: { type: { eq: "news" }, showInHome: { eq: true } } }
+        filter: {
+          frontmatter: { type: { eq: "news" }, showInHome: { eq: true } }
+        }
         limit: 3
       ) {
         nodes {
@@ -60,10 +62,17 @@ export const NewsPreviewSection = () => {
   `);
 
   const dinamicSlides = nodes.map((news) => (
-    <Card key={news.frontmatter.title} teaser noWrapper className="rounded shadow-lg">
+    <Card
+      key={news.frontmatter.title}
+      teaser
+      noWrapper
+      className="rounded shadow-lg"
+    >
       <CardBody className="h-100 d-flex flex-column">
         <div className="pb-3 d-flex align-items-center">
-          <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>
+          <span
+            className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}
+          >
             {news.frontmatter.typeOfNews}
           </span>
           <span className={`px-2 text-secondary ${classes.category}`}>
@@ -85,17 +94,23 @@ export const NewsPreviewSection = () => {
             </ExternalLink>
           )}
         </h4>
-        <p className="card-text pt-2 pb-4 text-dark">{news.frontmatter.subtitle}</p>
+        <p className="card-text pt-2 pb-4 text-dark">
+          {news.frontmatter.subtitle}
+        </p>
         <p className="card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
           <Icon
             className="ml-0"
-            icon={`${news.frontmatter.fonte ? 'it-external-link' : 'it-link'}`}
+            icon={`${news.frontmatter.fonte ? "it-external-link" : "it-link"}`}
             size="sm"
             focusable={false}
             role="img"
-            aria-label={`${news.frontmatter.title} ${news.frontmatter.fonte ? '(link esterno)' : null}`}
+            aria-label={`${news.frontmatter.title} ${
+              news.frontmatter.fonte ? "(link esterno)" : null
+            }`}
           />
-          <span>{`${news.frontmatter.fonte ? news.frontmatter.fonte : 'Cloud Italia'}`}</span>
+          <span>{`${
+            news.frontmatter.fonte ? news.frontmatter.fonte : "Cloud Italia"
+          }`}</span>
         </p>
       </CardBody>
     </Card>
@@ -104,8 +119,10 @@ export const NewsPreviewSection = () => {
   return (
     <Hero>
       <div className="row align-items-center justify-content-center">
-        <h2 className="col-12 text-center text-uppercase h6">{category}</h2>
-        <h3 className="col-12 text-center h1">{title}</h3>
+        <Link to="/notizie/" className="text-decoration-none">
+          <h2 className="col-12 text-center text-uppercase h6">{category}</h2>
+        </Link>
+        {/* <h3 className="col-12 text-center h1">{title}</h3> */}
         <div className="mt-4 col-12 d-none d-lg-flex card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
           {/* {slides} */}
           {dinamicSlides}
