@@ -33,7 +33,7 @@ const useStyle = createUseStyles({
   fontSize1_3: "font-size: 1.3rem",
 });
 
-/* eslint max-lines-per-function: ["error", 210] */
+/* eslint max-lines-per-function: ["error", 240] */
 export const NewsPage = () => {
   const classes = useStyle();
 
@@ -223,7 +223,7 @@ export const NewsPage = () => {
           </div>
           <div className="offset-lg-1 col-md-4">
             <span className="mid-caption text-uppercase font-weight-semibold mb-2 d-block mid-caption--large">
-              Argomenti
+              Contenuti
             </span>
             {tagsArray.map((tag) => (
               <button
