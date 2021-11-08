@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://cloud.italia.it/notizie/2020-11-27-sviluppo-sis-operativo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-04-30-cloud-infrastrutture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-04-30-next-generation-italia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-05-28-cloud-italia-online</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-06-03-comune-pesaro</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-07-08-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-07-26-comiune-padova</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-09-07-cloud-italia-indirizzi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/catalogo-servizi-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/crediti/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/glossario/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/privacy-policy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/programma-abilitazione-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/qualificazione-servizi-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
