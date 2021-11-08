@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome:
 typeOfNews: Pa digitale
 link: https://innovazione.gov.it/notizie/articoli/padigitale-i-protagonisti-il-comune-di-padova/
-image:
+image: /assets/img_news/2021-04-30-cloud.jpeg
 tags:
   - Pa digitale
 ---

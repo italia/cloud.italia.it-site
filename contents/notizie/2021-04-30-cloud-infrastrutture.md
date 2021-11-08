@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Approfondimento
 link: https://innovazione.gov.it/notizie/articoli/cloud-e-infrastrutture-digitali/
-image: /assets/img_news/2021-04-30-cloud.jpeg
+image:
 tags:
   - Approfondimenti
 ---

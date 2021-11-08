@@ -1,10 +1,12 @@
 homePage:
   title: Il cloud della Pubblica Amministrazione italiana - Cloud Italia
-  description: Cloud Italia è il punto di riferimento per l’adozione del cloud computing nella Pubblica Amministrazione,
+  description:
+    Cloud Italia è il punto di riferimento per l’adozione del cloud computing nella Pubblica Amministrazione,
     e offre informazioni e strumenti per la realizzazione della strategia cloud per la PA
 strategyPage:
   title: La strategia nazionale del cloud per la PA - Cloud Italia
-  description: La strategia nazionale dedicata al cloud della PA indirizza il percorso di trasformazione delle amministrazioni verso servizi
+  description:
+    La strategia nazionale dedicata al cloud della PA indirizza il percorso di trasformazione delle amministrazioni verso servizi
     e infrastrutture basate sul cloud computing
 enablementPage:
   title: Il programma di abilitazione al cloud per la PA - Cloud Italia
@@ -19,8 +21,8 @@ glossaryPage:
   title: Il glossario dei termini dedicati al cloud della PA - Cloud Italia
   description: Un elenco dei principali termini tecnici riferiti al modello del cloud computing applicato al settore delle amministrazioni pubbliche italiane
 newsPage:
-  title: Qui il titolo della sezione news - Cloud Italia
-  description: Qui la descrizione della sezione news
+  title: Le Notizie - Cloud Italia
+  description: Le ultime novità sull'attuazione della Strategia Cloud Italia
 privacyPage:
   title: Informativa privacy - Cloud Italia
   description: Informativa sulla gestione dei cookie del sito Cloud Italia

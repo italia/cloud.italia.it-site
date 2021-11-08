@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome: false
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/piu-accessibile-e-innovativo-e-online-cloud-italia/
-image: /assets/img_news/2021-05-28-cloud-pa.png
+image: /assets/img_news/2020-11-27-next-generation.png
 tags:
   - Articoli
 ---
