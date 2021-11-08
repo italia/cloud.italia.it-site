@@ -3,7 +3,7 @@ type: "news"
 title: "Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali"
 subtitle: "Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali."
 date: "2020-11-27"
-evidence:
+evidence: false
 internalNews: false
 fonte: innovazione.gov.it
 showInHome: false

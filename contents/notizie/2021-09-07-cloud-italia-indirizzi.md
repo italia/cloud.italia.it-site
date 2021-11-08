@@ -3,7 +3,7 @@ type: "news"
 title: "Cloud Italia: presentati gli indirizzi strategici per la PA"
 subtitle: "Le sfide della strategia: assicurare l’autonomia tecnologica del Paese, garantire il controllo sui dati e aumentare la resilienza dei servizi digitali"
 date: "2021-09-07"
-evidence:
+evidence: false
 internalNews: false
 fonte: innovazione.gov.it
 showInHome: true
