@@ -1,36 +1,32 @@
-import React, { useEffect, useState } from "react";
-import { graphql, useStaticQuery, Link } from "gatsby";
-import { Card, CardBody, Icon } from "design-react-kit";
-import { createUseStyles } from "react-jss";
-import { Hero } from "../components/hero/Hero.js";
-import { HeroTitle } from "../components/hero/HeroTitle.js";
-import { HeroBody } from "../components/hero/HeroBody.js";
-import content from "../../contents/news-page/news.yml";
-import { SEO } from "../components/SEO.js";
-import seo from "../../contents/seo.yml";
-import startTag from "../../contents/startTag.yml";
-import { ExternalLink } from "../components/ExternalLink.js";
+import React, { useState } from 'react';
+import { graphql, useStaticQuery, Link } from 'gatsby';
+import { Card, CardBody, Icon } from 'design-react-kit';
+import { createUseStyles } from 'react-jss';
+import { Hero } from '../components/hero/Hero.js';
+import { SEO } from '../components/SEO.js';
+import seo from '../../contents/seo.yml';
+import startTag from '../../contents/startTag.yml';
+import { ExternalLink } from '../components/ExternalLink.js';
 
-const { body, title } = content;
 const { title: seoTitle, description: seoDescription } = seo.newsPage;
 
 const useStyle = createUseStyles({
   category: {
-    fontSize: "0.875rem",
+    fontSize: '0.875rem',
   },
-  "@media (min-width: 992px)": {
+  '@media (min-width: 992px)': {
     category: {
-      fontSize: "0.78rem",
+      fontSize: '0.78rem',
     },
   },
   imgNewsDimension: {
-    width: "100%",
+    width: '100%',
   },
-  iconOnRight: "right: .5em",
-  iconOntop: "top: .5em",
-  iconWidth: "width: 30px",
-  borderRadius: "border-radius: 20px",
-  fontSize1_3: "font-size: 1.3rem",
+  iconOnRight: 'right: .5em',
+  iconOntop: 'top: .5em',
+  iconWidth: 'width: 30px',
+  borderRadius: 'border-radius: 20px',
+  fontSize1_3: 'font-size: 1.3rem',
 });
 
 /* eslint max-lines-per-function: ["error", 240] */
@@ -82,12 +78,7 @@ export const NewsPage = () => {
 
   const CardCodeMap = (news) => (
     <div className="py-2 py-lg-3" key={news.frontmatter.title}>
-      <Card
-        key={news.frontmatter.title}
-        teaser
-        noWrapper
-        className="rounded shadow-lg p-0 pb-4"
-      >
+      <Card key={news.frontmatter.title} teaser noWrapper className="rounded shadow-lg p-0 pb-4">
         <CardBody className="h-100 d-flex flex-column">
           {news.frontmatter.evidence ? (
             <img
@@ -100,17 +91,11 @@ export const NewsPage = () => {
           ) : null}
           {news.frontmatter.image ? (
             <div className="mb-3 d-flex align-items-center">
-              <img
-                src={news.frontmatter.image}
-                alt={news.frontmatter.subtitle}
-                className={classes.imgNewsDimension}
-              />
+              <img src={news.frontmatter.image} alt={news.frontmatter.subtitle} className={classes.imgNewsDimension} />
             </div>
           ) : null}
           <div className="px-3 pb-3 d-flex align-items-center">
-            <span
-              className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}
-            >
+            <span className={`pr-2 text-uppercase font-weight-semibold ${classes.category}`}>
               {news.frontmatter.typeOfNews}
             </span>
             <span className={`px-2 text-secondary ${classes.category}`}>
@@ -119,10 +104,7 @@ export const NewsPage = () => {
           </div>
           <h4 className="px-3 h6 text-primary font-weight-bold">
             {news.frontmatter.internalNews ? (
-              <Link
-                to={`/${news.fields.slug}`}
-                className="text-decoration-none"
-              >
+              <Link to={`/${news.fields.slug}`} className="text-decoration-none">
                 {news.frontmatter.title}
               </Link>
             ) : (
@@ -135,25 +117,17 @@ export const NewsPage = () => {
               </ExternalLink>
             )}
           </h4>
-          <p className="px-3 card-text pt-2 pb-4 text-dark">
-            {news.frontmatter.subtitle}
-          </p>
+          <p className="px-3 card-text pt-2 pb-4 text-dark">{news.frontmatter.subtitle}</p>
           <p className="px-3 card-text mt-auto font-weight-semibold d-flex align-items-center text-dark">
             <Icon
               className="ml-2"
-              icon={`${
-                news.frontmatter.fonte ? "it-external-link" : "it-link"
-              }`}
+              icon={`${news.frontmatter.fonte ? 'it-external-link' : 'it-link'}`}
               size="sm"
               focusable={false}
               role="img"
-              aria-label={`${news.frontmatter.title} ${
-                news.frontmatter.fonte ? "(link esterno)" : null
-              }`}
+              aria-label={`${news.frontmatter.title} ${news.frontmatter.fonte ? '(link esterno)' : null}`}
             />
-            <span className="ml-1">{`${
-              news.frontmatter.fonte ? news.frontmatter.fonte : "Cloud Italia"
-            }`}</span>
+            <span className="ml-1">{`${news.frontmatter.fonte ? news.frontmatter.fonte : 'Cloud Italia'}`}</span>
           </p>
         </CardBody>
       </Card>
@@ -194,12 +168,8 @@ export const NewsPage = () => {
     setTagList(newsListBytags[tag]);
   };
 
-  const [tagList, setTagList] = useState(
-    newsListBytags[FIRST_LIST_TO_LOAD] || []
-  );
-  const [activeTagButton, setActiveTagButton] = useState(
-    `btn_tag_${FIRST_LIST_TO_LOAD}`
-  );
+  const [tagList, setTagList] = useState(newsListBytags[FIRST_LIST_TO_LOAD] || []);
+  const [activeTagButton, setActiveTagButton] = useState(`btn_tag_${FIRST_LIST_TO_LOAD}`);
   const [activeTag, setActiveTag] = useState(FIRST_LIST_TO_LOAD);
   const btnClassName = `btn btn-sm py-2 px-4 m-1 btn-outline-primary ${classes.borderRadius}`;
   const btnClassNameActive = `btn btn-sm py-2 px-4 m-1 btn-primary ${classes.borderRadius}`;
@@ -213,9 +183,7 @@ export const NewsPage = () => {
           <div className="offset-lg-1 col-lg-6 col-md-8 mb-0 mb-lg-4">
             <div className="text-center text-sm-left pb-4">
               <h1 className="h1">Le notizie</h1>
-              <p className="lead">
-                Le ultime novità sull'attuazione della Strategia Cloud Italia
-              </p>
+              <p className="lead">Le ultime novità sull’attuazione della Strategia Cloud Italia</p>
             </div>
             <div className="row mb-5 mb-md-0 mb-lg-5">
               <div className="col-md-6"></div>
@@ -230,11 +198,7 @@ export const NewsPage = () => {
                 key={tag}
                 id={`btn_tag_${tag}`}
                 onClick={() => loadTagsList(`btn_tag_${tag}`, tag)}
-                className={
-                  activeTagButton === `btn_tag_${tag}`
-                    ? btnClassNameActive
-                    : btnClassName
-                }
+                className={activeTagButton === `btn_tag_${tag}` ? btnClassNameActive : btnClassName}
                 aria-label={`Esplora i contenuti per ${tag}`}
               >
                 <span className="text-nowrap">{tag}</span>
@@ -257,15 +221,13 @@ export const NewsPage = () => {
           <div className="col-lg-4 offset-lg-1 pl-lg-4 mb-3 my-lg-0 border-left pt-lg-5">
             <div className="pb-4 pb-lg-0">
               <h2 className="h4 font-weight-semibold">
-                Filtro:{" "}
+                Filtro:{' '}
                 <small className={classes.fontSize1_3}>
                   <i>{activeTag}</i>
                 </small>
               </h2>
             </div>
-            <div className="d-flex flex-column justify-content-start">
-              {newsListByTag}
-            </div>
+            <div className="d-flex flex-column justify-content-start">{newsListByTag}</div>
           </div>
         </div>
       </div>

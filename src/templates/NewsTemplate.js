@@ -13,7 +13,6 @@ import { SEO } from '../components/SEO.js';
 const NewsTemplate = ({ data }) => {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html, timeToRead } = markdownRemark;
-  const date = DateTime.fromISO(frontmatter.date);
   const ItDate = DateTime.fromISO(frontmatter.date).toLocaleString();
   return (
     <>
