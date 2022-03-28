@@ -1,5 +1,5 @@
 ## Il percorso attuale di qualificazione
-Tutti i soggetti pubblici e privati che intendono ottenere la  qualificazione per:
+Tutti i soggetti pubblici e privati che intendono ottenere la qualificazione per:
 - erogare i servizi IaaS e PaaS di cui sono titolari qualificando anche la propria infrastruttura cloud, dovranno attenersi alle indicazioni contenute nella [Circolare AgID n. 2 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/); 
 - erogare servizi SaaS cloud ad altre amministrazioni su una o più infrastrutture digitali qualificate da AgID, dovranno seguire le indicazioni contenute nella [Circolare AgID n. 3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/).
 
@@ -12,6 +12,6 @@ Leggi maggiori informazioni sugli adeguamenti normativi
 Per agevolare il processo di qualificazione, AgID ha reso disponibile uno [strumento di autovalutazione](https://autovalutazione.cloud.italia.it/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Autovalutazione (link esterno)'}.
 
 È inoltre disponibile il 
-[manuale utente della piattaforma di qualificazione (pdf)](https://catalogocloud.agid.gov.it/serve/doc/GuidaPortaleFornitori_v1.3.0_20201001.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Manuale utente della piattaforma di qualificazione (scarica il pdf)'}.
+[manuale utente della piattaforma di qualificazione (PDF, 30.2 MB)](https://catalogocloud.agid.gov.it/serve/doc/GuidaPortaleFornitori_v1.3.0_20201001.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Manuale utente della piattaforma di qualificazione (scarica il pdf)'}.
 Per ulteriori chiarimenti sul processo di qualificazione è possibile inviare una mail all'indirizzo
 [qualificazione-cloud@agid.gov.it](mailto:qualificazione-cloud@agid.gov.it){class="text-decoration-none font-weight-semibold"}
