@@ -7,11 +7,11 @@ evidence: true
 internalNews: true
 fonte: 
 showInHome: true
-typeOfNews: Approfondimenti
+typeOfNews: Approfondimento
 link: 
 image: 
 tags:
-  - Approfondimenti
+  - Approfondimento
 ---
 
 La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo della [Strategia Cloud Italia](https://cloud.italia.it/strategia-cloud-pa/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Strategia Cloud Italia'}, e ha l’obiettivo di semplificare e regolamentare, dal punto di vista tecnico e amministrativo, l’acquisizione di servizi cloud da parte della PA. Da un punto di vista generale, la Strategia Cloud Italia guida e favorisce l’adozione sicura, controllata e completa delle tecnologie cloud da parte del settore pubblico, in linea con i principi di tutela della privacy e con le raccomandazioni delle istituzioni europee e nazionali. 
