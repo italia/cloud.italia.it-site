@@ -5,7 +5,7 @@ subtitle: "Il percorso attuale indicato da Agenzia per l'Italia Digitale e i fut
 date: "2022-03-31"
 evidence: true
 internalNews: true
-fonte: innovazione.gov.it
+fonte: 
 showInHome: true
 typeOfNews: InDeep
 link: 
@@ -24,7 +24,7 @@ Per avviare il percorso di qualificazione è necessario utilizzare la piattaform
 Queste indicazioni saranno valide fino al passaggio di competenze da AgID all’Agenzia per la cybersicurezza (ACN).
 
 ### L'evoluzione del quadro normativo: il Regolamento Cloud di AgID
-**A partire dal 18 gennaio 2023**, tutti i fornitori che intendono erogare servizi cloud alle amministrazioni pubbliche dovranno aver qualificato questi servizi in conformità ai nuovi requisiti indicati nel [Regolamento per il Cloud della PA (PDF, 758 KB)](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf)[qualificazione dei cloud service provider e dei servizi cloud](https://catalogocloud.agid.gov.it/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento per il Cloud della PA';.}, pubblicato da AgID il 15 dicembre 2021, e dagli atti successivi al regolamento emanati da ACN. Il regolamento definisce i requisiti minimi per le infrastrutture digitali, le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.
+**A partire dal 18 gennaio 2023**, tutti i fornitori che intendono erogare servizi cloud alle amministrazioni pubbliche dovranno aver qualificato questi servizi in conformità ai nuovi requisiti indicati nel [Regolamento per il Cloud della PA (PDF, 758 KB)](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento per il Cloud della PA';}, pubblicato da AgID il 15 dicembre 2021, e dagli atti successivi al regolamento emanati da ACN. Il regolamento definisce i requisiti minimi per le infrastrutture digitali, le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.
 
 Inoltre, il regolamento:
 - stabilisce i livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità delle infrastrutture digitali per la pubblica amministrazione;
