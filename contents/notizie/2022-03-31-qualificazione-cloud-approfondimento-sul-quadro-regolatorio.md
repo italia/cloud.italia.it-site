@@ -7,7 +7,7 @@ evidence: true
 internalNews: true
 fonte: 
 showInHome: true
-typeOfNews: Approfondimenti
+typeOfNews: Approfondimento
 link: 
 image: 
 tags:
