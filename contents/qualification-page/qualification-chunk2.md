@@ -4,7 +4,7 @@ Tutti i soggetti pubblici e privati che intendono ottenere la  qualificazione pe
 - erogare servizi SaaS cloud ad altre amministrazioni su una o più infrastrutture digitali qualificate da AgID, dovranno seguire le indicazioni contenute nella [Circolare AgID n. 3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/).
 
 ### Validità del percorso attuale di qualificazione
-Il percorso fin qui indicato sarà valido fino al passaggio di competenze da AgID all’Agenzia per la cybersicurezza (ACN). **Entro il 18 gennaio 2023**, i fornitori dovranno adeguare le proprie soluzioni cloud ai nuovi requisiti indicati nel [Regolamento per il Cloud della PA](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf) pubblicato da AgID il 15 dicembre 2021 e negli atti successivi di ACN.
+Il percorso fin qui indicato sarà valido fino al passaggio di competenze da AgID all’Agenzia per la cybersicurezza (ACN). **Entro il 18 gennaio 2023**, i fornitori dovranno adeguare le proprie soluzioni cloud ai nuovi requisiti indicati nel [Regolamento per il Cloud della PA](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf) (PDF, 758 KB) pubblicato da AgID il 15 dicembre 2021 e negli atti successivi di ACN.
 
 Leggi maggiori informazioni sugli adeguamenti normativi
 
