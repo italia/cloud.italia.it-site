@@ -2,7 +2,7 @@
 type: "news"
 title: "Qualificazione cloud: approfondimento sul quadro regolatorio"
 subtitle: "Il percorso attuale indicato da Agenzia per l'Italia Digitale e i futuri sviluppi normativi col passaggio all'Agenzia nazionale per la cybersicurezza"
-date: "2022-03-31"
+date: "2022-03-28"
 evidence: true
 internalNews: true
 fonte: 
