@@ -18,7 +18,7 @@ La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo del
 
 ### Il percorso attuale indicato dalle circolari AgID
 Tutti i soggetti pubblici e privati che intendono ottenere la qualificazione per:
--erogare i servizi IaaS e PaaS di cui sono titolari qualificando anche la propria infrastruttura cloud, dovranno attenersi alle indicazioni contenute nella [Circolare AgID n. 2 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/);
+- erogare i servizi IaaS e PaaS di cui sono titolari qualificando anche la propria infrastruttura cloud, dovranno attenersi alle indicazioni contenute nella [Circolare AgID n. 2 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/);
 - erogare servizi SaaS cloud ad altre amministrazioni su una o più infrastrutture digitali qualificate da AgID, dovranno seguire le indicazioni contenute nella [Circolare AgID n. 3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/).
 Per avviare il percorso di qualificazione è necessario utilizzare la piattaforma dedicata alla [qualificazione dei cloud service provider e dei servizi cloud](https://catalogocloud.agid.gov.it/). 
 Le indicazioni qui fornite sono valide fino al passaggio di competenze da AgID all’Agenzia per la cybersicurezza (ACN).
