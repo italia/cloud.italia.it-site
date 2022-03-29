@@ -5,7 +5,7 @@ resourceTitle: Risorse utili
 resources:
   - title: Documenti
     references:
-     - action: Leggi
+      - action: Leggi
         icon: it-external-link
         link: https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123065_725_1.html
         title: Regolamento per il Cloud della PA
