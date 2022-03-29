@@ -8,7 +8,7 @@ Il percorso fin qui indicato sarà valido fino al passaggio di competenze da AgI
 
 Per maggiori informazioni sugli adeguamenti normativi, è disponibile un approfondimento.
 <div class="col-12 text-center mt-3 mb-5">
-        <a href="notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio" class="btn btn-primary">Leggi l'approfondimento</a>
+<a href="notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio" class="btn btn-primary">Leggi l'approfondimento</a>
 </div>
 
 ### Strumento di autovalutazione
