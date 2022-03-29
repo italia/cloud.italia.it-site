@@ -7,10 +7,16 @@ resources:
     references:
       - action: Leggi
         icon: it-external-link
+        link: https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123065_725_1.html
+        title: Regolamento per il Cloud della PA
+        ariaLabel: 'Regolamento per il Cloud della PA (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Leggi
+        icon: it-external-link
         link: https://catalogocloud.agid.gov.it/info
+        title: Come ottenere le qualificazioni cloud
         ariaLabel: 'Come ottenere le qualificazioni Cloud (link esterno)'
         ariaLabelIcon: link esterno
-        title: Come ottenere le qualificazioni cloud
       - action: Consulta
         icon: it-external-link
         link: https://catalogocloud.agid.gov.it/
