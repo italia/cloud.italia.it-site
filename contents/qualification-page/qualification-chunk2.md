@@ -6,7 +6,7 @@ Tutti i soggetti pubblici e privati che intendono ottenere la qualificazione per
 ### Validità del percorso attuale di qualificazione
 Il percorso fin qui indicato sarà valido fino al passaggio di competenze da AgID all’Agenzia per la cybersicurezza (ACN). **Entro il 18 gennaio 2023**, i fornitori dovranno adeguare le proprie soluzioni cloud ai nuovi requisiti indicati nel [Regolamento per il Cloud della PA (PDF, 758 KB)](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento per il Cloud della PA'} pubblicato da AgID il 15 dicembre 2021 e negli atti successivi di ACN.
 
-Per maggiori informazioni sugli adeguamenti normativi, è disponibile un approfondimento.
+Per maggiori informazioni sugli adeguamenti normativi, è disponibile un approfondimento sul quadro regolatorio.
 <div class="col-12 text-center mt-3 mb-5">
 <a href="/notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio" class="btn btn-primary">Leggi l'approfondimento</a>
 </div>
