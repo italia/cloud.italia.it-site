@@ -49,11 +49,11 @@ externalLinks:
     linkTo: https://github.com/italia/
     ariaLabel: 'GitHub Italia (link esterno)'
   dipartimento:
-    label: Dipartimento per la Trasformazione Digitale
+    label: Dipartimento per la trasformazione digitale
     linkTo: https://innovazione.gov.it/dipartimento/
-    ariaLabel: 'Dipartimento per la Trasformazione Digitale (link esterno)'
+    ariaLabel: 'Dipartimento per la trasformazione digitale (link esterno)'
   agid:
-    label: AgID
+    label: AGID
     linkTo: https://www.agid.gov.it/
     ariaLabel: "Agenzia per l'Italia Digitale (link esterno)"
   marketplace:
