@@ -27,9 +27,9 @@ glossaryTerms:
       e consente vantaggi di prossimità, risparmi in termini di banda di trasmissione necessaria per lo scambio dei dati e di tempi di analisi ed elaborazione di dati,
       rispetto a quanto sarebbe possibile con una connessione ad un data center."
   - id: cloud-marketplace-agid
-    name: Cloud marketplace AgID
-    description: "Piattaforma che espone il catalogo di servizi e infrastrutture qualificate da AgID, secondo quanto disposto dalle
-      <a href='https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='circolari AgID n. 2 e n.3 del 9 aprile 2018 (link esterno)'>circolari AgID n. 2 e n.3 del 9 aprile 2018</a>,
+    name: Cloud marketplace AGID
+    description: "Piattaforma che espone il catalogo di servizi e infrastrutture qualificate da AGID, secondo quanto disposto dalle
+      <a href='https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='circolari AGID n. 2 e n.3 del 9 aprile 2018 (link esterno)'>circolari AgID n. 2 e n.3 del 9 aprile 2018</a>,
       All'interno del cloud marketplace è possibile visualizzare la scheda tecnica di ogni servizio che mette in evidenza le caratteristiche tecniche,
       il modello di costo e i livelli di servizio dichiarati dal fornitore in sede di qualificazione."
   - id: cloud-privato
