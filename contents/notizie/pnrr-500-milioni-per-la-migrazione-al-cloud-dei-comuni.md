@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni/
-image: /assets/img_news/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni.jpeg
+image: /assets/img_news/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni.jpg
 tags:
   - Articoli
 ---
