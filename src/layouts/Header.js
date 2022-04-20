@@ -339,7 +339,7 @@ export const Header = () => (
               href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000c8mFyQAI"
               className="btn text-primary text-uppercase ml-0 ml-md-4 pt-0 pt-md-3 pb-3 px-0"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               aria-label="Primi avvisi per la digitalizzazione dei Comuni (Link esterno)"
             >
               Vai al sito PA digitale 2026
