@@ -1,5 +1,5 @@
-import { Link } from "gatsby";
-import React, { useState } from "react";
+import { Link } from 'gatsby';
+import React, { useState } from 'react';
 import {
   Collapse,
   Header as HeaderReactKit,
@@ -10,12 +10,12 @@ import {
   NavItem,
   HeaderBrand,
   HeaderLinkZone,
-} from "design-react-kit";
-import { createUseStyles } from "react-jss";
-import links from "../../contents/links.yml";
-import labels from "../../contents/labels.yml";
-import { HeaderNav } from "../components/HeaderNav.js";
-import { ExternalLink } from "../components/ExternalLink.js";
+} from 'design-react-kit';
+import { createUseStyles } from 'react-jss';
+import links from '../../contents/links.yml';
+import labels from '../../contents/labels.yml';
+import { HeaderNav } from '../components/HeaderNav.js';
+import { ExternalLink } from '../components/ExternalLink.js';
 
 const { internalLinks, externalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
@@ -23,51 +23,41 @@ const { ariaLabel, headerTitle, headerSubtitle } = labels;
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
   navToggler: {
-    composes: "d-lg-none text-primary font-weight-semibold",
-    fontSize: ".778em",
-    padding: ".5rem 0",
+    composes: 'd-lg-none text-primary font-weight-semibold',
+    fontSize: '.778em',
+    padding: '.5rem 0',
   },
   /* Used due to inability to set classes to li tag with design react kit (LinkListItem) */
   verticalGroupDelimiter: {
-    borderRight: "1px solid rgba(0,89,179,.2)",
+    borderRight: '1px solid rgba(0,89,179,.2)',
   },
   horizontalGroupDelimiter: {
-    backgroundColor: "rgba(0,89,179,.2)",
+    backgroundColor: 'rgba(0,89,179,.2)',
   },
   subtitle: {
-    composes: "small",
+    composes: 'small',
   },
-  "@media (max-width: 992px)": {
+  '@media (max-width: 992px)': {
     verticalGroupDelimiter: {
-      borderRight: "none",
+      borderRight: 'none',
     },
   },
-  "@media (max-width: 300px)": {
+  '@media (max-width: 300px)': {
     subtitle: {
-      display: "none",
+      display: 'none',
     },
   },
 });
 
 const BrandSlimHeader = () => (
   <>
-    <ExternalLink
-      linkTo={externalLinks.dipartimento.linkTo}
-      ariaLabel={externalLinks.dipartimento.ariaLabel}
-    >
-      <span className="d-inline d-lg-none d-xl-inline">
-        {externalLinks.dipartimento.label}
-      </span>
+    <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
+      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.dipartimento.label}</span>
       <span className="d-none d-lg-inline d-xl-none">DTD</span>
     </ExternalLink>
     <span className="mx-1"> + </span>
-    <ExternalLink
-      linkTo={externalLinks.agid.linkTo}
-      ariaLabel={externalLinks.agid.ariaLabel}
-    >
-      <span className="d-inline d-lg-none d-xl-inline">
-        {externalLinks.agid.label}
-      </span>
+    <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
+      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.agid.label}</span>
       <span className="d-none d-lg-inline d-xl-none">AGID</span>
     </ExternalLink>
   </>
@@ -112,18 +102,12 @@ const SlimHeader = () => {
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <ExternalLink
-                    linkTo={externalLinks.developers.linkTo}
-                    ariaLabel={externalLinks.developers.ariaLabel}
-                  >
+                  <ExternalLink linkTo={externalLinks.developers.linkTo} ariaLabel={externalLinks.developers.ariaLabel}>
                     {externalLinks.developers.label}
                   </ExternalLink>
                 </li>
                 <li className={classes.verticalGroupDelimiter}>
-                  <ExternalLink
-                    linkTo={externalLinks.designers.linkTo}
-                    ariaLabel={externalLinks.designers.ariaLabel}
-                  >
+                  <ExternalLink linkTo={externalLinks.designers.linkTo} ariaLabel={externalLinks.designers.ariaLabel}>
                     {externalLinks.designers.label}
                   </ExternalLink>
                 </li>
@@ -131,26 +115,17 @@ const SlimHeader = () => {
                   <hr className={classes.horizontalGroupDelimiter} />
                 </li>
                 <li>
-                  <ExternalLink
-                    linkTo={externalLinks.forum.linkTo}
-                    ariaLabel={externalLinks.forum.ariaLabel}
-                  >
+                  <ExternalLink linkTo={externalLinks.forum.linkTo} ariaLabel={externalLinks.forum.ariaLabel}>
                     {externalLinks.forum.label}
                   </ExternalLink>
                 </li>
                 <li>
-                  <ExternalLink
-                    linkTo={externalLinks.docs.linkTo}
-                    ariaLabel={externalLinks.docs.ariaLabel}
-                  >
+                  <ExternalLink linkTo={externalLinks.docs.linkTo} ariaLabel={externalLinks.docs.ariaLabel}>
                     {externalLinks.docs.label}
                   </ExternalLink>
                 </li>
                 <li>
-                  <ExternalLink
-                    linkTo={externalLinks.github.linkTo}
-                    ariaLabel={externalLinks.github.ariaLabel}
-                  >
+                  <ExternalLink linkTo={externalLinks.github.linkTo} ariaLabel={externalLinks.github.ariaLabel}>
                     {externalLinks.github.label}
                   </ExternalLink>
                 </li>
@@ -172,11 +147,7 @@ const CenterHeader = () => {
           <Link to="/">
             <div className="it-brand-text pr-0">
               <div className="d-flex align-items-center">
-                <img
-                  className="icon"
-                  src="/assets/cloud-logo.svg"
-                  alt="Logo Cloud Italia"
-                />
+                <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
                 <div>
                   <div className="h3 mb-0">{headerTitle}</div>
                   <div className={classes.subtitle}>{headerSubtitle}</div>
@@ -196,12 +167,7 @@ const NavHeader = () => {
   const toogleMenu = () => setIsOpen(!isOpen);
   return (
     <HeaderReactKit type="navbar" theme="light">
-      <HeaderContent
-        expand="lg"
-        megamenu
-        aria-label={ariaLabel.menu}
-        className="px-2"
-      >
+      <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu} className="px-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label={ariaLabel.toggleMenu}
@@ -222,9 +188,7 @@ const NavHeader = () => {
                   activeClassName="active"
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">
-                    {internalLinks.strategy.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
@@ -234,9 +198,7 @@ const NavHeader = () => {
                   activeClassName="active"
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">
-                    {internalLinks.enablement.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.enablement.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
@@ -246,9 +208,7 @@ const NavHeader = () => {
                   activeClassName="active"
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">
-                    {internalLinks.services.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.services.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
@@ -258,21 +218,12 @@ const NavHeader = () => {
                   activeClassName="active"
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">
-                    {internalLinks.catalogue.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link
-                  to={internalLinks.news.linkTo}
-                  className="nav-link"
-                  activeClassName="active"
-                  onClick={closeMenu}
-                >
-                  <span className="font-weight-semibold">
-                    {internalLinks.news.label}
-                  </span>
+                <Link to={internalLinks.news.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                  <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>
               <NavItem>
@@ -282,9 +233,7 @@ const NavHeader = () => {
                   activeClassName="active"
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">
-                    {internalLinks.glossary.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.glossary.label}</span>
                 </Link>
               </NavItem>
             </Nav>
@@ -295,9 +244,7 @@ const NavHeader = () => {
                   ariaLabel={externalLinks.marketplace.ariaLabel}
                   className="nav-link pr-0"
                 >
-                  <span className="font-weight-semibold">
-                    {externalLinks.marketplace.label}
-                  </span>
+                  <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
                   <Icon
                     className="ml-2 pb-1"
                     color="primary"
@@ -326,14 +273,11 @@ export const Header = () => (
         <NavHeader />
       </div>
       <div className="py-2 py-lg-1 lightgrey-bg-a2">
-        <div className="container ">
+        <div className="container">
           <section className="ml-3 ml-lg-5 d-flex flex-column flex-md-row flex-sm-column align-items-start align-items-lg-baseline justify-content-between justify-content-lg-start">
             <div className="pt-1 pb-1 pb-md-1 d-lg-flex align-items-lg-center">
               <h3 className="h5 font-weight-bold pr-lg-3 pt-1">Novità PNRR</h3>
-              <div className="pr-lg-4">
-                Scopri come accedere ai fondi per la migrazione al cloud dei
-                comuni
-              </div>
+              <div className="pr-lg-4">Scopri come accedere ai fondi per la migrazione al cloud dei comuni</div>
             </div>
             <a
               href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000c8mFyQAI"
