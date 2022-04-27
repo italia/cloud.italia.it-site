@@ -7,3 +7,4 @@ services:
       context: .
     volumes:
       - ./public:/opt
+      
