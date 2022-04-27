@@ -24,3 +24,4 @@ For more information about contributing and the gitflow see [contributing](CONTR
 Copyright © 2021 Presidenza del Consiglio dei Ministri
 
 The source code is released under the BSD license (SPDX code: BSD-3-Clause).
+
