@@ -55,4 +55,27 @@ La scelta di quali servizi migrare verso soluzioni cloud qualificate da AgID o v
 {class="h5 font-weight-semibold mb-4"}
 
 Per realizzare il consolidamento e la messa in sicurezza delle infrastrutture digitali della PA, l’art. 35 del D.L 76/2020 (Semplificazioni e innovazione digitale), modificando l’art.
-[33-septies del D.L. 179/2012](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012;179){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'}(Ulteriori misure urgenti per la crescita del Paese), ha introdotto la realizzazione di una infrastruttura ad alta affidabilità, il Polo Strategico Nazionale, localizzata sul territorio nazionale. Lo [sviluppo del Polo Strategico Nazionale](https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'} è promosso dalla Presidenza del Consiglio dei ministri, attraverso il Dipartimento per la trasformazione digitale con il supporto dell’Agenzia per la cybersicurezza Nazionale.
+[33-septies del D.L. 179/2012](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012;179){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'}(Ulteriori misure urgenti per la crescita del Paese), ha introdotto la realizzazione di una infrastruttura ad alta affidabilità, il Polo Strategico Nazionale, localizzata sul territorio nazionale. Lo [sviluppo del Polo Strategico Nazionale](https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'} è promosso dalla Presidenza del Consiglio dei ministri, attraverso il Dipartimento per la trasformazione digitale con il supporto dell’Agenzia per la Cybersicurezza Nazionale.
+
+## Piano Nazionale di Ripresa e Resilienza
+{class="h5 font-weight-semibold mb-4"}
+
+Il Piano Nazionale di Ripresa e Resilienza mette a disposizione 1,9 miliardi di euro per favorire e accelerare la migrazione della Pubblica Amministrazione (PA) al cloud qualificato entro il 2026. 
+
+Il piano prevede due misure, rivolte a tipologie diverse di PA:
+* la misura 1.1 destinata alle Pubbliche Amministrazioni centrali, come ministeri e agenzie, e aziende sanitarie locali (Asl);
+* la misura 1.2, dedicata a Comuni, scuole e Asl.
+
+### Misura 1.1
+La misura 1.1 “Infrastrutture digitali” mette a disposizione di 900 milioni di euro per raggiungere due obiettivi principali:
+* **mettere in sicurezza gli asset strategici dello Stato**, realizzando un’infrastruttura ad alta affidabilità denominata Polo Strategico Nazionale (PSN);
+* **migrare verso il PSN i sistemi informatici delle PA** a partire da quelle che gestiscono servizi strategici per lo Stato.
+
+I fondi coprono i costi di migrazione e i canoni cloud, solo per il periodo necessario per concludere il processo, per 200 Pubbliche Amministrazioni centrali e 80 Asl.
+
+I servizi strategici sono individuati mediante la [procedura di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='procedura di classificazione (link esterno)'} gestita da Agenzia per la Cybersicurezza Nazionale.
+
+### Misura 1.2
+La misura 1.2 “Abilitazione e facilitazione migrazione al Cloud” stanzia 1 miliardo di euro per migrare al cloud 12.464 tra comuni, scuole e Asl. Nasce per **migliorare la qualità dei servizi erogati dalle pubbliche amministrazioni**, migrando i servizi e gli applicativi obsoleti disponibili in locale presso le sedi delle PA (on premise) verso soluzioni innovative basate sul modello [cloud pubblico](https://cloud.italia.it/glossario/#cloud-pubblico){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='cloud pubblico'}, qualificato secondo regole e standard di qualità definiti da AGID.
+
+Per aderire all’avviso, le PA devono prima aver completato il [processo di classificazione dei dati](/programma-abilitazione-cloud/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='cloud pubblico'} su [PA digitale 2026](https://padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='processo di classificazione dei dati'}. Poi, sempre attraverso la stessa piattaforma, possono aderire all’avviso e richiedere il finanziamento.

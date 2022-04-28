@@ -11,6 +11,11 @@ Per maggiori informazioni sugli adeguamenti normativi, è disponibile un approfo
 <a href="/notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio" class="btn btn-primary">Leggi l'approfondimento</a>
 </div>
 
+### Abilitarsi come fornitori per comuni e scuole
+Per abilitarsi come fornitori per l’avviso “Abilitazione al cloud per le PA Locali” del PNRR rivolto a comuni e scuole, è possibile accreditarsi al [Mercato elettronico della PA (MEPA)](https://www.acquistinretepa.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Mercato elettronico della PA(link esterno)'}, seguendo [il percorso guidato sul sito.](https://www.acquistinretepa.it/opencms/opencms/come_vendere.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='percorso guidato sul sito (link esterno)'}
+
+MEPA è il catalogo fornitori che agevola le PA nell’individuare potenziali fornitori per diversi servizi, fra cui la migrazione al cloud qualificato. I fornitori abilitati alla categoria merceologica “Servizi per l’Information & Communication Technology” possono caricare a catalogo le proprie offerte, seguendo la documentazione relativa al _cloud computing_ (Capitolato d’Oneri e Capitolato tecnico), e renderle acquistabili dalle PA tramite ordine diretto.
+
 ### Strumento di autovalutazione
 Per agevolare il processo di qualificazione, AGID ha reso disponibile uno [strumento di autovalutazione](https://autovalutazione.cloud.italia.it/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='strumento di autovalutazione (link esterno)'}.
 
