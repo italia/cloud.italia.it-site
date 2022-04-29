@@ -277,8 +277,7 @@ export const Header = () => (
           <section className="ml-3 ml-lg-5 d-flex flex-column flex-md-row flex-sm-column align-items-start align-items-lg-baseline justify-content-between justify-content-lg-start">
             <div className="pt-1 pb-1 pb-md-1 d-lg-flex align-items-lg-center">
               <h3 className="h5 font-weight-bold pr-lg-3 pt-1">Novità PNRR</h3>
-              <div className="pr-lg-4">
-                Scopri come accedere ai fondi per la migrazione al cloud di Comuni e scuole</div>
+              <div className="pr-lg-4">Scopri come accedere ai fondi per la migrazione al cloud di Comuni e scuole</div>
             </div>
             <a
               href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_avvisi"

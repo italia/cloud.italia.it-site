@@ -57,7 +57,7 @@ resources:
       - action: Leggi su <strong>PA digitale 2026</strong>
         icon: it-file
         link: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
-        ariaLabel: "Classificazione di dati e servizi (link esterno)"
+        ariaLabel: "Come classificare dati e servizi (link esterno)"
         title: Classificazione di dati e servizi
         ariaLabelIcon: risorsa
 resourcesFramework:
