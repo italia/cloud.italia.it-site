@@ -30,11 +30,11 @@ Sul sito, le PA possono verificare l’elenco dei servizi e il livello di classi
 <a href="https://padigitale2026.gov.it/come-partecipare/classifica-pa/)" class="btn btn-primary">Scopri come classificare dati e servizi</a>
 </div>
 
-## Piano Nazionale di Ripresa e Resilienza (PNRR)
+### Piano Nazionale di Ripresa e Resilienza (PNRR)
 
-### Comuni e scuole
+#### Comuni e scuole
 
-Se un Comune o scuola intende accedere ai fondi del PNRR, **dovrà aver completato il processo di classificazione** sul sito** **[PA digitale 2026](https://padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='PA digitale 2026 (link esterno)'},** **prima di aderire all’avviso “Abilitazione al cloud per le PA Locali” sulla stessa piattaforma.
+Se un Comune o scuola intende accedere ai fondi del PNRR, **dovrà aver completato il processo di classificazione** sul sito **[PA digitale 2026](https://padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='PA digitale 2026 (link esterno)'},** prima di aderire all’avviso “Abilitazione al cloud per le PA Locali” sulla stessa piattaforma.
 
-### Aziende sanitarie locali e aziende ospedaliere
+#### Aziende sanitarie locali e aziende ospedaliere
 L’avviso sarà pubblicato prossimamente.
