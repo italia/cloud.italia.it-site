@@ -27,7 +27,7 @@ Per maggiori informazioni, [leggi la Strategia Cloud Italia](https://docs.italia
 Sul sito, le PA possono verificare l’elenco dei servizi e il livello di classificazione creati automaticamente sulla base delle caratteristiche del comune e confermarli. In caso contrario, possono definire una nuova classificazione, aggiungere o eliminare servizi compilando un questionario, soggetto a valutazione da parte di ACN.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://padigitale2026.gov.it/come-partecipare/classifica-pa/" class="btn btn-primary">Scopri come classificare dati e servizi</a>
+<a href="https://padigitale2026.gov.it/come-partecipare/classifica-pa/" class="btn btn-primary" target="_blank">Scopri come classificare dati e servizi</a>
 </div>
 
 ### Piano Nazionale di Ripresa e Resilienza (PNRR)
