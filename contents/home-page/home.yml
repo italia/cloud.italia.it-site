@@ -36,7 +36,7 @@ heroEnablement:
   title: Come aderire al modello Cloud della PA
   body:
     Il Dipartimento per la trasformazione digitale, in collaborazione con l’Agenzia per l’Italia Digitale
-    (AgID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
+    (AGID), ha elaborato un programma di abilitazione al cloud che definisce l’insieme di attività e risorse
     utili alle amministrazioni per la migrazione di servizi e infrastrutture digitali verso il Cloud della PA.
   ctaAriaLabel: Scopri di più su il programma di abilitazione
   altImg: Composizione con cavi di server e altri hardware
@@ -44,8 +44,8 @@ heroQualification:
   category: La qualificazione dei servizi e il catalogo
   title: Il percorso di qualificazione e il catalogo dei servizi cloud
   body:
-    Le amministrazioni possono acquisire servizi cloud solo se qualificati da AgID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
-    se in possesso dei requisiti, sono pubblicati e consultabili all’interno del catalogo AgID.
+    Le amministrazioni possono acquisire servizi cloud solo se qualificati da AGID. I fornitori cloud devono sottoporre i servizi al processo di qualificazione che,
+    se in possesso dei requisiti, sono pubblicati e consultabili all’interno del catalogo AGID.
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
   altImg: Nuvola simbolo cloud, logo Italia, server e altri elementi hardware in commistione
 heroNews:

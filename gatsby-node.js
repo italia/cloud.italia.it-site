@@ -48,17 +48,17 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
 
 exports.onPostBuild = async () => {
   /*
-   * These are a collection of redirects. Some are needed due to the restyling of the site, others are required because are used by AgID
+   * These are a collection of redirects. Some are needed due to the restyling of the site, others are required because are used by AGID
    */
   const redirects = [
     { from: '/it/cloud-enablement/', to: '/programma-abilitazione-cloud/' },
     { from: '/it/qualificazioni/', to: '/qualificazione-servizi-cloud/' },
     { from: '/it/privacy-policy/', to: '/privacy-policy/' },
 
-    // Old AgID Marketplace URL
+    // Old AGID Marketplace URL
     { from: '/marketplace/', to: 'https://catalogocloud.agid.gov.it/' },
 
-    // Linked from AgID's https://catalogocloud.agid.gov.it/
+    // Linked from AGID's https://catalogocloud.agid.gov.it/
     { from: '/it/latest/', to: '/' },
     {
       from: '/projects/cloud-italia-circolari/it/latest/',
