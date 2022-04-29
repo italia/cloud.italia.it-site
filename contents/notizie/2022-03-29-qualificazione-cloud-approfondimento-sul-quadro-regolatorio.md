@@ -9,7 +9,7 @@ fonte:
 showInHome: true
 typeOfNews: Approfondimento
 link: 
-image: 
+image: /assets/img_news/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio.png
 tags:
   - Approfondimenti
 ---
