@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole
-image: /assets/img_news/2022-01-28-pubblicato- bando per-polo-strategico-nazionale.jpeg
+image: /assets/img_news/2022-04-27-al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole.png
 tags:
   - Articoli
 ---

@@ -9,7 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/
-image: /assets/img_news/2022-01-28-pubblicato- bando per-polo-strategico-nazionale.jpeg
+image: /assets/img_news/2022-04-20-cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi.png
 tags:
   - Articoli
 ---
