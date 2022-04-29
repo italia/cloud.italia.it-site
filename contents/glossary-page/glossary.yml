@@ -45,7 +45,7 @@ glossaryTerms:
       Il tipo di servizi cloud che vengono offerti (IaaS, PaaS, SaaS) dipende dalla politica del fornitore stesso, così come il prezzo e la tariffazione.
       Uno dei maggiori vantaggi del cloud pubblico per il cliente consiste nella possibilità di poter utilizzare i servizi cloud richiesti limitatamente all’intervallo di tempo necessario.
       In questo modo, il cliente può ridurre notevolmente gli investimenti in infrastrutture digitali e ottimizzare l’utilizzo delle risorse interne che le gestiscono, oltre a trarre vantaggio dai già citati benefici."
-      - id: cloud-pubblico
+  - id: cloud-qualificato
     name: Cloud qualificato
     description: "L’insieme di infrastrutture e servizi cloud qualificati da AGID, secondo le caratteristiche di qualità, sicurezza informatica e interoperabilità indicati nelle Circolari n. 2 e 3 del 2018."
   - id: devops
