@@ -55,7 +55,7 @@ externalLinks:
   agid:
     label: AGID
     linkTo: https://www.agid.gov.it/
-    ariaLabel: "Agenzia per l'Italia Digitale (link esterno)"
+    ariaLabel: "Agenzia per l'Italia digitale (link esterno)"
   marketplace:
     label: Cloud Marketplace
     linkTo: https://catalogocloud.agid.gov.it/

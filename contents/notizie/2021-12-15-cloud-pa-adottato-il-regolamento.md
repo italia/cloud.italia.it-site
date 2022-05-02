@@ -1,7 +1,7 @@
 ---
 type: "news"
 title: "Cloud della PA: adottato il Regolamento"
-subtitle: "AgID, in collaborazione con il Dipartimento per la trasformazione digitale e l’Agenzia per la cybersicurezza nazionale, ha emanato il regolamento su infrastrutture digitali e servizi cloud per la PA"
+subtitle: "AGID, in collaborazione con il Dipartimento per la trasformazione digitale e l’Agenzia per la Cybersicurezza Nazionale, ha emanato il regolamento su infrastrutture digitali e servizi cloud per la PA"
 date: "2021-12-15"
 evidence: false
 internalNews: false

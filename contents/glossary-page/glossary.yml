@@ -29,7 +29,7 @@ glossaryTerms:
   - id: cloud-marketplace-agid
     name: Cloud marketplace AGID
     description: "Piattaforma che espone il catalogo di servizi e infrastrutture qualificate da AGID, secondo quanto disposto dalle
-      <a href='https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='circolari AGID n. 2 e n.3 del 9 aprile 2018 (link esterno)'>circolari AgID n. 2 e n.3 del 9 aprile 2018</a>,
+      <a href='https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='circolari AGID n. 2 e n.3 del 9 aprile 2018 (link esterno)'>circolari AGID n. 2 e n.3 del 9 aprile 2018</a>,
       All'interno del cloud marketplace è possibile visualizzare la scheda tecnica di ogni servizio che mette in evidenza le caratteristiche tecniche,
       il modello di costo e i livelli di servizio dichiarati dal fornitore in sede di qualificazione."
   - id: cloud-privato
@@ -45,6 +45,9 @@ glossaryTerms:
       Il tipo di servizi cloud che vengono offerti (IaaS, PaaS, SaaS) dipende dalla politica del fornitore stesso, così come il prezzo e la tariffazione.
       Uno dei maggiori vantaggi del cloud pubblico per il cliente consiste nella possibilità di poter utilizzare i servizi cloud richiesti limitatamente all’intervallo di tempo necessario.
       In questo modo, il cliente può ridurre notevolmente gli investimenti in infrastrutture digitali e ottimizzare l’utilizzo delle risorse interne che le gestiscono, oltre a trarre vantaggio dai già citati benefici."
+  - id: cloud-qualificato
+    name: Cloud qualificato
+    description: "L’insieme di infrastrutture e servizi cloud qualificati da AGID, secondo le caratteristiche di qualità, sicurezza informatica e interoperabilità indicati nelle Circolari n. 2 e 3 del 2018."
   - id: devops
     name: DevOps
     description: "Il termine DevOps nasce dalla contrazione delle parole development (sviluppo) e operations (esercizio/attività) per descrivere un insieme di principi,
@@ -84,7 +87,7 @@ glossaryTerms:
       normalmente un edificio compartimentato, unitamente a tutti gli impianti elettrici, di condizionamento, di attestazioni di rete, di cablaggi,
       ecc. e ai sistemi di sicurezza fisica e logica, che in tale edificio sono presenti. È progettato e allestito per ospitare e gestire un numero elevato
       di apparecchiature e infrastrutture informatiche e i dati ivi contenuti, allo scopo di garantirne la sicurezza fisica e gestionale.
-      La circolare AgID n. 1/2019, modificata dal
+      La circolare AGID n. 1/2019, modificata dal
       <a href='https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/capitolo_4_infrastrutture.html' class='text-decoration-none font-weight-semibold' rel='noreferrer' target='_blank' aria-label='Piano triennale (link esterno)'>Piano triennale</a>,
       distingue i data center all’interno del percorso di razionalizzazione delle infrastrutture digitali tra:
       <p>

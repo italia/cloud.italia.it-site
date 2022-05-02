@@ -3,13 +3,13 @@ type: "news"
 title: "Qualificazione cloud: approfondimento sul quadro regolatorio"
 subtitle: "Il percorso attuale indicato da Agenzia per l'Italia digitale e i futuri sviluppi normativi col passaggio all'Agenzia Nazionale per la Cybersicurezza"
 date: "2022-03-29"
-evidence: true
+evidence: false
 internalNews: true
 fonte: 
 showInHome: true
 typeOfNews: Approfondimento
 link: 
-image: 
+image: /assets/img_news/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio.png
 tags:
   - Approfondimenti
 ---
@@ -19,7 +19,7 @@ La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo del
 ### Il percorso attuale indicato dalle circolari Agenzia per l'Italia digitale (AGID)
 Tutti i soggetti pubblici e privati che intendono ottenere la qualificazione per:
 - erogare i servizi IaaS e PaaS di cui sono titolari qualificando anche la propria infrastruttura cloud, dovranno attenersi alle indicazioni contenute nella [Circolare AGID n. 2 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Circolare AGID n. 2 del 2018'};
-- erogare servizi SaaS cloud ad altre amministrazioni su una o più infrastrutture digitali qualificate da AgID, dovranno seguire le indicazioni contenute nella [Circolare AGID n. 3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Circolare AGID n. 3 del 2018'}.
+- erogare servizi SaaS cloud ad altre amministrazioni su una o più infrastrutture digitali qualificate da AGID, dovranno seguire le indicazioni contenute nella [Circolare AGID n. 3 del 2018](https://cloud-italia.readthedocs.io/projects/cloud-italia-circolari/it/latest/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Circolare AGID n. 3 del 2018'}.
 Per avviare il percorso di qualificazione è necessario utilizzare la piattaforma dedicata alla [qualificazione dei cloud service provider e dei servizi cloud](https://catalogocloud.agid.gov.it/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Qualificazione dei cloud service provider e dei servizi cloud'}. 
 Queste indicazioni saranno valide fino al passaggio di competenze da AGID all’Agenzia per la Cybersicurezza Nazionale (ACN).
 

@@ -46,6 +46,20 @@ resources:
         title: Template - Valutazione delle competenze
         ariaLabel: "Template - Valutazione delle competenze (link esterno)"
         ariaLabelIcon: risorsa
+      - action: Vai alla <strong>risorsa</strong>
+        icon: it-file
+        link: https://drive.google.com/open?id=1_5aEEDg4TGDEJB8EM5ZQqb6XgGtCxISLRFa_-l2BscU
+        title: Template - Valutazione delle competenze
+        ariaLabel: "Template - Valutazione delle competenze (link esterno)"
+        ariaLabelIcon: risorsa
+  - title: Classificazione di dati e servizi
+    references:
+      - action: Leggi su <strong>PA digitale 2026</strong>
+        icon: it-file
+        link: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
+        ariaLabel: "Come classificare dati e servizi (link esterno)"
+        title: Classificazione di dati e servizi
+        ariaLabelIcon: risorsa
 resourcesFramework:
   - references:
       - action: Leggi su <strong>Docs Italia</strong>
