@@ -102,9 +102,9 @@ const MainFooter = () => {
             </div>
           </div>
         </div>
-        <div className="row pb-4">
+        {/* <div className="row pb-4">
           <div className="col-12 small" dangerouslySetInnerHTML={{ __html: footerA11y }}></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
