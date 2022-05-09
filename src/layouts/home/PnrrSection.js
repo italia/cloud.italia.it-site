@@ -43,6 +43,7 @@ const useStyles = createUseStyles({
   },
   whiteHighContrast: {
     color: 'var(--white)',
+    paddingLeft: 0,
     '&:hover': {
       // Needed to grant high contrast for a11y
       color: ['var(--white)', '!important'],
@@ -93,7 +94,7 @@ export const PnrrSection = () => {
         <HeroGraphic className="col-lg-4 d-flex align-items-center justify-content-center">
           <StaticImage
             className={classes.a11yHighContrast}
-            src="../../images/servizi_cloud_1x.png"
+            src="../../images/pa-digitale-2026.png"
             alt={altImg}
             placeholder="blurred"
             formats={['AUTO', 'AVIF', 'WEBP']}
@@ -106,7 +107,7 @@ export const PnrrSection = () => {
           <Link to={pnrrStrategy.linkTo1} className={`col-12 ${classes.whiteHighContrast}`}>
             <small>{pnrrStrategy.label1}</small>
           </Link>
-          <div className="col-12 text-center text-lg-left">
+          <div className={`col-12 text-center text-lg-left ${classes.whiteHighContrast}`}>
             <ExternalLink
               linkTo={pnrrStrategy.linkTo2}
               ariaLabel={openDataMarketplace.ariaLabel}
