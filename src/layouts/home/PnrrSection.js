@@ -64,73 +64,56 @@ export const PnrrSection = () => {
   return (
     <Hero bgColor="primary">
       <div className="row align-items-center">
-        <div className="col-lg-8 mt-4 mt-lg-0">
-          <div className="col-xl-9 col-lg-11 text-center text-lg-left text-white">
+        <div className="offset-lg-1 col-lg-5 mt-4 mt-lg-0 text-white">
+          <div className="text-center text-lg-left">
             <HeroCategory title={category} />
             <HeroTitle title={title} className="text-white" />
             <HeroBody html={body} />
           </div>
           <HeroCtaContainer>
-            {/* <Cta linkTo={services.linkTo} text={showMore} color="light" type="outline" aria-label={ctaAriaLabel} /> */}
             <Cta linkTo={pnrrStrategy.linkTo} text={pnrrStrategy.label} color="light" />
-            {/* <div aria-hidden="true" className={classes.verticalDelimiter} />
-            <ExternalLink
-              linkTo={marketplace.linkTo}
-              ariaLabel={marketplace.ariaLabel}
-              className={`${classes.btnPrimaryLight} btn text-uppercase mx-4 ml-lg-0 my-2 btn-primary btn-icon focus-a11y-contrast`}
-            >
-              <span className="mr-3">{marketplace.label}</span>
-              <Icon
-                color="primary"
-                icon="it-external-link"
-                size="sm"
-                focusable={false}
-                role="img"
-                aria-label={ariaLabel.externalLink}
-              />
-            </ExternalLink> */}
           </HeroCtaContainer>
+          <div className="row mt-lg-2 mt-0">
+            <div className="col-12 text-center text-lg-left">
+              <HeroSubTitle title={subTitle1} className="text-white" />
+              <Link to={pnrrStrategy.linkTo1} className={`col-12 ${classes.whiteHighContrast}`}>
+                <small>{pnrrStrategy.label1}</small>
+              </Link>
+              <div className={`col-12 text-center text-lg-left ${classes.whiteHighContrast}`}>
+                <ExternalLink
+                  linkTo={pnrrStrategy.linkTo2}
+                  ariaLabel={openDataMarketplace.ariaLabel}
+                  className={`btn-icon ${classes.whiteHighContrast}`}
+                >
+                  <small>{pnrrStrategy.label2}</small>
+                  <Icon
+                    className="ml-2"
+                    icon="it-external-link"
+                    size="sm"
+                    color="white"
+                    focusable={false}
+                    role="img"
+                    aria-label={ariaLabel.externalLink}
+                  />
+                </ExternalLink>
+              </div>
+              <div aria-hidden="true" className={classes.orizontalDelimiter} />
+              <HeroSubTitle title={subTitle2} className="text-white" />
+              <Link to={pnrrStrategy.linkTo3} className={`col-12 ${classes.whiteHighContrast}`}>
+                <small>{pnrrStrategy.label3}</small>
+              </Link>
+            </div>
+          </div>
         </div>
-        <HeroGraphic className="col-lg-4 d-flex align-items-center justify-content-center">
+        <HeroGraphic className="col-lg-6 d-flex align-items-center justify-content-center">
           <StaticImage
             className={classes.a11yHighContrast}
-            src="../../images/pa-digitale-2026.png"
+            src="../../images/pa-digitale-2026_2x.png"
             alt={altImg}
             placeholder="blurred"
             formats={['AUTO', 'AVIF', 'WEBP']}
           />
         </HeroGraphic>
-      </div>
-      <div className="row mt-lg-2 mt-0">
-        <div className="col-12 text-center text-lg-left">
-          <HeroSubTitle title={subTitle1} className="text-white" />
-          <Link to={pnrrStrategy.linkTo1} className={`col-12 ${classes.whiteHighContrast}`}>
-            <small>{pnrrStrategy.label1}</small>
-          </Link>
-          <div className={`col-12 text-center text-lg-left ${classes.whiteHighContrast}`}>
-            <ExternalLink
-              linkTo={pnrrStrategy.linkTo2}
-              ariaLabel={openDataMarketplace.ariaLabel}
-              className={`btn-icon ${classes.whiteHighContrast}`}
-            >
-              <small>{pnrrStrategy.label2}</small>
-              <Icon
-                className="ml-2"
-                icon="it-external-link"
-                size="sm"
-                color="white"
-                focusable={false}
-                role="img"
-                aria-label={ariaLabel.externalLink}
-              />
-            </ExternalLink>
-          </div>
-          <div aria-hidden="true" className={classes.orizontalDelimiter} />
-          <HeroSubTitle title={subTitle2} className="text-white" />
-          <Link to={pnrrStrategy.linkTo3} className={`col-12 ${classes.whiteHighContrast}`}>
-            <small>{pnrrStrategy.label3}</small>
-          </Link>
-        </div>
       </div>
     </Hero>
   );
