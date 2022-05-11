@@ -22,11 +22,11 @@ const {
 } = content;
 
 const {
-  internalLinks: { services, catalogue, pnrrStrategy },
-  externalLinks: { marketplace, openDataMarketplace },
+  internalLinks: { pnrrStrategy },
+  externalLinks: { openDataMarketplace },
 } = links;
 
-const { showMore, ariaLabel } = labels;
+const { ariaLabel } = labels;
 
 const useStyles = createUseStyles({
   btnPrimaryLight: {
@@ -75,11 +75,11 @@ export const PnrrSection = () => {
           </HeroCtaContainer>
           <div className="row mt-lg-2 mt-0">
             <div className="col-12 text-center text-lg-left">
-              <HeroSubTitle title={subTitle1} className="text-white" />
+              <HeroSubTitle Tag="div" title={subTitle1} className="font-weight-bold text-white mb-0" />
               <Link to={pnrrStrategy.linkTo1} className={`col-12 ${classes.whiteHighContrast}`}>
                 <small>{pnrrStrategy.label1}</small>
               </Link>
-              <div className={`col-12 text-center text-lg-left ${classes.whiteHighContrast}`}>
+              <div className={`col-12 text-center text-lg-left mb-4 mb-lg-0 ${classes.whiteHighContrast}`}>
                 <ExternalLink
                   linkTo={pnrrStrategy.linkTo2}
                   ariaLabel={openDataMarketplace.ariaLabel}
@@ -98,7 +98,7 @@ export const PnrrSection = () => {
                 </ExternalLink>
               </div>
               <div aria-hidden="true" className={classes.orizontalDelimiter} />
-              <HeroSubTitle title={subTitle2} className="text-white" />
+              <HeroSubTitle Tag="div" title={subTitle2} className="font-weight-bold text-white mb-0" />
               <Link to={pnrrStrategy.linkTo3} className={`col-12 ${classes.whiteHighContrast}`}>
                 <small>{pnrrStrategy.label3}</small>
               </Link>
