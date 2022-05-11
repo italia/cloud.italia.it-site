@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 export const HeroSubTitle = ({ linkTo = null, title, className = '', Tag = 'h6' }) => (
-  <Tag className="h6">
+  <Tag>
     {linkTo ? (
       <Link to={linkTo} className={`text-decoration-none ${className}`}>
         {title}
