@@ -24,7 +24,7 @@ contattabile ai seguenti recapiti:
 
 Il Responsabile per la protezione dei dati - Data Protection Officer, è contattabile ai seguenti recapiti:
 - Email: [responsabileprotezionedatipcm@governo.it](mailto:responsabileprotezionedatipcm@governo.it){class="text-decoration-none font-weight-semibold"};
-- PEC: [USG@mailbox.governo.it](mailto:USG@mailbox.governo.it){class="text-decoration-none font-weight-semibold"}.
+- PEC: [rpd@pec.governo.it](mailto:rpd@pec.governo.it){class="text-decoration-none font-weight-semibold"}.
 
 ## Come vengono trattati i tuoi dati personali - periodo di conservazione - base giuridica
 {class="h4"}
