@@ -57,7 +57,7 @@ La scelta di quali servizi migrare verso soluzioni cloud qualificate da AGID o v
 Per realizzare il consolidamento e la messa in sicurezza delle infrastrutture digitali della PA, l’art. 35 del D.L 76/2020 (Semplificazioni e innovazione digitale), modificando l’art.
 [33-septies del D.L. 179/2012](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012;179){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'}(Ulteriori misure urgenti per la crescita del Paese), ha introdotto la realizzazione di una infrastruttura ad alta affidabilità, il Polo Strategico Nazionale, localizzata sul territorio nazionale. Lo [sviluppo del Polo Strategico Nazionale](https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='33-septies del D.L. 179/2012 (link esterno)'} è promosso dalla Presidenza del Consiglio dei ministri, attraverso il Dipartimento per la trasformazione digitale con il supporto dell’Agenzia per la Cybersicurezza Nazionale.
 
-## Piano Nazionale di Ripresa e Resilienza
+## <div id="pnrr">Piano Nazionale di Ripresa e Resilienza</div>
 {class="h5 font-weight-semibold mb-4"}
 
 Il Piano Nazionale di Ripresa e Resilienza mette a disposizione 1,9 miliardi di euro per favorire e accelerare la migrazione della Pubblica Amministrazione (PA) al cloud qualificato entro il 2026. 

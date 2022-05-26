@@ -7,6 +7,7 @@ import { StrategySection } from './home/StrategySection.js';
 import { BenefitSection } from './home/BenefitSection.js';
 import { EnablementSection } from './home/EnablementSection.js';
 import { QualificationSection } from './home/QualificationSection.js';
+import { PnrrSection } from './home/PnrrSection.js';
 
 export const IndexPage = () => (
   <>
@@ -14,6 +15,7 @@ export const IndexPage = () => (
       <h1>{content.name}</h1>
     </div>
     <StrategySection />
+    <PnrrSection />
     <BenefitSection />
     <EnablementSection />
     <QualificationSection />

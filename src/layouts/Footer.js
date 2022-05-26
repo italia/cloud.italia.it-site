@@ -2,15 +2,12 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { createUseStyles } from 'react-jss';
 import links from '../../contents/links.yml';
-import labels from '../../contents/labels.yml';
 import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
   internalLinks: { privacy, credits },
   externalLinks: { dipartimento, agid, noteLegali, a11y },
 } = links;
-
-const { footerA11y } = labels;
 
 const useStyle = createUseStyles({
   mainFooter: {
@@ -101,9 +98,6 @@ const MainFooter = () => {
               </ExternalLink>
             </div>
           </div>
-        </div>
-        <div className="row pb-4">
-          <div className="col-12 small" dangerouslySetInnerHTML={{ __html: footerA11y }}></div>
         </div>
       </div>
     </div>
