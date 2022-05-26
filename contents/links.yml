@@ -11,9 +11,12 @@ internalLinks:
   catalogue:
     linkTo: /catalogo-servizi-cloud/
     label: Catalogo
+  pnrr:
+    linkTo: /piano-nazionale-ripresa-resilienza
+    label: Piano Nazionale di Ripresa e Resilienza  
   pnrrStrategy:
-    linkTo: /strategia-cloud-pa#pnrr
-    label: Scopri la strategia
+    linkTo: /piano-nazionale-ripresa-resilienza
+    label: Scopri di più
     linkTo1: /programma-abilitazione-cloud/
     label1: Programma di abilitazione e classificazione dei dati
     linkTo2: https://areariservata.padigitale2026.gov.it/Pa_digitale2026_avvisi
