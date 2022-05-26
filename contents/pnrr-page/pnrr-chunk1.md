@@ -1,18 +1,4 @@
----
-type: "news"
-title: "Le opportunità del Piano Nazionale di Ripresa e Resilienza"
-subtitle: "Un approfondimento su come il PNRR aAbilitare e facilitare la migrazione al cloud"
-date: "2022-05-26"
-evidence: true
-internalNews: true
-fonte: 
-showInHome: true
-typeOfNews: Approfondimento
-link: 
-image: /assets/img_news/2022-05-26-le-opportunita-del-piano-nazionale-di-ripresa-e-resilienza.png
-tags:
-  - Approfondimenti
----
+#Piano Nazionale di Ripresa e Resilienza
 
 **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
 La strategia per l'Italia digitale 2026 si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
@@ -57,5 +43,3 @@ L'avviso stanzia 500 milioni per la migrazione di un numero minimo di servizi de
 L'avviso mette a disposizione 50 milioni per la migrazione di un numero minimo di servizi delle scuole verso infrastrutture e servizi cloud qualificati. Gli istituti scolastici possono scegliere una lista di servizi da migrare da una rosa di 32. Sono ammesse le attività da avviare o avviate dal 1 febbraio 2020. L'avviso scade il 22 luglio 2022.
 
 [Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000dk80MQAQI){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}
-
-
