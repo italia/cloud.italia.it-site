@@ -9,7 +9,7 @@ fonte:
 showInHome: true
 typeOfNews: Approfondimento
 link: 
-image: /assets/img_news/2022-05-26-le-opportunita-del-piano-nazionale-di-ripresa-e-resilienza.png
+image: /assets/img_news/2022-05-31-il-polo-strategico-nazionale.png
 tags:
   - Approfondimenti
 ---
