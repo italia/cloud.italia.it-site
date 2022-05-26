@@ -11,9 +11,6 @@ internalLinks:
   catalogue:
     linkTo: /catalogo-servizi-cloud/
     label: Catalogo
-  pnrr:
-    linkTo: /piano-nazionale-ripresa-resilienza/
-    label: Piano Nazionale di Ripresa e Resilienza  
   pnrrStrategy:
     linkTo: /piano-nazionale-ripresa-resilienza
     label: Scopri di più
