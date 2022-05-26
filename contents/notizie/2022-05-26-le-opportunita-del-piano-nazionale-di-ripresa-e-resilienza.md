@@ -2,14 +2,14 @@
 type: "news"
 title: "Le opportunità del Piano Nazionale di Ripresa e Resilienza"
 subtitle: "Un approfondimento su come il PNRR aAbilitare e facilitare la migrazione al cloud"
-date: "2022-05-24"
+date: "2022-05-26"
 evidence: true
 internalNews: true
 fonte: 
 showInHome: true
 typeOfNews: Approfondimento
 link: 
-image: /assets/img_news/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio.png
+image: /assets/img_news/2022-05-26-le-opportunita-del-piano-nazionale-di-ripresa-e-resilienza
 tags:
   - Approfondimenti
 ---
