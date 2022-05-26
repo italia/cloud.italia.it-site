@@ -39,12 +39,15 @@ Il Polo dovrà:
 * effettuare la migrazione dei dati e servizi delle amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
-**Scopri i fondi per migrare al PSN**
+<div class="col-12 text-center mt-3 mb-5">
+<a href="/piano-nazionale-ripresa-resilienza" class="btn btn-primary" target="_blank">Scopri i fondi del PNRR</a>
+</div>
 
 ## Le tappe verso il PSN
 {class="h5 font-weight-semibold mb-4"}
 
 ### Luglio 2020
+{class="h6 font-weight-semibold mb-4"}
 La Presidenza del Consiglio dei ministri, secondo le disposizioni previste nell’[articolo 35 del Decreto Legge n 76 del 16 luglio 2020](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=9&art.flagTipoArticolo=0&art.codiceRedazionale=20A04921&art.idArticolo=35&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2020-09-14&art.progressivo=0#art), attraverso il Dipartimento per la trasformazione digitale promuove lo sviluppo di una infrastruttura ad alta affidabilità localizzata sul territorio nazionale per la razionalizzazione e il consolidamento dei Centri di elaborazione Dati (CED) e relativi sistemi informatici. 
 
 ### Luglio 2021
