@@ -1,5 +1,3 @@
-#Piano Nazionale di Ripresa e Resilienza
-
 **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
 La strategia per l'Italia digitale 2026 si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
  
