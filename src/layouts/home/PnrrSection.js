@@ -97,10 +97,13 @@ export const PnrrSection = () => {
                   />
                 </ExternalLink>
               </div>
-              <div aria-hidden="true" className={classes.orizontalDelimiter} />
-              <HeroSubTitle Tag="div" title={subTitle2} className="font-weight-bold text-white mb-0" />
               <Link to={pnrrStrategy.linkTo3} className={`col-12 ${classes.whiteHighContrast}`}>
                 <small>{pnrrStrategy.label3}</small>
+              </Link>
+              <div aria-hidden="true" className={classes.orizontalDelimiter} />
+              <HeroSubTitle Tag="div" title={subTitle2} className="font-weight-bold text-white mb-0" />
+              <Link to={pnrrStrategy.linkTo4} className={`col-12 ${classes.whiteHighContrast}`}>
+                <small>{pnrrStrategy.label4}</small>
               </Link>
             </div>
           </div>
