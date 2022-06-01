@@ -40,4 +40,4 @@ L'avviso stanzia 500 milioni per la migrazione di un numero minimo di servizi de
 ### Scuole
 L'avviso mette a disposizione 50 milioni per la migrazione di un numero minimo di servizi delle scuole verso infrastrutture e servizi cloud qualificati. Gli istituti scolastici possono scegliere una lista di servizi da migrare da una rosa di 32. Sono ammesse le attività da avviare o avviate dal 1 febbraio 2020. L'avviso scade il 22 luglio 2022.
 
-[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000dk80MQAQI){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}
+[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000dk80MQAQ){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}
