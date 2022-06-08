@@ -17,14 +17,14 @@ Il progetto di creazione del PSN sarà gestito da un operatore economico selezio
 ## Requisiti qualitativi ed infrastrutturali del PSN
 {class="h5 font-weight-semibold mb-4"}
 
-Il PSN ospiterà dati e servizi della Pubblica Amministrazione a partire da quelli strategici e dovrà essere costituito nel rispetto dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità, secondo il regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=) del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (DL 18 ottobre 2012, n. 179).
+Il PSN ospiterà dati e servizi della Pubblica Amministrazione a partire da quelli strategici e dovrà essere costituito nel rispetto dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità, secondo il regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (DL 18 ottobre 2012, n. 179).
 
 Il Polo dovrà:
 * effettuare la migrazione dei dati e servizi delle amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="/piano-nazionale-ripresa-resilienza" class="btn btn-primary" target="_blank">Scopri i fondi del PNRR</a>
+<a href="/piano-nazionale-ripresa-e-resilienza" class="btn btn-primary" target="_blank">Scopri i fondi del PNRR</a>
 </div>
 
 ## Le tappe verso il PSN
@@ -32,7 +32,7 @@ Il Polo dovrà:
 
 ### Luglio 2020
 {class="h6 font-weight-semibold mb-4"}
-La Presidenza del Consiglio dei ministri, secondo le disposizioni previste nell’[articolo 35 del Decreto Legge n 76 del 16 luglio 2020](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=9&art.flagTipoArticolo=0&art.codiceRedazionale=20A04921&art.idArticolo=35&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2020-09-14&art.progressivo=0#art), attraverso il Dipartimento per la trasformazione digitale promuove lo sviluppo di una infrastruttura ad alta affidabilità localizzata sul territorio nazionale per la razionalizzazione e il consolidamento dei Centri di elaborazione Dati (CED) e relativi sistemi informatici. 
+La Presidenza del Consiglio dei ministri, secondo le disposizioni previste nell’[articolo 35 del Decreto Legge n 76 del 16 luglio 2020](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=9&art.flagTipoArticolo=0&art.codiceRedazionale=20A04921&art.idArticolo=35&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2020-09-14&art.progressivo=0#art){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, attraverso il Dipartimento per la trasformazione digitale promuove lo sviluppo di una infrastruttura ad alta affidabilità localizzata sul territorio nazionale per la razionalizzazione e il consolidamento dei Centri di elaborazione Dati (CED) e relativi sistemi informatici. 
 
 ### Luglio 2021
 {class="h6 font-weight-semibold mb-4"}
@@ -44,11 +44,11 @@ Il Dipartimento ha ricevuto tre proposte di partenariato pubblico-privato per la
 
 ### Dicembre 2021
 {class="h6 font-weight-semibold mb-4"}
-Il Dipartimento ha pubblicato il [Decreto](https://assets.innovazione.gov.it/1640616261-decreto-n-47-2021-pnrr.pdf) che seleziona la proposta per la realizzazione del PSN secondo il modello di partenariato pubblico-privato. La procedura viene affidata a Difesa Servizi S.p.A., società _in-house_ del Ministero della Difesa.
+Il Dipartimento ha pubblicato il [Decreto](https://assets.innovazione.gov.it/1640616261-decreto-n-47-2021-pnrr.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} che seleziona la proposta per la realizzazione del PSN secondo il modello di partenariato pubblico-privato. La procedura viene affidata a Difesa Servizi S.p.A., società _in-house_ del Ministero della Difesa.
 
 ### Gennaio 2022
 {class="h6 font-weight-semibold mb-4"}
-Pubblicato il [bando](https://www.difesaservizi.it/pubblicazione-gara-per-il-Polo-Strategico-Nazionale) per la realizzazione del PSN. Il 21 marzo 2022 si è conclusa la fase di ricezione delle offerte di mercato.
+Pubblicato il [bando](https://www.difesaservizi.it/pubblicazione-gara-per-il-Polo-Strategico-Nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} per la realizzazione del PSN. Il 21 marzo 2022 si è conclusa la fase di ricezione delle offerte di mercato.
 
 ### Aprile 2022
 {class="h6 font-weight-semibold mb-4"}
