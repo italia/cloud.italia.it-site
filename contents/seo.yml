@@ -23,6 +23,12 @@ glossaryPage:
 newsPage:
   title: Le Notizie - Cloud Italia
   description: Le ultime novità sull'attuazione della Strategia Cloud Italia
+polo-strat-naz-page:
+  title: Il Polo Strategico Nazionale - Cloud Italia
+  description: Tutte le informazioni sull’infrastruttura che garantisce la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese
+pnrr-page:
+  title: Le opportunità del Piano Nazionale di Ripresa e Resilienza - Cloud Italia
+  description: Informazioni sui fondi del PNRR messi a disposizione delle Pubbliche Amministrazioni per migrare al cloud
 privacyPage:
   title: Informativa privacy - Cloud Italia
   description: Informativa sulla gestione dei cookie del sito Cloud Italia
