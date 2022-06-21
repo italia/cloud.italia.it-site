@@ -32,3 +32,9 @@ creditsPage:
 notFoundPage:
   title: Pagina non trovata - Cloud Italia
   description: Pagina non trovata
+poloStratNazPage:
+  title: Il Polo Strategico Nazionale - Cloud Italia
+  description: Tutte le informazioni sull’infrastruttura che garantisce la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese
+pnrrPage:
+  title: Le opportunità del Piano Nazionale di Ripresa e Resilienza - Cloud Italia
+  description: Informazioni sui fondi del PNRR messi a disposizione delle Pubbliche Amministrazioni per migrare al cloud

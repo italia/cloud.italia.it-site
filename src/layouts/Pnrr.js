@@ -17,7 +17,7 @@ const query = graphql`
 `;
 
 const { body, title } = content;
-const { title: seoTitle, description: seoDescription } = seo.strategyPage;
+const { title: seoTitle, description: seoDescription } = seo.pnrrPage;
 
 export const Pnrr = () => {
   const {
