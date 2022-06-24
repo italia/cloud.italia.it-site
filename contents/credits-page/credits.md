@@ -35,3 +35,6 @@ Foto per le elaborazioni grafiche di:
 - [Charles Deluvio](https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Charles Deluvio (link esterno)'}
   da
   [Unsplash](https://unsplash.com/s/visual/1eca527a-97a4-44a9-a843-be98fd8c9435?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Unsplash (link esterno)'}
+  - [Scott Kelly, NASA Marshall](https://www.flickr.com/photos/nasamarshall/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Charles Deluvio (link esterno)'}
+  da
+  [Flickr](https://www.flickr.com/photos/nasamarshall/24260073679){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Flickr (link esterno)'}
