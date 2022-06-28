@@ -3,7 +3,7 @@ type: "news"
 title: "Aggiudicata la gara per il Polo Strategico Nazionale"
 subtitle: "La gara prevede la realizzazione e gestione dell’infrastruttura ad alta affidabilità definita nella Strategia Cloud Italia"
 date: "2022-06-22"
-evidence: true
+evidence: false
 internalNews: false
 fonte: innovazione.gov.it
 showInHome: true
