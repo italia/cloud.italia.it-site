@@ -22,6 +22,5 @@ L’evento è stato anche un momento importante per approfondire le linee di att
 
 Nel corso dell’incontro sono state, inoltre, descritte **le prossime attività per l’individuazione di tecnologie e infrastrutture cloud** che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza ed ospitare dati e servizi strategici e critici delle pubbliche amministrazioni italiane.
 
-[Guarda il video dell'evento su Vimeo](https://player.vimeo.com/video/722115333?h=a86e996525){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Guarda il video dell'evento su Vimeo';}
-
+[Guarda il video dell'evento su Vimeo](https://vimeo.com/722115333){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Guarda il video dell'evento su Vimeo';}<br>
 [Leggi le presentazioni dei relatori](https://innovazione.gov.it/notizie/articoli/verso-padigitale2026-da-forum-pa-2022-a-missione-italia-di-anci/#_attachments){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Leggi le presentazioni dei relatori';}
