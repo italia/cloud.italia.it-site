@@ -24,7 +24,7 @@ Il Polo dovrà:
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="/piano-nazionale-ripresa-e-resilienza" class="btn btn-primary" target="_blank">Scopri i fondi del PNRR</a>
+<a href="/piano-nazionale-ripresa-e-resilienza" class="btn btn-primary">Scopri i fondi del PNRR</a>
 </div>
 
 ## Le tappe verso il PSN
