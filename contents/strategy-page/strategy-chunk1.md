@@ -67,7 +67,7 @@ Il piano prevede due misure, rivolte a tipologie diverse di PA:
 * la misura 1.2, dedicata a Comuni, scuole e Asl.
 
 ### <div id="pnrr">Misura 1.1</div>
-{class="h3 font-weight-semibold mt-4 mb-4"}
+{class="h3 font-weight-semibold mt-2 mb-2"}
 
 La misura 1.1 “Infrastrutture digitali” mette a disposizione di 900 milioni di euro per raggiungere due obiettivi principali:
 * **mettere in sicurezza gli asset strategici dello Stato**, realizzando un’infrastruttura ad alta affidabilità denominata Polo Strategico Nazionale (PSN);
@@ -78,7 +78,7 @@ I fondi coprono i costi di migrazione e i canoni cloud, solo per il periodo nece
 I servizi strategici sono individuati mediante la [procedura di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='procedura di classificazione (link esterno)'} gestita da Agenzia per la Cybersicurezza Nazionale.
 
 ### <div id="pnrr">Misura 1.2</div>
-{class="h3 font-weight-semibold mt-4 mb-4"}
+{class="h3 font-weight-semibold mt-2 mb-2"}
 
 La misura 1.2 “Abilitazione e facilitazione migrazione al Cloud” stanzia 1 miliardo di euro per migrare al cloud 12.464 tra Comuni, scuole e Asl. Nasce per **migliorare la qualità dei servizi erogati dalle pubbliche amministrazioni**, migrando i servizi e gli applicativi obsoleti disponibili in locale presso le sedi delle PA (on premise) verso soluzioni innovative basate sul modello [cloud qualificato](https://cloud.italia.it/glossario/#cloud-qualificato){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='cloud pubblico'}, secondo regole e standard di qualità definiti da AGID.
 
