@@ -26,12 +26,20 @@ L’evento è stato anche un momento importante per approfondire le linee di att
 
 Nel corso dell’incontro sono state, inoltre, descritte **le prossime attività per l’individuazione di tecnologie e infrastrutture cloud** che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza ed ospitare dati e servizi strategici e critici delle pubbliche amministrazioni italiane.
 
-<br>
+
 #### Scarica le presentazioni dell'evento
 {class="h5 font-weight-semibold mb-4"}
 
-[La migrazione al cloud per le PA centrali - Adriano Avenia (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1656427634-aveniaforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA centrali - Adriano Avenia';}<br>
-[La migrazione al cloud per le PA locali - Luciano Castro (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427534-6-castrocloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA locali - Luciano Castro';}<br>
-[PNRR e Strategia Cloud Italia - Paolo de Rosa (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427593-2-derosacloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='PNRR e Strategia Cloud Italia - Paolo de Rosa';}<br>
-[Classificare dati e servizi. L’esperienza di Roma Capitale - Nicla Diomede (PDF, 1.1 MB)](https://assets.innovazione.gov.it/1656427609-5-diomedecloudforumpa1406-pptx.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Classificare dati e servizi. L’esperienza di Roma Capitale - Nicla Diomede';}<br>
+[La migrazione al cloud per le PA centrali - Adriano Avenia (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1656427634-aveniaforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA centrali - Adriano Avenia';}
+
+
+[La migrazione al cloud per le PA locali - Luciano Castro (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427534-6-castrocloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA locali - Luciano Castro';}
+
+
+[PNRR e Strategia Cloud Italia - Paolo de Rosa (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427593-2-derosacloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='PNRR e Strategia Cloud Italia - Paolo de Rosa';}
+
+
+[Classificare dati e servizi. L’esperienza di Roma Capitale - Nicla Diomede (PDF, 1.1 MB)](https://assets.innovazione.gov.it/1656427609-5-diomedecloudforumpa1406-pptx.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Classificare dati e servizi. L’esperienza di Roma Capitale - Nicla Diomede';}
+
+
 [La classificazione dei dati e dei servizi della PA e la qualificazione dei servizi cloud - Luca Nicoletti (PDF, 1.6 MB)](https://assets.innovazione.gov.it/1656427651-3-nicoletticloudforumpa140.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La classificazione dei dati e dei servizi della PA e la qualificazione dei servizi cloud - Luca Nicoletti';}
