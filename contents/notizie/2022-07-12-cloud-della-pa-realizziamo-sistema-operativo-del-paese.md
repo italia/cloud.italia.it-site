@@ -18,7 +18,7 @@ L’evento **“Cloud della PA: realizziamo il sistema operativo del Paese”** 
 
 L’incontro ha rappresentato un’occasione di **dialogo e confronto sulle esigenze attuali delle pubbliche amministrazioni italiane** per la migrazione al cloud: dalla classificazione dei dati e dei servizi, agli avvisi attivi su [PA digitale 2026](https://www.padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='PA digitale 2026';} dedicati a Comuni e scuole, passando per le esperienze virtuose di **Roma Capitale** e del **Ministero della Cultura** e il percorso per migrare verso il cloud qualificato per la PA.   
 
-<div class="col-12 text-center mt-3 mb-5">
+<div class="col-12 text-center mt-5 mb-5">
 <a href="https://vimeo.com/722115333" class="btn btn-primary" target="_blank">Guarda il video dell'evento su Vimeo</a>
 </div>
 
