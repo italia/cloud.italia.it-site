@@ -18,13 +18,19 @@ L’evento **“Cloud della PA: realizziamo il sistema operativo del Paese”** 
 
 L’incontro ha rappresentato un’occasione di **dialogo e confronto sulle esigenze attuali delle pubbliche amministrazioni italiane** per la migrazione al cloud: dalla classificazione dei dati e dei servizi, agli avvisi attivi su [PA digitale 2026](https://www.padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='PA digitale 2026';} dedicati a Comuni e scuole, passando per le esperienze virtuose di **Roma Capitale** e del **Ministero della Cultura** e il percorso per migrare verso il cloud qualificato per la PA.
 
+<div class="col-12 text-center mt-3 mb-5">
+<a href="https://vimeo.com/722115333" class="btn btn-primary" target="_blank">Guarda il video dell'evento su Vimeo</a>
+</div>
+
 L’evento è stato anche un momento importante per approfondire le linee di attuazione previste dalla [Strategia Cloud Italia](https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Strategia Cloud Italia';} – la classificazione di dati e servizi, la qualificazione dei servizi cloud e il Polo Strategico Nazionale) – e delle opportunità e delle scadenze previste. 
 
 Nel corso dell’incontro sono state, inoltre, descritte **le prossime attività per l’individuazione di tecnologie e infrastrutture cloud** che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza ed ospitare dati e servizi strategici e critici delle pubbliche amministrazioni italiane.
 
-[Guarda il video dell'evento su Vimeo](https://vimeo.com/722115333){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Guarda il video dell'evento su Vimeo';}<br>
-[Scarica la presentazione di Luciano Castro (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427534-6-castrocloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Scarica la presentazione di Luciano Castro';}<br>
-[Scarica la presentazione di Paolo de Rosa (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427593-2-derosacloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Scarica la presentazione di Paolo de Rosa';}<br>
-[Scarica la presentazione di Nicla Diomede (PDF, 1.1 MB)](https://assets.innovazione.gov.it/1656427609-5-diomedecloudforumpa1406-pptx.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Scarica la presentazione di Nicla Diomede';}<br>
-[Scarica la presentazione di Adriano Avenia (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1656427634-aveniaforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Scarica la presentazione di Adriano Avenia';}<br>
-[Scarica la presentazione di Luca Nicoletti (PDF, 1.6 MB)](https://assets.innovazione.gov.it/1656427651-3-nicoletticloudforumpa140.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Scarica la presentazione di Luca Nicoletti';}
+#### Scarica le presentazioni dell'evento
+{class="h5 font-weight-semibold mb-4"}
+
+[La migrazione al cloud per le PA centrali - Adriano Avenia (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1656427634-aveniaforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA centrali - Adriano Avenia';}<br>
+[La migrazione al cloud per le PA locali - Luciano Castro (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427534-6-castrocloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La migrazione al cloud per le PA locali - Luciano Castro';}<br>
+[PNRR e Strategia Cloud Italia - Paolo de Rosa (PDF, 2.8 MB)](https://assets.innovazione.gov.it/1656427593-2-derosacloudforumpa1406.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='PNRR e Strategia Cloud Italia - Paolo de Rosa';}<br>
+[Classificare dati e servizi: dalla teoria alla pratica. L’esperienza di Roma Capitale - Nicla Diomede (PDF, 1.1 MB)](https://assets.innovazione.gov.it/1656427609-5-diomedecloudforumpa1406-pptx.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Classificare dati e servizi: dalla teoria alla pratica. L’esperienza di Roma Capitale - Nicla Diomede';}<br>
+[La classificazione dei dati e dei servizi della PA e la qualificazione dei servizi cloud - Luca Nicoletti (PDF, 1.6 MB)](https://assets.innovazione.gov.it/1656427651-3-nicoletticloudforumpa140.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='La classificazione dei dati e dei servizi della PA e la qualificazione dei servizi cloud - Luca Nicoletti';}
