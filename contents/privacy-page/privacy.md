@@ -113,4 +113,4 @@ Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare c
 - [Edge](https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Edge (link esterno)'}
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Opera (link esterno)'}
 
-<p class="text-right"><em>ultimo aggiornamento: 30/12/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 14/07/2022</em></p>
