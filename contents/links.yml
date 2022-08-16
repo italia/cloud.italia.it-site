@@ -4,13 +4,13 @@ internalLinks:
     label: Strategia
   enablement:
     linkTo: /programma-abilitazione-cloud/
-    label: Programma di abilitazione
+    label: Abilitazione delle PA
   services:
     linkTo: /qualificazione-servizi-cloud/
-    label: Qualificazione
-  catalogue:
-    linkTo: /catalogo-servizi-cloud/
-    label: Catalogo
+    label: Qualificazione per i fornitori
+  # catalogue:
+  #   linkTo: /catalogo-servizi-cloud/
+  #   label: Catalogo
   pnrrStrategy:
     linkTo: /piano-nazionale-ripresa-e-resilienza
     label: Scopri i fondi del PNRR

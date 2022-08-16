@@ -11,6 +11,8 @@ import content from '../../contents/qualification-page/qualification.yml';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
+import { InDeepQualificationLinkComponent } from '../components/InDeepQualificationLinkComponent.js';
+
 const { title, body, altImg, resourceTitle, resources } = content;
 const { title: seoTitle, description: seoDescription } = seo.qualificationPage;
 
@@ -34,7 +36,8 @@ export const QualificationPage = () => {
   return (
     <>
       <SEO title={seoTitle} description={seoDescription} socialCard="qualificazione.jpg" />
-      <Hero>
+      <Hero yPaddingXLScreen={false}>
+        <InDeepQualificationLinkComponent />
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">

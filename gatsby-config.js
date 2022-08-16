@@ -16,6 +16,20 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'indeepStrategia',
+        path: `${__dirname}/src/pages/strategia`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'indeepQualificazione',
+        path: `${__dirname}/src/pages/qualificazione`,
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

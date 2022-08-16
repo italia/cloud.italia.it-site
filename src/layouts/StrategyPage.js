@@ -12,6 +12,8 @@ import content from '../../contents/strategy-page/strategy.yml';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
+import { InDeepStrategyLinkComponent } from '../components/InDeepStrategyLinkComponent.js';
+
 const query = graphql`
   query {
     chunk1: markdownRemark(fields: { slug: { eq: "strategy-page/strategy-chunk1" } }) {
@@ -38,7 +40,8 @@ export const StrategyPage = () => {
   return (
     <>
       <SEO title={seoTitle} description={seoDescription} socialCard="strategia.jpg" />
-      <Hero>
+      <Hero yPaddingXLScreen={false}>
+      <InDeepStrategyLinkComponent />
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">

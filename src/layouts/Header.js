@@ -186,6 +186,7 @@ const NavHeader = () => {
                   to={internalLinks.strategy.linkTo}
                   className="nav-link"
                   activeClassName="active"
+                  partiallyActive={true}
                   onClick={closeMenu}
                 >
                   <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
@@ -196,6 +197,7 @@ const NavHeader = () => {
                   to={internalLinks.enablement.linkTo}
                   className="nav-link"
                   activeClassName="active"
+                  partiallyActive={true}
                   onClick={closeMenu}
                 >
                   <span className="font-weight-semibold">{internalLinks.enablement.label}</span>
@@ -206,23 +208,25 @@ const NavHeader = () => {
                   to={internalLinks.services.linkTo}
                   className="nav-link"
                   activeClassName="active"
+                  partiallyActive={true}
                   onClick={closeMenu}
                 >
                   <span className="font-weight-semibold">{internalLinks.services.label}</span>
                 </Link>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Link
                   to={internalLinks.catalogue.linkTo}
                   className="nav-link"
                   activeClassName="active"
+                  partiallyActive={true}
                   onClick={closeMenu}
                 >
                   <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
                 </Link>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
-                <Link to={internalLinks.news.linkTo} className="nav-link" activeClassName="active" onClick={closeMenu}>
+                <Link to={internalLinks.news.linkTo} className="nav-link" activeClassName="active" partiallyActive={true} onClick={closeMenu}>
                   <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>
@@ -231,6 +235,7 @@ const NavHeader = () => {
                   to={internalLinks.glossary.linkTo}
                   className="nav-link"
                   activeClassName="active"
+                  partiallyActive={true}
                   onClick={closeMenu}
                 >
                   <span className="font-weight-semibold">{internalLinks.glossary.label}</span>
