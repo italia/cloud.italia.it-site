@@ -88,15 +88,9 @@ cookie tecnici al fine di garantire il corretto funzionamento delle procedure e 
 d'uso dei propri visitatori, il cui uso non è strumentale alla raccolta di dati personali identificativi
 dell'utente. Per questo motivo non abbiamo bisogno del tuo consenso per
 memorizzare i cookie.
-Utilizziamo anche i seguenti cookie analitici:
-* il servizio Google Analytics, la cui policy può essere visionata a
-  [questo link](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage).
-  Al fine di rispettare la privacy degli utenti, il servizio è utilizzato con la modalità
-  “anonymizeIp” che consente di mascherare gli indirizzi IP degli utenti che navigano
-  sul sito ([maggiori informazioni sulla funzionalità](https://support.google.com/analytics/answer/2763052?hl=it)).
-* il servizio "Web Analytics Italia" (WAI) fornito da AGID che raccoglie dati
-  statistici anonimi mediante IP anonimizzato relativi alle visite del sito Internet
-  da parte degli utenti.
+Utilizziamo anche i cookie analitici del servizio "Web Analytics Italia" (WAI)
+fornito da AGID che raccoglie dati statistici anonimi mediante IP anonimizzato
+relativi alle visite del sito Internet da parte degli utenti.
 
 Inoltre noi e i nostri fornitori ci asteniamo dal combinare questi cookie con altre
 elaborazioni né li trasmettiamo a terzi.
@@ -119,4 +113,4 @@ Nel caso in cui si disabilitino tutti i cookie il sito potrebbe non funzionare c
 - [Edge](https://support.microsoft.com/it-it/help/4027947/microsoft-edge-delete-cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Edge (link esterno)'}
 - [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Opera (link esterno)'}
 
-<p class="text-right"><em>ultimo aggiornamento: 30/12/2021</em></p>
+<p class="text-right"><em>ultimo aggiornamento: 14/07/2022</em></p>

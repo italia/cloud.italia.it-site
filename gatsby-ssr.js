@@ -14,21 +14,9 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
     g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();`;
 
-  const gaScript = `
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-96140462-9', 'auto');
-  ga('set', 'anonymizeIp', true);
-  `;
-
   setHeadComponents([
     <link rel="preconnect" href="https://ingestion.webanalytics.italia.it/mamoto.js" key="preconnect-matomo" />,
     <link rel="preconnect" href="https://www.google-analytics.com/analytics.js" key="preconnect-ga" />,
   ]);
-  setPostBodyComponents([
-    <script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />,
-    <script key="ga" dangerouslySetInnerHTML={{ __html: gaScript }} />,
-  ]);
+  setPostBodyComponents([<script key="matomo" dangerouslySetInnerHTML={{ __html: mamotoScript }} />]);
 };
