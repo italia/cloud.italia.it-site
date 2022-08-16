@@ -11,7 +11,6 @@ import labels from '../../contents/labels.yml';
 import { SEO } from '../components/SEO.js';
 
 const NewsTemplate = ({ data }) => {
-  console.log({data})
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html, timeToRead } = markdownRemark;
   const ItDate = DateTime.fromISO(frontmatter.date).toLocaleString();

@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { DateTime } from 'luxon';
 import { TextChunk } from '../components/TextChunk.js';
 import { HeroTitle } from '../components/hero/HeroTitle.js';
 import { HeroBody } from '../components/hero/HeroBody.js';
@@ -10,10 +9,8 @@ import { Breadcrumb } from '../components/Breadcrumb.js';
 import { SEO } from '../components/SEO.js';
 
 const InDeepStrategyTemplate = ({ data }) => {
-
   const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html, timeToRead } = markdownRemark;
-  const ItDate = DateTime.fromISO(frontmatter.date).toLocaleString();
+  const { frontmatter, html } = markdownRemark;
   return (
     <>
       <SEO title={`${frontmatter.title} - Cloud Italia`} description={frontmatter.subtitle} />

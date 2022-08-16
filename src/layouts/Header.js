@@ -226,7 +226,13 @@ const NavHeader = () => {
                 </Link>
               </NavItem> */}
               <NavItem>
-                <Link to={internalLinks.news.linkTo} className="nav-link" activeClassName="active" partiallyActive={true} onClick={closeMenu}>
+                <Link
+                  to={internalLinks.news.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  partiallyActive={true}
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>

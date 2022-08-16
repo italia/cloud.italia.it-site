@@ -19,7 +19,7 @@ const {
 } = content;
 
 const {
-  internalLinks: { services, catalogue },
+  internalLinks: { services },
   externalLinks: { marketplace, openDataMarketplace },
 } = links;
 

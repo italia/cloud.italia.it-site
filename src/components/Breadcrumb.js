@@ -10,8 +10,8 @@ export const Breadcrumb = ({ currentPage, goToVertical = false }) => (
         <nav aria-label={labels.ariaLabel.breadcrumb} className="breadcrumb-container">
           <ol className="breadcrumb ml-0 ml-sm-4 mt-4 mb-0 justify-content-center justify-content-sm-start">
             <li className="breadcrumb-item d-none d-sm-block">
-              <Link className="font-weight-normal" to={`${goToVertical ? goToVertical : "/"}`}>
-                {`${goToVertical ? "Go back" : "Home"}`}
+              <Link className="font-weight-normal" to={`${goToVertical ? goToVertical : '/'}`}>
+                {`${goToVertical ? 'Go back' : 'Home'}`}
               </Link>
               <span aria-hidden="true" className="separator">
                 /
@@ -29,4 +29,5 @@ export const Breadcrumb = ({ currentPage, goToVertical = false }) => (
 
 Breadcrumb.propTypes = {
   currentPage: PropTypes.string.isRequired,
+  goToVertical: PropTypes.string,
 };
