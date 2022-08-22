@@ -12,16 +12,16 @@ internalLinks:
   #   linkTo: /catalogo-servizi-cloud/
   #   label: Catalogo
   pnrrStrategy:
-    linkTo: /piano-nazionale-ripresa-e-resilienza
+    linkTo: /strategia-cloud-pa/piano-nazionale-di-ripresa-e-resilienza
     label: Scopri i fondi del PNRR
     linkTo1: /programma-abilitazione-cloud/
     label1: Programma di abilitazione e classificazione dei dati
     linkTo2: https://areariservata.padigitale2026.gov.it/Pa_digitale2026_avvisi
     label2: Migrazione e accesso ai fondi
-    linkTo3: /polo-strategico-nazionale/
+    linkTo3: /strategia-cloud-pa/polo-strategico-nazionale
     label3: Polo Strategico Nazionale
     linkTo4: /qualificazione-servizi-cloud/
-    label4: Qualificazione
+    label4: Qualificazione per i fornitori
   glossary:
     linkTo: /glossario/
     label: Glossario
