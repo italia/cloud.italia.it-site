@@ -1,6 +1,6 @@
 ---
 type: "indeepStrategia"
-title: "Le opportunità del Piano Nazionale di Ripresa e Resilienza"
+title: "Piano Nazionale di Ripresa e Resilienza"
 subtitle: "Italia Domani prevede 1,9 miliardi di euro per l’erogazione di servizi pubblici digitali su infrastrutture cloud sicure, efficienti e affidabili"
 date: "2022-07-01"
 ---
