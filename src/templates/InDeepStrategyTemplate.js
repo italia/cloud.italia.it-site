@@ -14,7 +14,7 @@ const InDeepStrategyTemplate = ({ data }) => {
   return (
     <>
       <SEO title={`${frontmatter.title} - Cloud Italia`} description={frontmatter.subtitle} />
-      <Breadcrumb currentPage={`${frontmatter.title}`} goToVertical="/strategia-cloud-pa/" />
+      <Breadcrumb currentPage={`${frontmatter.title}`} goToVertical="/strategia-cloud-pa/" verticalTitle="Strategia" />
       <Hero yPaddingXLScreen={false}>
         <div className="row">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

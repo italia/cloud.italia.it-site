@@ -4,13 +4,13 @@ import { graphql, useStaticQuery, Link } from 'gatsby';
 const LinksList = (nodes) => {
   const list = nodes.list || [];
   return (
-    <div className="row mb-5 px-3">
-      <div className="col-12 px-3">
-        <span className="mid-caption text-uppercase font-weight-semibold mb-2 d-block mid-caption--large ">
+    <div className="row mb-5 mt-5">
+      <div className="col-12 m-0 ml-1 p-0">
+        <div className="mid-caption text-uppercase font-weight-semibold mb-5 d-block mid-caption--large">
           Approfondisci
-        </span>
+        </div>
       </div>
-      <div className="col-sm-6 m-auto m-sm-0 pr-sm-5 px-3">
+      <div className=" m-auto ml-sm-1 pr-sm-5">
         {list.map((node, idx) => (
           <Link key={idx} className="text-decoration-none font-weight-semibold d-block mb-3" to={node.fields.slug}>
             {node.frontmatter.title}

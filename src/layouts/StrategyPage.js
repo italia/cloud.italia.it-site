@@ -41,12 +41,12 @@ export const StrategyPage = () => {
     <>
       <SEO title={seoTitle} description={seoDescription} socialCard="strategia.jpg" />
       <Hero yPaddingXLScreen={false}>
-        <InDeepStrategyLinkComponent />
         <div className="row align-items-center">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">
             <div className="text-center text-lg-left">
               <HeroTitle title={title} className="text-info" Tag="h1" />
               <HeroBody html={body} />
+              <InDeepStrategyLinkComponent />
             </div>
           </div>
         </div>

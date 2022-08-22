@@ -14,7 +14,7 @@ const InDeepQualificationTemplate = ({ data }) => {
   return (
     <>
       <SEO title={`${frontmatter.title} - Cloud Italia`} description={frontmatter.subtitle} />
-      <Breadcrumb currentPage={`${frontmatter.title}`} goToVertical="/qualificazione-servizi-cloud/" />
+      <Breadcrumb currentPage={`${frontmatter.title}`} goToVertical="/qualificazione-servizi-cloud/"  verticalTitle="Qualificazione" />
       <Hero yPaddingXLScreen={false}>
         <div className="row">
           <div className="offset-lg-1 col-lg-6 mt-4 mt-lg-0">

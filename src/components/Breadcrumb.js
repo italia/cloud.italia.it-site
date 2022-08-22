@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import labels from '../../contents/labels.yml';
 
-export const Breadcrumb = ({ currentPage, goToVertical = false }) => (
+export const Breadcrumb = ({ currentPage, goToVertical = false, verticalTitle = false }) => (
   <div className="container">
     <div className="row">
       <div className="col-12">
@@ -11,7 +11,7 @@ export const Breadcrumb = ({ currentPage, goToVertical = false }) => (
           <ol className="breadcrumb ml-0 ml-sm-4 mt-4 mb-0 justify-content-center justify-content-sm-start">
             <li className="breadcrumb-item d-none d-sm-block">
               <Link className="font-weight-normal" to={`${goToVertical ? goToVertical : '/'}`}>
-                {`${goToVertical ? 'Go back' : 'Home'}`}
+                {`${verticalTitle ? verticalTitle : 'Home'}`}
               </Link>
               <span aria-hidden="true" className="separator">
                 /
