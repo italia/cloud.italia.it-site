@@ -30,4 +30,5 @@ export const Breadcrumb = ({ currentPage, goToVertical = false, verticalTitle = 
 Breadcrumb.propTypes = {
   currentPage: PropTypes.string.isRequired,
   goToVertical: PropTypes.string,
+  verticalTitle: PropTypes.string,
 };
