@@ -17,7 +17,7 @@ const InDeepQualificationTemplate = ({ data }) => {
       <Breadcrumb
         currentPage={`${frontmatter.title}`}
         goToVertical="/qualificazione-servizi-cloud/"
-        verticalTitle="Qualificazione"
+        verticalTitle="Qualificazione per i fornitori"
       />
       <Hero yPaddingXLScreen={false}>
         <div className="row">
