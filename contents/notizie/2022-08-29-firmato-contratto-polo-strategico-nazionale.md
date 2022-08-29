@@ -3,7 +3,7 @@ type: "news"
 title: "Firmato il contratto per il Polo Strategico Nazionale"
 subtitle: "Il Polo è l’infrastruttura ad alta affidabilità che ha l’obiettivo di dotare la Pubblica Amministrazione di efficienti soluzioni cloud"
 date: "2022-08-29"
-evidence: false
+evidence: true
 internalNews: false
 fonte: innovazione.gov.it
 showInHome: true
