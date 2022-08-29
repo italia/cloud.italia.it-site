@@ -13,35 +13,134 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         name: 'slug',
         value: parent.relativePath.replace(path.extname(parent.relativePath), ''),
       });
+    } else if (parent.sourceInstanceName === 'indeepStrategia') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: `/strategia-cloud-pa/${parent.relativePath.replace(path.extname(parent.relativePath), '')}`,
+      });
+    } else if (parent.sourceInstanceName === 'indeepQualificazione') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: `/qualificazione-servizi-cloud/${parent.relativePath.replace(path.extname(parent.relativePath), '')}`,
+      });
     }
   }
 };
 
-exports.createPages = async ({ actions: { createPage }, graphql }) => {
-  const result = await graphql(`
+// exports.createPages = async ({ actions: { createPage }, graphql }) => {
+//   const result = await graphql(`
+//     {
+//       allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
+//         nodes {
+//           fields {
+//             slug
+//           }
+//         }
+//       }
+//     }
+//   `);
+
+//   if (result.errors) {
+//     console.error(result.errors);
+//     throw new Error(result.errors);
+//   }
+//   console.log("aaa", result.data.allMarkdownRemark)
+//   return result.data.allMarkdownRemark.nodes.forEach(({ fields }) => {
+//     console.log("bbb", fields)
+//     createPage({
+//       path: fields.slug,
+//       component: path.resolve(__dirname, 'src/templates/NewsTemplate.js'),
+//       context: {
+//         slug: fields.slug,
+//       },
+//     });
+//   });
+// };
+
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
+  const newsTemplate = path.resolve(__dirname, 'src/templates/NewsTemplate.js');
+  const InDeepStrategyTemplate = path.resolve(__dirname, 'src/templates/InDeepStrategyTemplate.js');
+  const InDeepQualificationTemplate = path.resolve(__dirname, 'src/templates/InDeepQualificationTemplate.js');
+  // Individual InDeep and news pages
+  // All in one go
+  return graphql(`
     {
-      allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
-        nodes {
-          fields {
-            slug
+      indeepStrategy: allMarkdownRemark(
+        filter: { fileAbsolutePath: { glob: "**/src/pages/strategia/*.md" } }
+        sort: { order: DESC, fields: frontmatter___date }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      indeepQualification: allMarkdownRemark(
+        filter: { fileAbsolutePath: { glob: "**/src/pages/qualificazione/*.md" } }
+        sort: { order: DESC, fields: frontmatter___date }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      news: allMarkdownRemark(
+        filter: { fileAbsolutePath: { glob: "**/contents/notizie/*.md" } }
+        sort: { order: DESC, fields: frontmatter___date }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
           }
         }
       }
     }
-  `);
+  `).then(result => {
+    if (result.errors) {
+      Promise.reject(result.errors);
+    }
 
-  if (result.errors) {
-    console.error(result.errors);
-    throw new Error(result.errors);
-  }
-
-  return result.data.allMarkdownRemark.nodes.forEach(({ fields }) => {
-    createPage({
-      path: fields.slug,
-      component: path.resolve(__dirname, 'src/templates/NewsTemplate.js'),
-      context: {
-        slug: fields.slug,
-      },
+    // Create doc pages
+    result.data.news.edges.forEach(({ node }) => {
+      createPage({
+        path: node.fields.slug,
+        slug: node.fields.slug,
+        component: newsTemplate,
+        context: {
+          slug: node.fields.slug,
+        },
+      });
+    });
+    // Create blog pages
+    result.data.indeepStrategy.edges.forEach(({ node }) => {
+      createPage({
+        path: node.fields.slug,
+        slug: node.fields.slug,
+        component: InDeepStrategyTemplate,
+        context: {
+          slug: node.fields.slug,
+        },
+      });
+    });
+    result.data.indeepQualification.edges.forEach(({ node }) => {
+      createPage({
+        path: node.fields.slug,
+        slug: node.fields.slug,
+        component: InDeepQualificationTemplate,
+        context: {
+          slug: node.fields.slug,
+        },
+      });
     });
   });
 };

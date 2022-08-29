@@ -19,7 +19,7 @@ const {
 } = content;
 
 const {
-  internalLinks: { services, catalogue },
+  internalLinks: { services },
   externalLinks: { marketplace, openDataMarketplace },
 } = links;
 
@@ -65,7 +65,7 @@ export const QualificationSection = () => {
           </div>
           <HeroCtaContainer>
             <Cta linkTo={services.linkTo} text={showMore} color="light" type="outline" aria-label={ctaAriaLabel} />
-            <Cta linkTo={catalogue.linkTo} text={catalogue.label} color="light" />
+            {/* <Cta linkTo={catalogue.linkTo} text={catalogue.label} color="light" /> */}
             <div aria-hidden="true" className={classes.verticalDelimiter} />
             <ExternalLink
               linkTo={marketplace.linkTo}
