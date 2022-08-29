@@ -6,7 +6,7 @@ const LinksList = (nodes) => {
   return (
     <div className="row mb-5 mt-5">
       <div className="col-12 m-0 ml-1 p-0">
-        <div className="mid-caption text-uppercase font-weight-semibold mb-5 d-block mid-caption--large">
+        <div className="mid-caption text-uppercase font-weight-semibold mb-4 d-block mid-caption--large">
           Approfondisci
         </div>
       </div>
