@@ -1,4 +1,11 @@
-Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la Strategia Cloud Italia e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza.
+---
+type: "indeepStrategia"
+title: "Polo Strategico Nazionale"
+subtitle: "L’infrastruttura che garantisce la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese"
+date: "2022-07-08"
+---
+
+ Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la Strategia Cloud Italia e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza.
 
 Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici. A tal fine, la Strategia Cloud Italia ha individuato tre tipologie di servizi e dati: strategici, critici e ordinari, in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
 
@@ -24,7 +31,7 @@ Il Polo dovrà:
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="/piano-nazionale-ripresa-e-resilienza" class="btn btn-primary" target="_blank">Scopri i fondi del PNRR</a>
+<a href="/strategia-cloud-pa/piano-nazionale-di-ripresa-e-resilienza" class="btn btn-primary">Scopri i fondi del PNRR</a>
 </div>
 
 ## Le tappe verso il PSN
@@ -53,3 +60,18 @@ Pubblicato il [bando](https://www.difesaservizi.it/pubblicazione-gara-per-il-Pol
 ### Aprile 2022
 {class="h6 font-weight-semibold mb-4"}
 A partire dal 19 aprile e fino al 18 luglio 2022, le Pubbliche Amministrazioni possono [classificare i propri dati e servizi su PA digitale 2026](https://padigitale2026.gov.it/come-partecipare/classifica-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='classificare i propri dati e servizi su PA digitale 2026'}, secondo le indicazioni dell'Agenzia per la Cybersicurezza Nazionale.
+
+### Giugno 2022
+{class="h6 font-weight-semibold mb-4"}
+Il 22 giugno 2022 è stata aggiudicata la [gara europea](https://innovazione.gov.it/notizie/articoli/digitale-aggiudicata-la-gara-per-il-polo-strategico-nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='gara europea'} che prevede la realizzazione e la gestione del Polo Strategico Nazionale. Il progetto su cui si è basata la gara, con base d’asta pari a 4,4 miliardi di euro, è stato approvato dal Dipartimento per la trasformazione digitale a dicembre 2021.
+
+### Luglio 2022
+{class="h6 font-weight-semibold mb-4"}
+L’operatore economico promotore del progetto di costituzione del Polo Strategico Nazionale [ha esercitato il diritto di prelazione](https://innovazione.gov.it/notizie/comunicati-stampa/aggiornamenti-sulla-gara-europea-per-il-polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='aggiornamenti sulla gara europea per il Polo Strategico Nazionale'} previsto dalla procedura di partenariato pubblico privato, impegnandosi a rispettare gli obblighi contrattuali alle stesse condizioni offerte dall’aggiudicatario. Il 7 luglio 2022 Difesa Servizi S.p.A., società in-house del Ministero della Difesa in qualità di centrale di committenza della gara europea, e il Dipartimento per la trasformazione digitale in qualità di stazione appaltante, hanno ricevuto la comunicazione dell’esercizio del diritto di prelazione.
+
+### Agosto 2022
+{class="h6 font-weight-semibold mb-4"}
+[È stato firmato il contratto](https://innovazione.gov.it/notizie/articoli/firmato-il-contratto-per-il-polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='firmato il contratto per il Polo Strategico Nazionale'} per l’avvio dei lavori di realizzazione e gestione del Polo Strategico Nazionale, secondo la tempistica prevista dal Piano Nazionale di Ripresa e Resilienza, e le caratteristiche di sicurezza e sovranità dei dati definite nella Strategia Cloud Italia.
+
+La firma è avvenuta tra il capo del Dipartimento per la trasformazione digitale e il rappresentante legale della società di nuova costituzione - partecipata da TIM, Leonardo, CDP Equity e Sogei - secondo quanto previsto dagli atti della procedura di gara europea, gestita dalla centrale di committenza Difesa Servizi S.p.A. e dal Dipartimento per la trasformazione digitale in qualità di stazione appaltante.
+

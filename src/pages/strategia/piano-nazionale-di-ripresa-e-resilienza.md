@@ -1,4 +1,11 @@
-**Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
+---
+type: "indeepStrategia"
+title: "Piano Nazionale di Ripresa e Resilienza"
+subtitle: "Italia Domani prevede 1,9 miliardi di euro per l’erogazione di servizi pubblici digitali su infrastrutture cloud sicure, efficienti e affidabili"
+date: "2022-07-01"
+---
+
+ **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
 La strategia per l'Italia digitale 2026 si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
  
 L’obiettivo è rendere la Pubblica Amministrazione la migliore “alleata” di cittadini e imprese, con un’offerta di servizi sempre più efficienti e facilmente accessibili. Sono sette gli investimenti dedicati, che coprono aspetti di “infrastruttura digitale”, spingendo la migrazione al cloud delle amministrazioni, di interoperabilità tra gli enti pubblici, rafforzando la cybersicurezza e mettendo in campo interventi per migliorare i servizi ai cittadini e diffondere le competenze digitali.
@@ -40,4 +47,5 @@ L'avviso stanzia 500 milioni per la migrazione di un numero minimo di servizi de
 ### Scuole
 L'avviso mette a disposizione 50 milioni per la migrazione di un numero minimo di servizi delle scuole verso infrastrutture e servizi cloud qualificati. Gli istituti scolastici possono scegliere una lista di servizi da migrare da una rosa di 32. Sono ammesse le attività da avviare o avviate dal 1 febbraio 2020. L'avviso scade il 22 luglio 2022.
 
-[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000ocbtmQAA){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}
+[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000dk80MQAQ){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}  
+
