@@ -6,7 +6,7 @@ date: "2022-07-12"
 evidence: false
 internalNews: true
 fonte: 
-showInHome: true
+showInHome: false
 typeOfNews: Articolo
 link: 
 image: /assets/img_news/2022-07-12-cloud-della-pa-realizziamo-sistema-operativo-del-paese.png
