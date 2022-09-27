@@ -52,8 +52,6 @@ Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la tr
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
 * l'avviso **scade il 30 settembre 2022.**
 
-[Candidati all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per i Comuni'}
-
 <div class="col-12 text-center mt-3 mb-5">
 <a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE" class="btn btn-primary" target="_blank">Candidati all'avviso</a>
 </div>
