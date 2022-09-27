@@ -40,12 +40,22 @@ Per agevolare il percorso, il Dipartimento per la trasformazione digitale ha pre
 L’adozione del cloud da parte della Pubblica Amministrazione porta con sé numerosi vantaggi, tra cui il miglioramento della qualità e sicurezza dei servizi erogati a cittadini e imprese, oltre che benefici per i dipendenti della stessa PA. Dal punto di vista amministrativo e di gestione economica, consente alle Pubbliche Amministrazioni di ottenere risparmi significativi da reinvestire nello sviluppo di nuovi servizi, maggiore trasparenza sui costi e sull’utilizzo dei servizi, agilità e scalabilità nella gestione delle infrastrutture.
 
 ### Comuni
-L'avviso stanzia 500 milioni per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati. I Comuni possono scegliere i propri servizi, a seconda della dimensione, fra una rosa di 95 servizi. Sono ammesse le attività da avviare o avviate dal 1 febbraio 2020. L'avviso scade il 22 luglio 2022.
+A oggi, **oltre l’80% dei Comuni ha partecipato al primo avviso** pubblicato lo scorso aprile su PA digitale 2026.
 
-[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000c8mFyQAI){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per i Comuni'}
+Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la trasformazione digitale [ha pubblicato un nuovo avviso](https://innovazione.gov.it/notizie/articoli/migrazione-al-cloud-dei-comuni-nuove-risorse-grazie-al-pnrr/)per favorire la migrazione al cloud di tutti i Comuni italiani:
+* **L'avviso mette a disposizione ulteriori 215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati;
+* a seconda della dimensione, **i Comuni possono scegliere i servizi da migrare da una rosa di 95;**
+* **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
+* l'avviso **scade il 30 settembre 2022.**
+
+[Candidati all'avviso](hhttps://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per i Comuni'}
 
 ### Scuole
-L'avviso mette a disposizione 50 milioni per la migrazione di un numero minimo di servizi delle scuole verso infrastrutture e servizi cloud qualificati. Gli istituti scolastici possono scegliere una lista di servizi da migrare da una rosa di 32. Sono ammesse le attività da avviare o avviate dal 1 febbraio 2020. L'avviso scade il 22 luglio 2022.
+Esaurito il primo avviso da 50 milioni di euro, è stato aperto un [nuovo avviso](https://innovazione.gov.it/notizie/articoli/pa-digitale-2026-pubblicati-nuovi-avvisi-per-le-scuole/):
+* l’avviso stanzia **40 milioni di euro**;
+* **le scuole possono scegliere una lista di servizi da migrare da una rosa di 32;**
+* **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
+* l'avviso **scade il 21 ottobre 2022.**
 
-[Partecipa all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000dk80MQAQ){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}  
+[Candidati all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000ocbtmQAA){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}  
 
