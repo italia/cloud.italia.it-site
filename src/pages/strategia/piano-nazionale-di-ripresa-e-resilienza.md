@@ -48,7 +48,9 @@ Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la tr
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
 * l'avviso **scade il 30 settembre 2022.**
 
+
 [Candidati all'avviso](hhttps://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per i Comuni'}
+
 
 ### Scuole
 Esaurito il primo avviso da 50 milioni di euro, è stato aperto un [nuovo avviso](https://innovazione.gov.it/notizie/articoli/pa-digitale-2026-pubblicati-nuovi-avvisi-per-le-scuole/):
@@ -56,6 +58,7 @@ Esaurito il primo avviso da 50 milioni di euro, è stato aperto un [nuovo avviso
 * **le scuole possono scegliere una lista di servizi da migrare da una rosa di 32;**
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
 * l'avviso **scade il 21 ottobre 2022.**
+
 
 [Candidati all'avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000ocbtmQAA){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Partecipa all'avviso per le scuole'}  
 
