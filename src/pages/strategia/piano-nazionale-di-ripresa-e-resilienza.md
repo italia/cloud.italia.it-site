@@ -42,8 +42,8 @@ L’adozione del cloud da parte della Pubblica Amministrazione porta con sé num
 ### Comuni
 A oggi, **oltre l’80% dei Comuni ha partecipato al primo avviso** pubblicato lo scorso aprile su PA digitale 2026.
 
-Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la trasformazione digitale [ha pubblicato un nuovo avviso](https://innovazione.gov.it/notizie/articoli/migrazione-al-cloud-dei-comuni-nuove-risorse-grazie-al-pnrr/)per favorire la migrazione al cloud di tutti i Comuni italiani:
-* **L'avviso mette a disposizione ulteriori 215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati;
+Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la trasformazione digitale [ha pubblicato un nuovo avviso](https://innovazione.gov.it/notizie/articoli/migrazione-al-cloud-dei-comuni-nuove-risorse-grazie-al-pnrr/) per favorire la migrazione al cloud di tutti i Comuni italiani:
+* **l'avviso mette a disposizione ulteriori 215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati;
 * a seconda della dimensione, **i Comuni possono scegliere i servizi da migrare da una rosa di 95;**
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
 * l'avviso **scade il 30 settembre 2022.**
