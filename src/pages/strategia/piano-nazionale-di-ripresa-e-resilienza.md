@@ -50,7 +50,7 @@ Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la tr
 * **l'avviso mette a disposizione ulteriori 215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati;
 * a seconda della dimensione, **i Comuni possono scegliere i servizi da migrare da una rosa di 95;**
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
-* l'avviso **scade il 30 settembre 2022.**
+* l'avviso **scade il 28 ottobre 2022.**
 
 <div class="col-12 text-center mt-3 mb-5">
 <a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE" class="btn btn-primary" target="_blank">Candidati all'avviso</a>
