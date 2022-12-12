@@ -2,6 +2,11 @@ import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import {
   Collapse,
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  LinkList,
+  LinkListItem,
   Header as HeaderReactKit,
   Headers,
   HeaderContent,
@@ -165,7 +170,67 @@ const NavHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
+  const [openFirst, toggleFirst] = useState(false);
+  const [openSecond, toggleSecond] = useState(false);
+
   return (
+    <>
+    <HeaderReactKit type="navbar" theme="light">
+      <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu} className="px-2">
+        <Dropdown className='mr-3' isOpen={openFirst} toggle={() => toggleFirst(!openFirst)}>
+            <DropdownToggle color='light' caret tag='a'>
+               <span className="font-weight-semibold">Dropdown 1</span>
+            </DropdownToggle>
+            <DropdownMenu>
+              <LinkList>
+                <LinkListItem header>Header</LinkListItem>
+                <LinkListItem divider />
+                {/* <LinkListItem> */}
+                  <Link
+                    to={internalLinks.strategy.linkTo}
+                    className="nav-link"
+                    activeClassName="active"
+                    partiallyActive={true}
+                  >
+                    <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
+                    <Icon
+                      className='right'
+                      color='light'
+                      icon='it-info-circle'
+                      aria-hidden
+                      size='sm'
+                    />
+                  </Link>
+              {/* </LinkListItem> */}
+                <LinkListItem>Azione 2</LinkListItem>
+                <LinkListItem>Azione 3</LinkListItem>
+              </LinkList>
+            </DropdownMenu>
+        </Dropdown>
+        <Dropdown className='mr-3' isOpen={openSecond} toggle={() => toggleSecond(!openSecond)}>
+            <DropdownToggle color='light' caret tag='a'>
+              Dropdown 2
+            </DropdownToggle>
+            <DropdownMenu>
+              <LinkList>
+                <LinkListItem header>Header</LinkListItem>
+                <LinkListItem divider />
+                <LinkListItem><span>Azione 1</span>
+                  <Icon
+                    className='right'
+                    color='light'
+                    icon='it-info-circle'
+                    aria-hidden
+                    size='sm'
+                  />
+              </LinkListItem>
+                <LinkListItem>Azione 2</LinkListItem>
+                <LinkListItem>Azione 3</LinkListItem>
+              </LinkList>
+            </DropdownMenu>
+        </Dropdown>
+      </HeaderContent>
+    </HeaderReactKit>
     <HeaderReactKit type="navbar" theme="light">
       <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu} className="px-2">
         <button
@@ -177,7 +242,6 @@ const NavHeader = () => {
         >
           <Icon icon="it-burger" />
         </button>
-
         <HeaderNav isOpen={isOpen} onCloseMenu={toogleMenu}>
           <div className="menu-wrapper">
             <Nav navbar>
@@ -272,10 +336,12 @@ const NavHeader = () => {
         </HeaderNav>
       </HeaderContent>
     </HeaderReactKit>
+    </>
   );
 };
 
-export const Header = () => (
+export const Header = () => {
+  return (
   <header>
     <Headers>
       <SlimHeader />
@@ -304,4 +370,4 @@ export const Header = () => (
       </div>
     </Headers>
   </header>
-);
+)};
