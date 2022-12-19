@@ -10,14 +10,7 @@ Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilit
 Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. **La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici.** La Strategia Cloud Italia ha individuato tre tipologie di servizi e dati (strategici, critici e ordinari), in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
 
 <div className="d-flex justify-content-center">
-    <StaticImage
-        src="../images/polo-strategico-nazionale_1.png"
-        alt={altImg}
-        placeholder="blurred"
-        height={400}
-        width={800}
-        formats={['AUTO', 'AVIF', 'WEBP']}
-    />
+<img src="../images/polo-strategico-nazionale_1.png" height="400" widht="800" alt="Polo Strategico Nazionale"/>
 </div>
 
 Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società di nuova costituzione Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, Cassa Depositi e Prestiti (CDP, attraverso la controllata CDP Equity) e Sogei. Acilia e Pomezia nel Lazio, insieme a Rozzano e Santo Stefano Ticino in Lombardia, sono le sedi che ospitano i data center per garantire adeguati livelli di continuità operativa, oltre che di tolleranza ai guasti.
