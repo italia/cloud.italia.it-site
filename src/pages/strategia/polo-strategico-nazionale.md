@@ -15,7 +15,7 @@ Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell�
 <a href="https://www.polostrategiconazionale.it" class="btn btn-primary" target="_blank">Vai al sito del PSN</a>
 </div>
 
-Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Cloud PA/Polo Strategico Nazionale* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità per quanto riguarda la sicurezza, la capacità elaborativa, la scalabilità, l'interoperabilità e la sostenibilità ambientale. 
+Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità.
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
 {class="h4 font-weight-semibold mt-8 mb-4"}
@@ -31,7 +31,7 @@ Il Polo dovrà:
 
 ### Dicembre 2022
 {class="h5 font-weight-semibold mb-4"}
-Da dicembre 2022 è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Cloud PA/Polo Strategico Nazionale* del PNRR è completa.
+Da dicembre 2022 è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del PNRR è completa.
 
 ### Luglio 2020
 {class="h5 font-weight-semibold mb-4"}
