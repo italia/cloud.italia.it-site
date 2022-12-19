@@ -5,21 +5,21 @@ subtitle: "L’infrastruttura che garantisce la sicurezza e l'autonomia tecnolog
 date: "2022-07-08"
 ---
 
- Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la Strategia Cloud Italia e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di affidabilità, resilienza e indipendenza.
+ Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la Strategia Cloud Italia e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di **affidabilità, resilienza, scalabilità, interoperabilità e sostenibilità ambientale.**
 
-Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici. A tal fine, la Strategia Cloud Italia ha individuato tre tipologie di servizi e dati: strategici, critici e ordinari, in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
+Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. **La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici.** La Strategia Cloud Italia ha individuato tre tipologie di servizi e dati (strategici, critici e ordinari), in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.    
 
 <div class="col-12 text-center mt-3 mb-5">
 <a href="https://padigitale2026.gov.it/come-partecipare/classifica-pa/" class="btn btn-primary" target="_blank">Scopri come classificare dati e servizi</a>
 </div>
 
-La creazione del Polo Strategico Nazionale è guidata dal Dipartimento per la trasformazione digitale. L’infrastruttura sarà distribuita geograficamente sul territorio nazionale presso siti opportunamente identificati, per garantire adeguati livelli di continuità operativa e tolleranza ai guasti.
-
-Il progetto di creazione del PSN sarà gestito da un operatore economico selezionato attraverso l’avvio di un partenariato pubblico-privato ad iniziativa di un soggetto proponente.
+Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società di nuova costituzione Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, Cassa Depositi e Prestiti (CDP, attraverso la controllata CDP Equity) e Sogei. Acilia e Pomezia nel Lazio, insieme a Rozzano e Santo Stefano Ticino in Lombardia, sono le sedi che ospitano i data center per garantire adeguati livelli di continuità operativa, oltre che di tolleranza ai guasti.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://innovazione.gov.it/dipartimento/focus/polo-strategico-nazionale/#bando-per-la-realizzazione-del-psn" class="btn btn-primary" target="_blank">Scopri di più</a>
+<a href="https://www.polostrategiconazionale.it" class="btn btn-primary" target="_blank">Vai al sito del pSN</a>
 </div>
+
+Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Cloud PA/Polo Strategico Nazionale* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità per quanto riguarda la sicurezza, la capacità elaborativa, la scalabilità, l'interoperabilità e la sostenibilità ambientale. 
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
 {class="h5 font-weight-semibold mb-4"}
@@ -27,7 +27,7 @@ Il progetto di creazione del PSN sarà gestito da un operatore economico selezio
 Il PSN ospiterà dati e servizi della Pubblica Amministrazione a partire da quelli strategici e dovrà essere costituito nel rispetto dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità, secondo il regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (DL 18 ottobre 2012, n. 179).
 
 Il Polo dovrà:
-* effettuare la migrazione dei dati e servizi delle amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
+* effettuare la migrazione dei dati e servizi delle pubbliche amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 <div class="col-12 text-center mt-3 mb-5">
@@ -36,6 +36,10 @@ Il Polo dovrà:
 
 ## Le tappe verso il PSN
 {class="h5 font-weight-semibold mb-4"}
+
+### Dicembre 2022
+{class="h6 font-weight-semibold mb-4"}
+Da dicembre 2022 è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Cloud PA/Polo Strategico Nazionale* del PNRR è completa.
 
 ### Luglio 2020
 {class="h6 font-weight-semibold mb-4"}
