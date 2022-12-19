@@ -9,7 +9,7 @@ Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilit
 
 Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. **La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici.** La Strategia Cloud Italia ha individuato tre tipologie di servizi e dati (strategici, critici e ordinari), in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center mb-5">
 <img src="/static/assets/polo-strategico-nazionale_1.png" height="400" widht="800" malt="Polo Strategico Nazionale"/>
 </div>
 
