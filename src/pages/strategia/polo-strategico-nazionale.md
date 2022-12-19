@@ -2,7 +2,7 @@
 type: "indeepStrategia"
 title: "Polo Strategico Nazionale"
 subtitle: "L’infrastruttura che garantisce la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese"
-date: "2022-07-08"
+date: "2022-12-19"
 ---
 
  Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la Strategia Cloud Italia e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di **affidabilità, resilienza, scalabilità, interoperabilità e sostenibilità ambientale.**
@@ -18,7 +18,7 @@ Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell�
 Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Cloud PA/Polo Strategico Nazionale* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità per quanto riguarda la sicurezza, la capacità elaborativa, la scalabilità, l'interoperabilità e la sostenibilità ambientale. 
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
-{class="h5 font-weight-semibold mb-4"}
+{class="h5 font-weight-semibold mt-4 mb-4"}
 
 Il PSN ospiterà dati e servizi della Pubblica Amministrazione a partire da quelli strategici e dovrà essere costituito nel rispetto dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità, secondo il regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (DL 18 ottobre 2012, n. 179).
 
@@ -27,7 +27,7 @@ Il Polo dovrà:
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 ## Le tappe verso il PSN
-{class="h5 font-weight-semibold mb-4"}
+{class="h5 font-weight-semibold mt-4 mb-4"}
 
 ### Dicembre 2022
 {class="h6 font-weight-semibold mb-4"}
