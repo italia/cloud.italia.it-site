@@ -1,7 +1,7 @@
 ---
 type: "indeepStrategia"
 title: "Polo Strategico Nazionale"
-subtitle: "L'infrastruttura cloud ad alta affidabilità per i dati e i servizi, critici e strategici, delle pubbliche amministrazioni italiane. "
+subtitle: "L'infrastruttura cloud ad alta affidabilità per i dati e i servizi, critici e strategici, delle pubbliche amministrazioni italiane. "
 date: "2022-12-21"
 ---
 
