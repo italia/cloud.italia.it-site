@@ -5,7 +5,7 @@ subtitle: "Finestre di manutenzione e livelli di servizio: l’importanza di pia
 date: "2022-12-22"
 evidence: true
 internalNews: false
-fonte: /medium.com/developers-italia/
+fonte: medium.com/developers-italia/
 showInHome: true
 typeOfNews: Articolo
 link: https://medium.com/developers-italia/per-una-guida-alla-continuità-di-servizio-durante-la-migrazione-in-cloud-dc8679aba71
