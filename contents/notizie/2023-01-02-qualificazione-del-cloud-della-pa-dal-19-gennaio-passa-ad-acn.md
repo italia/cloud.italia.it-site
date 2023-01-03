@@ -2,7 +2,7 @@
 type: "news"
 title: "Qualificazione del cloud della PA: dal 19 gennaio passa ad ACN"
 subtitle: "Un passo fondamentale per l’implementazione della strategia cloud nazionale e il punto di inizio del progressivo rafforzamento della resilienza cibernetica delle PA."
-date: "2023-01-03"
+date: "2023-01-02"
 evidence: true
 internalNews: false
 fonte: acn.gov.it
