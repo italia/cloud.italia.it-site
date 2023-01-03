@@ -44,16 +44,14 @@ L’adozione del cloud da parte della Pubblica Amministrazione porta con sé num
 
 ### Comuni
 {class="h4 font-weight-semibold mt-2 mb-2"}
-A oggi, **oltre l’80% dei Comuni ha partecipato al primo avviso** pubblicato lo scorso aprile su PA digitale 2026.
-
-Con l’esaurimento dei 500 milioni di euro stanziati, il Dipartimento per la trasformazione digitale [ha pubblicato un nuovo avviso](https://innovazione.gov.it/notizie/articoli/migrazione-al-cloud-dei-comuni-nuove-risorse-grazie-al-pnrr/) per favorire la migrazione al cloud di tutti i Comuni italiani:
+Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipartimento per la trasformazione digitale ha pubblicato [un secondo avviso su PA digitale 2026](https://innovazione.gov.it/notizie/articoli/migrazione-al-cloud-dei-comuni-nuove-risorse-grazie-al-pnrr/) per favorire la migrazione al cloud di tutti i Comuni italiani:
 * **l'avviso mette a disposizione ulteriori 215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati;
 * a seconda della dimensione, **i Comuni possono scegliere i servizi da migrare da una rosa di 95;**
 * **sono ammesse le attività da avviare o avviate dal 1 febbraio 2020;**
-* l'avviso **scade il 30 settembre 2022.**
+* la **scadenza** dell’avviso è stata posticipata al **13 gennaio 2023.**
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE" class="btn btn-primary" target="_blank">Candidati all'avviso</a>
+<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE" class="btn btn-primary" target="_blank">Candidati all'avviso Comuni</a>
 </div>
 
 ### Scuole
@@ -65,6 +63,6 @@ Esaurito il primo avviso da 50 milioni di euro, è stato aperto un [nuovo avviso
 * l'avviso **scade il 21 ottobre 2022.**
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000ocbtmQAA" class="btn btn-primary" target="_blank">Candidati all'avviso</a>
+<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000ocbtmQAA" class="btn btn-primary" target="_blank">Candidati all'avviso scuole</a>
 </div>
 
