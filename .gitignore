@@ -8,3 +8,5 @@ node_modules
 vendor
 public
 yarn-error.log
+.yarnrc
+.yarn/releases/yarn-1.22.19.cjs
