@@ -11,7 +11,7 @@ La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo del
 {class="h2 font-weight-semibold mt-4 mb-4"}
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la Pubblica Amministrazione diventa di competenza dell’Agenzia per la cybersicurezza nazionale, che subentra all’Agenzia per l’Italia digitale (AGID).
 
-La nuova procedura di qualificazione è indicata nel[ Decreto direttoriale n. 29](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) del 3 gennaio 2023. Per garantire la continuità dei servizi qualificati già in uso dalle pubbliche amministrazione e per consentire una graduale armonizzazione della normativa nazionale, la determina prevede un regime transitorio prima della gestione ordinaria della qualificazione.
+La nuova procedura di qualificazione è indicata nel [Decreto direttoriale n. 29](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) del 3 gennaio 2023. Per garantire la continuità dei servizi qualificati già in uso dalle pubbliche amministrazione e per consentire una graduale armonizzazione della normativa nazionale, la determina prevede un regime transitorio prima della gestione ordinaria della qualificazione.
 
 Fino **al 31 luglio 2023** è previsto un regime transitorio. Durante questo periodo, i fornitori già in possesso di una qualificazione ancora valida, ottenuta ai sensi delle circolari AGID n. 2 e n. 3 del 2018, rientreranno nelle nuove qualifiche corrispondenti al trattamento di dati e ai servizi di natura ordinaria: livello QC1 per i servizi e livello Ql1 per le infrastrutture. Le nuove qualifiche saranno valide fino al **18 gennaio 2024.**
 
