@@ -73,6 +73,10 @@ export const QualificationSection = () => {
             formats={['AUTO', 'AVIF', 'WEBP']}
           />
         </HeroGraphic>
+        <HeroCtaContainer>
+            <Cta linkTo={services.linkTo} text={showMore} color="light" type="outline" aria-label={ctaAriaLabel} />
+            {/* <Cta linkTo={catalogue.linkTo} text={catalogue.label} color="light" /> */}
+          </HeroCtaContainer>
       </div>
     </Hero>
   );
