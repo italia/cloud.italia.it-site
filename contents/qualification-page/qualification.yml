@@ -23,6 +23,13 @@ resources:
         title: Il catalogo dei servizi qualificati
         ariaLabel: 'Il catalogo dei servizi qualificati (link esterno)'
         ariaLabelIcon: link esterno
+      - action: Leggi
+        description: 
+        icon: it-external-link
+        link: https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf
+        title: Determina 307/2022 di ACN
+        ariaLabel: 'Determina 307/2022 di ACN (link esterno)'
+        ariaLabelIcon: link esterno
       - action: Leggi su <strong>Read the Docs</strong>
         description: Qualificazione dei Cloud Service Provider
         icon: it-external-link
