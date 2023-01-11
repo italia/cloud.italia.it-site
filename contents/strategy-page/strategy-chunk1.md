@@ -16,7 +16,7 @@ Secondo [il Censimento del Patrimonio ICT](https://censimentoict.italia.it/index
 ## I tre pilastri della Strategia Cloud Italia
 {class="h2 font-weight-semibold mt-8 mb-4"}
 La Strategia si basa su **tre indirizzi fondamentali:**
-- [**la classificazione di dati e servizi**](/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Classificazione di dati e servizi'}, che determina **la tipologia di dati in possesso alle PA** in base al danno che la loro compromissione provocherebbe al Paese;
+- [**la classificazione di dati e servizi**](/strategia-cloud-pa/classificazione-di-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Classificazione di dati e servizi'}, che determina **la tipologia di dati in possesso alle PA** in base al danno che la loro compromissione provocherebbe al Paese;
 - [**la qualificazione dei servizi cloud**](/qualificazione-servizi-cloud){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Qualificazione dei servizi cloud'}, che definisce e cataloga quali servizi erogati da fornitori privati soddisfano i requisiti di sicurezza, affidabilità e scalabilità;
 - [**il Polo Strategico Nazionale**](strategia-cloud-pa/polo-strategico-nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Polo Strrategico Nazionale'}, **l’infrastruttura dello Stato** che garantisce adeguati livelli di continuità operativa e tolleranza  ai guasti per i servizi strategici e critici della PA. 
 
