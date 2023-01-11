@@ -6,7 +6,7 @@ date: "2023-01-11"
 ---
 
 **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza (PNRR), **dedica il 27% delle risorse alla transizione digitale del Paese all’interno della Missione** 1 “Digitalizzazione, innovazione, competitività, cultura e turismo". La strategia per l'Italia digitale 2026 si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
-L’obiettivo è rendere la Pubblica Amministrazione la migliore alleata di cittadini e imprese, con un’offerta di servizi sempre più efficienti e facilmente accessibili. **Sette investimenti*** sono dedicati all’infrastruttura digitale per spingere la migrazione al cloud della PA, l’interoperabilità tra gli enti pubblici, rafforzare la cybersicurezza, mettere in campo interventi per migliorare i servizi ai cittadini e diffondere le competenze digitali.
+L’obiettivo è rendere la Pubblica Amministrazione la migliore alleata di cittadini e imprese, con un’offerta di servizi sempre più efficienti e facilmente accessibili. **Sette investimenti** sono dedicati all’infrastruttura digitale per spingere la migrazione al cloud della PA, l’interoperabilità tra gli enti pubblici, rafforzare la cybersicurezza, mettere in campo interventi per migliorare i servizi ai cittadini e diffondere le competenze digitali.
 
 ## Gli obiettivi, i fondi e le misure del PNRR
 {class="h2 font-weight-semibold mt-8 mb-4"}
@@ -16,9 +16,9 @@ L’obiettivo è rendere la Pubblica Amministrazione la migliore alleata di citt
 La trasformazione digitale della Pubblica Amministrazione mette il **cloud al centro (cloud-first)**, seguendo il percorso indicato dalla [**Strategia Cloud Italia**](/strategia-cloud-pa), nata per indirizzare il percorso di migrazione verso il cloud di dati e servizi digitali degli enti pubblici.
 
 La Strategia definisce i passi necessari per completare la migrazione dei dati e degli applicativi informatici della PA verso un ambiente cloud: 
-- **la classificazione di dati e servizi** (strategici, critici e ordinari);
+- la **classificazione di dati e servizi** (strategici, critici e ordinari);
 - la **qualificazione dei servizi cloud**; 
-- la creazione dell’infrastruttura ad alta affidabilità, il **Polo Strategico Nazionale (PSN)**, che ospiterà i dati strategici e critici.
+- il **Polo Strategico Nazionale**, l’infrastruttura ad alta affidabilità che ospiterà i dati strategici e critici.
 
 Italia Domani prevede che, **entro il 2026, il 75% dei servizi pubblici digitali siano erogati su infrastrutture cloud sicure, efficienti e affidabili.** Nella stessa data, **il 100% dei servizi e i dati strategici della Pubblica Amministrazione**, quelli che hanno un impatto rilevante sul funzionamento dello Stato, **dovranno essere ospitati su infrastrutture più sicure** che consentono l’autonomia strategica e decisionale per il controllo dei dati e la sovranità digitale.
 
@@ -29,4 +29,3 @@ Per raggiungere questi obiettivi, il Piano Nazionale di Ripresa e Resilienza met
 <div class="col-12 text-center mt-3 mb-5">
 <a href="/programma-abilitazione-cloud/candidarsi-agli-avvisi-del-pnrr" class="btn btn-primary" target="_blank">Scopri come aderire</a>
 </div>
-
