@@ -16,16 +16,16 @@ Secondo [il Censimento del Patrimonio ICT](https://censimentoict.italia.it/index
 ## I tre pilastri della Strategia Cloud Italia
 {class="h2 font-weight-semibold mt-4 mb-4"}
 La Strategia si basa su **tre indirizzi fondamentali:**
-- [**la classificazione di dati e servizi**](/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='parent' aria-label='Classificazione di dati e servizi'}, che determina **la tipologia di dati in possesso alle PA** in base al danno che la loro compromissione provocherebbe al Paese;
-- [**la qualificazione dei servizi cloud**](/qualificazione-servizi-cloud)(/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Qualificazione dei servizi cloud'}, che definisce e cataloga quali servizi erogati da fornitori privati soddisfano i requisiti di sicurezza, affidabilità e scalabilità;
-- [**il Polo Strategico Nazionale**](strategia-cloud-pa/polo-strategico-nazionale)(/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Polo Strrategico Nazionale'}, **l’infrastruttura dello Stato** che garantisce adeguati livelli di continuità operativa e tolleranza  ai guasti per i servizi strategici e critici della PA. 
+- [**la classificazione di dati e servizi**](/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Classificazione di dati e servizi'}, che determina **la tipologia di dati in possesso alle PA** in base al danno che la loro compromissione provocherebbe al Paese;
+- [**la qualificazione dei servizi cloud**](/qualificazione-servizi-cloud){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Qualificazione dei servizi cloud'}, che definisce e cataloga quali servizi erogati da fornitori privati soddisfano i requisiti di sicurezza, affidabilità e scalabilità;
+- [**il Polo Strategico Nazionale**](strategia-cloud-pa/polo-strategico-nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Polo Strrategico Nazionale'}, **l’infrastruttura dello Stato** che garantisce adeguati livelli di continuità operativa e tolleranza  ai guasti per i servizi strategici e critici della PA. 
 
 ## Il modello Cloud della PA
 {class="h2 font-weight-semibold mt-4 mb-4"}
 
 **Migrare le PA al cloud richiede, inoltre, una metodologia strutturata:** da questa esigenza è nato il “modello Cloud della PA”. Il modello contiene un manuale operativo, kit e strumenti utili a tutte le PA per facilitare il loro percorso di migrazione al cloud.
 
-[Scopri di più sul programma di abilitazione.](/programma-abilitazione-cloud/)(/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Programma di abilitazione'}
+[Scopri di più sul programma di abilitazione.](/programma-abilitazione-cloud/){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Programma di abilitazione'}
 
 Infatti, non tutti i servizi cloud hanno le medesime caratteristiche di qualità, adeguate alle esigenze del settore pubblico. **La strategia prevede, quindi, che le pubbliche amministrazioni adottino servizi cloud qualificati**, che soddisfano i requisiti di sicurezza, affidabilità e scalabilità.
 La qualificazione di servizi cloud e infrastrutture avviene secondo parametri idonei per le esigenze della PA e che rispettano i principi di:
@@ -43,4 +43,4 @@ La qualificazione di servizi cloud e infrastrutture avviene secondo parametri id
 - la **Misura 1.1**, dedicata alle pubbliche amministrazioni centrali, le Aziende sanitarie locali (Asl) e le aziende ospedaliere;
 - la **Misura 1.2**, che si rivolge a più di 12 mila enti, tra cui Comuni, scuole, Asl.
 
-[Scopri di più sulle Misure del PNRR.](strategia-cloud-pa/le-misure-del-piano-nazionale-di-ripresa-e-resilienza)(/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Le misure del PNRR'}
+[Scopri di più sulle Misure del PNRR.](strategia-cloud-pa/le-misure-del-piano-nazionale-di-ripresa-e-resilienza){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Le misure del PNRR'}
