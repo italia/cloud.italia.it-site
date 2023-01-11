@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const ExternalLink = ({ linkTo, ariaLabel, className = '', children }) => (
+export const ExternalLink = ({ linkTo, ariaLabel, className = '', children}) => (
   <a href={linkTo} target="_blank" rel="noreferrer" aria-label={ariaLabel} className={className}>
     {children}
   </a>

@@ -13,7 +13,7 @@ internalLinks:
   #   label: Catalogo
   pnrrStrategy:
     linkTo: /strategia-cloud-pa/piano-nazionale-di-ripresa-e-resilienza
-    label: Scopri i fondi del PNRR
+    label: Le misure del PNRR
     linkTo1: /programma-abilitazione-cloud/
     label1: Programma di abilitazione e classificazione dei dati
     linkTo2: https://areariservata.padigitale2026.gov.it/Pa_digitale2026_avvisi
@@ -83,3 +83,15 @@ externalLinks:
     label: Dichiarazione di accessibilità
     linkTo: https://form.agid.gov.it/view/a527518d-a487-4972-81e9-a5ea7e1c9ace/
     ariaLabel: "Dichiarazione di accessibilità (link esterno)"
+  pnrrlink:
+    label: Piano Nazionale di Ripresa e Resilienza
+    linkTo: /piano-nazionale-ripresa-e-resilienza/
+    ariaLabel: "PNRR (link esterno)"
+  classificazDati:
+    label: Come Classificare dati e servizi
+    linkTo: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
+    ariaLabel: "Come classificare  dati e servizi (link esterno)"
+  candidarsiPNRR:
+    label: Candidarsi agli avvisi del PNRR
+    linkTo: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
+    ariaLabel: "Candidarsi agli avvisi del PNRR (link esterno)"
