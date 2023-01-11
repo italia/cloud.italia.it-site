@@ -7,21 +7,21 @@ La strategia, inoltre, individua tre obiettivi strategici che caratterizzano il 
 - **valorizzare le pubbliche amministrazioni e la loro capacità di offrire servizi digitali.**
 
 ## Il punto di partenza
-{class="h2 font-weight-semibold mt-4 mb-4"}
+{class="h2 font-weight-semibold mt-8 mb-4"}
 
 **Le infrastrutture digitali ricoprono un ruolo vitale per gran parte delle attività della nostra vita quotidiana** e sono l'ossatura portante del sistema di servizi che le pubbliche amministrazioni utilizzano ed erogano a cittadini e imprese. Le infrastrutture digitali della PA devono quindi essere **affidabili, sicure ed economicamente sostenibili.**
 
 Secondo [il Censimento del Patrimonio ICT](https://censimentoict.italia.it/index.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='il Censimento del Patrimonio ICT (link esterno)'} condotto dall'Agenzia per l'Italia digitale (AGID), **nel 2019 il 95% dei 1252 data center analizzati erano carenti dei requisiti minimi di sicurezza, affidabilità, capacità elaborativa ed efficienza.** Questo significa che buona parte dei servizi digitali offerti dalla Pubblica Amministrazione può essere vulnerabile agli attacchi informatici, oppure in difficoltà nel gestire i picchi di traffico. Allo stesso tempo, è emerso uno scarso utilizzo del cloud da parte della Pubblica Amministrazione. Per questo motivo, è stata definita la **strategia per la migrazione verso il cloud delle pubbliche amministrazioni.**
 
 ## I tre pilastri della Strategia Cloud Italia
-{class="h2 font-weight-semibold mt-4 mb-4"}
+{class="h2 font-weight-semibold mt-8 mb-4"}
 La Strategia si basa su **tre indirizzi fondamentali:**
 - [**la classificazione di dati e servizi**](/strategia-cloud-pa/classificazione-dati-e-servizi){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Classificazione di dati e servizi'}, che determina **la tipologia di dati in possesso alle PA** in base al danno che la loro compromissione provocherebbe al Paese;
 - [**la qualificazione dei servizi cloud**](/qualificazione-servizi-cloud){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Qualificazione dei servizi cloud'}, che definisce e cataloga quali servizi erogati da fornitori privati soddisfano i requisiti di sicurezza, affidabilità e scalabilità;
 - [**il Polo Strategico Nazionale**](strategia-cloud-pa/polo-strategico-nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Polo Strrategico Nazionale'}, **l’infrastruttura dello Stato** che garantisce adeguati livelli di continuità operativa e tolleranza  ai guasti per i servizi strategici e critici della PA. 
 
 ## Il modello Cloud della PA
-{class="h2 font-weight-semibold mt-4 mb-4"}
+{class="h2 font-weight-semibold mt-8 mb-4"}
 
 **Migrare le PA al cloud richiede, inoltre, una metodologia strutturata:** da questa esigenza è nato il “modello Cloud della PA”. Il modello contiene un manuale operativo, kit e strumenti utili a tutte le PA per facilitare il loro percorso di migrazione al cloud.
 
@@ -37,7 +37,7 @@ La qualificazione di servizi cloud e infrastrutture avviene secondo parametri id
 - **resilienza, scalabilità, reversibilità.**
 
 ## Il ruolo del Piano Nazionale di Ripresa e Resilienza
-{class="h2 font-weight-semibold mt-4 mb-4"}
+{class="h2 font-weight-semibold mt-8 mb-4"}
 
 **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, **mette a disposizione 1,9 miliardi di euro per sostenere la migrazione al cloud della Pubblica Amministrazione.** Lo fa attraverso due misure: 
 - la **Misura 1.1**, dedicata alle pubbliche amministrazioni centrali, le Aziende sanitarie locali (Asl) e le aziende ospedaliere;
