@@ -63,6 +63,7 @@ export const EnablementPage = () => {
             <div className="text-center text-lg-left">
               <HeroTitle title={title} className="text-info" Tag="h1" />
               <HeroBody html={body} />
+              <InDeepEnablementLinkComponent />
             </div>
           </div>
         </div>
