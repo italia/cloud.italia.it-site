@@ -5,7 +5,7 @@ subtitle: "La classificazione, definita dall’Agenzia per la Cybersicurezza Naz
 date: "2023-01-11"
 ---
 
-La classificazione dei dati e dei servizi della PA è uno dei tre indirizzi della [**Strategia Cloud Italia**](/strategia-cloud-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Strategia Cloud Italia', insieme alla qualificazione dei servizi cloud e al Polo Strategico Nazionale. Regolamentare l’ampia offerta di servizi cloud disponibili sul mercato consente di mitigare i rischi sistemici di sicurezza e affidabilità.
+La classificazione dei dati e dei servizi della PA è uno dei tre indirizzi della [**Strategia Cloud Italia**](/strategia-cloud-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Strategia Cloud Italia'}, insieme alla qualificazione dei servizi cloud e al Polo Strategico Nazionale. Regolamentare l’ampia offerta di servizi cloud disponibili sul mercato consente di mitigare i rischi sistemici di sicurezza e affidabilità.
 
 **La classificazione di dati e servizi definisce le tipologie di dati** in possesso delle PA, in base al **danno che una loro compromissione potrebbe provocare al Paese.**
 
