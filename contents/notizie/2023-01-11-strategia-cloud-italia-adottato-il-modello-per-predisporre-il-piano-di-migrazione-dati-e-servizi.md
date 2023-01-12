@@ -5,7 +5,7 @@ subtitle: "Due le tipologie di migrazione previste per le amministrazioni, con i
 date: "2023-01-11"
 evidence: true
 internalNews: false
-fonte: acn.gov.it
+fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/strategia-cloud-italia-adottato-il-modello-per-predisporre-il-piano-di-migrazione/
