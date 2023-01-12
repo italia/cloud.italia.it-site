@@ -30,6 +30,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'indeepEnablement',
+        path: `${__dirname}/src/pages/abilitazione`,
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
