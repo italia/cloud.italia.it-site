@@ -13,13 +13,13 @@ resources:
         ariaLabelIcon: link esterno
       - action: Leggi
         icon: it-external-link
-        link: https://catalogocloud.agid.gov.it/info
+        link: https://catalogocloud.acn.gov.it/info
         title: Come ottenere le qualificazioni cloud
         ariaLabel: 'Come ottenere le qualificazioni Cloud (link esterno)'
         ariaLabelIcon: link esterno
       - action: Consulta
         icon: it-external-link
-        link: https://catalogocloud.agid.gov.it/
+        link: https://catalogocloud.acn.gov.it
         title: Il catalogo dei servizi qualificati
         ariaLabel: 'Il catalogo dei servizi qualificati (link esterno)'
         ariaLabelIcon: link esterno

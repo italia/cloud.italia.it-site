@@ -5,7 +5,7 @@ subtitle: "Un elemento essenziale per l’adozione del modello Cloud della PA: i
 date: "2022-07-01"
 ---
 
- Il catalogo dei servizi qualificati contiene informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, 
+Il catalogo dei servizi qualificati contiene informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, 
 ai livelli di servizio garantiti e ulteriori caratteristiche del servizio.
 
 Tramite il catalogo le amministrazioni possono ricercare i servizi cloud offerti dal mercato e più idonei alle proprie esigenze, 
