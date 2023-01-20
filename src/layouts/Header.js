@@ -56,9 +56,9 @@ const BrandSlimHeader = () => (
       <span className="d-none d-lg-inline d-xl-none">DTD</span>
     </ExternalLink>
     <span className="mx-1"> + </span>
-    <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
-      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.agid.label}</span>
-      <span className="d-none d-lg-inline d-xl-none">AGID</span>
+    <ExternalLink linkTo={externalLinks.acn.linkTo} ariaLabel={externalLinks.acn.ariaLabel}>
+      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.acn.label}</span>
+      <span className="d-none d-lg-inline d-xl-none">ACN</span>
     </ExternalLink>
   </>
 );
