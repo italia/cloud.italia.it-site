@@ -91,11 +91,11 @@ const MainFooter = () => {
                 />
               </ExternalLink>
             </div>
-            <div aria-hidden="true" className={classes.logoSeparator} />
+            <!--<div aria-hidden="true" className={classes.logoSeparator} />
             <div className="pt-3">
               <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
                 <img className={classes.footerLogo} src="/assets/acn-logo.svg" alt="logo ACN" />
-              </ExternalLink>
+              </ExternalLink>-->
             </div>
           </div>
         </div>
