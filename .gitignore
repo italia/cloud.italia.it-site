@@ -10,3 +10,4 @@ public
 yarn-error.log
 .yarn
 .yarnrc
+.vscode
