@@ -6,4 +6,3 @@ esigenze ma sono potenzialmente in grado di offrire migliori performance.
 Questo approccio corrisponde a quanto riportato nel manuale di abilitazione al cloud nella sezione relativa alle
 [strategie di migrazione](https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/pianificare-la-migrazione/le-strategie-di-migrazione.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='strategie di migrazione (link esterno)'},
 dove sono indicate le modalità operative utili a consentire la loro realizzazione.
-
