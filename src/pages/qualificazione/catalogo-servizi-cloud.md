@@ -2,7 +2,7 @@
 type: "indeepQualificazione"
 title: "Come usare il catalogo dei servizi qualificati"
 subtitle: "Un elemento essenziale per l’adozione del modello Cloud della PA: il catalogo contiene i servizi cloud di tipo SaaS, PaaS e IaaS qualificati da Agenzia per la Cybersicurezza Nazionale e acquistabili dalle PA."
-date: "2022-07-01"
+date: "2023-01-19"
 ---
 
 Il catalogo dei servizi qualificati contiene informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, ai livelli di servizio garantiti e ulteriori caratteristiche del servizio.
