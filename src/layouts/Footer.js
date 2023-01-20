@@ -92,8 +92,8 @@ const MainFooter = () => {
               </ExternalLink>
             </div>
             <div aria-hidden="true" className={classes.logoSeparator} />
-            <div className="py-3">
-              <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
+            <div className="pt-3">
+              <ExternalLink linkTo={acn.linkTo} ariaLabel={acn.ariaLabel}>
                 <img className={classes.footerLogo} src="/assets/acn-logo.svg" alt="logo ACN" />
               </ExternalLink>
             </div>
