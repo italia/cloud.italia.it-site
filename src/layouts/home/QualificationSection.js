@@ -94,6 +94,26 @@ export const QualificationSection = () => {
           />
         </HeroGraphic>
       </div>
+      <div className="row mt-lg-2 mt-0">
+        <div className="col-12 text-center text-lg-left">
+          <ExternalLink
+            linkTo={openDataMarketplace.linkTo}
+            ariaLabel={openDataMarketplace.ariaLabel}
+            className={`btn-icon ${classes.whiteHighContrast}`}
+          >
+            <small>{openDataMarketplace.label}</small>
+            <Icon
+              className="ml-2"
+              icon="it-external-link"
+              size="sm"
+              color="white"
+              focusable={false}
+              role="img"
+              aria-label={ariaLabel.externalLink}
+            />
+          </ExternalLink>
+        </div>
+      </div>
     </Hero>
   );
 };

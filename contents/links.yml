@@ -77,7 +77,7 @@ externalLinks:
     ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
-    linkTo: https://catalogocloud.agid.gov.it/opendata
+    linkTo: https://catalogocloud.acn.gov.it/opendata
     ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali
