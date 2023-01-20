@@ -52,7 +52,7 @@ const useStyles = createUseStyles({
   },
 });
 
-xport const QualificationSection = () => {
+export const QualificationSection = () => {
   const classes = useStyles();
   return (
     <Hero bgColor="primary">
@@ -117,4 +117,3 @@ xport const QualificationSection = () => {
     </Hero>
   );
 };
-
