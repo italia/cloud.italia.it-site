@@ -1,8 +1,6 @@
-Il catalogo dei servizi qualificati contiene informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, 
-ai livelli di servizio garantiti e ulteriori caratteristiche del servizio.
+Il catalogo dei servizi qualificati contiene informazioni relative alle funzionalità supportate, ai modelli di definizione dei prezzi, ai livelli di servizio garantiti e ulteriori caratteristiche del servizio.
 
-Tramite il catalogo le amministrazioni possono ricercare i servizi cloud offerti dal mercato e più idonei alle proprie esigenze, 
-verificando così la possibilità di migrare i propri applicativi on premise verso soluzioni cloud che non soltanto soddisfano tali 
+Tramite il catalogo le amministrazioni possono ricercare i servizi cloud offerti dal mercato e più idonei alle proprie esigenze, verificando così la possibilità di migrare i propri applicativi on premise verso soluzioni cloud che non soltanto soddisfano tali 
 esigenze ma sono potenzialmente in grado di offrire migliori performance.
 
 Questo approccio corrisponde a quanto riportato nel manuale di abilitazione al cloud nella sezione relativa alle
