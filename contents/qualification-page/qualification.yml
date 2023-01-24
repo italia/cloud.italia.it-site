@@ -13,15 +13,22 @@ resources:
         ariaLabelIcon: link esterno
       - action: Leggi
         icon: it-external-link
-        link: https://catalogocloud.agid.gov.it/info
+        link: https://catalogocloud.acn.gov.it/info
         title: Come ottenere le qualificazioni cloud
         ariaLabel: 'Come ottenere le qualificazioni Cloud (link esterno)'
         ariaLabelIcon: link esterno
       - action: Consulta
         icon: it-external-link
-        link: https://catalogocloud.agid.gov.it/
+        link: https://catalogocloud.acn.gov.it
         title: Il catalogo dei servizi qualificati
         ariaLabel: 'Il catalogo dei servizi qualificati (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Leggi
+        description: 
+        icon: it-external-link
+        link: https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf
+        title: Determina ACN n. 307 del 18 gennaio 2022
+        ariaLabel: 'Determina ACN n. 307 del 18 gennaio 2022 (link esterno)'
         ariaLabelIcon: link esterno
       - action: Leggi su <strong>Read the Docs</strong>
         description: Qualificazione dei Cloud Service Provider

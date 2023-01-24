@@ -87,14 +87,18 @@ const MainFooter = () => {
                 <img
                   className={classes.footerLogo}
                   src="/assets/dtd-logo.svg"
-                  alt="logo Dipartimento per la Trasformazione Digitale"
+                  alt="logo Dipartimento per la trasformazione digitale"
                 />
               </ExternalLink>
             </div>
             <div aria-hidden="true" className={classes.logoSeparator} />
             <div className="pt-3">
               <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
-                <img className={classes.footerLogo} src="/assets/agid-logo.svg" alt="logo AGID" />
+                <img
+                  className={classes.footerLogo}
+                  src="/assets/agid-logo.svg"
+                  alt="logo Agenzia per l'Italia digitale"
+                />
               </ExternalLink>
             </div>
           </div>
