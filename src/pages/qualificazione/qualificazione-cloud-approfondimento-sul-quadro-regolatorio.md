@@ -11,13 +11,13 @@ La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo del
 {class="h2 font-weight-semibold mt-4 mb-4"}
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la Pubblica Amministrazione diventa di competenza dell’Agenzia per la cybersicurezza nazionale, che subentra all’Agenzia per l’Italia digitale (AGID).
 
-La nuova procedura di qualificazione è indicata nel [Decreto direttoriale n. 29](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) del 3 gennaio 2023. Per garantire la continuità dei servizi qualificati già in uso dalle pubbliche amministrazione e per consentire una graduale armonizzazione della normativa nazionale, la determina prevede un regime transitorio prima della gestione ordinaria della qualificazione.
+La nuova procedura di qualificazione è indicata nel [Decreto direttoriale n. 29](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) del 2 gennaio 2023. Per garantire la continuità dei servizi qualificati già in uso dalle pubbliche amministrazione e per consentire una graduale armonizzazione della normativa nazionale, la determina prevede un regime transitorio prima della gestione ordinaria della qualificazione.
 
 Fino **al 31 luglio 2023** è previsto un regime transitorio. Durante questo periodo, i fornitori già in possesso di una qualificazione ancora valida, ottenuta ai sensi delle circolari AGID n. 2 e n. 3 del 2018, rientreranno nelle nuove qualifiche corrispondenti al trattamento di dati e ai servizi di natura ordinaria: livello QC1 per i servizi e livello Ql1 per le infrastrutture. Le nuove qualifiche saranno valide fino al **18 gennaio 2024.**
 
 Le qualifiche QC1 e QI1 in corso di validità consentono di continuare, in deroga fino al 30 aprile 2023, il trattamento di **dati e servizi critici e strategici** delle PA già in essere. 
 
-Tutte le pubbliche amministrazioni che applicano la metodologia di classificazione indicata nella[ determina ACN n. 306 del 18 gennaio 2022](https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/#la-classificazione-dei-dati-e-dei-servizi) e utilizzano fornitori cloud per la gestione di dati e servizi critici e strategici devono entro il **28 febbraio 2023**:
+Tutte le pubbliche amministrazioni che, applicando la metodologia di classificazione indicata nella[ determina ACN n. 306 del 18 gennaio 2022](https://innovazione.gov.it/dipartimento/focus/strategia-cloud-italia/#la-classificazione-dei-dati-e-dei-servizi), utilizzano fornitori cloud per la gestione di dati e servizi critici e strategici devono entro il **28 febbraio 2023**:
 
 * informare i fornitori interessati per valutare eventuali adeguamenti;
 * inviare alla [Pec di ACN (acn@pec.acn.gov.it)](mailto:acn@pec.acn.gov.it) i dettagli relativi ai dati e servizi critici o strategici gestiti tramite servizi e infrastrutture cloud.
