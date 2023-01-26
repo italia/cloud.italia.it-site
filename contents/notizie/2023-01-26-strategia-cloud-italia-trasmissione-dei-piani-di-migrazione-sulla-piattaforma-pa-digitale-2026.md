@@ -4,7 +4,7 @@ title: "Strategia Cloud Italia: trasmissione dei piani di migrazione sulla piatt
 subtitle: "I piani possono essere consegnati in conformità a quanto previsto dalla normativa vigente."
 date: "2023-01-26"
 evidence: true
-internalNews: true
+internalNews: false
 fonte: innovazione.gov.it
 showInHome: false
 typeOfNews: Articolo
