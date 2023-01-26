@@ -6,7 +6,7 @@ import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
   internalLinks: { privacy, credits },
-  externalLinks: { dipartimento, agid, noteLegali, a11y },
+  externalLinks: { dipartimento, acn, noteLegali, a11y },
 } = links;
 
 const useStyle = createUseStyles({
@@ -23,6 +23,9 @@ const useStyle = createUseStyles({
   },
   footerLogo: {
     height: '2.5rem',
+  },
+  footerAcnLogo: {
+    height: '4rem',
   },
   logoSeparator: {
     composes: 'mx-5 d-none d-md-block',
@@ -92,12 +95,12 @@ const MainFooter = () => {
               </ExternalLink>
             </div>
             <div aria-hidden="true" className={classes.logoSeparator} />
-            <div className="pt-3">
-              <ExternalLink linkTo={agid.linkTo} ariaLabel={agid.ariaLabel}>
+            <div className="pt-1" style={{ textAlign: 'left' }}>
+              <ExternalLink linkTo={acn.linkTo} ariaLabel={acn.ariaLabel}>
                 <img
-                  className={classes.footerLogo}
-                  src="/assets/agid-logo.svg"
-                  alt="logo Agenzia per l'Italia digitale"
+                  className={classes.footerAcnLogo}
+                  src="/assets/acn-logo.svg"
+                  alt="Agenzia per la Cybersicurezza Nazionale"
                 />
               </ExternalLink>
             </div>
