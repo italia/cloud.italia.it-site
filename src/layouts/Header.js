@@ -84,12 +84,12 @@ const SlimHeader = () => {
       <HeaderContent>
         <HeaderBrand tag="div">
           <span className="text-primary font-weight-semibold small">
-            A<BrandSlimHeader />
+            <BrandSlimHeader />
           </span>
         </HeaderBrand>
         <HeaderLinkZone aria-label={ariaLabel.slimMenu}>
           <div className={classes.navToggler}>
-            B<BrandSlimHeader />
+            <BrandSlimHeader />
             <a
               onClick={() => toggleDropdown(!isOpen)}
               aria-expanded={isOpen}
