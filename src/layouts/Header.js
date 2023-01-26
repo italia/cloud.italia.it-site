@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Collapse,
   Header as HeaderReactKit,
@@ -52,13 +52,13 @@ const useStyle = createUseStyles({
 const BrandSlimHeader = () => (
   <>
     <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
-      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.dipartimento.label}</span>
-      <span className="d-none d-lg-inline d-xl-none">DTD</span>
+      <span className="d-lg-inline d-none">{externalLinks.dipartimento.label}</span>
+      <span className="d-lg-none d-inline">DTD</span>
     </ExternalLink>
     <span className="mx-1"> + </span>
-    <ExternalLink linkTo={externalLinks.agid.linkTo} ariaLabel={externalLinks.agid.ariaLabel}>
-      <span className="d-inline d-lg-none d-xl-inline">{externalLinks.agid.label}</span>
-      <span className="d-none d-lg-inline d-xl-none">AGID</span>
+    <ExternalLink linkTo={externalLinks.acn.linkTo} ariaLabel={externalLinks.acn.ariaLabel}>
+      <span className="d-lg-inline d-none">{externalLinks.acn.label}</span>
+      <span className="d-lg-none d-inline">{externalLinks.acn.labelMobile}</span>
     </ExternalLink>
   </>
 );
@@ -66,6 +66,19 @@ const BrandSlimHeader = () => (
 const SlimHeader = () => {
   const [isOpen, toggleDropdown] = useState(false);
   const classes = useStyle();
+
+  function handleWindowSizeChange() {
+    toggleDropdown(window.innerWidth <= 768 ? false : true);
+  }
+
+  useEffect(() => {
+    handleWindowSizeChange();
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    };
+  }, []);
+
   return (
     <HeaderReactKit type="slim" theme="light">
       <HeaderContent>
