@@ -38,42 +38,47 @@ externalLinks:
   pianoTriennale:
     label: Piano triennale
     linkTo: https://pianotriennale-ict.italia.it/
-    ariaLabel: 'Piano triennale (link esterno)'
+    ariaLabel: "Piano triennale (link esterno)"
   developers:
     label: Developers
     linkTo: https://developers.italia.it/
-    ariaLabel: 'Developers Italia (link esterno)'
+    ariaLabel: "Developers Italia (link esterno)"
   designers:
     label: Designers
     linkTo: https://designers.italia.it/
-    ariaLabel: 'Designers Italia (link esterno)'
+    ariaLabel: "Designers Italia (link esterno)"
   forum:
     label: Forum
     linkTo: https://forum.italia.it/
-    ariaLabel: 'Forum Italia (link esterno)'
+    ariaLabel: "Forum Italia (link esterno)"
   docs:
     label: Docs
     linkTo: https://docs.italia.it/
-    ariaLabel: 'Docs Italia (link esterno)'
+    ariaLabel: "Docs Italia (link esterno)"
   github:
     label: GitHub
     linkTo: https://github.com/italia/
-    ariaLabel: 'GitHub Italia (link esterno)'
+    ariaLabel: "GitHub Italia (link esterno)"
   dipartimento:
     label: Dipartimento per la trasformazione digitale
     linkTo: https://innovazione.gov.it/dipartimento/
-    ariaLabel: 'Dipartimento per la trasformazione digitale (link esterno)'
+    ariaLabel: "Dipartimento per la trasformazione digitale (link esterno)"
   agid:
     label: AGID
     linkTo: https://www.agid.gov.it/
     ariaLabel: "Agenzia per l'Italia digitale (link esterno)"
+  acn:
+    label: Agenzia per la Cybersicurezza Nazionale
+    labelMobile: ACN
+    linkTo: https://www.acn.gov.it/
+    ariaLabel: "Agenzia per la Cybersicurezza Nazionale (link esterno)"
   marketplace:
     label: Cloud Marketplace
-    linkTo: https://catalogocloud.agid.gov.it/
+    linkTo: https://catalogocloud.acn.gov.it/
     ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
-    linkTo: https://catalogocloud.agid.gov.it/opendata
+    linkTo: https://catalogocloud.acn.gov.it/opendata
     ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali

@@ -4,9 +4,9 @@
 [cloud.italia.it](https://cloud.italia.it/){class="text-decoration-none font-weight-semibold"} è gestito dalla Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale.
 
 Le pagine legate alla gestione del marketplace all’URL 
-[https://catalogocloud.agid.gov.it/](https://catalogocloud.agid.gov.it/){class="text-decoration-none font-weight-semibold"}
-sono mantenute dall’Agenzia per l’Italia Digitale. Puoi consultare l’informativa relativa al marketplace al seguente link
-([https://catalogocloud.agid.gov.it/privacy](https://catalogocloud.agid.gov.it/privacy){class="text-decoration-none font-weight-semibold"}).
+[https://catalogocloud.acn.gov.it/](https://catalogocloud.agid.gov.it/){class="text-decoration-none font-weight-semibold"}
+sono mantenute dall’Agenzia per la Cybersicurezza Nazionale. Puoi consultare l’informativa relativa al marketplace al seguente link
+([https://catalogocloud.acn.gov.it/privacy](https://catalogocloud.acn.gov.it/privacy){class="text-decoration-none font-weight-semibold"}).
 
 A norma degli articoli 13 e 14 del Regolamento UE 2016/679 (GDPR) vogliamo fornirti un'informativa semplice e chiara su come trattiamo i dati personali 
 che ci fornisci direttamente o di cui comunque potremo venire in possesso tramite contatto con il sito web
