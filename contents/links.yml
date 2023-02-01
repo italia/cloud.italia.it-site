@@ -2,15 +2,27 @@ internalLinks:
   strategy:
     linkTo: /strategia-cloud-pa/
     label: Strategia
+    subTitle: Cos'è e perchè
   enablement:
     linkTo: /programma-abilitazione-cloud/
     label: Abilitazione della PA
+    subTitle: Come funziona il programma
   services:
     linkTo: /qualificazione-servizi-cloud/
     label: Qualificazione per i fornitori
-  # catalogue:
-  #   linkTo: /catalogo-servizi-cloud/
-  #   label: Catalogo
+    subTitle: Cos’è e come funziona
+  classifServizi:
+    linkTo: /abilitazione/come-classificare-dati-e-servizi
+    label: Come classificare dati e servizi
+  avvisiPnrr:
+    linkTo: /abilitazione/candidarsi-agli-avvisi-del-pnrr
+    label: Candidarsi agli avvisi del PNRR
+  qualificazione:
+    linkTo: /qualificazione-servizi-cloud/catalogo-servizi-cloud
+    label: Come funziona il catalogo
+  quadroregolatorio:
+    linkTo: /qualificazione-servizi-cloud/qualificazione-cloud-approfondimento-sul-quadro-regolatorio
+    label: Quadro regolatorio
   pnrrStrategy:
     linkTo: /strategia-cloud-pa/piano-nazionale-di-ripresa-e-resilienza
     label: Le misure del PNRR
