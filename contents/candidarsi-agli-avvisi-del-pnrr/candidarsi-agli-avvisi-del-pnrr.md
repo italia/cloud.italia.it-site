@@ -15,7 +15,6 @@ L’obiettivo è **migrare verso il PSN almeno 280 enti entro giugno 2026.**
 
 ### A chi è rivolta
 
-{class="h3 font-weight-semibold mt-4 mb-4"}
 Le PA beneficiarie di questa misura sono:
 
 - pubbliche amministrazioni centrali;

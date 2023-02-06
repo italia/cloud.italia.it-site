@@ -77,7 +77,10 @@ const useStyle = createUseStyles({
     padding: apply0Important,
   },
   activeMenu: {
-    borderBottom: '3px solid #06c',
+    borderBottom: '3px solid #06c !important',
+  },
+  paddingPlaceholder: {
+    borderBottom: '3px solid transparent',
   },
   mousePointer: { cursor: 'pointer' },
 });
@@ -315,7 +318,8 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
-                className={`mr-3 ${classes.mousePointer} ${activeView.strategy && classes.activeMenu}`}
+                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.strategy && classes.activeMenu
+                  }`}
                 isOpen={openFirst}
                 toggle={() => manageDropDowns(1)}
               >
@@ -361,7 +365,8 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
-                className={`mr-3 ${classes.mousePointer} ${activeView.abilitazionePa && classes.activeMenu}`}
+                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.abilitazionePa && classes.activeMenu
+                  }`}
                 isOpen={openSecond}
                 toggle={() => manageDropDowns(2)}
               >
@@ -407,7 +412,8 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
-                className={`mr-3 ${classes.mousePointer} ${activeView.qualificazione && classes.activeMenu}`}
+                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.qualificazione && classes.activeMenu
+                  }`}
                 isOpen={openThird}
                 toggle={() => manageDropDowns(3)}
               >
@@ -474,7 +480,7 @@ const NavHeader = () => {
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
-              <UncontrolledDropdown nav inNavbar className="mr-3">
+              <UncontrolledDropdown nav inNavbar className={`mr-3 ${classes.paddingPlaceholder}`}>
                 <DropdownToggle nav caret tag="a">
                   <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
                 </DropdownToggle>
