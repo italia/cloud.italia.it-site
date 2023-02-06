@@ -1,5 +1,4 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import { graphql, useStaticQuery } from 'gatsby';
 import { HeroTitle } from '../../components/hero/HeroTitle.js';
 import { Hero } from '../../components/hero/Hero.js';
