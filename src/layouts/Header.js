@@ -227,10 +227,14 @@ const NavHeader = () => {
   useEffect(() => {
     const checkActiveView = window.location.pathname;
     isOpen && setIsOpen(!isOpen);
+    toggleFirst(false);
+    toggleSecond(false);
+    toggleThird(false);
     if (checkActiveView.includes('strategia-cloud-pa')) {
       SetActiveView({ strategy: true, abilitazionePa: false, qualificazione: false, notizie: false, glossario: false });
-      toggleFirst(!openFirst);
     } else if (checkActiveView.includes('programma-abilitazione-cloud')) {
+      SetActiveView({ strategy: false, abilitazionePa: true, qualificazione: false, notizie: false, glossario: false });
+    } else if (checkActiveView.includes('abilitazione')) {
       SetActiveView({ strategy: false, abilitazionePa: true, qualificazione: false, notizie: false, glossario: false });
     } else if (checkActiveView.includes('qualificazione-servizi-cloud')) {
       SetActiveView({ strategy: false, abilitazionePa: false, qualificazione: true, notizie: false, glossario: false });
@@ -251,6 +255,7 @@ const NavHeader = () => {
   }, [window.location.pathname]);
 
   const manageDropDowns = (menuPos) => {
+    console.log('CLICK', menuPos, dropDownOpened);
     if (menuPos !== dropDownOpened) {
       SetDropDownOpened(menuPos);
       toggleFirst(false);
@@ -278,6 +283,7 @@ const NavHeader = () => {
         toggleThird(false);
       }
     }
+    toogleMenu();
   };
 
   return (
@@ -303,7 +309,7 @@ const NavHeader = () => {
                 isOpen={openFirst}
                 toggle={() => manageDropDowns(1)}
               >
-                <DropdownToggle nav caret menuRole="menu">
+                <DropdownToggle nav caret>
                   <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
                 </DropdownToggle>
                 <DropdownMenu className={classes.dropdownfixwidth}>
@@ -345,7 +351,6 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
-                menuRole="menu"
                 className={`mr-3 ${classes.mousePointer} ${activeView.abilitazionePa && classes.activeMenu}`}
                 isOpen={openSecond}
                 toggle={() => manageDropDowns(2)}
