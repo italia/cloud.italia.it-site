@@ -76,11 +76,11 @@ const useStyle = createUseStyles({
   linkResetPadding: {
     padding: apply0Important,
   },
-  activeMenu: {
-    borderBottom: '3px solid #06c !important',
-  },
   paddingPlaceholder: {
     borderBottom: '3px solid transparent',
+  },
+  activeMenu: {
+    borderBottom: '3px solid #06c',
   },
   mousePointer: { cursor: 'pointer' },
 });
