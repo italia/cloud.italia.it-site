@@ -82,6 +82,8 @@ const useStyle = createUseStyles({
   mousePointer: { cursor: 'pointer' },
 });
 
+const isBrowser = typeof window !== 'undefined';
+
 const BrandSlimHeader = () => (
   <>
     <ExternalLink linkTo={externalLinks.dipartimento.linkTo} ariaLabel={externalLinks.dipartimento.ariaLabel}>
@@ -223,12 +225,10 @@ const NavHeader = () => {
     glossario: false,
   });
   const [dropDownOpened, SetDropDownOpened] = useState(null);
-  const isBrowser = typeof window !== 'undefined';
   let pathName = '';
-  if (!isBrowser) {
-    return;
+  if (isBrowser) {
+    pathName = window.location.pathname;
   }
-  pathName = window.location.pathname;
 
   useEffect(() => {
     const checkActiveView = window.location.pathname;
