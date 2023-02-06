@@ -33,10 +33,6 @@ Il Polo dovrà:
 ## Le tappe verso il PSN
 {class="h4 font-weight-semibold mt-8 mb-4"}
 
-### Dicembre 2022
-{class="h5 font-weight-semibold mb-2"}
-Da dicembre 2022 è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del PNRR è completa.
-
 ### Luglio 2020
 {class="h5 font-weight-semibold mb-2"}
 La Presidenza del Consiglio dei ministri, secondo le disposizioni previste nell’[articolo 35 del Decreto Legge n 76 del 16 luglio 2020](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=9&art.flagTipoArticolo=0&art.codiceRedazionale=20A04921&art.idArticolo=35&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2020-09-14&art.progressivo=0#art){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, attraverso il Dipartimento per la trasformazione digitale promuove lo sviluppo di una infrastruttura ad alta affidabilità localizzata sul territorio nazionale per la razionalizzazione e il consolidamento dei Centri di elaborazione Dati (CED) e relativi sistemi informatici. 
@@ -75,3 +71,6 @@ L’operatore economico promotore del progetto di costituzione del Polo Strategi
 
 La firma è avvenuta tra il capo del Dipartimento per la trasformazione digitale e il rappresentante legale della società di nuova costituzione - partecipata da TIM, Leonardo, CDP Equity e Sogei - secondo quanto previsto dagli atti della procedura di gara europea, gestita dalla centrale di committenza Difesa Servizi S.p.A. e dal Dipartimento per la trasformazione digitale in qualità di stazione appaltante.
 
+### Dicembre 2022
+{class="h5 font-weight-semibold mb-2"}
+Da dicembre 2022 è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del PNRR è completa.
