@@ -223,6 +223,12 @@ const NavHeader = () => {
     glossario: false,
   });
   const [dropDownOpened, SetDropDownOpened] = useState(null);
+  const isBrowser = typeof window !== 'undefined';
+  let pathName = '';
+  if (!isBrowser) {
+    return;
+  }
+  pathName = window.location.pathname;
 
   useEffect(() => {
     const checkActiveView = window.location.pathname;
@@ -252,7 +258,7 @@ const NavHeader = () => {
       });
     }
     // eslint-disable-next-line
-  }, [window.location.pathname]);
+  }, [pathName]);
 
   const manageDropDowns = (menuPos) => {
     console.log('CLICK', menuPos, dropDownOpened);
