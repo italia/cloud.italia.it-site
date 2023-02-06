@@ -261,35 +261,39 @@ const NavHeader = () => {
   }, [pathName]);
 
   const manageDropDowns = (menuPos) => {
-    console.log('CLICK', menuPos, dropDownOpened);
+    toggleFirst(false);
+    toggleSecond(false);
+    toggleThird(false);
     if (menuPos !== dropDownOpened) {
       SetDropDownOpened(menuPos);
-      toggleFirst(false);
-      toggleSecond(false);
-      toggleThird(false);
-
+    } else if (menuPos === dropDownOpened && window.innerWidth < 768) {
       switch (menuPos) {
         case 1:
-          !openFirst && toggleFirst(true);
+          toggleFirst(true);
           break;
         case 2:
-          !openSecond && toggleSecond(true);
+          toggleSecond(true);
           break;
         case 3:
-          !openThird && toggleThird(true);
+          toggleThird(true);
           break;
         default:
           null;
       }
-    } else {
-      SetDropDownOpened(null);
-      if (window.innerWidth > 768) {
-        toggleFirst(false);
-        toggleSecond(false);
-        toggleThird(false);
-      }
     }
-    toogleMenu();
+    switch (menuPos) {
+      case 1:
+        !openFirst && toggleFirst(true);
+        break;
+      case 2:
+        !openSecond && toggleSecond(true);
+        break;
+      case 3:
+        !openThird && toggleThird(true);
+        break;
+      default:
+        null;
+    }
   };
 
   return (
