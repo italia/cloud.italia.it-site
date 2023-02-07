@@ -456,7 +456,7 @@ const NavHeader = () => {
                   </LinkList>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
+              <NavItem className={classes.paddingPlaceholder}>
                 <Link
                   to={internalLinks.news.linkTo}
                   className="nav-link"
@@ -467,7 +467,7 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className={classes.paddingPlaceholder}>
                 <Link
                   to={internalLinks.glossary.linkTo}
                   className="nav-link"
@@ -480,27 +480,24 @@ const NavHeader = () => {
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
-              <UncontrolledDropdown nav inNavbar className={`mr-3 ${classes.paddingPlaceholder}`}>
-                <DropdownToggle nav caret tag="a">
+              <NavItem className={classes.paddingPlaceholder}>
+                <ExternalLink
+                  linkTo={externalLinks.marketplace.linkTo}
+                  ariaLabel={externalLinks.marketplace.ariaLabel}
+                  className="nav-link pr-0"
+                >
                   <span className="font-weight-semibold">{externalLinks.marketplace.label}</span>
-                </DropdownToggle>
-                <DropdownMenu className={classes.dropdownfixwidth}>
-                  <LinkList>
-                    <LinkListItem header href={externalLinks.marketplace.linkTo}>
-                      <span>Visista il {externalLinks.marketplace.label}</span>
-                      <Icon
-                        className="ml-2 pb-1"
-                        color="primary"
-                        icon="it-external-link"
-                        size="sm"
-                        focusable={false}
-                        role="img"
-                        aria-label={ariaLabel.externalLink}
-                      />
-                    </LinkListItem>
-                  </LinkList>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+                  <Icon
+                    className="ml-2 pb-1"
+                    color="primary"
+                    icon="it-external-link"
+                    size="sm"
+                    focusable={false}
+                    role="img"
+                    aria-label={ariaLabel.externalLink}
+                  />
+                </ExternalLink>
+              </NavItem>
             </Nav>
           </div>
         </HeaderNav>
