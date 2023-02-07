@@ -456,7 +456,7 @@ const NavHeader = () => {
                   </LinkList>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem className={classes.paddingPlaceholder}>
+              <NavItem>
                 <Link
                   to={internalLinks.news.linkTo}
                   className="nav-link"
@@ -464,10 +464,12 @@ const NavHeader = () => {
                   partiallyActive={true}
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">{internalLinks.news.label}</span>
+                  <span className="font-weight-semibold" style={{ marginBottom: '3px' }}>
+                    {internalLinks.news.label}
+                  </span>
                 </Link>
               </NavItem>
-              <NavItem className={classes.paddingPlaceholder}>
+              <NavItem>
                 <Link
                   to={internalLinks.glossary.linkTo}
                   className="nav-link"
@@ -475,7 +477,9 @@ const NavHeader = () => {
                   partiallyActive={true}
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold">{internalLinks.glossary.label}</span>
+                  <span className="font-weight-semibold" style={{ marginBottom: '3px' }}>
+                    {internalLinks.glossary.label}
+                  </span>
                 </Link>
               </NavItem>
             </Nav>
