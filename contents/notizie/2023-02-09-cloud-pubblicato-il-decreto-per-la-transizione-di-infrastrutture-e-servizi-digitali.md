@@ -1,7 +1,7 @@
 ---
 type: "news"
 title: "Cloud: pubblicato il decreto per la transizione di infrastrutture e servizi digitali"
-subtitle: "L'ACN è l’Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82 a tutela degli interessi nazionali nel cyberspazio."
+subtitle: "Prosegue il percorso di transizione avviato il 2 gennaio 2023"
 date: "2023-02-09"
 evidence: true
 internalNews: false
