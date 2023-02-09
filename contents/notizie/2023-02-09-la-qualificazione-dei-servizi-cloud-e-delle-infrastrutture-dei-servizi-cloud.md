@@ -9,7 +9,7 @@ fonte: acn.gov.it
 showInHome: false
 typeOfNews: Approfondimenti
 link: https://www.acn.gov.it/agenzia/cloud-pa
-image: /assets/img_news//assets/img_news/2022-12-12-al-via-il-polo-strategico-nazionale.jpg
+image: assets/img_news/2022-12-12-al-via-il-polo-strategico-nazionale.jpg
 tags:
   - Approfondimenti
 ---
