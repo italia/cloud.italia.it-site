@@ -7,9 +7,9 @@ evidence: true
 internalNews: false
 fonte: acn.gov.it
 showInHome: false
-typeOfNews: Approfondimento
+typeOfNews: Approfondimenti
 link: https://www.acn.gov.it/agenzia/cloud-pa
 image: /assets/img_news/2023-01-26-strategia-cloud-italia-trasmissione-dei-piani-di-migrazione-sulla-piattaforma-pa-digitale-2026.jpeg
 tags:
-  - Approfondimento
+  - Approfondimenti
 ---
