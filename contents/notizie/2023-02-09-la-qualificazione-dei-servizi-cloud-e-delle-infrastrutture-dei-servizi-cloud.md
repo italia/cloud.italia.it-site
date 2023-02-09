@@ -9,7 +9,7 @@ fonte: acn.gov.it
 showInHome: false
 typeOfNews: Approfondimenti
 link: https://www.acn.gov.it/agenzia/cloud-pa
-image: /assets/img_news/2022-12-12-al-via-il-polo-strategico-nazionale.jpg
+image: /assets/img_news/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud.png
 tags:
   - Approfondimenti
 ---
