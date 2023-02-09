@@ -9,7 +9,7 @@ fonte: acn.gov.it
 showInHome: false
 typeOfNews: Approfondimenti
 link: https://www.acn.gov.it/agenzia/cloud-pa
-image: /assets/img_news/2023-01-26-strategia-cloud-italia-trasmissione-dei-piani-di-migrazione-sulla-piattaforma-pa-digitale-2026.jpeg
+image: /assets/img_news//assets/img_news/2022-12-12-al-via-il-polo-strategico-nazionale.jpg
 tags:
   - Approfondimenti
 ---
