@@ -5,7 +5,7 @@ Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la PA diventa di com
 ACN ha previsto un regime transitorio fino al 31 luglio 2023. Dal 1 agosto 2023 il nuovo percorso di qualificazione diventerà effettivo, con la pubblicazione del nuovo Regolamento ACN e della nuova piattaforma web per inviare le richieste di qualificazione.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
+<a href="https://acn.gov.it" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
 </div>
 
 ### Il nuovo livello di qualificazione

@@ -5,7 +5,7 @@ resourceTitle: Risorse utili
 resources:
   - title: Documenti
     references:
-      - action: Leggi
+     - action: Leggi
         icon: it-external-link
         link: https://www.acn.gov.it/documents/DeterminazioneCloud__20230208_def_signed.pdf
         title: Decreto direttoriale Prot. N. 5489 del 08/02/2023
