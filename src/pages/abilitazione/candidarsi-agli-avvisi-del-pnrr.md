@@ -11,10 +11,9 @@ Il PNRR mette a disposizione **1,9 miliardi di euro** allocati in due misure pri
 - **“Infrastrutture digitali” (Misura 1.1)** per le Pubbliche Amministrazioni centrali, le Aziende sanitarie locali (Asl), le aziende ospedaliere e alcune Pubbliche Amministrazioni locali;
 - **“Abilitazione e facilitazione migrazione al cloud” (Misura 1.2)** per i Comuni, le scuole, le Asl e le aziende ospedaliere.
 
-**PA digitale 2026**(https://padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='PA digitale 2026 (link esterno)'} è il punto di accesso unico per richiedere i fondi dedicati alla transizione digitale, rendicontare i progetti e ricevere assistenza.
+[PA digitale 2026](https://padigitale2026.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='PA digitale 2026 (link esterno)'} è il punto di accesso unico per richiedere i fondi dedicati alla transizione digitale, rendicontare i progetti e ricevere assistenza.
 
 ## Infrastrutture digitali - Misura 1.1
-{class="h2 font-weight-semibold mt-8 mb-4"}
 La misura 1.1 “Infrastrutture digitali” mette a disposizione **900 milioni di euro** e ha l’obiettivo di garantire che **soluzioni, applicazioni e infrastrutture delle PA siano ospitate in data center altamente affidabili e con standard elevati di qualità** per sicurezza, prestazioni, scalabilità, interoperabilità europea ed efficienza energetica, in conformità ai requisiti previsti dal Regolamento dell’Agenzia per l’Italia digitale (AGID) del 15 dicembre 2021 e dagli atti successivi di Agenzia per la Cybersicurezza Nazionale (ACN) del 18 gennaio 2022.
 L’obiettivo è **migrare verso il PSN almeno 280 enti entro giugno 2026.**
 

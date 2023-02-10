@@ -34,6 +34,10 @@ A gennaio 2022 e seguendo le disposizioni del Regolamento AGID, l’Agenzia nazi
 
 Allo stesso tempo, con **[determina n. 306 (PDF, 1.4 MB)](https://assets.innovazione.gov.it/1642693979-det_306_cloud_modclass_20220118.pdf)** e **[allegato (PDF, 39 KB)](https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf)**, ACN ha diffuso il modello che definisce un processo sistematico di classificazione dei dati e dei servizi gestiti dalle PA.
 
+<div class="col-12 text-center mt-3 mb-5">
+<a href="https://acn.gov.it/agenzia/cloud-pa" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
+</div>
+
 A dicembre 2021, l’Agenzia per l’Italia Digitale (AGID) ha indicato, nel **[Regolamento per il Cloud della PA (PDF, 758 KB)](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481843140O__O628+DT+DG+628+-+15+dic+2021+-+Regolamento+servizi+cloud.pdf)**, pubblicato il 15 dicembre 2021, le evoluzioni del percorso di qualificazione cloud per servizi e infrastrutture cloud per la Pubblica Amministrazione. Il regolamento illustra i requisiti minimi per le infrastrutture digitali, le caratteristiche e le modalità di qualificazione e migrazione dei servizi cloud.
 
 Inoltre, il regolamento:

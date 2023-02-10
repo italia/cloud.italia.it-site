@@ -6,7 +6,7 @@ date: "2022-07-01"
 ---
 
  **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
-La strategia per l'Italia digitale 2026 si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
+La [strategia per l'Italia digitale 2026](https://innovazione.gov.it/italia-digitale-2026/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Strategia Italia digitale 2026'} si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
  
 L’obiettivo è rendere la Pubblica Amministrazione la migliore “alleata” di cittadini e imprese, con un’offerta di servizi sempre più efficienti e facilmente accessibili. Sono sette gli investimenti dedicati, che coprono aspetti di “infrastruttura digitale”, spingendo la migrazione al cloud delle amministrazioni, di interoperabilità tra gli enti pubblici, rafforzando la cybersicurezza e mettendo in campo interventi per migliorare i servizi ai cittadini e diffondere le competenze digitali.
 

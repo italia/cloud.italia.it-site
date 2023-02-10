@@ -5,6 +5,18 @@ resourceTitle: Risorse utili
 resources:
   - title: Documenti
     references:
+     - action: Leggi
+        icon: it-external-link
+        link: https://www.acn.gov.it/documents/DeterminazioneCloud__20230208_def_signed.pdf
+        title: Decreto direttoriale Prot. N. 5489 del 08/02/2023
+        ariaLabel: 'Decreto direttoriale Prot. N. 5489 (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Leggi
+        icon: it-external-link
+        link: https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf
+        title: Decreto direttoriale n. 29 del 2 gennaio 2023 
+        ariaLabel: 'DDecreto direttoriale n. 29 del 2 gennaio 2023  (link esterno)'
+        ariaLabelIcon: link esterno
       - action: Leggi
         icon: it-external-link
         link: https://trasparenza.agid.gov.it/archivio28_provvedimenti-amministrativi_0_123065_725_1.html
