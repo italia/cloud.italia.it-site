@@ -5,7 +5,7 @@ subtitle: "Pubblicato l’Avviso cloud che permette ad una platea di amministraz
 date: "2023-02-10"
 evidence: true
 internalNews: false
-fonte: acn.gov.it
+fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Approfondimenti
 link: https://innovazione.gov.it/notizie/articoli/digitale-dal-pnrr-oltre-373-milioni-per-migrare-dati-e-servizi-al-psn/
