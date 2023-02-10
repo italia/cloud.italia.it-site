@@ -7,9 +7,9 @@ evidence: true
 internalNews: false
 fonte: innovazione.gov.it
 showInHome: true
-typeOfNews: Approfondimenti
+typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/digitale-dal-pnrr-oltre-373-milioni-per-migrare-dati-e-servizi-al-psn/
 image: /assets/img_news/2023-02-10-dal-pnrr-oltre-373-milioni-per-migrare-dati-e-servizi-al-polo-strategico-nazionale.png
 tags:
-  - Approfondimenti
+  - Articoli
 ---
