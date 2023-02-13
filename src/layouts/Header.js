@@ -212,6 +212,7 @@ const CenterHeader = () => {
   );
 };
 
+// eslint-disable-next-line sonarjs/cognitive-complexity
 const NavHeader = () => {
   const classes = useStyle();
   const [isOpen, setIsOpen] = useState(false);
@@ -318,7 +319,9 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
+                // eslint-disable-next-line prettier/prettier
                 className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.strategy && classes.activeMenu
+                  // eslint-disable-next-line prettier/prettier
                   }`}
                 isOpen={openFirst}
                 toggle={() => manageDropDowns(1)}
@@ -365,7 +368,9 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
+                // eslint-disable-next-line prettier/prettier
                 className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.abilitazionePa && classes.activeMenu
+                  // eslint-disable-next-line prettier/prettier
                   }`}
                 isOpen={openSecond}
                 toggle={() => manageDropDowns(2)}
@@ -412,7 +417,9 @@ const NavHeader = () => {
               <UncontrolledDropdown
                 nav
                 inNavbar
+                // eslint-disable-next-line prettier/prettier
                 className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.qualificazione && classes.activeMenu
+                  // eslint-disable-next-line prettier/prettier
                   }`}
                 isOpen={openThird}
                 toggle={() => manageDropDowns(3)}
