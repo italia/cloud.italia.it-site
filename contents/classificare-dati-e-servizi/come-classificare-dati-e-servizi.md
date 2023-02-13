@@ -6,7 +6,7 @@ I dati possono essere di tre tipologie:
 - **critici**, laddove la compromissione potrebbe avere un impatto negativo sui servizi rilevanti per la società, la salute, la sicurezza e il benessere economico e sociale del Paese;
 - **ordinari**, se la loro compromissione non provoca l’interruzione di servizi essenziali dello Stato.
 
-Il 18 gennaio 2022, l’Agenzia per la cybersicurezza nazionale ha promosso il “modello per la predisposizione dell’elenco e della classificazione dei dati e dei servizi della Pubblica Amministrazione.” **L’Italia è tra i primi Paesi europei ad adottare un modello di classificazione di dati e servizi della PA nell’ambito della strategie nazionali per il cloud.**
+Il 18 gennaio 2022, **l’Agenzia per la cybersicurezza nazionale** ha promosso il “modello per la predisposizione dell’elenco e della classificazione dei dati e dei servizi della Pubblica Amministrazione.” **L’Italia è tra i primi Paesi europei ad adottare un modello di classificazione di dati e servizi della PA nell’ambito della strategie nazionali per il cloud.**
 
 ## Questionario online
 
