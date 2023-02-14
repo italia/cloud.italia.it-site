@@ -78,6 +78,11 @@ const useStyle = createUseStyles({
   },
   paddingPlaceholder: {
     borderBottom: '3px solid transparent',
+    '& a:focus:not(:focus-visible)': {
+      borderColor: 'transparent !important',
+      boxShadow: 'none !important',
+      outline: 'none !important',
+    },
   },
   activeMenu: {
     borderBottom: '3px solid #06c',
