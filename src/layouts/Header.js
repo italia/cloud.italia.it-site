@@ -26,6 +26,8 @@ import { ExternalLink } from '../components/ExternalLink.js';
 const { internalLinks, externalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
 const apply0Important = '0 !important';
+const borderNoneFocus = 'none !important';
+const activeBorderBottom = '3px solid #06c !important';
 
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
@@ -50,7 +52,7 @@ const useStyle = createUseStyles({
     },
     activeMenu: {
       borderBottom: apply0Important,
-      borderLeft: '3px solid #06c !important',
+      borderLeft: activeBorderBottom,
     },
   },
   '@media (max-width: 300px)': {
@@ -80,12 +82,27 @@ const useStyle = createUseStyles({
     borderBottom: '3px solid transparent',
     '& a:focus:not(:focus-visible)': {
       borderColor: 'transparent !important',
-      boxShadow: 'none !important',
-      outline: 'none !important',
+      boxShadow: borderNoneFocus,
+      outline: borderNoneFocus,
+    },
+  },
+  trickFocus: {
+    '& a:focus:not(:focus-visible)': {
+      borderColor: 'transparent !important',
+      boxShadow: borderNoneFocus,
+      outline: borderNoneFocus,
+    },
+  },
+  trickFocusForLink: {
+    '& a:focus:not(:focus-visible)': {
+      borderColor: 'transparent !important',
+      boxShadow: borderNoneFocus,
+      outline: borderNoneFocus,
+      borderBottom: activeBorderBottom,
     },
   },
   activeMenu: {
-    borderBottom: '3px solid #06c',
+    borderBottom: activeBorderBottom,
   },
   mousePointer: { cursor: 'pointer' },
 });
@@ -200,17 +217,19 @@ const CenterHeader = () => {
     <HeaderReactKit type="center" theme="light">
       <HeaderContent>
         <div className="it-brand-wrapper">
-          <Link to="/">
-            <div className="it-brand-text pr-0">
-              <div className="d-flex align-items-center">
-                <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
-                <div>
-                  <div className="h3 mb-0">{headerTitle}</div>
-                  <div className={classes.subtitle}>{headerSubtitle}</div>
+          <div className={classes.trickFocus}>
+            <Link to="/">
+              <div className="it-brand-text pr-0">
+                <div className="d-flex align-items-center">
+                  <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
+                  <div>
+                    <div className="h3 mb-0">{headerTitle}</div>
+                    <div className={classes.subtitle}>{headerSubtitle}</div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
         </div>
       </HeaderContent>
     </HeaderReactKit>
@@ -468,7 +487,7 @@ const NavHeader = () => {
                   </LinkList>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.news.linkTo}
                   className="nav-link"
@@ -481,7 +500,7 @@ const NavHeader = () => {
                   </span>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.glossary.linkTo}
                   className="nav-link"
