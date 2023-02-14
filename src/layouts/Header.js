@@ -28,6 +28,7 @@ const { ariaLabel, headerTitle, headerSubtitle } = labels;
 const apply0Important = '0 !important';
 const borderNoneFocus = 'none !important';
 const activeBorderBottom = '3px solid #06c !important';
+const transparentImportant = 'transparent !important';
 
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
@@ -81,21 +82,21 @@ const useStyle = createUseStyles({
   paddingPlaceholder: {
     borderBottom: '3px solid transparent',
     '& a:focus:not(:focus-visible)': {
-      borderColor: 'transparent !important',
+      borderColor: transparentImportant,
       boxShadow: borderNoneFocus,
       outline: borderNoneFocus,
     },
   },
   trickFocus: {
     '& a:focus:not(:focus-visible)': {
-      borderColor: 'transparent !important',
+      borderColor: transparentImportant,
       boxShadow: borderNoneFocus,
       outline: borderNoneFocus,
     },
   },
   trickFocusForLink: {
     '& a:focus:not(:focus-visible)': {
-      borderColor: 'transparent !important',
+      borderColor: transparentImportant,
       boxShadow: borderNoneFocus,
       outline: borderNoneFocus,
       borderBottom: activeBorderBottom,
