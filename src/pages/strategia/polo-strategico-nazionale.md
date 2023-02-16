@@ -2,12 +2,12 @@
 type: "indeepStrategia"
 title: "Polo Strategico Nazionale"
 subtitle: "L'infrastruttura cloud ad alta affidabilità per i dati e i servizi, critici e strategici, delle pubbliche amministrazioni italiane. "
-date: "2022-12-21"
+date: "2023-02-16"
 ---
 
 Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la [Strategia Cloud Italia](/strategia-cloud-pa/) e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di **affidabilità, resilienza, scalabilità, interoperabilità e sostenibilità ambientale.**
 
-Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. **La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici.** La Strategia Cloud Italia ha individuato tre tipologie di servizi e dati (strategici, critici e ordinari), in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
+Il PSN consente di ospitare in sicurezza i dati ed i servizi critici e strategici delle pubbliche amministrazioni italiane. La distinzione tra tipologie di dati e servizi avviene in base al [percorso di classificazione](https://innovazione.gov.it/notizie/articoli/cloud-italia-pubblicata-la-metodologia-di-classificazione-di-dati-e-servizi/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'}, definito dall’Agenzia per la Cybersicurezza Nazionale e dal Dipartimento per la trasformazione digitale. **La classificazione consente, per la prima volta, di determinare il livello di criticità dei dati e dei servizi pubblici.** La Strategia Cloud Italia ha individuato tre tipologie di servizi e dati (strategici, critici e ordinari), in relazione ai possibili impatti che una loro compromissione avrebbe sul funzionamento dei servizi del Paese.
 
 <div class="d-flex justify-content-center mb-5">
 <img src="/assets/polo-strategico-nazionale_1.jpg" alt="Polo Strategico Nazionale" width="90%"/>
@@ -24,9 +24,9 @@ Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Miss
 ## Requisiti qualitativi ed infrastrutturali del PSN
 {class="h4 font-weight-semibold mt-8 mb-4"}
 
-Il PSN ospiterà dati e servizi della Pubblica Amministrazione, a partire da quelli strategici e critici e dovrà essere costituito nel rispetto dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità, secondo il regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (DL 18 ottobre 2012, n. 179).
+Il PSN ospita dati e servizi della Pubblica Amministrazione, a partire da quelli strategici e critici e dovrà essere costituito nel rispetto del regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (decreto legge 18 ottobre 2012, n. 179).
 
-Il Polo dovrà:
+Il Polo deve:
 * effettuare la migrazione dei dati e servizi delle pubbliche amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 

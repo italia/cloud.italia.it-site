@@ -5,7 +5,7 @@ subtitle: "Italia Domani prevede 1,9 miliardi di euro per l’erogazione di serv
 date: "2022-07-01"
 ---
 
- **Italia Domani**, il Piano Nazionale di Ripresa e Resilienza, dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
+ Il **Piano Nazionale di Ripresa e Resilienza** dedica il **27% delle risorse alla transizione digitale del Paese** all’interno della Missione 1 “Digitalizzazione, innovazione, competitività, cultura e turismo".
 La [strategia per l'Italia digitale 2026](https://innovazione.gov.it/italia-digitale-2026/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Strategia Italia digitale 2026'} si sviluppa su due assi: la digitalizzazione della PA, con una dotazione di 6,74 miliardi di euro, e le reti ultraveloci, con 6,71 miliardi.
  
 L’obiettivo è rendere la Pubblica Amministrazione la migliore “alleata” di cittadini e imprese, con un’offerta di servizi sempre più efficienti e facilmente accessibili. Sono sette gli investimenti dedicati, che coprono aspetti di “infrastruttura digitale”, spingendo la migrazione al cloud delle amministrazioni, di interoperabilità tra gli enti pubblici, rafforzando la cybersicurezza e mettendo in campo interventi per migliorare i servizi ai cittadini e diffondere le competenze digitali.
@@ -16,7 +16,7 @@ La trasformazione digitale della Pubblica Amministrazione segue un approccio che
  
 La Strategia definisce i passi necessari per completare la migrazione dei dati e degli applicativi informatici della PA verso un ambiente cloud: la classificazione di dati e servizi (strategici, critici e ordinari), la qualificazione dei servizi cloud e la creazione dell’infrastruttura ad alta affidabilità, il Polo Strategico Nazionale (PSN), che ospiterà i dati strategici e critici.
 
-Italia Domani prevede che il 75% dei servizi pubblici digitali siano erogati su infrastrutture cloud sicure, efficienti e affidabili entro il 2026. Nella stessa data, il 100% dei servizi e i dati strategici della Pubblica Amministrazione, quelli che hanno un impatto rilevante sul funzionamento dello Stato, saranno ospitati su infrastrutture più sicure che consentono l’autonomia strategica e decisionale per il controllo dei dati e la sovranità digitale.
+Il PNRR prevede che il 75% dei servizi pubblici digitali siano erogati su infrastrutture cloud sicure, efficienti e affidabili entro il 2026. Nella stessa data, il 100% dei servizi e i dati strategici della Pubblica Amministrazione, quelli che hanno un impatto rilevante sul funzionamento dello Stato, saranno ospitati su infrastrutture più sicure che consentono l’autonomia strategica e decisionale per il controllo dei dati e la sovranità digitale.
  
 Per raggiungere questi obiettivi, il Piano Nazionale di Ripresa e Resilienza mette a disposizione 1,9 miliardi di euro, distinti in  due missioni:
 - Infrastrutture digitali;
