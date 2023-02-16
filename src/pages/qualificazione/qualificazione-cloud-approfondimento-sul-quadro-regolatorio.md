@@ -8,7 +8,6 @@ date: "2023-01-13"
 La qualificazione dei servizi cloud rappresenta una delle linee di indirizzo della [Strategia Cloud Italia](https://cloud.italia.it/strategia-cloud-pa/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Strategia Cloud Italia'}, e ha l’obiettivo di semplificare e regolamentare, dal punto di vista tecnico e amministrativo, l’acquisizione di servizi cloud da parte della PA. Da un punto di vista generale, la Strategia Cloud Italia guida e favorisce l’adozione sicura, controllata e completa delle tecnologie cloud da parte del settore pubblico, in linea con i principi di tutela della privacy e con le raccomandazioni delle istituzioni europee e nazionali. 
 
 ## L'evoluzione del quadro normativo: la determina di ACN
-{class="h2 font-weight-semibold mt-4 mb-4"}
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la Pubblica Amministrazione diventa di competenza dell’Agenzia per la cybersicurezza nazionale, che subentra all’Agenzia per l’Italia digitale (AGID).
 
 La nuova procedura di qualificazione è indicata nel [Decreto direttoriale n. 29](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) del 2 gennaio 2023. Per garantire la continuità dei servizi qualificati già in uso dalle pubbliche amministrazione e per consentire una graduale armonizzazione della normativa nazionale, la determina prevede un regime transitorio prima della gestione ordinaria della qualificazione.
@@ -29,7 +28,6 @@ Il **regime ordinario** di qualificazione partirà dal 1 agosto 2023 con la pubb
 Scopri le modalità e le tempistiche di qualificazione sul [sito di ACN](https://www.acn.gov.it/).
 
 ## Il quadro normativo precedente
-{class="h2 font-weight-semibold mt-4 mb-4"}
 A gennaio 2022 e seguendo le disposizioni del Regolamento AGID, l’Agenzia nazionale per la cybersicurezza ha predisposto, con **[determina n. 307 (PDF, 1.3 MB](https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf)** e **[allegato (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf)**, i livelli minimi e le caratteristiche che devono assicurare le infrastrutture digitali e i servizi cloud di cui si avvalgono le pubbliche amministrazioni ulteriori rispetto a quelli definiti dal Regolamento Cloud. ACN fornirà le indicazioni sul nuovo percorso di qualificazione dei servizi cloud per la PA che i fornitori dovranno adottare entro il 18 gennaio 2023 per poter qualificare i propri servizi cloud ed erogarli alle pubbliche amministrazioni.
 
 Allo stesso tempo, con **[determina n. 306 (PDF, 1.4 MB)](https://assets.innovazione.gov.it/1642693979-det_306_cloud_modclass_20220118.pdf)** e **[allegato (PDF, 39 KB)](https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf)**, ACN ha diffuso il modello che definisce un processo sistematico di classificazione dei dati e dei servizi gestiti dalle PA.

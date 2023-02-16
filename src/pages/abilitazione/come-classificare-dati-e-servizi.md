@@ -2,7 +2,7 @@
 type: "indeepAbilitazione"
 title: "Come classificare dati e servizi"
 subtitle: "Scopri come le pubbliche amministrazioni possono procedere alla classificazione e applicare la metodologia della Strategia Cloud Italia."
-date: "2023-01-11"
+date: "2023-02-16"
 ---
 
 La classificazione di dati e servizi definisce le tipologie di dati in possesso delle PA, in base al danno che una loro compromissione potrebbe provocare al Paese.
