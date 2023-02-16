@@ -1,8 +1,9 @@
 ---
 type: "indeepStrategia"
 title: "Polo Strategico Nazionale"
-subtitle: "L'infrastruttura cloud ad alta affidabilità per i dati e i servizi, critici e strategici, delle pubbliche amministrazioni italiane. "
+subtitle: "L'infrastruttura cloud ad alta affidabilità per i dati e i servizi, critici e strategici, delle pubbliche amministrazioni italiane."
 date: "2023-02-16"
+---
 
 Il **Polo Strategico Nazionale (PSN)** è una infrastruttura ad alta affidabilità che ha l’obiettivo, in linea con la [Strategia Cloud Italia](/strategia-cloud-pa/) e con il Piano Nazionale di Ripresa e Resilienza (PNRR), di dotare la Pubblica Amministrazione di tecnologie e infrastrutture cloud che possano beneficiare delle più alte garanzie di **affidabilità, resilienza, scalabilità, interoperabilità e sostenibilità ambientale.**
 
@@ -18,7 +19,7 @@ Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell�
 <a href="https://www.polostrategiconazionale.it" class="btn btn-primary" target="_blank">Vai al sito del PSN</a>
 </div>
 
-Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese** Garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità.
+Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità.
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
 
