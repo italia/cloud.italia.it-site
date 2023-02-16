@@ -18,7 +18,7 @@ Il **Dipartimento per la trasformazione digitale** ha guidato la creazione dell�
 <a href="https://www.polostrategiconazionale.it" class="btn btn-primary" target="_blank">Vai al sito del PSN</a>
 </div>
 
-Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**: garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità.
+Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del Piano Nazionale di Ripresa e Resilienza, **raggiungendo uno dei traguardi più importanti per la transizione digitale del Paese**. Garantire che i sistemi, i dataset e le applicazioni della PA siano ospitati in centri dati con elevati standard di qualità.
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
 
