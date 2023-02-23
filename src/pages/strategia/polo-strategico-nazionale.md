@@ -23,7 +23,7 @@ Con l’attivazione del PSN, inoltre, si completa la prima milestone della *Miss
 
 ## Requisiti qualitativi ed infrastrutturali del PSN
 
-Il PSN ospita dati e servizi della Pubblica Amministrazione, a partire da quelli strategici e critici e dovrà essere costituito nel rispetto del regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (decreto legge 18 ottobre 2012, n. 179).
+Il PSN ospita dati e servizi della Pubblica Amministrazione, a partire da quelli strategici e critici e deve essere costituito nel rispetto del regolamento previsto nell’[articolo 33-septies, comma 4](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179!vig=){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Percorso di classificazione'} del decreto legge “Ulteriori misure urgenti per la crescita del Paese" (decreto legge 18 ottobre 2012, n. 179).
 
 Il Polo deve:
 * effettuare la migrazione dei dati e servizi delle pubbliche amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;

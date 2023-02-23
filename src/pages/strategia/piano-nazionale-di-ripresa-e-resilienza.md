@@ -15,7 +15,7 @@ La trasformazione digitale della Pubblica Amministrazione segue un approccio che
  
 La Strategia definisce i passi necessari per completare la migrazione dei dati e degli applicativi informatici della PA verso un ambiente cloud: la classificazione di dati e servizi (strategici, critici e ordinari), la qualificazione dei servizi cloud e la creazione dell’infrastruttura ad alta affidabilità, il Polo Strategico Nazionale (PSN), che ospiterà i dati strategici e critici.
 
-Il PNRR prevede che il 75% dei servizi pubblici digitali siano erogati su infrastrutture cloud sicure, efficienti e affidabili entro il 2026. Nella stessa data, il 100% dei servizi e i dati strategici della Pubblica Amministrazione, quelli che hanno un impatto rilevante sul funzionamento dello Stato, saranno ospitati su infrastrutture più sicure che consentono l’autonomia strategica e decisionale per il controllo dei dati e la sovranità digitale.
+Il PNRR prevede che, entro il 2026, il 75% dei servizi pubblici digitali siano erogati su infrastrutture cloud sicure, efficienti e affidabili. Nella stessa data, il 100% dei servizi e i dati strategici della Pubblica Amministrazione, quelli che hanno un impatto rilevante sul funzionamento dello Stato, dovranno essere ospitati su infrastrutture più sicure che consentono l’autonomia strategica e decisionale per il controllo dei dati e la sovranità digitale.
  
 Per raggiungere questi obiettivi, il Piano Nazionale di Ripresa e Resilienza mette a disposizione 1,9 miliardi di euro, distinti in  due missioni:
 - Infrastrutture digitali;

@@ -27,7 +27,7 @@ Il **regime ordinario** di qualificazione partirà dal 1 agosto 2023 con la pubb
 
 Scopri le modalità e le tempistiche di qualificazione sul [sito di ACN](https://www.acn.gov.it/).
 
-## Il quadro normativo precedente
+## Gli atti successivi al Regolamento Cloud
 A gennaio 2022 e seguendo le disposizioni del Regolamento AGID, l’Agenzia nazionale per la cybersicurezza ha predisposto, con **[determina n. 307 (PDF, 1.3 MB](https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf)** e **[allegato (PDF, 2.3 MB)](https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf)**, i livelli minimi e le caratteristiche che devono assicurare le infrastrutture digitali e i servizi cloud di cui si avvalgono le pubbliche amministrazioni ulteriori rispetto a quelli definiti dal Regolamento Cloud. ACN fornirà le indicazioni sul nuovo percorso di qualificazione dei servizi cloud per la PA che i fornitori dovranno adottare entro il 18 gennaio 2023 per poter qualificare i propri servizi cloud ed erogarli alle pubbliche amministrazioni.
 
 Allo stesso tempo, con **[determina n. 306 (PDF, 1.4 MB)](https://assets.innovazione.gov.it/1642693979-det_306_cloud_modclass_20220118.pdf)** e **[allegato (PDF, 39 KB)](https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf)**, ACN ha diffuso il modello che definisce un processo sistematico di classificazione dei dati e dei servizi gestiti dalle PA.
