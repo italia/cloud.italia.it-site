@@ -42,10 +42,10 @@ La firma è avvenuta tra il capo del Dipartimento per la trasformazione digitale
 ###### Luglio 2022
 L’operatore economico promotore del progetto di costituzione del Polo Strategico Nazionale [ha esercitato il diritto di prelazione](https://innovazione.gov.it/notizie/comunicati-stampa/aggiornamenti-sulla-gara-europea-per-il-polo-strategico-nazionale/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='aggiornamenti sulla gara europea per il Polo Strategico Nazionale'} previsto dalla procedura di partenariato pubblico privato, impegnandosi a rispettare gli obblighi contrattuali alle stesse condizioni offerte dall’aggiudicatario. Il 7 luglio 2022 Difesa Servizi S.p.A., società in-house del Ministero della Difesa in qualità di centrale di committenza della gara europea, e il Dipartimento per la trasformazione digitale in qualità di stazione appaltante, hanno ricevuto la comunicazione dell’esercizio del diritto di prelazione.
 
-##### Giugno 2022
+###### Giugno 2022
 Il 22 giugno 2022 è stata aggiudicata la [gara europea](https://innovazione.gov.it/notizie/articoli/digitale-aggiudicata-la-gara-per-il-polo-strategico-nazionale){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='gara europea'} che prevede la realizzazione e la gestione del Polo Strategico Nazionale. Il progetto su cui si è basata la gara, con base d’asta pari a 4,4 miliardi di euro, è stato approvato dal Dipartimento per la trasformazione digitale a dicembre 2021.
 
-##### Aprile 2022
+###### Aprile 2022
 A partire dal 19 aprile e fino al 18 luglio 2022, le Pubbliche Amministrazioni possono [classificare i propri dati e servizi su PA digitale 2026](https://padigitale2026.gov.it/come-partecipare/classifica-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='classificare i propri dati e servizi su PA digitale 2026'}, secondo le indicazioni dell'Agenzia per la Cybersicurezza Nazionale.
 
 ###### Gennaio 2022
