@@ -30,9 +30,9 @@ Il Polo deve:
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
 ## Le tappe verso il PSN
+{class="h2 font-weight-semibold mb-4"}
 
 ###### Dicembre 2022
-{class="h6 font-weight-semibold mt-8"}
 Da questo mese è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del PNRR è completa.
 
 ###### Agosto 2022
