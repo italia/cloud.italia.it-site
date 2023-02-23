@@ -1,12 +1,7 @@
-/* eslint-disable max-lines-per-function */
 import { Link } from 'gatsby';
 import React, { useEffect, useState } from 'react';
 import {
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  LinkList,
-  LinkListItem,
   Header as HeaderReactKit,
   Headers,
   HeaderContent,
@@ -15,7 +10,6 @@ import {
   NavItem,
   HeaderBrand,
   HeaderLinkZone,
-  UncontrolledDropdown,
 } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
 import links from '../../contents/links.yml';
@@ -25,7 +19,7 @@ import { ExternalLink } from '../components/ExternalLink.js';
 
 const { internalLinks, externalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
-const apply0Important = '0 !important';
+
 const borderNoneFocus = 'none !important';
 const activeBorderBottom = '3px solid #06c !important';
 const transparentImportant = 'transparent !important';
@@ -51,40 +45,10 @@ const useStyle = createUseStyles({
     verticalGroupDelimiter: {
       borderRight: 'none',
     },
-    activeMenu: {
-      borderBottom: apply0Important,
-      borderLeft: activeBorderBottom,
-    },
   },
   '@media (max-width: 300px)': {
     subtitle: {
       display: 'none',
-    },
-  },
-  dropdownfixwidth: {
-    minWidth: '16em !important',
-    '& h3': {
-      padding: '0 1em !important',
-      '& a': {
-        padding: apply0Important,
-        fontWeight: 'bold !important',
-        borderLeft: apply0Important,
-      },
-    },
-    '& a': {
-      padding: '0 1em !important',
-      borderLeft: apply0Important,
-    },
-  },
-  linkResetPadding: {
-    padding: apply0Important,
-  },
-  paddingPlaceholder: {
-    borderBottom: '3px solid transparent',
-    '& a:focus:not(:focus-visible)': {
-      borderColor: transparentImportant,
-      boxShadow: borderNoneFocus,
-      outline: borderNoneFocus,
     },
   },
   trickFocus: {
@@ -102,13 +66,7 @@ const useStyle = createUseStyles({
       borderBottom: activeBorderBottom,
     },
   },
-  activeMenu: {
-    borderBottom: activeBorderBottom,
-  },
-  mousePointer: { cursor: 'pointer' },
 });
-
-const isBrowser = typeof window !== 'undefined';
 
 const BrandSlimHeader = () => (
   <>
@@ -237,94 +195,11 @@ const CenterHeader = () => {
   );
 };
 
-// eslint-disable-next-line sonarjs/cognitive-complexity
 const NavHeader = () => {
   const classes = useStyle();
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
-  const [openFirst, toggleFirst] = useState(false);
-  const [openSecond, toggleSecond] = useState(false);
-  const [openThird, toggleThird] = useState(false);
-  const [activeView, SetActiveView] = useState({
-    strategy: false,
-    abilitazionePa: false,
-    qualificazione: false,
-    notizie: false,
-    glossario: false,
-  });
-  const [dropDownOpened, SetDropDownOpened] = useState(null);
-  let pathName = '';
-  if (isBrowser) {
-    pathName = window.location.pathname;
-  }
-
-  useEffect(() => {
-    const checkActiveView = window.location.pathname;
-    isOpen && setIsOpen(!isOpen);
-    toggleFirst(false);
-    toggleSecond(false);
-    toggleThird(false);
-    if (checkActiveView.includes('strategia-cloud-pa')) {
-      SetActiveView({ strategy: true, abilitazionePa: false, qualificazione: false, notizie: false, glossario: false });
-    } else if (checkActiveView.includes('programma-abilitazione-cloud')) {
-      SetActiveView({ strategy: false, abilitazionePa: true, qualificazione: false, notizie: false, glossario: false });
-    } else if (checkActiveView.includes('abilitazione')) {
-      SetActiveView({ strategy: false, abilitazionePa: true, qualificazione: false, notizie: false, glossario: false });
-    } else if (checkActiveView.includes('qualificazione-servizi-cloud')) {
-      SetActiveView({ strategy: false, abilitazionePa: false, qualificazione: true, notizie: false, glossario: false });
-    } else if (checkActiveView.includes('notizie')) {
-      SetActiveView({ strategy: false, abilitazionePa: false, qualificazione: false, notizie: true, glossario: false });
-    } else if (checkActiveView.includes('glossario')) {
-      SetActiveView({ strategy: false, abilitazionePa: false, qualificazione: false, notizie: false, glossario: true });
-    } else {
-      SetActiveView({
-        strategy: false,
-        abilitazionePa: false,
-        qualificazione: false,
-        notizie: false,
-        glossario: false,
-      });
-    }
-    // eslint-disable-next-line
-  }, [pathName]);
-
-  const manageDropDowns = (menuPos) => {
-    toggleFirst(false);
-    toggleSecond(false);
-    toggleThird(false);
-    if (menuPos !== dropDownOpened) {
-      SetDropDownOpened(menuPos);
-    } else if (menuPos === dropDownOpened && window.innerWidth < 768) {
-      switch (menuPos) {
-        case 1:
-          toggleFirst(true);
-          break;
-        case 2:
-          toggleSecond(true);
-          break;
-        case 3:
-          toggleThird(true);
-          break;
-        default:
-          null;
-      }
-    }
-    switch (menuPos) {
-      case 1:
-        !openFirst && toggleFirst(true);
-        break;
-      case 2:
-        !openSecond && toggleSecond(true);
-        break;
-      case 3:
-        !openThird && toggleThird(true);
-        break;
-      default:
-        null;
-    }
-  };
-
   return (
     <HeaderReactKit type="navbar" theme="light">
       <HeaderContent expand="lg" megamenu aria-label={ariaLabel.menu} className="px-2">
@@ -341,153 +216,50 @@ const NavHeader = () => {
         <HeaderNav isOpen={isOpen} onCloseMenu={toogleMenu}>
           <div className="menu-wrapper">
             <Nav navbar>
-              <UncontrolledDropdown
-                nav
-                inNavbar
-                // eslint-disable-next-line prettier/prettier
-                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.strategy && classes.activeMenu
-                  // eslint-disable-next-line prettier/prettier
-                  }`}
-                isOpen={openFirst}
-                toggle={() => manageDropDowns(1)}
-              >
-                <DropdownToggle nav caret>
+              <NavItem className={classes.trickFocusForLink}>
+                <Link
+                  to={internalLinks.strategy.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  partiallyActive={true}
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
-                </DropdownToggle>
-                <DropdownMenu className={classes.dropdownfixwidth}>
-                  <LinkList>
-                    <LinkListItem tag="div" header size="medium">
-                      <Link
-                        to={internalLinks.strategy.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.strategy.subTitle}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem divider />
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.pnrrStrategy.linkTo3}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.pnrrStrategy.label3}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.pnrrStrategy.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.pnrrStrategy.label}</span>
-                      </Link>
-                    </LinkListItem>
-                  </LinkList>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <UncontrolledDropdown
-                nav
-                inNavbar
-                // eslint-disable-next-line prettier/prettier
-                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.abilitazionePa && classes.activeMenu
-                  // eslint-disable-next-line prettier/prettier
-                  }`}
-                isOpen={openSecond}
-                toggle={() => manageDropDowns(2)}
-              >
-                <DropdownToggle nav caret>
+                </Link>
+              </NavItem>
+              <NavItem className={classes.trickFocusForLink}>
+                <Link
+                  to={internalLinks.enablement.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  partiallyActive={true}
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">{internalLinks.enablement.label}</span>
-                </DropdownToggle>
-                <DropdownMenu className={classes.dropdownfixwidth}>
-                  <LinkList>
-                    <LinkListItem tag="div" header size="medium">
-                      <Link
-                        to={internalLinks.enablement.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.enablement.subTitle}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem divider />
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.classifServizi.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.classifServizi.label}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.avvisiPnrr.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.avvisiPnrr.label}</span>
-                      </Link>
-                    </LinkListItem>
-                  </LinkList>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-              <UncontrolledDropdown
-                nav
-                inNavbar
-                // eslint-disable-next-line prettier/prettier
-                className={`mr-3 ${(classes.mousePointer, classes.paddingPlaceholder)} ${activeView.qualificazione && classes.activeMenu
-                  // eslint-disable-next-line prettier/prettier
-                  }`}
-                isOpen={openThird}
-                toggle={() => manageDropDowns(3)}
-              >
-                <DropdownToggle nav caret>
+                </Link>
+              </NavItem>
+              <NavItem className={classes.trickFocusForLink}>
+                <Link
+                  to={internalLinks.services.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  partiallyActive={true}
+                  onClick={closeMenu}
+                >
                   <span className="font-weight-semibold">{internalLinks.services.label}</span>
-                </DropdownToggle>
-                <DropdownMenu className={classes.dropdownfixwidth}>
-                  <LinkList>
-                    <LinkListItem tag="div" header size="medium">
-                      <Link
-                        to={internalLinks.services.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.services.subTitle}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem divider />
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.qualificazione.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.qualificazione.label}</span>
-                      </Link>
-                    </LinkListItem>
-                    <LinkListItem tag="div" size="medium">
-                      <Link
-                        to={internalLinks.quadroregolatorio.linkTo}
-                        className="nav-link"
-                        activeClassName="active"
-                        partiallyActive={true}
-                      >
-                        <span>{internalLinks.quadroregolatorio.label}</span>
-                      </Link>
-                    </LinkListItem>
-                  </LinkList>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+                </Link>
+              </NavItem>
+              {/* <NavItem>
+                <Link
+                  to={internalLinks.catalogue.linkTo}
+                  className="nav-link"
+                  activeClassName="active"
+                  partiallyActive={true}
+                  onClick={closeMenu}
+                >
+                  <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
+                </Link>
+              </NavItem> */}
               <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.news.linkTo}
@@ -496,9 +268,7 @@ const NavHeader = () => {
                   partiallyActive={true}
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold" style={{ marginBottom: '3px' }}>
-                    {internalLinks.news.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>
               <NavItem className={classes.trickFocusForLink}>
@@ -509,14 +279,12 @@ const NavHeader = () => {
                   partiallyActive={true}
                   onClick={closeMenu}
                 >
-                  <span className="font-weight-semibold" style={{ marginBottom: '3px' }}>
-                    {internalLinks.glossary.label}
-                  </span>
+                  <span className="font-weight-semibold">{internalLinks.glossary.label}</span>
                 </Link>
               </NavItem>
             </Nav>
             <Nav navbar className="navbar-secondary">
-              <NavItem className={classes.paddingPlaceholder}>
+              <NavItem>
                 <ExternalLink
                   linkTo={externalLinks.marketplace.linkTo}
                   ariaLabel={externalLinks.marketplace.ariaLabel}

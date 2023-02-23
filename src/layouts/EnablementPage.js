@@ -13,6 +13,8 @@ import content from '../../contents/enablement-page/enablement.yml';
 import { SEO } from '../components/SEO.js';
 import seo from '../../contents/seo.yml';
 
+import { InDeepAbilitazioneLinkComponent } from '../components/InDeepAbilitazioneLinkComponent.js';
+
 const useStyles = createUseStyles({
   noBorderBottom: {
     '@global': {
@@ -63,6 +65,7 @@ export const EnablementPage = () => {
             <div className="text-center text-lg-left">
               <HeroTitle title={title} className="text-info" Tag="h1" />
               <HeroBody html={body} />
+              <InDeepAbilitazioneLinkComponent />
             </div>
           </div>
         </div>
