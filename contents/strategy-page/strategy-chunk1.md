@@ -43,4 +43,4 @@ La qualificazione di servizi cloud e infrastrutture avviene secondo parametri id
 - la **Misura 1.1**, dedicata alle pubbliche amministrazioni centrali, le Aziende sanitarie locali (Asl) e le aziende ospedaliere;
 - la **Misura 1.2**, che si rivolge a più di 12 mila enti, tra cui Comuni, scuole, Asl.
 
-[Scopri di più sulle Misure del PNRR.](strategia-cloud-pa/le-misure-del-piano-nazionale-di-ripresa-e-resilienza){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Le misure del PNRR'}
+[Scopri di più sulle Misure del PNRR.](/strategia-cloud-pa/le-misure-del-piano-nazionale-di-ripresa-e-resilienza){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='Le misure del PNRR'}
