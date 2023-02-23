@@ -13,6 +13,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         name: 'slug',
         value: parent.relativePath.replace(path.extname(parent.relativePath), ''),
       });
+    } else if (parent.sourceInstanceName === 'indeepAbilitazione') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: `/programma-abilitazione-cloud/${parent.relativePath.replace(path.extname(parent.relativePath), '')}`,
+      });
     } else if (parent.sourceInstanceName === 'indeepStrategia') {
       createNodeField({
         node,
@@ -28,36 +34,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     }
   }
 };
-
-// exports.createPages = async ({ actions: { createPage }, graphql }) => {
-//   const result = await graphql(`
-//     {
-//       allMarkdownRemark(filter: { frontmatter: { type: { eq: "news" } } }) {
-//         nodes {
-//           fields {
-//             slug
-//           }
-//         }
-//       }
-//     }
-//   `);
-
-//   if (result.errors) {
-//     console.error(result.errors);
-//     throw new Error(result.errors);
-//   }
-//   console.log("aaa", result.data.allMarkdownRemark)
-//   return result.data.allMarkdownRemark.nodes.forEach(({ fields }) => {
-//     console.log("bbb", fields)
-//     createPage({
-//       path: fields.slug,
-//       component: path.resolve(__dirname, 'src/templates/NewsTemplate.js'),
-//       context: {
-//         slug: fields.slug,
-//       },
-//     });
-//   });
-// };
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -134,8 +110,8 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-    // Create blog pages
-    result.data.indeepAbilitazione.edges.forEach(({ node }) => {
+    // Create deep pages
+    result.data.indeepAbilitation.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
         slug: node.fields.slug,

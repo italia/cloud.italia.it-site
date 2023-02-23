@@ -8,7 +8,7 @@ import { Hero } from '../components/hero/Hero.js';
 import { Breadcrumb } from '../components/Breadcrumb.js';
 import { SEO } from '../components/SEO.js';
 
-const InDeepStrategyTemplate = ({ data }) => {
+const InDeepAbilitazioneTemplate = ({ data }) => {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   return (
@@ -62,9 +62,9 @@ export const pageQuery = graphql`
   }
 `;
 
-export default InDeepStrategyTemplate;
+export default InDeepAbilitazioneTemplate;
 
-InDeepStrategyTemplate.propTypes = {
+InDeepAbilitazioneTemplate.propTypes = {
   data: PropTypes.exact({
     markdownRemark: PropTypes.exact({
       frontmatter: PropTypes.exact({
