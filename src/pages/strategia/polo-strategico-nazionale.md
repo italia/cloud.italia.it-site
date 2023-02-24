@@ -29,8 +29,11 @@ Il Polo deve:
 * effettuare la migrazione dei dati e servizi delle pubbliche amministrazioni senza alterazioni (garantendo almeno la modalità _lift and shift_) e abilitando servizi di cloud privato _(private cloud)_, cloud ibrido _(hybrid cloud)_ in modalità _Infrastructure as a Service (IaaS)_ e _Platform as a Service (PaaS)_, anche sfruttando tecnologie scalabili _(Cloud Service Provider)_;
 * essere conforme alle disposizioni europee in materia di localizzazione e trattamento dei dati e garantire soluzioni idonee a risolvere i problemi giuridici posti dell'applicazione extraterritoriale della normativa di Paesi al di fuori dell’Unione Europea.
 
-## Le tappe verso il PSN
+## Le tappe del PSN
 {class="h2 font-weight-semibold mb-4"}
+
+###### Febbraio 2022
+Ministeri, Agenzie fiscali e la Presidenza del Consiglio possono usufruire di un importo totale pari a 373 milioni e 800 mila euro per migrare in cloud i propri sistemi, applicazioni e dati sull’infrastruttura del PSN [aderendo all’avviso della Misura 1.1 “Infrastrutture digitali”](https://innovazione.gov.it/notizie/articoli/digitale-dal-pnrr-oltre-373-milioni-per-migrare-dati-e-servizi-al-psn/){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Avviso della Misura 1.1'}.
 
 ###### Dicembre 2022
 Da questo mese è attivo il PSN nelle sedi di Acilia e Pomezia nel Lazio, Rozzano e Santo Stefano Ticino in Lombardia. Il Dipartimento per la trasformazione digitale ha guidato la creazione dell’infrastruttura attraverso la convenzione per l’affidamento stipulata con la società Polo Strategico Nazionale S.p.A., partecipata da TIM, Leonardo, CDP Equity e Sogei. Grazie alla realizzazione del PSN, la prima milestone della *Missione 1, componente 1, investimento 1.1 Infrastrutture digitali* del PNRR è completa.
