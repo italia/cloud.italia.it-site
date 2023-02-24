@@ -22,7 +22,7 @@ Il PNRR prevede che, **entro il 2026, il 75% dei servizi pubblici digitali siano
  
 Per raggiungere questi obiettivi, il Piano Nazionale di Ripresa e Resilienza mette a disposizione **1,9 miliardi di euro**, distinti in due missioni:
 - **Infrastrutture digitali (Misura 1.1)** rivolta alle pubbliche amministrazioni centrali, Aziende sanitarie locali (Asl) e aziende ospedaliere;
-- **Abilitazione e facilitazione migrazione al cloud (Misura 1.2)** per Comuni, scuole, Aziende sanitarie locali (Asl) e aziende ospedaliere..
+- **Abilitazione e facilitazione migrazione al cloud (Misura 1.2)** per Comuni, scuole, Aziende sanitarie locali (Asl) e aziende ospedaliere.
 
 <div class="col-12 text-center mt-3 mb-5">
 <a href="/programma-abilitazione-cloud/candidarsi-agli-avvisi-del-pnrr" class="btn btn-primary" target="_blank">Scopri come aderire</a>
