@@ -18,3 +18,7 @@ Le pubbliche amministrazioni devono prevedere nei contratti, aventi ad oggetto s
 Il possesso della qualificazione del servizio cloud acquistato deve essere verificato al momento della stipula del contratto e la qualificazione deve essere valida per tutta la durata dello stesso.
 
 L’utilizzo di servizi cloud acquistati prima del primo aprile 2019 (data di efficacia dell’obbligo) e le acquisizioni di servizi cloud su contratti in essere al primo aprile 2019, come ad esempio il Contratto Quadro SPC Cloud Lotto 1, sono consentite fino a scadenza naturale.
+
+<div class="col-12 text-center mt-3 mb-5">
+<a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
+</div>
