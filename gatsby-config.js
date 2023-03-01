@@ -25,6 +25,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'indeepAbilitazione',
+        path: `${__dirname}/src/pages/abilitazione`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'indeepQualificazione',
         path: `${__dirname}/src/pages/qualificazione`,
       },

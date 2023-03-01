@@ -38,3 +38,9 @@ poloStratNazPage:
 pnrrPage:
   title: Le opportunità del Piano Nazionale di Ripresa e Resilienza - Cloud Italia
   description: Informazioni sui fondi del PNRR messi a disposizione delle Pubbliche Amministrazioni per migrare al cloud
+classificareDatiServizi:
+  title: Come classificare dati e servizi
+  description: Scopri come le pubbliche amministrazioni possono procedere alla classificazione e applicare correttamente la metodologia.
+candidarsiPnrr:
+  title: Candidarsi agli avvisi del PNRR
+  description: Scopri come richiedere i fondi dedicati alle pubbliche amministrazioni per migrare al cloud qualificato e mettere in sicurezza dati e servizi pubblici.

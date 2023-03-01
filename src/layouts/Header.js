@@ -20,6 +20,10 @@ import { ExternalLink } from '../components/ExternalLink.js';
 const { internalLinks, externalLinks } = links;
 const { ariaLabel, headerTitle, headerSubtitle } = labels;
 
+const borderNoneFocus = 'none !important';
+const activeBorderBottom = '3px solid #06c !important';
+const transparentImportant = 'transparent !important';
+
 const useStyle = createUseStyles({
   /* Used for problems with nested <a> in the HeaderToggler component */
   navToggler: {
@@ -45,6 +49,21 @@ const useStyle = createUseStyles({
   '@media (max-width: 300px)': {
     subtitle: {
       display: 'none',
+    },
+  },
+  trickFocus: {
+    '& a:focus:not(:focus-visible)': {
+      borderColor: transparentImportant,
+      boxShadow: borderNoneFocus,
+      outline: borderNoneFocus,
+    },
+  },
+  trickFocusForLink: {
+    '& a:focus:not(:focus-visible)': {
+      borderColor: transparentImportant,
+      boxShadow: borderNoneFocus,
+      outline: borderNoneFocus,
+      borderBottom: activeBorderBottom,
     },
   },
 });
@@ -157,17 +176,19 @@ const CenterHeader = () => {
     <HeaderReactKit type="center" theme="light">
       <HeaderContent>
         <div className="it-brand-wrapper">
-          <Link to="/">
-            <div className="it-brand-text pr-0">
-              <div className="d-flex align-items-center">
-                <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
-                <div>
-                  <div className="h3 mb-0">{headerTitle}</div>
-                  <div className={classes.subtitle}>{headerSubtitle}</div>
+          <div className={classes.trickFocus}>
+            <Link to="/">
+              <div className="it-brand-text pr-0">
+                <div className="d-flex align-items-center">
+                  <img className="icon" src="/assets/cloud-logo.svg" alt="Logo Cloud Italia" />
+                  <div>
+                    <div className="h3 mb-0">{headerTitle}</div>
+                    <div className={classes.subtitle}>{headerSubtitle}</div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
         </div>
       </HeaderContent>
     </HeaderReactKit>
@@ -175,6 +196,7 @@ const CenterHeader = () => {
 };
 
 const NavHeader = () => {
+  const classes = useStyle();
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
@@ -194,7 +216,7 @@ const NavHeader = () => {
         <HeaderNav isOpen={isOpen} onCloseMenu={toogleMenu}>
           <div className="menu-wrapper">
             <Nav navbar>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.strategy.linkTo}
                   className="nav-link"
@@ -205,7 +227,7 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.strategy.label}</span>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.enablement.linkTo}
                   className="nav-link"
@@ -216,7 +238,7 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.enablement.label}</span>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.services.linkTo}
                   className="nav-link"
@@ -238,7 +260,7 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.catalogue.label}</span>
                 </Link>
               </NavItem> */}
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.news.linkTo}
                   className="nav-link"
@@ -249,7 +271,7 @@ const NavHeader = () => {
                   <span className="font-weight-semibold">{internalLinks.news.label}</span>
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem className={classes.trickFocusForLink}>
                 <Link
                   to={internalLinks.glossary.linkTo}
                   className="nav-link"

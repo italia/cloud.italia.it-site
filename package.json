@@ -18,9 +18,9 @@
   "dependencies": {
     "@fontsource/lora": "^4.2.2",
     "@fontsource/titillium-web": "^4.2.2",
-    "bootstrap-italia": "^1.4.3",
+    "bootstrap-italia": "^1.6.4",
     "classnames": "^2.3.1",
-    "design-react-kit": "^3.3.3",
+    "design-react-kit": "4.0.2",
     "gatsby": "^3.2.1",
     "gatsby-plugin-image": "^1.2.1",
     "luxon": "^1.26.0",
