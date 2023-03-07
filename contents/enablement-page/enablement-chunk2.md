@@ -35,5 +35,5 @@ Sul sito, le PA possono verificare l’elenco dei servizi e il livello di classi
 Il Piano Nazionale di Ripresa e Resilienza sostiene la migrazione delle amministrazioni verso il cloud qualificato con **due Misure** dedicate alle **pubbliche amministrazioni centrali e locali.**
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="/le-misure-del-pnrr" class="btn btn-primary" target="_blank">Scopri le Misure del PNRR</a>
+<a href="/programma-abilitazione-cloud/candidarsi-agli-avvisi-del-pnrr" class="btn btn-primary" target="_blank">Scopri le Misure del PNRR</a>
 </div>
