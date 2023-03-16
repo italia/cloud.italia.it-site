@@ -2,38 +2,26 @@ internalLinks:
   strategy:
     linkTo: /strategia-cloud-pa/
     label: Strategia
-    subTitle: Cos'è e perchè
   enablement:
     linkTo: /programma-abilitazione-cloud/
-    label: Abilitazione della PA
-    subTitle: Come funziona il programma
+    label: Programma di abilitazione
   services:
     linkTo: /qualificazione-servizi-cloud/
-    label: Qualificazione per i fornitori
-    subTitle: Cos’è e come funziona
-  classifServizi:
-    linkTo: /abilitazione/come-classificare-dati-e-servizi
-    label: Come classificare dati e servizi
-  avvisiPnrr:
-    linkTo: /abilitazione/candidarsi-agli-avvisi-del-pnrr
-    label: Candidarsi agli avvisi del PNRR
-  qualificazione:
-    linkTo: /qualificazione-servizi-cloud/catalogo-servizi-cloud
-    label: Come funziona il catalogo
-  quadroregolatorio:
-    linkTo: /qualificazione-servizi-cloud/qualificazione-cloud-approfondimento-sul-quadro-regolatorio
-    label: Quadro regolatorio
+    label: Qualificazione
+  catalogue:
+    linkTo: /catalogo-servizi-cloud/
+    label: Catalogo
   pnrrStrategy:
-    linkTo: /strategia-cloud-pa/piano-nazionale-di-ripresa-e-resilienza
-    label: Le misure del PNRR
+    linkTo: /strategia-cloud-pa/le-misure-del-piano-nazionale-di-ripresa-e-resilienza
+    label: Scopri i fondi del PNRR
     linkTo1: /programma-abilitazione-cloud/
     label1: Programma di abilitazione e classificazione dei dati
     linkTo2: https://areariservata.padigitale2026.gov.it/Pa_digitale2026_avvisi
     label2: Migrazione e accesso ai fondi
-    linkTo3: /strategia-cloud-pa/polo-strategico-nazionale
+    linkTo3: /polo-strategico-nazionale/
     label3: Polo Strategico Nazionale
     linkTo4: /qualificazione-servizi-cloud/
-    label4: Qualificazione per i fornitori
+    label4: Qualificazione
   glossary:
     linkTo: /glossario/
     label: Glossario
@@ -50,47 +38,42 @@ externalLinks:
   pianoTriennale:
     label: Piano triennale
     linkTo: https://pianotriennale-ict.italia.it/
-    ariaLabel: "Piano triennale (link esterno)"
+    ariaLabel: 'Piano triennale (link esterno)'
   developers:
     label: Developers
     linkTo: https://developers.italia.it/
-    ariaLabel: "Developers Italia (link esterno)"
+    ariaLabel: 'Developers Italia (link esterno)'
   designers:
     label: Designers
     linkTo: https://designers.italia.it/
-    ariaLabel: "Designers Italia (link esterno)"
+    ariaLabel: 'Designers Italia (link esterno)'
   forum:
     label: Forum
     linkTo: https://forum.italia.it/
-    ariaLabel: "Forum Italia (link esterno)"
+    ariaLabel: 'Forum Italia (link esterno)'
   docs:
     label: Docs
     linkTo: https://docs.italia.it/
-    ariaLabel: "Docs Italia (link esterno)"
+    ariaLabel: 'Docs Italia (link esterno)'
   github:
     label: GitHub
     linkTo: https://github.com/italia/
-    ariaLabel: "GitHub Italia (link esterno)"
+    ariaLabel: 'GitHub Italia (link esterno)'
   dipartimento:
     label: Dipartimento per la trasformazione digitale
     linkTo: https://innovazione.gov.it/dipartimento/
-    ariaLabel: "Dipartimento per la trasformazione digitale (link esterno)"
+    ariaLabel: 'Dipartimento per la trasformazione digitale (link esterno)'
   agid:
     label: AGID
     linkTo: https://www.agid.gov.it/
     ariaLabel: "Agenzia per l'Italia digitale (link esterno)"
-  acn:
-    label: Agenzia per la Cybersicurezza Nazionale
-    labelMobile: ACN
-    linkTo: https://www.acn.gov.it/
-    ariaLabel: "Agenzia per la Cybersicurezza Nazionale (link esterno)"
   marketplace:
     label: Cloud Marketplace
-    linkTo: https://catalogocloud.acn.gov.it/
+    linkTo: https://catalogocloud.agid.gov.it/
     ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
-    linkTo: https://catalogocloud.acn.gov.it/opendata
+    linkTo: https://catalogocloud.agid.gov.it/opendata
     ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali
@@ -100,15 +83,3 @@ externalLinks:
     label: Dichiarazione di accessibilità
     linkTo: https://form.agid.gov.it/view/a527518d-a487-4972-81e9-a5ea7e1c9ace/
     ariaLabel: "Dichiarazione di accessibilità (link esterno)"
-  pnrrlink:
-    label: Piano Nazionale di Ripresa e Resilienza
-    linkTo: /piano-nazionale-ripresa-e-resilienza/
-    ariaLabel: "PNRR (link esterno)"
-  classificazDati:
-    label: Come Classificare dati e servizi
-    linkTo: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
-    ariaLabel: "Come classificare  dati e servizi (link esterno)"
-  candidarsiPNRR:
-    label: Candidarsi agli avvisi del PNRR
-    linkTo: https://padigitale2026.gov.it/come-partecipare/classifica-pa/
-    ariaLabel: "Candidarsi agli avvisi del PNRR (link esterno)"
