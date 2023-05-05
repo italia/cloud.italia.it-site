@@ -7,9 +7,9 @@ evidence: true
 internalNews: false
 fonte: medium.com
 showInHome: true
-typeOfNews: Articolo
+typeOfNews: Approfondimenti
 link: https://medium.com/developers-italia/come-gestire-una-migrazione-al-cloud-d8b7820177a8
 image: /assets/img_news/2023-05-03-come-gestire-una-migrazione-al-cloud.png
 tags:
-  - Articoli
+  - Approfondimenti
 ---
