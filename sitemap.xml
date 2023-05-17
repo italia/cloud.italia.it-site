@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://cloud.italia.it/notizie/2023-05-17-asl-e-aziende-ospedaliere-prorogato-al-30-giugno-l-avviso-per-migrare-in-cloud-dati-e-sistemi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-05-03-come-gestire-una-migrazione-al-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-04-02-PNNR-raggiunto-il-traguardo-europeo-sul-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-03-15-dal-pnrr-200-milioni-per-migrare-in-cloud-dati-e-servizi-di-asl-e-aziende-ospedaliere</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
