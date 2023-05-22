@@ -12,7 +12,7 @@ AgID e il Team per la Trasformazione Digitale hanno definito il modello strategi
 
 <div class="d-flex justify-content-center mb-3">
   <figure class="figure">
-    <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
+    <img src="/assets/framework/cloud-enablement-program.png" class="figure-img img-fluid rounded" alt="Un'immagine che mostra il passaggio dai centri di elaborazione dati obsoleti al cloud della PA attraverso il Cloud Enablement program.">
     <figcaption class="figure-caption"><b>Fig. 4.1</b> <i>Il Cloud Enablement program trasforma il patrimonio IT obsoleto in servizi</i></figcaption>
   </figure>
 </div>
@@ -21,7 +21,7 @@ La figura 4.2 riassume i processi e l’uso delle risorse del framework utilizza
 
 <div class="d-flex justify-content-center mb-3">
   <figure class="figure">
-    <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
+    <img src="/assets/framework/componenti-cloud-enablement-program.png" class="figure-img img-fluid rounded" alt="Un grafico che riassume l'organizzazione di tutte le componenti necessarie a realizzare il Cloud Enablement program.">
     <figcaption class="figure-caption"><b>Fig. 4.2</b> <i>Il Cloud Enablement program trasforma il patrimonio IT obsoleto in servizi</i></figcaption>
   </figure>
 </div>
@@ -39,7 +39,7 @@ In questo modello le **unità di esecuzione** sono i soggetti responsabili della
 
 <div class="d-flex justify-content-center mb-3">
   <figure class="figure">
-    <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
+    <img src="/assets/framework/unita-esecuzione-cloud-enablement-program.png" class="figure-img img-fluid rounded" alt="Un'immagine che descrive le componenti dell'unità di esecuzione.">
     <figcaption class="figure-caption"><b>Fig. 4.3</b> <i>Come opera l’unità di esecuzione nell’ambito del Cloud Enablement program</i></figcaption>
   </figure>
 </div>
@@ -55,7 +55,7 @@ Le principali attività dell’ unità di esecuzione sono:
 
 <div class="d-flex justify-content-center mb-3">
   <figure class="figure">
-    <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
+    <img src="/assets/framework/distribuzione-servizi-cloud-enablement-program.png" class="figure-img img-fluid rounded" alt="Un'immagine che mostra la distribuzione dei servizi secondo il Cloud Enablement program.">
     <figcaption class="figure-caption"><b>Fig. 4.4</b> <i>La distribuzione dei servizi IT secondo il modello Cloud della PA</i></figcaption>
   </figure>
 </div>
