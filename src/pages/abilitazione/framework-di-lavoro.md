@@ -10,7 +10,7 @@ AgID e il Team per la Trasformazione Digitale hanno definito il modello strategi
 1. **il programma di Cloud Enablement nazionale**, ovvero l’insieme dei progetti specifici che consentiranno alle PA di migrare le applicazioni in ambiente cloud;
 2. **l’ambiente (cd. framework) di lavoro del _Cloud Enablement_** costituito dall’insieme di risorse, strategie operative, metodologie e strumenti necessari per attuare il _Cloud Enablement Program_ della PA.
 
-<div class="d-flex justify-content-center mb-5">
+<div class="d-flex justify-content-center mb-3">
   <figure class="figure">
     <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
     <figcaption class="figure-caption"><b>Fig. 4.1</b> <i>Il Cloud Enablement program trasforma il patrimonio IT obsoleto in servizi</i></figcaption>
@@ -19,7 +19,7 @@ AgID e il Team per la Trasformazione Digitale hanno definito il modello strategi
 
 La figura 4.2 riassume i processi e l’uso delle risorse del framework utilizzate nell’ambito del programma di _Cloud Enablement_. Il framework di lavoro del _Cloud Enablement_ della PA è costituito da due elementi principali: **un’unità di controllo** e **diverse unità di esecuzione.**
 
-<div class="d-flex justify-content-center mb-5">
+<div class="d-flex justify-content-center mb-3">
   <figure class="figure">
     <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
     <figcaption class="figure-caption"><b>Fig. 4.2</b> <i>Il Cloud Enablement program trasforma il patrimonio IT obsoleto in servizi</i></figcaption>
@@ -37,7 +37,7 @@ Le principali attività dell’**unità di controllo** sono:
 
 In questo modello le **unità di esecuzione** sono i soggetti responsabili della progettazione e dell’esecuzione di uno specifico progetto di migrazione cloud. Tali unità sono responsabili per la consegna (delivery), svolgono consulenza sul campo, progettando e implementando, insieme alle PA e/o ai centri di competenze, il percorso di migrazione dei servizi IT.
 
-<div class="d-flex justify-content-center mb-5">
+<div class="d-flex justify-content-center mb-3">
   <figure class="figure">
     <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
     <figcaption class="figure-caption"><b>Fig. 4.3</b> <i>Come opera l’unità di esecuzione nell’ambito del Cloud Enablement program</i></figcaption>
@@ -53,7 +53,7 @@ Le principali attività dell’ unità di esecuzione sono:
 6. **Formazione:** formazione ai referenti dell’amministrazione sui servizi cloud (IaaS, PaaS, SaaS) e sul loro utilizzo attraverso sessioni di formazione specialistica sulle tematiche del cloud.
 7. **Project Management:** le unità di esecuzione sviluppano e coordinano l’esecuzione del progetto di Cloud Enablement per le amministrazioni, utilizzando gli strumenti forniti dall’unità di controllo e le risorse cloud acquisite dalle stesse amministrazioni. Le unità di esecuzione insieme alle amministrazioni sono responsabili della gestione e dell’esecuzione del progetto.
 
-<div class="d-flex justify-content-center mb-5">
+<div class="d-flex justify-content-center mb-3">
   <figure class="figure">
     <img src="/assets/polo-strategico-nazionale_1.jpg" class="figure-img img-fluid rounded" alt="Un'immagine generica segnaposto con angoli arrotondati in una figura.">
     <figcaption class="figure-caption"><b>Fig. 4.4</b> <i>La distribuzione dei servizi IT secondo il modello Cloud della PA</i></figcaption>
