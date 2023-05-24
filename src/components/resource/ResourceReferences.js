@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Icon } from 'design-react-kit';
 import { createUseStyles } from 'react-jss';
@@ -15,7 +16,7 @@ const Reference = ({ reference }) => {
   const classes = useStyles();
   return (
     <li>
-      <a href={reference.link} target="_blank" rel="noreferrer" aria-label={reference.ariaLabel}>
+      <Link to={reference.link}>
         <div className="it-right-zone mx-0 mx-sm-4 flex-wrap">
           <div className="col-12 col-md-7 col-lg-8 text-center text-md-left">
             <span className="text">{reference.title}</span>
@@ -32,7 +33,7 @@ const Reference = ({ reference }) => {
             />
           </div>
         </div>
-      </a>
+      </Link>
     </li>
   );
 };
