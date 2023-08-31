@@ -6,7 +6,7 @@ date: "2023-05-31"
 evidence: true
 internalNews: false
 fonte: innovazione.gov.it
-showInHome: true
+showInHome: false
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/le-pa-centrali-migrano-sul-polo-strategico-nazionale/
 image: /assets/img_news/2023-05-31-le-pa-centrali-migrano-sul-polo-strategico-nazionale.png
