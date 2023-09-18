@@ -1,7 +1,7 @@
 ---
 type: "news"
 title: "Digitale, altri 280 milioni di euro dal PNRR per migrare dati e servizi al Polo Strategico Nazionale"
-subtitle: "PLa scadenza per aderire all'Avviso è stata prorogata al 16 ottobre 2023"
+subtitle: "La scadenza per aderire all'Avviso è stata prorogata al 16 ottobre 2023."
 date: "2023-07-03"
 evidence: true
 internalNews: false
