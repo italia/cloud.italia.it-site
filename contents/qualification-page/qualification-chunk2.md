@@ -1,14 +1,14 @@
 ## Il percorso attuale di qualificazione
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la PA è di competenza dell’**Agenzia per la Cybersicurezza Nazionale (ACN)**, che è subentrata all’Agenzia per l’Italia digitale (AGID).
 
-ACN ha previsto un regime transitorio fino al 31 luglio 2023. Dal 1 agosto 2023 il nuovo percorso di qualificazione diventerà effettivo, con la pubblicazione del nuovo Regolamento ACN e della nuova piattaforma web per inviare le richieste di qualificazione.
+ACN ha previsto un regime transitorio fino al gennaio 2024. In seguito, il nuovo percorso di qualificazione diventerà effettivo, con la pubblicazione del nuovo Regolamento ACN e della nuova piattaforma web per inviare le richieste di qualificazione.
 
 <div class="col-12 text-center mt-3 mb-5">
 <a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
 </div>
 
-### Il nuovo livello di qualificazione
-I fornitori che hanno già una qualificazione attiva potranno beneficiare, fino al **18 gennaio 2024**, del nuovo livello di qualificazione previsto dal [Decreto direttoriale n. 29 del 2 gennaio 2023](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) di ACN. Il nuovo livello corrisponde al trattamento di dati e ai servizi di natura ordinaria così come indicati dalla metodologia di classificazione dei dati e dei servizi.
+### Modalità di qualificazione
+I fornitori che hanno già una qualificazione attiva potranno beneficiare, fino al **18 gennaio 2024**, del nuovo livello di qualificazione previsto dal [Decreto direttoriale n. 29 del 2 gennaio 2023](https://www.acn.gov.it/DecretodirettorialeQualificazioneServiziCloud2genn23DEFsigned.pdf) di ACN. Il nuovo livello corrisponde al trattamento di dati e ai servizi di natura ordinaria così come indicati dalla metodologia di classificazione dei dati e dei servizi. I fornitori privi di una qualificazione valida o che intendano promuovere un servizio o una infrastruttura già qualificati possono inviare ad ACN una specifica istanza secondo le indicazioni presenti sul [sito dell’Agenzia](https://www.acn.gov.it/strategia/strategia-cloud-italia/qualificazione-cloud).
 
 ### Deroga al trattamento e autodichiarazione
 Per i fornitori che trattano dati e servizi critici o strategici è prevista una deroga per il trattamento fino al **30 aprile 2023**. Entro quella data i fornitori dovranno produrre un’autodichiarazione che certifica l’adozione delle misure previste per infrastrutture e servizi cloud che trattano dati critici o strategici, così come definite nella [determina n. 307/2022](https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf). La dichiarazione dovrà essere inviata all’indirizzo di **posta elettronica certificata (Pec)** di ACN ([acn@pec.acn.gov.it](mailto:acn@pec.acn.gov.it)).

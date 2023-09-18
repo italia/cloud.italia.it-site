@@ -7,6 +7,12 @@ resources:
     references:
       - action: Leggi
         icon: it-external-link
+        link: https://www.acn.gov.it/documents/trasparenza/atti-generali/Decreto%2020610_2023.pdf
+        title: Decreto direttoriale prot. N. 20610 del 28/07/2023
+        ariaLabel: 'Decreto direttoriale prot. N. 20610 (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Leggi
+        icon: it-external-link
         link: https://www.acn.gov.it/documents/DeterminazioneCloud__20230208_def_signed.pdf
         title: Decreto direttoriale Prot. N. 5489 del 08/02/2023
         ariaLabel: 'Decreto direttoriale Prot. N. 5489 (link esterno)'
