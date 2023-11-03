@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://cloud.italia.it/notizie/2023-10-31-l-innovazione-trasparente-re-architect-o-re-factoring-di-applicazioni-per-il-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-10-12-oltre-1200-comuni-e-scuole-migliorano-i-servizi-digitali-con-il-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-09-07-la-responsabilita-ai-tempi-del-cloud-buone-pratiche-per-le-amministrazioni</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-09-01-pa-centrali-prosegue-il-percorso-di-migrazione-in-cloud-verso-il-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -31,8 +32,8 @@
 <url> <loc>https://cloud.italia.it/notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://cloud.italia.it/notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-01-20-strategia-cloud-italia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-12-27-selezionato-progetto-psn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-12-15-cloud-pa-adottato-il-regolamento</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-09-07-cloud-italia-indirizzi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
