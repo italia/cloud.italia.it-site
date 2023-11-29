@@ -8,7 +8,7 @@ internalNews: false
 fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
-link: https://medium.com/developers-italia/linnovazione-trasparente-re-architect-o-refactoring-di-applicazioni-per-il-cloud-c94f53df1c8d
+link: https://innovazione.gov.it/notizie/articoli/dal-pnrr-altri-50-milioni-per-migrare-in-cloud-dati-e-servizi-dei-comuni/
 image: /assets/img_news/2023-11-29-dal-pnrr-altri-50-milioni-per-migrare-in-cloud-dati-e-servizi-dei-comuni.png
 tags:
   - Articoli
