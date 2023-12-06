@@ -58,7 +58,7 @@ Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipar
 - L'avviso mette a disposizione ulteriori **50 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati.
 - A seconda della dimensione, i Comuni **possono scegliere i servizi da migrare da una rosa di 95.**
 - Sono ammesse le attività da avviare o avviate dal **1 febbraio 2020.**
-- La scadenza dell’avviso è stata posticipata al **13 gennaio 2023.**
+- La scadenza dell’avviso è stata posticipata al **29 marzo 2024.**
 
 <div class="col-12 text-center mt-3 mb-5">
 <a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001MQwNZQA1" class="btn btn-primary" target="_blank">Candidati all'avviso Comuni</a>
