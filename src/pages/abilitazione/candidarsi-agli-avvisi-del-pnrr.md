@@ -52,16 +52,16 @@ Le PA beneficiarie di questa misura sono:
 ### Avvisi
 
 #### Avviso Comuni
-Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipartimento per la trasformazione digitale ha pubblicato un [secondo avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='secondo avviso Comuni (link esterno)'} su **PA digitale 2026** per favorire la migrazione al cloud di tutti i Comuni italiani.
+Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipartimento per la trasformazione digitale ha pubblicato un [nuovo avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001MQwNZQA1){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='secondo avviso Comuni (link esterno)'} su **PA digitale 2026** per favorire la migrazione al cloud di tutti i Comuni italiani.
 
 ##### Caratteristiche
-- L'avviso mette a disposizione ulteriori **215 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati.
+- L'avviso mette a disposizione ulteriori **50 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati.
 - A seconda della dimensione, i Comuni **possono scegliere i servizi da migrare da una rosa di 95.**
 - Sono ammesse le attività da avviare o avviate dal **1 febbraio 2020.**
 - La scadenza dell’avviso è stata posticipata al **13 gennaio 2023.**
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00000uzQmzQAE" class="btn btn-primary" target="_blank">Candidati all'avviso Comuni</a>
+<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001MQwNZQA1" class="btn btn-primary" target="_blank">Candidati all'avviso Comuni</a>
 </div>
 
 #### Avviso Scuole
