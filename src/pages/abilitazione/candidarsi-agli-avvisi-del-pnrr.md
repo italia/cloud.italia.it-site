@@ -52,7 +52,7 @@ Le PA beneficiarie di questa misura sono:
 ### Avvisi
 
 #### Avviso Comuni
-Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipartimento per la trasformazione digitale ha pubblicato un [nuovo avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001MQwNZQA1){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='secondo avviso Comuni (link esterno)'} su **PA digitale 2026** per favorire la migrazione al cloud di tutti i Comuni italiani.
+Con l’esaurimento dei 700 milioni di euro stanziati dal primo avviso, il Dipartimento per la trasformazione digitale ha pubblicato un [nuovo avviso](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001MQwNZQA1){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='secondo avviso Comuni (link esterno)'} su **PA digitale 2026** per favorire la migrazione al cloud di tutti i Comuni italiani.
 
 ##### Caratteristiche
 - L'avviso mette a disposizione ulteriori **50 milioni di euro** per la migrazione di un numero minimo di servizi dei Comuni verso infrastrutture e servizi cloud qualificati.
@@ -65,14 +65,4 @@ Con l’esaurimento dei 500 milioni di euro stanziati dal primo avviso, il Dipar
 </div>
 
 #### Avviso Scuole
-Esaurito il primo avviso da 50 milioni di euro, è stato aperto un [nuovo avviso.](https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001B0xPgQAJ){class="text-decoration-none font-weight-semibold", rel='noreferrer', aria-label='nuovo avviso Scuole (link esterno)'}
-
-##### Caratteristiche
-- L’avviso stanzia ulteriori **40 milioni di euro.**
-- Le scuole possono **scegliere i servizi da migrare da una rosa di 32.**
-- Sono ammesse le attività da avviare o avviate dal **1 febbraio 2020.**
-- L'avviso scade il **10 febbraio 2023.**
-
-<div class="col-12 text-center mt-3 mb-5">
-<a href="https://areariservata.padigitale2026.gov.it/Pa_digitale2026_dettagli_avviso?id=a017Q00001B0xPgQAJ" class="btn btn-primary" target="_blank">Candidati all'avviso Scuole</a>
-</div>
+Al momento non sono attivi avvisi relativi alle scuole.
