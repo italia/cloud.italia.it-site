@@ -9,7 +9,7 @@ La qualifica rilasciata da ACN ha una validità di un anno per il regime transit
 - fornitori privi di una qualificazione valida o che intendano promuovere un servizio o una infrastruttura già qualificati. 
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="(https://www.acn.gov.it/strategia/strategia-cloud-italia/qualificazione-cloud" class="btn btn-primary" target="_blank">Approfondisci sul sito di ACN</a>
+<a href="https://www.acn.gov.it/strategia/strategia-cloud-italia/qualificazione-cloud" class="btn btn-primary" target="_blank">Approfondisci sul sito di ACN</a>
 </div>
 
 ### I contenuti della determina 307/2022 di ACN
