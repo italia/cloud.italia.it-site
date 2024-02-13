@@ -1,7 +1,7 @@
 ## Il percorso attuale di qualificazione
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la PA è di competenza dell’**Agenzia per la Cybersicurezza Nazionale (ACN)**, che è subentrata all’Agenzia per l’Italia digitale (AGID).
 
-ACN ha previsto un regime transitorio fino a giugno 2024 o fino all’adozione del nuovo regolamento che disciplinerà il regime ordinario. Il nuovo percorso di qualificazione consentirà di inviare le richieste di qualificazione tramite la nuova piattaforma web di ACN.
+ACN ha previsto un regime transitorio fino a giugno 2024 o fino all’adozione del nuovo regolamento che disciplinerà il regime ordinario. Il nuovo percorso di qualificazione consentirà di inviare i documenti richiesti tramite la nuova piattaforma web di ACN.
 
 ### Modalità di qualificazione
 La qualifica rilasciata da ACN ha una validità di un anno per il regime transitorio e due anni per il regime ordinario. Per i fornitori è possibile distinguere due casistiche: 
