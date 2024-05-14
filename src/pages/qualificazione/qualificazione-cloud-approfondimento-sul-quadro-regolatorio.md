@@ -15,5 +15,5 @@ ACN ha predisposto una pagina che riassume:
 - l’adeguamento delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione. 
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it/strategia/strategia-cloud-italia/qualificazione-cloud" class="btn btn-primary" target="_blank">Vai alla pagina sul sito ACN</a>
+<a href="https://www.acn.gov.it/portale/la-qualificazione-dei-servizi-cloud" class="btn btn-primary" target="_blank">Vai alla pagina sul sito ACN</a>
 </div>
