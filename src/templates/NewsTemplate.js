@@ -61,7 +61,7 @@ const NewsTemplate = ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
