@@ -15,6 +15,9 @@
     "pa11y": "sh pa11y.sh",
     "serve": "gatsby serve"
   },
+  "engines": {
+    "node": ">=18.x"
+  },
   "dependencies": {
     "@fontsource/lora": "^4.2.2",
     "@fontsource/titillium-web": "^4.2.2",
