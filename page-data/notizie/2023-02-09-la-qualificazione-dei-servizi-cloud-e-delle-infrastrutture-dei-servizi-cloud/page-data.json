@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-02-09","title":"La qualificazione dei servizi cloud e delle infrastrutture dei servizi cloud","subtitle":"I piani possono essere consegnati in conformità a quanto previsto dalla normativa vigente.","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-02-09","title":"La qualificazione dei servizi cloud e delle infrastrutture dei servizi cloud","subtitle":"I piani possono essere consegnati in conformità a quanto previsto dalla normativa vigente.","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud"}},"staticQueryHashes":["705215811"]}

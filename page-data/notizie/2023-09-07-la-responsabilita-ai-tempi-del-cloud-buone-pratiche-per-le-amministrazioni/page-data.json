@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2023-09-07-la-responsabilita-ai-tempi-del-cloud-buone-pratiche-per-le-amministrazioni",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-09-07","title":"La responsabilità ai tempi del cloud: buone pratiche per le amministrazioni","subtitle":"Come stabilire un perimetro di competenze tra fornitori e migliorare la collaborazione tra stakeholder","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-09-07-la-responsabilita-ai-tempi-del-cloud-buone-pratiche-per-le-amministrazioni"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2023-09-07-la-responsabilita-ai-tempi-del-cloud-buone-pratiche-per-le-amministrazioni","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-09-07","title":"La responsabilità ai tempi del cloud: buone pratiche per le amministrazioni","subtitle":"Come stabilire un perimetro di competenze tra fornitori e migliorare la collaborazione tra stakeholder","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-09-07-la-responsabilita-ai-tempi-del-cloud-buone-pratiche-per-le-amministrazioni"}},"staticQueryHashes":["705215811"]}

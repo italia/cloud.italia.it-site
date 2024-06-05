@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2021-07-08-polo-strategico-nazionale",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-07-08","title":"Polo Strategico Nazionale","subtitle":"L’infrastruttura per garantire la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese.","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-07-08-polo-strategico-nazionale"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2021-07-08-polo-strategico-nazionale","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-07-08","title":"Polo Strategico Nazionale","subtitle":"L’infrastruttura per garantire la sicurezza e l'autonomia tecnologica sugli asset strategici per il Paese.","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-07-08-polo-strategico-nazionale"}},"staticQueryHashes":["705215811"]}

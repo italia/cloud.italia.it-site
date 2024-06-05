@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2021-05-28-cloud-italia-online",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-05-28","title":"Più accessibile e innovativo: è online Cloud Italia","subtitle":"Un sito rinnovato per accompagnare le amministrazioni verso l’adozione del modello Cloud della PA e l’erogazione di servizi pubblici più sicuri ed efficienti.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-05-28-cloud-italia-online"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2021-05-28-cloud-italia-online","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-05-28","title":"Più accessibile e innovativo: è online Cloud Italia","subtitle":"Un sito rinnovato per accompagnare le amministrazioni verso l’adozione del modello Cloud della PA e l’erogazione di servizi pubblici più sicuri ed efficienti.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-05-28-cloud-italia-online"}},"staticQueryHashes":["705215811"]}

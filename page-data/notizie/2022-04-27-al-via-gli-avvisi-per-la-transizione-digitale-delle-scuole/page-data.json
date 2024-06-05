@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2022-04-27-al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-04-27","title":"Al via gli avvisi per la transizione digitale delle scuole","subtitle":"Sulla piattaforma PA digitale 2026, voucher dedicati alle scuole per la migrazione al cloud e i siti web","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-04-27-al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-04-27-al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-04-27","title":"Al via gli avvisi per la transizione digitale delle scuole","subtitle":"Sulla piattaforma PA digitale 2026, voucher dedicati alle scuole per la migrazione al cloud e i siti web","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-04-27-al-via-gli-avvisi-per-la-transizione-digitale-delle-scuole"}},"staticQueryHashes":["705215811"]}

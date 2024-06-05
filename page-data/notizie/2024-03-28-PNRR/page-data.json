@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-news-template-js",
-    "path": "/notizie/2024-03-28-PNRR",
-    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2024-03-28","title":"PNRR: 225 milioni per migrare dati e servizi al Polo Strategico Nazionale","subtitle":"Un nuovo avviso cloud dedicato alle PA centrali per proseguire il percorso di trasformazione digitale del Paese","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2024-03-28-PNRR"}},
-    "staticQueryHashes": ["705215811"]}
+{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2024-03-28-PNRR","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2024-03-28","title":"PNRR: 225 milioni per migrare dati e servizi al Polo Strategico Nazionale","subtitle":"Un nuovo avviso cloud dedicato alle PA centrali per proseguire il percorso di trasformazione digitale del Paese","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2024-03-28-PNRR"}},"staticQueryHashes":["705215811"]}
