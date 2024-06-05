@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-06-22-aggiudicata-gara-polo-strategico-nazionale","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-06-22","title":"Aggiudicata la gara per il Polo Strategico Nazionale","subtitle":"La gara prevede la realizzazione e gestione dell’infrastruttura ad alta affidabilità definita nella Strategia Cloud Italia","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-06-22-aggiudicata-gara-polo-strategico-nazionale"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-06-22-aggiudicata-gara-polo-strategico-nazionale",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-06-22","title":"Aggiudicata la gara per il Polo Strategico Nazionale","subtitle":"La gara prevede la realizzazione e gestione dell’infrastruttura ad alta affidabilità definita nella Strategia Cloud Italia","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-06-22-aggiudicata-gara-polo-strategico-nazionale"}},
+    "staticQueryHashes": ["705215811"]}

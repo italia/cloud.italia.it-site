@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcloud_italia_it_site=self.webpackChunkcloud_italia_it_site||[]).push([[2222],{2222:function(e,t,n){n.r(t),n.d(t,{component:function(){return a}});var i=n(6540),a=function(e){return(0,i.createElement)("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24"},e),(0,i.createElement)("path",{d:"M22 5v1H2V5zM2 12.5h20v-1H2zM2 19h20v-1H2z"}),(0,i.createElement)("path",{fill:"none",d:"M0 0h24v24H0z"}))}}}]);
+//# sourceMappingURL=2222-2f0ceb10a5d3425da1cc.js.map

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2021-09-07-cloud-italia-indirizzi","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-09-07","title":"Cloud Italia: presentati gli indirizzi strategici per la PA","subtitle":"Le sfide della strategia: assicurare l’autonomia tecnologica del Paese, garantire il controllo sui dati e aumentare la resilienza dei servizi digitali","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-09-07-cloud-italia-indirizzi"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2021-09-07-cloud-italia-indirizzi",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2021-09-07","title":"Cloud Italia: presentati gli indirizzi strategici per la PA","subtitle":"Le sfide della strategia: assicurare l’autonomia tecnologica del Paese, garantire il controllo sui dati e aumentare la resilienza dei servizi digitali","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2021-09-07-cloud-italia-indirizzi"}},
+    "staticQueryHashes": ["705215811"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-12-21-al-via-il-polo-strategico-nazionale","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-12-21","title":"Al via il Polo Strategico Nazionale","subtitle":"Il Polo, strutturato in quattro data center, garantirà affidabilità e sicurezza sugli asset strategici del Paese.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-12-21-al-via-il-polo-strategico-nazionale"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-12-21-al-via-il-polo-strategico-nazionale",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-12-21","title":"Al via il Polo Strategico Nazionale","subtitle":"Il Polo, strutturato in quattro data center, garantirà affidabilità e sicurezza sugli asset strategici del Paese.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-12-21-al-via-il-polo-strategico-nazionale"}},
+    "staticQueryHashes": ["705215811"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-28","title":"Pubblicato il bando per il Polo Strategico Nazionale","subtitle":"Al via la gara europea per la gestione dei servizi cloud per la Pubblica Amministrazione. Scade il 16 marzo il termine per presentare le offerte","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-28","title":"Pubblicato il bando per il Polo Strategico Nazionale","subtitle":"Al via la gara europea per la gestione dei servizi cloud per la Pubblica Amministrazione. Scade il 16 marzo il termine per presentare le offerte","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale"}},
+    "staticQueryHashes": ["705215811"]}

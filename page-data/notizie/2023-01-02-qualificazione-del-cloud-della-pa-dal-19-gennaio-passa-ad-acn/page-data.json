@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2023-01-02-qualificazione-del-cloud-della-pa-dal-19-gennaio-passa-ad-acn","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-01-02","title":"Qualificazione del cloud della PA: dal 19 gennaio passa ad ACN","subtitle":"Un passo fondamentale per l’implementazione della strategia cloud nazionale e il punto di inizio del progressivo rafforzamento della resilienza cibernetica delle PA.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-01-02-qualificazione-del-cloud-della-pa-dal-19-gennaio-passa-ad-acn"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2023-01-02-qualificazione-del-cloud-della-pa-dal-19-gennaio-passa-ad-acn",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-01-02","title":"Qualificazione del cloud della PA: dal 19 gennaio passa ad ACN","subtitle":"Un passo fondamentale per l’implementazione della strategia cloud nazionale e il punto di inizio del progressivo rafforzamento della resilienza cibernetica delle PA.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-01-02-qualificazione-del-cloud-della-pa-dal-19-gennaio-passa-ad-acn"}},
+    "staticQueryHashes": ["705215811"]}

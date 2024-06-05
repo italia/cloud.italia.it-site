@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2024-05-09-PNRR","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2024-05-09","title":"PNRR: oltre 230 Pubbliche Amministrazioni Centrali e strutture sanitarie migrano verso il PSN","subtitle":"Un passo fondamentale per centrare l’obiettivo europeo del prossimo settembre","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2024-05-09-PNRR"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2024-05-09-PNRR",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2024-05-09","title":"PNRR: oltre 230 Pubbliche Amministrazioni Centrali e strutture sanitarie migrano verso il PSN","subtitle":"Un passo fondamentale per centrare l’obiettivo europeo del prossimo settembre","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2024-05-09-PNRR"}},
+    "staticQueryHashes": ["705215811"]}

@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-02-09","title":"Cloud: pubblicato il decreto per la transizione di infrastrutture e servizi digitali","subtitle":"Prosegue il percorso di transizione avviato il 2 gennaio 2023","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-02-09","title":"Cloud: pubblicato il decreto per la transizione di infrastrutture e servizi digitali","subtitle":"Prosegue il percorso di transizione avviato il 2 gennaio 2023","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali"}},
+    "staticQueryHashes": ["705215811"]}

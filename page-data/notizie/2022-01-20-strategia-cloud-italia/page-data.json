@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-01-20-strategia-cloud-italia","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-20","title":"Strategia Cloud Italia","subtitle":"Gli indirizzi strategici per la Pubblica Amministrazione","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-20-strategia-cloud-italia"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-01-20-strategia-cloud-italia",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-20","title":"Strategia Cloud Italia","subtitle":"Gli indirizzi strategici per la Pubblica Amministrazione","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-20-strategia-cloud-italia"}},
+    "staticQueryHashes": ["705215811"]}

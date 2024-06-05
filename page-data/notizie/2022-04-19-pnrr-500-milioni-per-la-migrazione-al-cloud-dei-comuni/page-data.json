@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-04-19","title":"PNRR: 500 milioni per la migrazione al cloud dei Comuni","subtitle":"Sulla piattaforma PA digitale 2026, voucher per servizi più sicuri, efficaci ed efficienti","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-04-19","title":"PNRR: 500 milioni per la migrazione al cloud dei Comuni","subtitle":"Sulla piattaforma PA digitale 2026, voucher per servizi più sicuri, efficaci ed efficienti","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni"}},
+    "staticQueryHashes": ["705215811"]}

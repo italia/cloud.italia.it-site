@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2020-11-27-sviluppo-sis-operativo","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2020-11-27","title":"Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali","subtitle":"Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2020-11-27-sviluppo-sis-operativo"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2020-11-27-sviluppo-sis-operativo",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2020-11-27","title":"Sviluppiamo il Sistema Operativo a partire dalle Infrastrutture Digitali","subtitle":"Avviato il tavolo di lavoro tra il Dipartimento e gli Enti centrali dello Stato proprietari di infrastrutture digitali.","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2020-11-27-sviluppo-sis-operativo"}},
+    "staticQueryHashes": ["705215811"]}

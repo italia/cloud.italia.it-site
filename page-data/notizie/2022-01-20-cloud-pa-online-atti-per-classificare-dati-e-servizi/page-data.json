@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-20","title":"Cloud PA: online gli atti per classificare dati e servizi e qualificare i servizi delle PA","subtitle":"Prende il via il percorso di adozione della Strategia Cloud Italia che le amministrazioni italiane dovranno seguire nei prossimi mesi","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-01-20","title":"Cloud PA: online gli atti per classificare dati e servizi e qualificare i servizi delle PA","subtitle":"Prende il via il percorso di adozione della Strategia Cloud Italia che le amministrazioni italiane dovranno seguire nei prossimi mesi","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi"}},
+    "staticQueryHashes": ["705215811"]}

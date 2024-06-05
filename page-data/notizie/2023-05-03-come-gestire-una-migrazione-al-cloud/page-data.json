@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2023-05-03-come-gestire-una-migrazione-al-cloud","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-05-03","title":"Come gestire una migrazione al cloud","subtitle":"Principi e scelte pratiche per trasferire con successo dati, servizi e applicativi","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-05-03-come-gestire-una-migrazione-al-cloud"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2023-05-03-come-gestire-una-migrazione-al-cloud",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2023-05-03","title":"Come gestire una migrazione al cloud","subtitle":"Principi e scelte pratiche per trasferire con successo dati, servizi e applicativi","tags":["Approfondimenti"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2023-05-03-come-gestire-una-migrazione-al-cloud"}},
+    "staticQueryHashes": ["705215811"]}

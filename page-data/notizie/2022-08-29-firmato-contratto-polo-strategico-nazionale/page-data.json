@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-news-template-js","path":"/notizie/2022-08-29-firmato-contratto-polo-strategico-nazionale","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-08-29","title":"Firmato il contratto per il Polo Strategico Nazionale","subtitle":"Il Polo è l’infrastruttura ad alta affidabilità che ha l’obiettivo di dotare la Pubblica Amministrazione di efficienti soluzioni cloud","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-08-29-firmato-contratto-polo-strategico-nazionale"}},"staticQueryHashes":["705215811"]}
+{
+    "componentChunkName": "component---src-templates-news-template-js",
+    "path": "/notizie/2022-08-29-firmato-contratto-polo-strategico-nazionale",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"date":"2022-08-29","title":"Firmato il contratto per il Polo Strategico Nazionale","subtitle":"Il Polo è l’infrastruttura ad alta affidabilità che ha l’obiettivo di dotare la Pubblica Amministrazione di efficienti soluzioni cloud","tags":["Articoli"]},"timeToRead":1}},"pageContext":{"slug":"notizie/2022-08-29-firmato-contratto-polo-strategico-nazionale"}},
+    "staticQueryHashes": ["705215811"]}
