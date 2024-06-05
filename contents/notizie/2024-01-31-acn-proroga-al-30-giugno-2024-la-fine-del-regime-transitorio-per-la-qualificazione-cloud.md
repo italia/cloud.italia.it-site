@@ -11,5 +11,5 @@ typeOfNews: Articolo
 link: https://www.acn.gov.it/portale/w/cloud-acn-aggiorna-i-termini-della-qualificazione-dei-servizi-per-la-pubblica-amministrazione
 image: /assets/img_news/2024-01-31-acn-proroga-al-30-giugno-2024-la-fine-del-regime-transitorio-per-la-qualificazione-cloud.png
 tags:
-  - Articolo
+  - Articoli
 ---
