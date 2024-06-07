@@ -1,4 +1,4 @@
-ai tecnici, agli esperti informatici e ai responsabili della transizione al digitale, ma anche a chiunque ## Le due componenti principali di abilitazione
+## Le due componenti principali di abilitazione
 {class="h5 font-weight-semibold mt-4 mb-4"}
 
 Per realizzare il percorso di trasformazione e abilitazione al cloud il programma prevede due componenti:
