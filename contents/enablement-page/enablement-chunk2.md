@@ -7,7 +7,7 @@ Per realizzare il percorso di trasformazione e abilitazione al cloud il programm
 
 Le componenti sono sviluppate in collaborazione con le pubbliche amministrazioni in maniera iterativa attraverso sperimentazioni e progetti pilota.
 
-Il programma di abilitazione viene proposto alle figure tecniche, esperte informatiche e responsabili della transizione al digitale, ma anche a chiunque si occupi della ai tecnici, agli esperti informatici e ai responsabili della transizione al digitale, ma anche a chiunque sia coinvolto nella gestione di servizi esistenti e/o nella definizione e progettazione di nuovi servizi della Pubblica Amministrazione.
+Il programma di abilitazione viene proposto alle figure tecniche, esperte informatiche e responsabili della transizione al digitale, ma anche a chiunque sia coinvolto nella gestione di servizi esistenti e/o nella definizione e progettazione di nuovi servizi della Pubblica Amministrazione.
 
 ## Classificazione di dati e servizi
 {class="h5 font-weight-semibold mt-4 mb-4"}
