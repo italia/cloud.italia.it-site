@@ -15,13 +15,11 @@ ACN ha predisposto una pagina che riassume:
 - l’adeguamento delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it/portale/la-qualificazione-dei-servizi-cloud" class="btn btn-primary" target="_blank">Vai sul sito di ACN</a>
+<a href="https://www.acn.gov.it/portale/cloud/qualificazione-e-adeguamento" class="btn btn-primary" target="_blank">Vai sul sito di ACN</a>
 </div>
  
 A partire da agosto 2024 il Regolamento unico per le infrastrutture e i servizi cloud per la PA di ACN illustra:
-
 - le modalità per la classificazione, per la migrazione e per la qualificazione dei servizi cloud, di cui la PA può approvvigionarsi ricorrendo al libero mercato; 
-
 - le misure e i requisiti per il raggiungimento dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità delle infrastrutture digitali per la PA; 
 
 <div class="col-12 text-center mt-3 mb-5">

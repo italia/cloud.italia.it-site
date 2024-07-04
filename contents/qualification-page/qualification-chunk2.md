@@ -1,4 +1,5 @@
 ## Il percorso attuale di qualificazione
+
 Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la PA è di competenza dell’**Agenzia per la Cybersicurezza Nazionale (ACN)**, che è subentrata all’Agenzia per l’Italia digitale (AGID).
 
 Il nuovo [Regolamento unico per le infrastrutture i servizi cloud per la PA](https://www.acn.gov.it/portale/documents/d/guest/regolamentocloud), adottato da ACN con Decreto Direttoriale n. 21007/24 il 27 giugno 2024, definisce le misure tecnico-organizzative e le modalità di qualificazione e adeguamento di servizi e infrastrutture cloud.
@@ -10,7 +11,7 @@ Il regime ordinario di qualificazione entrerà in vigore da agosto 2024.
 </div>
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it/portale/la-qualificazione-dei-servizi-cloud" class="btn btn-primary" target="_blank">Modalità di qualificazione</a>
+<a href="https://www.acn.gov.it/portale/cloud/qualificazione-e-adeguamento" class="btn btn-primary" target="_blank">Modalità di qualificazione</a>
 </div>
 
 

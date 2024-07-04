@@ -13,7 +13,7 @@ esigenze ma sono potenzialmente in grado di offrire migliori performance.
 Questo approccio corrisponde a quanto riportato nel manuale di abilitazione al cloud nella sezione relativa alle [strategie di migrazione](https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/pianificare-la-migrazione/le-strategie-di-migrazione.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='strategie di migrazione (link esterno)'}, dove sono indicate le modalità operative utili a consentire la loro realizzazione.   
 
 Le pubbliche amministrazioni devono prevedere nei contratti, aventi ad oggetto servizi cloud qualificati, gli indicatori dei livelli di servizio (SLI) obbligatori pubblicati nel [catalogo dei servizi cloud per la PA qualificati](https://catalogocloud.acn.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Catalogo dei servizi cloud per la PA qualificati (link esterno)'}
-, secondo quanto previsto dal [Regolamento unico per le infrastrutture e servizi cloud adottato da ACN il 27 giugno 2024](https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento unico per le infrastrutture e servizi cloud adottato da ACN (link esterno)'}).
+, secondo quanto previsto dal [Regolamento unico per le infrastrutture e servizi cloud adottato da ACN il 27 giugno 2024](https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento unico per le infrastrutture e servizi cloud adottato da ACN (link esterno)'}.
 
 Il regolamento, in vigore da agosto 2024, differenzia tra:
 
@@ -22,5 +22,5 @@ Il regolamento, in vigore da agosto 2024, differenzia tra:
 - l’adeguamento delle infrastrutture (a prescindere dalla natura del soggetto responsabile) e dei servizi erogati da operatori pubblici, basata sulla dichiarazione di conformità inviata ad ACN rispetto ai requisiti previsti.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Scopri di più sul sito di ACN</a>
+<a href="https://www.acn.gov.it/portale/cloud/qualificazione-e-adeguamento" class="btn btn-primary" target="_blank">Scopri di più sul sito di ACN</a>
 </div>

@@ -37,7 +37,7 @@ resources:
         ariaLabelIcon: link esterno
       - action: Leggi
         icon: it-external-link
-        link: https://catalogocloud.acn.gov.it/info
+        link: https://www.acn.gov.it/portale/cloud/qualificazione-e-adeguamento
         title: Come ottenere le qualificazioni cloud
         ariaLabel: 'Come ottenere le qualificazioni Cloud (link esterno)'
         ariaLabelIcon: link esterno
