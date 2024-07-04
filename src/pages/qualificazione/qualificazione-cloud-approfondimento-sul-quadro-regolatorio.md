@@ -12,8 +12,16 @@ Dal 19 gennaio 2023 la qualificazione dei servizi cloud per la Pubblica Amminist
 
 ACN ha predisposto una pagina che riassume:
 - le procedure di qualificazione in regime transitorio e in regime ordinario per i fornitori di servizi cloud IaaS, PaaS e SaaS o di infrastrutture dei servizi cloud;
-- l’adeguamento delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione. 
+- l’adeguamento delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it/portale/la-qualificazione-dei-servizi-cloud" class="btn btn-primary" target="_blank">Vai alla pagina sul sito ACN</a>
+<a href="https://www.acn.gov.it/portale/cloud/qualificazione-e-adeguamento" class="btn btn-primary" target="_blank">Vai sul sito di ACN</a>
+</div>
+ 
+A partire da agosto 2024 il Regolamento unico per le infrastrutture e i servizi cloud per la PA di ACN illustra:
+- le modalità per la classificazione, per la migrazione e per la qualificazione dei servizi cloud, di cui la PA può approvvigionarsi ricorrendo al libero mercato; 
+- le misure e i requisiti per il raggiungimento dei livelli minimi di sicurezza, capacità elaborativa, risparmio energetico e affidabilità delle infrastrutture digitali per la PA; 
+
+<div class="col-12 text-center mt-3 mb-5">
+<a href="https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa" class="btn btn-primary" target="_blank">Scopri di più sul sito di ACN</a>
 </div>
