@@ -90,7 +90,7 @@ externalLinks:
     ariaLabel: "Cloud Marketplace (link esterno)"
   openDataMarketplace:
     label: Open Data Cloud Marketplace
-    linkTo: https://catalogocloud.acn.gov.it/opendata
+    linkTo: https://www.acn.gov.it/portale/cloud
     ariaLabel: "Open data marketplace (link esterno)"
   noteLegali:
     label: Note legali
