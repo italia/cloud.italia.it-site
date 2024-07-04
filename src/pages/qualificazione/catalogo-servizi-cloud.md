@@ -13,12 +13,14 @@ esigenze ma sono potenzialmente in grado di offrire migliori performance.
 Questo approccio corrisponde a quanto riportato nel manuale di abilitazione al cloud nella sezione relativa alle [strategie di migrazione](https://docs.italia.it/italia/manuale-di-abilitazione-al-cloud/manuale-di-abilitazione-al-cloud-docs/it/bozza/pianificare-la-migrazione/le-strategie-di-migrazione.html){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='strategie di migrazione (link esterno)'}, dove sono indicate le modalità operative utili a consentire la loro realizzazione.   
 
 Le pubbliche amministrazioni devono prevedere nei contratti, aventi ad oggetto servizi cloud qualificati, gli indicatori dei livelli di servizio (SLI) obbligatori pubblicati nel [catalogo dei servizi cloud per la PA qualificati](https://catalogocloud.acn.gov.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Catalogo dei servizi cloud per la PA qualificati (link esterno)'}
-(secondo quanto previsto dalla [determina ACN 307 del 2022](https://assets.innovazione.gov.it/1642694131-det_307_cloud_ulteriorilerqc_20220118.pdf){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='determina ACN 307 del 2022 (link esterno)'}).
+, secondo quanto previsto dal [Regolamento unico per le infrastrutture e servizi cloud adottato da ACN il 27 giugno 2024](https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='_blank', aria-label='Regolamento unico per le infrastrutture e servizi cloud adottato da ACN (link esterno)'}).
 
-Il possesso della qualificazione del servizio cloud acquistato deve essere verificato al momento della stipula del contratto e la qualificazione deve essere valida per tutta la durata dello stesso.
+Il regolamento, in vigore da agosto 2024, differenzia tra:
 
-L’utilizzo di servizi cloud acquistati prima del primo aprile 2019 (data di efficacia dell’obbligo) e le acquisizioni di servizi cloud su contratti in essere al primo aprile 2019, come ad esempio il Contratto Quadro SPC Cloud Lotto 1, sono consentite fino a scadenza naturale.
+- la qualifica dei servizi cloud erogati da fornitori privati, che prevede una verifica di conformità ex-ante a cui fa seguito la pubblicazione della relativa scheda sul catalogo ACN,
+
+- l’adeguamento delle infrastrutture (a prescindere dalla natura del soggetto responsabile) e dei servizi erogati da operatori pubblici, basata sulla dichiarazione di conformità inviata ad ACN rispetto ai requisiti previsti.
 
 <div class="col-12 text-center mt-3 mb-5">
-<a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Vai al sito di ACN</a>
+<a href="https://www.acn.gov.it" class="btn btn-primary" target="_blank">Scopri di più sul sito di ACN</a>
 </div>
