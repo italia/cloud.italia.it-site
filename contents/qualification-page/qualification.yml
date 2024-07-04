@@ -7,6 +7,12 @@ resources:
     references:
       - action: Leggi
         icon: it-external-link
+        link: https://www.acn.gov.it/portale/documents/d/guest/regolamentocloud
+        title: 'Regolamento per le Infrastrutture Digitali e per i Servizi Cloud per la Pubblica Amministrazione adottato con Decreto Direttoriale n. 21007/24 del 27 giugno 2024'
+        ariaLabel: 'Regolamento per le Infrastrutture Digitali e per i Servizi Cloud per la Pubblica Amministrazione (link esterno)'
+        ariaLabelIcon: link esterno
+      - action: Leggi
+        icon: it-external-link
         link: https://www.acn.gov.it/documents/trasparenza/atti-generali/Decreto%2020610_2023.pdf
         title: Decreto direttoriale prot. N. 20610 del 28/07/2023
         ariaLabel: 'Decreto direttoriale prot. N. 20610 (link esterno)'
