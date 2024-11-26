@@ -6,7 +6,7 @@ date: "2024-11-19"
 evidence: true
 internalNews: false
 fonte: medium.com/developers-italia
-showInHome: false
+showInHome: true
 typeOfNews: Approfondimenti
 link: https://medium.com/@Developers_Italia/una-nuvola-a-bilancio-a6d0018dbc51
 image: /assets/img_news/2024-11-19-nuvola-a-bilancio.jpg

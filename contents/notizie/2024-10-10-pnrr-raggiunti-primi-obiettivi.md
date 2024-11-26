@@ -6,7 +6,7 @@ date: "2024-10-10"
 evidence: true
 internalNews: false
 fonte: innovazione.gov.it
-showInHome: false
+showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/pnrr-raggiunti-i-primi-obiettivi-europei-con-oltre-quattromila-pa-in-cloud/
 image: /assets/img_news/2024-10-10-pnrr-raggiunti-primi-obiettivi.jpg
