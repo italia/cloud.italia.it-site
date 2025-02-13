@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://cloud.italia.it/notizie/2025-02-13-come-accordare-container</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2025-01-22-strategia-cloud-italia-un-offerta-piu-ampia-per-la-pa</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2024-11-19-nuvola-a-bilancio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2024-10-10-pnrr-raggiunti-primi-obiettivi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -27,8 +28,8 @@
 <url> <loc>https://cloud.italia.it/notizie/2023-03-15-dal-pnrr-200-milioni-per-migrare-in-cloud-dati-e-servizi-di-asl-e-aziende-ospedaliere</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-02-13-strategia-cloud-italia-attiva-la-sezione-dedicata-alla-migrazione-su-pa-digitale-2026</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-02-10-dal-pnrr-oltre-373-milioni-per-migrare-dati-e-servizi-al-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://cloud.italia.it/notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-02-09-la-qualificazione-dei-servizi-cloud-e-delle-infrastrutture-dei-servizi-cloud</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2023-02-09-cloud-pubblicato-il-decreto-per-la-transizione-di-infrastrutture-e-servizi-digitali</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-01-26-strategia-cloud-italia-trasmissione-dei-piani-di-migrazione-sulla-piattaforma-pa-digitale-2026</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-01-11-strategia-cloud-italia-adottato-il-modello-per-predisporre-il-piano-di-migrazione-dati-e-servizi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2023-01-02-qualificazione-del-cloud-della-pa-dal-19-gennaio-passa-ad-acn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,8 +46,8 @@
 <url> <loc>https://cloud.italia.it/notizie/2022-04-19-pnrr-500-milioni-per-la-migrazione-al-cloud-dei-comuni</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-03-29-qualificazione-cloud-approfondimento-sul-quadro-regolatorio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-01-28-pubblicato-bando-per-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://cloud.italia.it/notizie/2022-01-20-strategia-cloud-italia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2022-01-20-cloud-pa-online-atti-per-classificare-dati-e-servizi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2022-01-20-strategia-cloud-italia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-12-27-selezionato-progetto-psn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-12-15-cloud-pa-adottato-il-regolamento</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-09-07-cloud-italia-indirizzi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -54,8 +55,8 @@
 <url> <loc>https://cloud.italia.it/notizie/2021-07-08-polo-strategico-nazionale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-06-03-comune-pesaro</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-05-28-cloud-italia-online</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://cloud.italia.it/notizie/2021-04-30-cloud-infrastrutture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2021-04-30-next-generation-italia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://cloud.italia.it/notizie/2021-04-30-cloud-infrastrutture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/notizie/2020-11-27-sviluppo-sis-operativo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/programma-abilitazione-cloud/framework-di-lavoro</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://cloud.italia.it/programma-abilitazione-cloud/candidarsi-agli-avvisi-del-pnrr</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
