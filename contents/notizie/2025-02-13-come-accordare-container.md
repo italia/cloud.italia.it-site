@@ -8,7 +8,7 @@ internalNews: false
 fonte: medium.com/developers-italia
 showInHome: true
 typeOfNews: Approfondimenti
-link: https://medium.com/@Developers_Italia/come-accordare-lorchestra-del-cloud-con-i-container-b688425d50cd
+link: https://medium.com/developers-italia/come-accordare-lorchestra-del-cloud-con-i-container-b688425d50cd
 image: /assets/img_news/2025-02-13-come-accordare-container.jpg
 tags:
   - Approfondimenti
