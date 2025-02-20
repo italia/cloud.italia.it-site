@@ -9,6 +9,7 @@ fonte: innovazione.gov.it
 showInHome: true
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/pnrr-300-milioni-di-euro-per-migrare-dati-e-servizi-verso-il_psn/
+image: /assets/img_news/2023-12-15-oltre-300-pa-centrali-e-asl-hanno-aderito-agli-avvisi-per-migrare-dati-e-servizi-al-psn.png
 tags:
   - Articoli
 ---
