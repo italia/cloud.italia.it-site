@@ -68,7 +68,7 @@ const {
 
 export const SurveySection = () => {
   const classes = useStyles();
-  
+
   return (
     <div className={`${classes.bannerSurvey} position-relative overflow-hidden`}>
       <div className="container pt-5 pb-5">
@@ -78,15 +78,9 @@ export const SurveySection = () => {
               <div className={classes.bannerSurveyTitleWrapper}>
                 <h2 className={classes.bannerSurveyTitle}>{title}</h2>
               </div>
-              <p className={`${classes.bannerSurveyParagraph} pt-2 pb-2 pt-lg-3 pb-lg-3 pr-3 pr-lg-0`}>
-                {body}
-              </p>
+              <p className={`${classes.bannerSurveyParagraph} pt-2 pb-2 pt-lg-3 pb-lg-3 pr-3 pr-lg-0`}>{body}</p>
               <div className="it-btn-container pt-3 pt-lg-0 mb-2">
-                <ExternalLink
-                  linkTo={buttonUrl}
-                  ariaLabel={buttonAriaLabel}
-                  className={classes.surveyButton}
-                >
+                <ExternalLink linkTo={buttonUrl} ariaLabel={buttonAriaLabel} className={classes.surveyButton}>
                   {buttonText}
                 </ExternalLink>
               </div>
@@ -98,7 +92,7 @@ export const SurveySection = () => {
               <div className={`${classes.bannerSurveyImage} pr-3 pr-lg-0 mt-lg-3`}>
                 <StaticImage
                   src="../../images/survey.png"
-                  layout='fullWidth'
+                  layout="fullWidth"
                   alt={altImg}
                   placeholder="blurred"
                   formats={['AUTO', 'AVIF', 'WEBP']}
@@ -112,4 +106,4 @@ export const SurveySection = () => {
       </div>
     </div>
   );
-}; 
+};
