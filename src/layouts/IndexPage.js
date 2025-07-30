@@ -8,12 +8,14 @@ import { BenefitSection } from './home/BenefitSection.js';
 import { EnablementSection } from './home/EnablementSection.js';
 import { QualificationSection } from './home/QualificationSection.js';
 import { PnrrSection } from './home/PnrrSection.js';
+import { SurveySection } from './home/SurveySection.js';
 
 export const IndexPage = () => (
   <>
     <div className="sr-only">
       <h1>{content.name}</h1>
     </div>
+    <SurveySection />
     <StrategySection />
     <PnrrSection />
     <BenefitSection />

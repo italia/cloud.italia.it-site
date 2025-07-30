@@ -82,3 +82,10 @@ PnrrSection:
     Grazie ai fondi del PNRR, sosteniamo la migrazione delle amministrazioni verso il cloud qualificato e mettiamo in sicurezza dati e servizi pubblici attraverso infrastrutture affidabili e resilienti.
   ctaAriaLabel: Scopri di più su la qualificazione dei servizi e il catalogo
   altImg: Nuvola simbolo cloud, logo Italia, server e altri elementi hardware in commistione
+SurveySection:
+  title: Aiutaci a migliorare i nostri siti
+  body: Partecipa al sondaggio e condividi la tua opinione sui siti del Dipartimento per la trasformazione digitale. Ci vorranno solo 2 minuti!
+  buttonText: Partecipa al sondaggio
+  buttonUrl: https://ec.europa.eu/eusurvey/runner/redesignsitidipartimento
+  buttonAriaLabel: Partecipa al sondaggio - link esterno
+  altImg: Immagine Survey
