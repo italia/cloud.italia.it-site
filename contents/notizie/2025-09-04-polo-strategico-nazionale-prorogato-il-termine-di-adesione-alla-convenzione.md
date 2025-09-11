@@ -6,7 +6,7 @@ date: "2025-09-04"
 evidence: true
 internalNews: false
 fonte: innovazione.gov.it
-showInHome: true
+showInHome: false
 typeOfNews: Articolo
 link: https://innovazione.gov.it/notizie/articoli/polo-strategico-nazionale-prorogato-il-termine-di-adesione-alla-convenzione/
 image: /assets/img_news/2025-06-04-pnrr-300mln-pa-centrali-psn.png
