@@ -15,7 +15,6 @@ export const IndexPage = () => (
     <div className="sr-only">
       <h1>{content.name}</h1>
     </div>
-    <SurveySection />
     <StrategySection />
     <PnrrSection />
     <BenefitSection />
